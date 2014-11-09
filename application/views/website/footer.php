@@ -9,7 +9,7 @@
 <script src="<?php echo base_url("webassets");?>/js/sidebarEffects.js"></script>
 <script src="<?php echo base_url("webassets");?>/js/masonry.pkgd.min.js"></script>
 <!-- For the demo ad only -->
-<script src="<?php echo base_url("webassets");?>/slider_js/js/jquery.js"></script>
+<script src="<?php echo base_url("webassets");?>/slider_js/jquery.js"></script>
 
 <!-- Bootstrap Core JavaScript -->
 <script src="<?php echo base_url("webassets");?>/slider_js/bootstrap.min.js"></script>

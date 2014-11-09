@@ -4,6 +4,7 @@
     background-size: cover;
     /*    border-bottom: 1px solid #aaa;*/
 }
+
 .section.intro {
     background: #000 url(../img/bg1.jpg) no-repeat fixed center center;
     background-size: cover;
@@ -26,6 +27,34 @@
 }
 .inspired {
     background: #000 url(../img/bg6.jpg) no-repeat fixed center center;
+    background-size: cover;
+}
+.section.schedule {
+    background: #000 url(../img/bg7.jpg) no-repeat fixed center center;
+    background-size: cover;
+}
+.hyderabad {
+    background: #000 url(../img/hyderabad.jpg) no-repeat fixed center center;
+    background-size: cover;
+}
+.gurgaon {
+    background: #000 url(../img/bg8.jpg) no-repeat fixed center center;
+    background-size: cover;
+}
+.mumbai {
+    background: #000 url(../img/mumbai.jpg) no-repeat fixed center center;
+    background-size: cover;
+}
+.bangaluru {
+    background: #000 url(../img/bangluru.jpg) no-repeat fixed center center;
+    background-size: cover;
+}
+.kolkata {
+    background: #000 url(../img/kolkata.jpg) no-repeat fixed center center;
+    background-size: cover;
+}
+.profile-head {
+    background: #000 url(../img/profile_head.png) no-repeat fixed center center;
     background-size: cover;
 }
 .section.footer {
@@ -51,9 +80,10 @@ h2 {} h4 {
 }
 body {
     font-family: "Josefin Sans";
+	background:black;
 }
 body a:hover {
-text-decoration: none;
+    text-decoration: none;
 }
 .content-center {
     text-align: center;
@@ -95,29 +125,28 @@ a {
     color: #ffffff;
     text-decoration: none;
 }
-.social a{
-color: #ffffff;
+.social a {
+    color: #ffffff;
 }
 .section.home .contents {
     text-align: center;
 }
-.menu{
-padding-top: 10px;
+.menu {
+    padding-top: 10px;
     background: transparent;
 }
-.menu button{
- background: transparent;
-    border:none;
+.menu button {
+    background: transparent;
+    border: none;
     vertical-align: middle;
 }
-.menu-text{
-
-font-size: 14px;
-color: #fff;
-padding-left: 6px;
-font-family: "Josefin Sans";
-text-transform: uppercase;
-vertical-align: middle;
+.menu-text {
+    font-size: 14px;
+    color: #fff;
+    padding-left: 6px;
+    font-family: "Josefin Sans";
+    text-transform: uppercase;
+    vertical-align: middle;
 }
 .contents h3 {
     font-size: 45.78px;
@@ -157,7 +186,24 @@ vertical-align: middle;
 .contents .home-invite p {
     font-size: 15px;
     color: #000000;
-    padding: 10px 10px;
+    padding: 10px 10px 0px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.style-text {
+    background: #bda177;
+    width: 350px;
+    border-radius: 30px;
+    position: relative;
+    left: 28%;
+    /* margin-left: -180px; */
+    margin-top: 20px;
+    /* margin-bottom: 100px; */
+}
+.blender-bottom .style-text p {
+    font-size: 15px;
+    color: #000000;
+    padding: 12px 12px 11px;
     text-transform: uppercase;
     font-weight: 700;
 }
@@ -245,11 +291,11 @@ vertical-align: middle;
 }
 .blenders .blenders-invite {
     background: #bda177;
-    width: 350px;
+    width: 429px;
     border-radius: 30px;
     position: relative;
     left: 50%;
-    margin-left: -175px;
+    margin-left: -217px;
     margin-top: 50px;
     font-weight: 700;
 }
@@ -303,6 +349,48 @@ vertical-align: middle;
     text-transform: uppercase;
     font-size: 26px;
     letter-spacing: 2px;
+    font-weight: 300;
+}
+.follows .gold {
+    color: #bda177;
+}
+.follows h5 {
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-size: 36px;
+    letter-spacing: 2px;
+    font-weight: 300;
+}
+.follows p {
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 300;
+}
+.top-pad {
+    padding-top: 30px;
+}
+.carousel,
+.item,
+.active {
+    height: 100%;
+}
+.carousel-inner {
+    height: 100%;
+}
+/* Background images are set within the HTML using inline CSS, not here */
+
+.fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 p.fa.fa-instagram {
     font-size: 20px;
@@ -440,7 +528,7 @@ p.fa.fa-twitter .text {
     color: #a9a9a9;
     letter-spacing: 0px;
     width: 100%;
-    padding:0px;
+    padding: 0px;
 }
 .panel-footer .i {
     border-left: 1px solid #000;
@@ -550,9 +638,9 @@ p.fa.fa-twitter .text {
     font-size: 20px;
     letter-spacing: 6px;
 }
-.space{
-background: #000;
-    height:40px;
+.space {
+    background: #000;
+    height: 40px;
 }
 .col1 .panel-footer a {
     border-left: 1px solid #ccc;
@@ -560,7 +648,702 @@ background: #000;
     display: inline-block;
     letter-spacing: normal;
 }
+.col1 .panel-footer a:hover,
+a:focus {
+    color: #676767;
+}
+.show h3 {
+    text-align: center;
+    color: #fff;
+    font-size: 46px;
+    font-family: "Josefin Sans";
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 12px;
+}
+.show p {
+    text-align: center;
+    color: #bda177;
+    font-size: 16px;
+    font-family: "Josefin Sans";
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.tabs {
+    text-align: center;
+    font-size: 40px;
+    color: #ccc;
+    margin-top: 25px;
+    margin-right: 50px;
+}
+i.fa.fa-male {
+    /* width: 0px; */
+    /* height: 60px; */
+    /* padding: 16px 24px; */
+    padding: 15px 16px 4px 16px;
+}
+i.fa.fa-music {
+    /* width: 0px; */
+    /* height: 60px; */
+    /* padding: 16px 24px; */
+    padding: 15px 16px 4px 16px;
+}
+i.fa.fa-th-large {
+    /* width: 0px; */
+    /* height: 60px; */
+    /* padding: 16px 24px; */
+    padding: 15px 24px 4px 24px;
+}
+i.fa.fa-microphone {
+    /* width: 0px; */
+    /* height: 60px; */
+    /* padding: 16px 24px; */
+    padding: 15px 16px 4px 16px;
+}
+i.fa.fa-male:hover {
+    border: 1px solid #bda177;
+    /* width: 0px; */
+    /* height: 60px; */
+    /* padding: 16px 24px; */
+    padding: 15px 16px 4px 16px;
+}
+i.fa.fa-music:hover {
+    border: 1px solid #bda177;
+    /* width: 0px; */
+    /* height: 60px; */
+    /* padding: 16px 24px; */
+    padding: 15px 16px 4px 16px;
+}
+i.fa.fa-th-large:hover {
+    border: 1px solid #bda177;
+    /* width: 0px; */
+    /* height: 60px; */
+    /* padding: 16px 24px; */
+    padding: 15px 24px 4px 24px;
+}
+i.fa.fa-microphone:hover {
+    border: 1px solid #bda177;
+    /* width: 0px; */
+    /* height: 60px; */
+    /* padding: 16px 24px; */
+    padding: 15px 16px 4px 16px;
+}
+.tabs .icon-text {
+    color: #ccc;
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: "Josefin Sans";
+    padding-top: 5px;
+}
+.tabs .icon-text:hover {
+    color: #bda177;
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: "Josefin Sans";
+    padding-top: 5px;
+}
+.tabs a {
+    padding-left: 70px;
+}
+.blender-img {
+    margin-top: 40px;
+    width: 100%;
+    position: relative;
+}
+.blender-img h2 {
+    text-align: center;
+    color: #bda177;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: "Josefin Sans";
+    letter-spacing: 2px;
+    position: absolute;
+    bottom: 38px;
+    left: 80px;
+}
+.blender-img h3 {
+    text-align: center;
+    color: #bda177;
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: "Josefin Sans";
+    letter-spacing: 2px;
+    position: absolute;
+    bottom: 16px;
+    left: 111px;
+}
+.blender-bottom .blend {
+    background: transparent;
+    width: 300px;
+    border-radius: 30px;
+    position: relative;
+    left: 50%;
+    margin-left: -150px;
+    margin-top: 25px;
+    border: 1px solid #bda177;
+    margin-bottom: 50px;
+}
+.blender-bottom p {
+    font-size: 10.66px;
+    color: #fff;
+    padding: 10px 0px 0px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.next-pos {
+    position: absolute;
+    top: 40%;
+    right: 0%;
+}
+.pre-pos {
+    position: absolute;
+    top: 40%;
+    left: 0%;
+}
+/*sohan css*/
 
-.col1 .panel-footer a:hover, a:focus {
-color: #676767;
+.input-content input {
+    height: 34px;
+    width: 360px;
+    border: 1px solid #bda177;
+    background: 111111;
+    padding: 19px;
+    font-size: 17px;
+    margin: 8px;
+}
+.margin1 {
+    margin-top: 52px;
+}
+.col-md-6-pad button {
+    border-radius: 30px;
+    background: #bda177;
+    border: #bda177;
+    width: 98px;
+    font-size: 19px;
+    color: black;
+    font-weight: 700;
+}
+.color-p1 h3 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #bda177;
+}
+.button-content {
+    padding-left: 90px;
+}
+.col-md-6-pad1 {
+    position: absolute;
+    right: -36px;
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+}
+.col-md-6-pad {
+    padding-left: 70px;
+}
+.row-margin {
+    margin-top: 20px;
+}
+.home-invite {
+    background: #000000;
+    border: 1px solid #ffffff;
+    width: 350px;
+    border-radius: 30px;
+    position: relative;
+    left: 50%;
+    margin-left: -190px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.home-invite p {
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.home-invite p i {
+    background: white;
+    height: 30px;
+    width: 30px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    padding: 7px 9px;
+    color: #000000;
+    margin-left: 29px;
+    margin-right: 42px;
+    font-size: 20px;
+    position: relative;
+    top: 4px;
+}
+.content-newacc p {
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    padding-top: 40px;
+    margin-bottom: 31px;
+    font-weight: 600;
+}
+.follow1 h5 {
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-size: 26px;
+    letter-spacing: 2px;
+    font-weight: 800;
+}
+.follow1 h4 {
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+.pad1 {
+    padding: 54px;
+}
+.col-md-3.col1.posts {
+float: none;
+margin-bottom: 0px;
+}
+
+/*css end*/
+
+.profile-back {
+    background-color: #000;
+}
+.profile-img {
+    margin-top: 100px;
+}
+.profile-img .prof-mini {
+    position: relative;
+    left: 115px;
+    bottom: 74px;
+}
+.profile-text {
+    margin-top: 100px;
+}
+.profile-text h3 {
+    font-size: 36px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 0px 32px;
+}
+.profile-text .profile-edit {
+    background: transparent;
+    width: 300px;
+    padding: 10px;
+    border: 2px solid #bda177;
+    text-align: center;
+}
+.profile-text .profile-image {
+    background: transparent;
+    width: 243px;
+    padding: 10px;
+    border: 2px solid #bda177;
+    text-align: center;
+    margin-left: 48px;
+}
+.profile-text.profile-edit h5 {
+    color: #bda177;
+    font-size: 14px;
+    position: absolute;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.profile-text h5 {
+    font-size: 18px;
+    color: #bda177;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 0px 32px;
+}
+.profile-text.profile-image h5 {
+    color: #bda177;
+    font-size: 14px;
+    position: absolute;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.profile-edit .profile-textarea {
+    margin: 0px;
+    height: 198px;
+    width: 244px;
+    background: transparent;
+    color: #fff;
+}
+.profile-edit .profile-submit {
+    margin-top: 10px;
+    border-radius: 30px;
+    background: #bda177;
+    border: #bda177;
+    width: 120px;
+    font-size: 19px;
+    color: black;
+    text-transform: uppercase;
+}
+.profile-edit .profile-cancel {
+    margin-top: 10px;
+    border-radius: none;
+    background: transparent;
+    border: none;
+    width: 98px;
+    font-size: 19px;
+    color: #bda177;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.profile-image .profile-submit {
+    margin-top: 10px;
+    border-radius: 30px;
+    background: #bda177;
+    border: #bda177;
+    width: 120px;
+    font-size: 19px;
+    color: black;
+    text-transform: uppercase;
+}
+.profile-image .profile-cancel {
+    margin-top: 10px;
+    border-radius: none;
+    background: transparent;
+    border: none;
+    width: 98px;
+    font-size: 19px;
+    color: #bda177;
+    text-transform: uppercase;
+}
+.profile-text p {
+    text-align: justify;
+    font-size: 12px;
+    line-height: 20px;
+    padding: 0px 0px 14px 32px;
+    text-transform: uppercase;
+    color: #bda177;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 300;
+}
+.profile-text .style-text p {
+    font-size: 15px;
+    color: #000000;
+    padding: 12px 65px 11px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.profile-text .style-text {
+    background: #bda177;
+    width: 350px;
+    border-radius: 30px;
+    position: relative;
+    left: 5%;
+    /* margin-left: -180px; */
+    margin-top: 20px;
+    /* margin-bottom: 100px; */
+}
+.profile-image span {
+    background: #bda177;
+    height: 47px;
+    text-transform: uppercase;
+    width: 50px;
+    border-radius: 25px;
+    font-size: 21px;
+    padding: 8px;
+    position: absolute;
+    left: 38px;
+    top: 155px;
+}
+.icon-images img {
+    padding-right: 5px;
+}
+.schedule-head h5 {
+    padding-top: 10px;
+    font-size: 45.78px;
+    color: #fff;
+    font-family: "Josefin Sans";
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.schedule-head h4 {
+    font-size: 60px;
+    padding-bottom: 20px;
+    color: #bda177;
+    font-family: "Josefin Sans";
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.icon-sche i.fa.fa-music {
+    color: #bda177;
+    font-size: 20px;
+    padding: 0px 8px 0px 0px;
+}
+.icon-sche i.fa.fa-music:hover {
+    text-decoration: none;
+    background: transparent;
+    border: none;
+}
+.icon-sche i.fa.fa-microphone {
+    color: #bda177;
+    font-size: 20px;
+    padding: 0px 8px 0px 0px;
+}
+.icon-sche i.fa.fa-microphone:hover {
+    text-decoration: none;
+    background: transparent;
+    border: none;
+}
+.icon-sche .name-icon {
+    padding-left: 4px;
+    font-size: 14px;
+    color: #fff;
+    font-family: "Josefin Sans";
+    text-transform: uppercase;
+    vertical-align: middle;
+    vertical-align: middle;
+}
+.label-text span {
+    background: #bda177;
+    height: 50px;
+    width: 56px;
+    color: #000;
+    font-size: 12px;
+    padding: 0px 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.col-md-3.label-text {
+    padding: 8px;
+}
+.label-text i {
+    color: #fff;
+    padding-left: 6px;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+ .icon-head {
+    padding-bottom: 20px; 
+    padding-top: 20px;
+}
+.city-head{
+padding-top: 60px;
+}
+.city-head h4 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 40px;
+    letter-spacing: 2px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+.city-head h5 {
+    color: #bda177;
+    font-size: 13px;
+    font-family: "Josefin Sans";
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: 400;
+}
+.label-texts span {
+    background: #bda177;
+    height: 50px;
+    width: 56px;
+    color: #000;
+    font-size: 12px;
+    padding: 2px 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.hyderabd-text.label-texts {
+    border: 1px solid #bda177;
+    width: 71px;
+    height: 88px;
+    padding:  0px 2px 0px 0px;
+}
+
+.hyderabd-text.label-texts p {
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 15px;
+    padding-top: 8px;
+}
+.hyderabd-text.label-texts i{
+font-size:26px;
+    color:#bda177;
+}
+
+.hyderabad-name .name-icon {
+    font-size: 17px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+.hyderabad-name {
+    padding-top: 12px;
+    padding-bottom: 14px;
+}
+
+
+.label-texts {
+    margin: 14px;
+}
+.profile-pic{
+width: 170px;
+height: 150px;
+border-radius: 300px;
+    float:right;
+}
+.profile-details h4{
+color:#fff;
+   font-size: 39px; 
+}
+.profile-details .id-text{
+color:#fff;
+   font-size: 10px; 
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-left:10px;
+    font-weight: 700;
+}
+.profile-details .location-text{
+color:#fff;
+   font-size: 10px; 
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-left:15px;
+    font-weight: 700;
+    
+}
+.border-line{
+bord
+}
+.edit-pro{
+color:#bda177;
+   font-size: 10px; 
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+    border-top: 1px solid #bda177;
+   padding: 2px 173px 0px 0px;
+    
+    
+}
+.count-num {
+    border-radius: 1px solid;
+    border-radius: 62px;
+    width: 100px;
+    height: 100px;
+    background: transparent;
+    border: 3px solid #ccc;
+    padding: 5px 11px 0px;
+    margin-left: 50px;
+}
+.count-num h4{
+
+color:#fff;
+    font-size:49.69px;
+    
+}
+.social-pro p{
+font-size: 16px;
+    color:#fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+    padding-top: 10px;
+}
+.count-num h6{
+
+color:#fff;
+    font-size:9px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-top: -8px;
+}
+.social-icon i {
+    background: #bda177;
+    height: 45px;
+    width: 45px;
+    border-radius: 30px;
+    font-size: 26px;
+    padding: 11px 0px 0px 12px;
+}
+.plus {
+    background: transparent;
+    height: 45px;
+    width: 45px;
+    border-radius: 30px;
+    font-size: 26px;
+    padding: 11px 0px 0px 12px;
+    border:1px solid #ccc;
+}
+.pro-head h6{
+    padding-top: 15px;
+ text-transform: uppercase;
+    letter-spacing: 2px;
+font-size:14px;
+    color:#bda177;
+    
+}
+.pro-head h4{
+    padding-top: 15px;
+ text-transform: uppercase;
+    letter-spacing: 8px;
+font-size:49px;
+    color:#fff;
+    font-weight: 300;
+    
+}
+.karsh-img{
+border-radius: 100px;
+height: 100px;
+}
+.pro-karsh p{
+text-transform: uppercase;
+font-size:12px;
+    color:#bda177;
+    letter-spacing: 2px;
+    
+}
+.pro-data h5{
+    font-size:12px;
+    text-transform: uppercase;
+    color:#bda177;
+    letter-spacing: 2px;
+
+}
+.pro-data p{
+    font-size:14px;
+    text-transform: none;
+    color:#fff;
+    letter-spacing: 2px;
+    font-weight: 300;
+
+    
+}
+.approve{
+
+padding-top:25px;
+    float:right;
+
+}
+.pro-desc{
+    padding-top:25px;
+border-top: 1px solid #bda177;
+border-bottom: 1px solid #bda177;
+    padding-bottom:25px;
+}
+.pro-desc2{
+    padding-top:25px;
+
+border-bottom: 1px solid #bda177;
+    padding-bottom:25px;
 }

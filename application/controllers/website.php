@@ -21,4 +21,10 @@ class Website extends CI_Controller
         $data['posts']=$this->designer_model->viewdesigner();
 		$this->load->view("webtemplate",$data);
 	}
+    function login()
+	{
+		$data['page']="login";
+        $data['posts']=$this->designer_model->viewdesigner();
+		$this->load->view("webtemplate",$data);
+	}
 }
