@@ -1,0 +1,9 @@
+{
+    "jscodehints.detectedExclusions": [
+        "C:/xampp/htdocs/blender-master/assets/upload/js/app.js",
+        "C:/xampp/htdocs/blender-master/assets/upload/js/main.js",
+        "C:/xampp/htdocs/blender-master/old/js/bootstrap.min.js",
+        "C:/xampp/htdocs/blender-master/old/js/classie.js",
+        "C:/xampp/htdocs/blender-master/old/js/main.js"
+    ]
+}

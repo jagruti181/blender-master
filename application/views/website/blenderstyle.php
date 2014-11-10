@@ -57,7 +57,7 @@
     <div class="carousel-inner">
         <div class="item active">
             <!-- Set the first background image using inline CSS below. -->
-            <div class="fill" style="background-image: url('public_html/blender-master/img/bg3.jpg')"></div>
+            <div class="fill" style="background-image: url('<?php echo base_url("webassets");?>/img/bg3.jpg')"></div>
             <div class="carousel-caption">
                 <div class="blender-bottom">
                     <div class="music text-center">
@@ -86,7 +86,7 @@
         </div>
         <div class="item">
             <!-- Set the second background image using inline CSS below. -->
-            <div class="fill" style="background-image:url('C:/xampp/htdocs/blender-master/img/bg3.jpg');"></div>
+            <div class="fill" style="background-image:url('<?php echo base_url("webassets");?>/img/bg3.jpg');"></div>
             <div class="carousel-caption">
                 <div class="blender-bottom">
                     <div class="music text-center">
@@ -115,7 +115,7 @@
         </div>
         <div class="item">
             <!-- Set the third background image using inline CSS below. -->
-            <div class="fill" style="background-image:url('C:/xampp/htdocs/blender-master/img/bg3.jpg');"></div>
+            <div class="fill" style="background-image:url('<?php echo base_url("webassets");?>/img/bg3.jpg');"></div>
             <div class="carousel-caption">
                 <div class="blender-bottom">
                     <div class="music text-center">
@@ -128,10 +128,7 @@
 
                     <a href="#">
                         <div class="blenders-invite">
-
                             <h8>choose this style blender</h8>
-
-
                         </div>
                     </a>
                     <a href="#">
@@ -204,25 +201,26 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="tabs">
-                    <a href="#"> <i class="fa fa-th-large"><p class="icon-text">all</p></i>
+                    <a href="#" class="filter active"><i class="fa flaticon-four102"><p class="icon-text">all</p></i>
                     </a>
-                    <a href="#"> <i class="fa fa-male"><p class="icon-text">designers</p></i>
+                    <a href="#" class="filter"><i class="fa flaticon-mannequin1"><p class="icon-text">designers</p></i>
                     </a>
-                    <a href="#"> <i class="fa fa-music"><p class="icon-text">musicians</p></i>
+                    <a href="#" class="filter"><i class="fa flaticon-musical"><p class="icon-text">musicians</p></i>
                     </a>
-                    <a href="#"> <i class="fa fa-microphone"><p class="icon-text">speakers</p></i>
+                    <a href="#" class="filter"><i class="fa flaticon-microphone58"><p class="icon-text">speakers</p></i>
                     </a>
                 </div>
             </div>
         </div>
         <div class="row blender-img">
            <?php
+$i=0;
                 foreach($posts as $post)
                 {
                         //print_r($post);
                 
             ?>
-            <div class="col-md-3">
+            <div class="col-md-3 item <?php if($i==1) { echo "des";} else { $i++;}?>">
                 <a href="<?php echo site_url('website/profile?id=').$post->id;?>"><img src="<?php echo base_url("webassets");?>/img/<?php echo $post->image;?>" style="width:100%;">
                      <h2><?php echo $post->name;?></h2><br>
                      <h3>Designer</h3></a> 

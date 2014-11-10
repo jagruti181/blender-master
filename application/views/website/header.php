@@ -13,6 +13,7 @@
     <link href="<?php echo base_url("webassets");?>/css/bootstrap.css" rel="stylesheet">
     <link href="<?php echo base_url("webassets");?>/css/style.css" rel="stylesheet">
     <link href="<?php echo base_url("webassets");?>/css/font-awesome.min.css" rel="stylesheet">
+    <link href="<?php echo base_url("webassets");?>/fonts/flaticon.css" rel="stylesheet">
     <link href="<?php echo base_url("webassets");?>/css/dropzone.css" rel="stylesheet">
 
 <!-- For image drop down upload -->
@@ -26,6 +27,13 @@
 
     <link rel="stylesheet" type="text/css" href="<?php echo base_url("webassets");?>/css/component.css" />
     <script src="<?php echo base_url("webassets");?>/js/modernizr.custom.js"></script>
+    
+    
+
+<!-- Add fancyBox -->
+<link rel="stylesheet" href="<?php echo base_url("webassets");?>/fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+
+
 </head>
 
 <body>

@@ -676,6 +676,12 @@ a:focus {
     margin-top: 25px;
     margin-right: 50px;
 }
+i.fa {
+    border: 1px solid transparent;
+}
+a:hover {
+    color: #bda177;
+}
 i.fa.fa-male {
     /* width: 0px; */
     /* height: 60px; */
@@ -735,6 +741,7 @@ i.fa.fa-microphone:hover {
     font-weight: 700;
     font-family: "Josefin Sans";
     padding-top: 5px;
+    margin-top: 10px;
 }
 .tabs .icon-text:hover {
     color: #bda177;
@@ -762,7 +769,7 @@ i.fa.fa-microphone:hover {
     letter-spacing: 2px;
     position: absolute;
     bottom: 38px;
-    left: 80px;
+    width: 100%;
 }
 .blender-img h3 {
     text-align: center;
@@ -774,7 +781,7 @@ i.fa.fa-microphone:hover {
     letter-spacing: 2px;
     position: absolute;
     bottom: 16px;
-    left: 111px;
+    width: 100%;
 }
 .blender-bottom .blend {
     background: transparent;
@@ -851,7 +858,7 @@ i.fa.fa-microphone:hover {
 }
 .home-invite {
     background: #000000;
-    border: 1px solid #ffffff;
+    border: 1px solid transparent;
     width: 350px;
     border-radius: 30px;
     position: relative;
@@ -1326,7 +1333,33 @@ i.fa.fa-microphone:hover {
     border-bottom: 1px solid #bda177;
     padding-bottom: 25px;
 }
-body.videoonly {
-    margin: 0px;
-    overflow: hidden;
+ol.carousel-indicators {
+    display: none;
+}
+.filter:hover .icon-text {
+    color: #bda177;
+}
+.blender-img .item a {
+    position: relative;
+    display: block;
+}
+.filter i.fa {
+    border: 1px solid transparent;
+    width: 100px;
+    padding: 10px;
+}
+.filter i.fa:hover {
+    border: 1px solid #bda177;
+    width: 100px;
+    padding: 10px;
+}
+.filter.active i.fa {
+    border: 1px solid #bda177;
+    width: 100px;
+    padding: 10px;
+    color: #bda177;
+}
+.filter.active .icon-text
+{
+    color:#bda177;
 }

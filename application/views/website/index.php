@@ -78,7 +78,7 @@
                                         <h3>Blenders Pride Fashion Tour 2014</h3>
                                         <h5>Taste Life in Style</h5>
                                         <div class="play">
-                                            <a href="<?php echo site_url("website/video");?>">
+                                            <a class="videoonly fancybox.iframe" href="http://www.youtube.com/embed/CUxJONigQhc?rel=0&amp;controls=0&amp;showinfo=0&autoplay=1">
                                         <img src="<?php echo base_url("webassets");?>/img/playbutton.png" alt="">
                                     </a>
                                         </div>
