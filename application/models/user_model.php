@@ -11,10 +11,10 @@ class User_model extends CI_Model
 		$query ="SELECT `user`.`id`,CONCAT(`firstname`,'',`lastname`) as `name`,`email`,`user`.`accesslevel`,`accesslevel`.`name` as `access` FROM `user`
 		INNER JOIN `accesslevel` ON `user`.`accesslevel` = `accesslevel`.`id` 
 		WHERE `email` LIKE '$username' AND `password` LIKE '$password' AND `status`=1 AND `accesslevel` IN (1,2) ";
-		$row =$this->db->query( $query );
+		$row =$this->db->query($query);
 		if ( $row->num_rows() > 0 ) {
 			$row=$row->row();
-			$this->id       = $row->id;
+			$this->id = $row->id;
 			$this->name = $row->name;
 			$this->email = $row->email;
 			$newdata        = array(
@@ -119,6 +119,82 @@ class User_model extends CI_Model
 	{
 		$query=$this->db->query("DELETE FROM `user` WHERE `id`='$id'");
 	}
+    
+    public function normallogin($email,$password)
+    {
+        
+		$password=md5($password);
+		$query ="SELECT * FROM `user` WHERE `email`='$email' AND `password`='$password'";
+		$row =$this->db->query($query);
+		if ( $row->num_rows() > 0 ) {
+			$row=$row->row();
+//			$this->id = $row->id;
+//			$this->name = $row->name;
+//			$this->email = $row->email;
+			$newdata        = array(
+				'id' => $row->id,
+				'email' => $row->email,
+				'accesslevel' => $row->accesslevel ,
+				'logged_in' => 'true',
+			);
+			$this->session->set_userdata( $newdata );
+			return true;
+		} //count( $row_array ) == 1
+		else
+			return false;
+    }
+    
+    public function facebooklogin($id,$firstname,$lastname)
+    {
+        $query=$this->db->query("SELECT `id` FROM `user` WHERE `uniquekey`='$id' ");
+        if($query->num_rows == 0)
+        {
+            $this->db->query("INSERT INTO `user`(`firstname`, `lastname`, `password`, `email`, `uniquekey`, `contact`, `accesskey`, `accesslevel`, `timestamp`, `facebookuserid`, `status`, `twitter`, `instagram`, `lastlogin`, `loginby`, `points`) VALUES ('$firstname','$lastname',0,0,'$id',NULL,NULL,NULL,CURRENT_TIMESTAMP,NULL,NULL,NULL,NULL,NULL,1,1)");
+            $user=$this->db->insert_id();
+            $newdata = array(
+                'email'     => "",
+                'password' => "",
+                'logged_in' => true,
+                'id'=> $user,
+                'facebookid'=> $id
+            );
+
+            $this->session->set_userdata($newdata);
+            
+           return $newdata;
+        }
+        else
+        {
+            $newdata = array(
+                'email'     => "",
+                'password' => "",
+                'logged_in' => true,
+                'id'=> "",
+                'facebookid'=> $id
+            );
+
+            $this->session->set_userdata($newdata);
+            return $newdata;
+        }
+         
+    }
+    public function twitterlogin()
+    {
+        $twtdata=$this->session->all_userdata();
+       // print_r($twtdata);
+        $query=$this->db->query("SELECT `id` FROM `user` WHERE `uniquekey`='".$twtdata['twitter_user_id']."'");
+        if($query->num_rows == 0)
+        {
+            $this->db->query("INSERT INTO `user`(`firstname`, `lastname`, `password`, `email`, `uniquekey`, `contact`, `accesskey`, `accesslevel`, `timestamp`, `facebookuserid`, `status`, `twitter`, `instagram`, `lastlogin`, `loginby`, `points`) VALUES ('".$twtdata['twitter_screen_name']."',NULL,0,0,'".$twtdata['twitter_user_id']."',NULL,NULL,NULL,CURRENT_TIMESTAMP,NULL,NULL,NULL,NULL,NULL,2,2)");
+            $user=$this->db->insert_id();
+           return $twtdata;
+        }
+        else
+        {
+            return $twtdata;
+        }
+    
+    }
     
      public function getuserdropdown()
 	{
@@ -378,15 +454,18 @@ INNER JOIN  `accesslevel` ON  `user`.`accesslevel` =  `accesslevel`.`id` WHERE `
 
 
     }
-    function authenticate() {
-        $is_logged_in = $this->session->userdata( 'logged_in' );
+    function authenticate() {   
+        
+        $this->session->all_userdata();
+        
+        $is_logged_in = $this->session->userdata('logged_in');
+        $is_logged_int = $this->session->all_userdata('logged_in');
         //print_r($is_logged_in);
-        if ( $is_logged_in !== 'true' || !isset( $is_logged_in ) ) {
+        if ( $is_logged_in !== 'true' || !isset($is_logged_in) ) {
             return false;
         } //$is_logged_in !== 'true' || !isset( $is_logged_in )
         else {
-            $userid = $this->session->userdata( 'id' );
-         return $userid;
+            return $this->session->all_userdata();
         }
     }
     

@@ -23,6 +23,40 @@ class Post_model extends CI_Model
 			return  1;
 	}
     
+    public function createtext($id,$text)
+    {
+        $data = array(
+            'user' => '0',
+            'type' => '1',
+            'text' => $text,
+            'designer' => $id
+        );
+        $query=$this->db->insert( 'post', $data );
+		$id=$this->db->insert_id();
+		
+		if(!$query)
+			return  0;
+		else
+			return  1;
+    }
+    
+    public function createimage($id,$logo)
+    {
+        $data = array(
+            'user' => '0',
+            'type' => '1',
+            'image' => $logo,
+            'designer' => $id
+        );
+        $query=$this->db->insert( 'post', $data );
+		$id=$this->db->insert_id();
+		
+		if(!$query)
+			return  0;
+		else
+			return  1;
+    }
+    
 	public function edit($id,$user,$type,$text,$totalshare,$designer,$image)
 	{
 		$data  = array(

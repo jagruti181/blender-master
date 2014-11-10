@@ -10,18 +10,19 @@
                     <h5>SIGN IN</h5>
                     <h4>YOU MUST LOG IN TO PARTICIPATE.</h4>
                 </div>
+                <form method="post" action="<?php echo site_url('website/normallogin');?>" enctype= "multipart/form-data">
                 <div class="margin1">
                     <div class="input-content text-center">
-                        <input value='' id="username-email" placeholder="USERNAME" type="text" class="" />
+                        <input value='' name="email" id="username-email" placeholder="USERNAME" type="text" class="" />
                         <div>
-                            <input value='' id="password" placeholder="PASSWORD" type="password" class="" />
+                            <input value='' name="password" id="password" placeholder="PASSWORD" type="password" class="" />
                         </div>
                     </div>
                 </div>
                 <div class="row row-margin">
                     <div class="col-md-6 col-md-6-pad">
                         <a href="#">
-                            <button class="">Sumbit</button>
+                            <button type="submit" class="">Sumbit</button>
                         </a>
 
                     </div>
@@ -31,6 +32,7 @@
                         </a>
                     </div>
                 </div>
+                </form>
 
                 <div class="text-center color-p1">
                     <h3>-&nbsp;OR&nbsp;-</h3> 
@@ -50,7 +52,7 @@
 
                 <div class="content-newacc">
                     <a href="#">
-                        <p>No Account?Create New Account</p>
+                        <p>No Account?Create New Account</p><?php echo site_url();?>
                     </a>
 
                 </div>
@@ -79,7 +81,16 @@
                     if (response.status === 'connected') {
                         FB.api('/me?email', function (response) {
                             console.log('Good to see you, ' + response.name + '.');
+                            console.log("already loged in");
                             console.log(response);
+                            var fid = { id : response.id , firstname : response.first_name , lastname : response.last_name};
+                            
+// #########################################save facebook login#################################################
+                             $.post("<?php echo site_url('website/facebooklogin'); ?>",fid,function(data){
+                               console.log("after success");
+                                console.log(data);
+                            },'json');
+// #########################################save facebook login#################################################
                         });
                         //window.location.href = "<?php echo site_url();?>";
 

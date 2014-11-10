@@ -103,7 +103,10 @@ class Twitter extends CI_Controller
 				$this->session->set_userdata('access_token_secret', $access_token['oauth_token_secret']);
 				$this->session->set_userdata('twitter_user_id', $access_token['user_id']);
 				$this->session->set_userdata('twitter_screen_name', $access_token['screen_name']);
-
+				$this->session->set_userdata('logged_in', 'true');
+                
+                redirect(site_url("/website/twitterlogin"));
+                
 				$this->session->unset_userdata('request_token');
 				$this->session->unset_userdata('request_token_secret');
 				

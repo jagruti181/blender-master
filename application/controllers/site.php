@@ -274,7 +274,7 @@ class Site extends CI_Controller
     public function authenticate()
     {
         $data['json']=$this->user_model->authenticate();
-        //$this->load->view('json',$data);
+//        $this->load->view('json',$data);
     }
     public function signup()
     {
