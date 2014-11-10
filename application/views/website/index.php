@@ -61,11 +61,7 @@
                                     </div>
                                 </div>
                                 <div class="col-md-4 social-link">
-                                    <div class="signin">
-                                        <a href="<?php echo site_url("website/login");?>"><i>signup /</i></a>
-                                        <a href="<?php echo site_url("website/login");?>"><i>login</i></a>
-
-                                    </div>
+                                   <?php $this->load->view("loginview");?>
                                     <div class="social">
                                         <a href="#"><i class="fa fa-facebook"></i></a> 
                                         <a href="#"> <i class="fa fa-twitter"></i>
@@ -115,7 +111,7 @@
                 <h3>STYLE BLENDERS</h3>
                 <h5>The finest and the classy names in fashion, music, design, technology and writing are here.</h5>
                 <h5>Grab a seat as they take centre stage to style up the Blenders Pride Fashion Tour 2014.</h5>
-                <a href="#">
+                <a href="<?php echo site_url('website/blenderstyle'); ?>">
                     <div class="blend">
                         <p>VIEW ALL THE STYLE BLENDERS</p>
                     </div>
@@ -251,7 +247,7 @@ the Blenders Pride Fashion Tour 2014 with <span class="gold">#BPMYSTYLE</span></
         <div class="container">
             <div class="top">
                 <h5>Inspire the world with your unique style</h5>
-                <a href="#">
+                <a href="<?php echo site_url('website/blenderstyle'); ?>">
                     <div class="top-share">
 
                         <p>Click here to share your style.</p>
@@ -295,7 +291,7 @@ the Blenders Pride Fashion Tour 2014 with <span class="gold">#BPMYSTYLE</span></
                 </div>
                 <?php } ?>
             </div>
-            <a href="#">
+            <a href="<?php echo site_url('website/invitelist'); ?>">
                 <div class="foot-text">
                     <p>
                         View All Entries

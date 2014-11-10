@@ -13,8 +13,10 @@
     <link href="<?php echo base_url("webassets");?>/css/bootstrap.css" rel="stylesheet">
     <link href="<?php echo base_url("webassets");?>/css/style.css" rel="stylesheet">
     <link href="<?php echo base_url("webassets");?>/css/font-awesome.min.css" rel="stylesheet">
-    <link href="<?php echo base_url("webassets");?>/css/font-awesome.css" rel="stylesheet">
+    <link href="<?php echo base_url("webassets");?>/css/dropzone.css" rel="stylesheet">
 
+<!-- For image drop down upload -->
+<script src="<?php echo base_url("webassets");?>/js/dropzone.js"></script>
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
             <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>

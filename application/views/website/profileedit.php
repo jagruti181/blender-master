@@ -45,11 +45,16 @@
                             <span >or</span>
                         
                             <h5>submit photo</h5> 
-                            <form method="post" action="<?php echo site_url('website/imagepost');?>" enctype= "multipart/form-data">
+                            <form method="post" action="<?php echo site_url('website/imagepost');?>" enctype= "multipart/form-data" class="dropzone" id="my-awesome-dropzone">
 <input type="hidden" name="id" value="<?php echo $before->id;?>">
 <input type="file" id="normal-field" class="form-control" name="logo" value="<?php echo set_value('logo');?>">
+
 <input type="submit" value="Submit" class="profile-submit" /><br>
 <button type="reset" value="Reset" class="profile-cancel">cancel</button>
+
+<div class="dz-default dz-message"><span>Drop files here to upload</span></div>
+
+
 </form>
                         </div>
                         </div>

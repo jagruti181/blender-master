@@ -219,7 +219,7 @@
            <?php
                 foreach($posts as $post)
                 {
-//                    print_r($post);
+                        //print_r($post);
                 
             ?>
             <div class="col-md-3">
