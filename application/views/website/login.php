@@ -74,7 +74,8 @@
                 version: 'v2.1'
             });
             
-            
+          
+
             
             $(".facebooklogin").click(function () {
                 FB.getLoginStatus(function (response) {
