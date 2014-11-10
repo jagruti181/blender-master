@@ -75,6 +75,11 @@ class Twitter extends CI_Controller
 			}
 		}
 	}
+    public function get()
+	{
+		$data["message"]=$this->session->all_userdata();
+        $this->load->view("json",$data);
+	}
 	
 	/**
 	 * Callback function, landing page for twitter.
