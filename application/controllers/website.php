@@ -9,6 +9,11 @@ class Website extends CI_Controller
         $data['posts']=$this->post_model->homepost();
 		$this->load->view("webtemplate",$data);
 	}
+	function video()
+	{
+		$data['page']="video";
+		$this->load->view("webtemplate",$data);
+	}
     function profilee()
 	{
 		$data['page']="profile";

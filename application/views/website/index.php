@@ -78,7 +78,7 @@
                                         <h3>Blenders Pride Fashion Tour 2014</h3>
                                         <h5>Taste Life in Style</h5>
                                         <div class="play">
-                                            <a href="#">
+                                            <a href="<?php echo site_url("website/video");?>">
                                         <img src="<?php echo base_url("webassets");?>/img/playbutton.png" alt="">
                                     </a>
                                         </div>
