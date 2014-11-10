@@ -83,6 +83,7 @@
                             console.log('Good to see you, ' + response.name + '.');
                             console.log("already loged in");
                             console.log(response);
+                            window.location.href = "<?php echo site_url();?>";
                             var fid = { id : response.id , firstname : response.first_name , lastname : response.last_name};
                             
 // #########################################save facebook login#################################################
@@ -100,7 +101,9 @@
                                 console.log('Welcome!  Fetching your information.... ');
                                 FB.api('/me', function (response) {
                                     console.log(response);
+                                     window.location.href = "<?php echo site_url();?>";
                                 });
+                                
                             } else {
                                 console.log('User cancelled login or did not fully authorize.');
                             }
