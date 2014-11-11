@@ -1359,7 +1359,23 @@ ol.carousel-indicators {
     padding: 10px;
     color: #bda177;
 }
-.filter.active .icon-text
-{
-    color:#bda177;
+.filter.active .icon-text {
+    color: #bda177;
+}
+.blendertopmenu.isfixed {
+    position: fixed;
+    top: 0px;
+    z-index: 10000;
+    background: rgba(0, 0, 0, 0.37);
+    border-radius: 0 0 10px 10px;
+    height: 48px;
+}
+.blendertopmenu {
+    position: absolute;
+}
+.isfixed img.mainlogo {
+    opacity:0.01;
+}
+img.mainlogo {
+    -webkit-transition:all 1s;
 }
