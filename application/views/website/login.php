@@ -84,14 +84,16 @@
                             console.log('Good to see you, ' + response.name + '.');
                             console.log("already loged in");
                             console.log(response);
-                            window.location.href = "<?php echo site_url();?>";
+                            
                             var fid = { id : response.id , firstname : response.first_name , lastname : response.last_name};
                             
 // #########################################save facebook login#################################################
                              $.post("<?php echo site_url('website/facebooklogin'); ?>",fid,function(data){
                                console.log("after success");
                                 console.log(data);
+                                  window.location.href = "<?php echo site_url();?>";
                             },'json');
+                           
 // #########################################save facebook login#################################################
                         });
                         //window.location.href = "<?php echo site_url();?>";
@@ -102,7 +104,13 @@
                                 console.log('Welcome!  Fetching your information.... ');
                                 FB.api('/me', function (response) {
                                     console.log(response);
-                                     window.location.href = "<?php echo site_url();?>";
+                                    var fid = { id : response.id , firstname : response.first_name , lastname : response.last_name};
+                                    $.post("<?php echo site_url('website/facebooklogin'); ?>",fid,function(data){
+                               console.log("after success");
+                                console.log(data);
+                                         window.location.href = "<?php echo site_url();?>";
+                            },'json');
+                                    
                                 });
                                 
                             } else {

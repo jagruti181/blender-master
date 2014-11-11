@@ -165,11 +165,12 @@ class User_model extends CI_Model
         }
         else
         {
+            $user=$query->row();
             $newdata = array(
                 'email'     => "",
                 'password' => "",
                 'logged_in' => true,
-                'id'=> "",
+                'id'=> $user->id,
                 'facebookid'=> $id
             );
 
@@ -187,10 +188,21 @@ class User_model extends CI_Model
         {
             $this->db->query("INSERT INTO `user`(`firstname`, `lastname`, `password`, `email`, `uniquekey`, `contact`, `accesskey`, `accesslevel`, `timestamp`, `facebookuserid`, `status`, `twitter`, `instagram`, `lastlogin`, `loginby`, `points`) VALUES ('".$twtdata['twitter_screen_name']."',NULL,0,0,'".$twtdata['twitter_user_id']."',NULL,NULL,NULL,CURRENT_TIMESTAMP,NULL,NULL,NULL,NULL,NULL,2,2)");
             $user=$this->db->insert_id();
+            $newdata = array(
+                'id'     => $user
+            );
+
+            $this->session->set_userdata($newdata);
            return $twtdata;
         }
         else
         {
+            $user=$query->row();
+            $newdata = array(
+                'id'     => $user->id
+            );
+
+            $this->session->set_userdata($newdata);
             return $twtdata;
         }
     
