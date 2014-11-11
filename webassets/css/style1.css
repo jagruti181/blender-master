@@ -29,49 +29,33 @@
     background-size: cover;
 }
 .section.schedule {
-    background: #000 url(../img/bg7.jpg) no-repeat fixed center center;
-    background-size: cover;
-}
-.style-blender {
     background: #000 url(../img/bg7.jpg) no-repeat center center;
     background-size: cover;
 }
 .hyderabad {
-    background: #000 url(../img/hyderabad.jpg) no-repeat fixed center center;
+    background: #000 url(../img/hyderabad.jpg) no-repeat center center;
     background-size: cover;
 }
 .gurgaon {
-    background: #000 url(../img/bg8.jpg) no-repeat fixed center center;
+    background: #000 url(../img/bg8.jpg) no-repeat center center;
     background-size: cover;
 }
 .mumbai {
-    background: #000 url(../img/mumbai.jpg) no-repeat fixed center center;
+    background: #000 url(../img/mumbai.jpg) no-repeat center center;
     background-size: cover;
 }
 .bangaluru {
-    background: #000 url(../img/bangluru.jpg) no-repeat fixed center center;
+    background: #000 url(../img/bangluru.jpg) no-repeat center center;
     background-size: cover;
 }
 .kolkata {
-    background: #000 url(../img/kolkata.jpg) no-repeat fixed center center;
+    background: #000 url(../img/kolkata.jpg) no-repeat center center;
     background-size: cover;
 }
 .profile-head {
-    background: #000 url(../img/profile_head.png) no-repeat fixed center center;
+    background: #000 url(../img/profile_head.png) no-repeat center center;
     background-size: cover;
 }
-/*sohan css*/
-
-.section.reset {
-    background: #000 url(../img/background_image.png) no-repeat fixed center center;
-    background-size: cover;
-}
-.reset {
-    background: #000 url(../img/background_image.png) no-repeat fixed center center;
-    background-size: cover;
-}
-/*css end*/
-
 .section.footer {
     height: 120px !important;
 }
@@ -84,12 +68,10 @@ h6 {
     font-weight: 700;
 }
 h1 {
-    font-size: 130px;
+    font-size: 90px;
     letter-spacing: 15px;
-    /* padding-bottom: 20px; */
+    padding-bottom: 20px;
     color: #bda177;
-    font-weight: 600;
-    margin: 32px auto;
 }
 h2 {} h4 {
     font-size: 20px;
@@ -107,16 +89,13 @@ body a:hover {
 }
 .section.intro .content-center {
     text-align: center;
-    padding: 22% 0;
+    padding: 14% 0;
 }
 .section.intro .scroll {
     position: relative;
-    bottom: 115px;
+    bottom: 20px;
     width: 100%;
     right: 0px;
-}
-body a{
-text-decoration: none;
 }
 a {
     color: #cccccc;
@@ -150,7 +129,6 @@ a {
 }
 .section.home .contents {
     text-align: center;
-    margin: 36px;
 }
 .menu {
     padding-top: 10px;
@@ -192,20 +170,17 @@ a {
     border-bottom: 2px solid #bda177;
     color: white;
     text-transform: uppercase;
-    font-weight: 600;
-    letter-spacing: 2px;
+    font-weight: 700;
 }
 .contents .home-invite {
     background: #bda177;
-    width: 300px;
+    width: 253px;
     border-radius: 30px;
     position: relative;
-    /* left: 50%; */
-    /* margin-left: -130px; */
-    /* margin-top: 20px; */
-    /* margin-bottom: 100px; */
-    margin: 70px auto;
-    bottom: 56px;
+    left: 50%;
+    margin-left: -130px;
+    margin-top: 20px;
+    margin-bottom: 100px;
 }
 .contents .home-invite p {
     font-size: 15px;
@@ -230,7 +205,6 @@ a {
     padding: 12px 12px 11px;
     text-transform: uppercase;
     font-weight: 700;
-    text-shadow: none;
 }
 .contents p {
     font-size: 12px;
@@ -253,43 +227,33 @@ a {
 }
 .mid-content h3 {
     color: #fff;
-    font-size: 36.62px;
+    font-size: 60px;
     font-family: "Josefin Sans";
     text-transform: uppercase;
     font-weight: 700;
-    letter-spacing: 2px;
-}
-.head-foot h3{
-  color: #fff;
-    font-size: 36.62px;
-    font-family: "Josefin Sans";
-    text-transform: uppercase;
-    font-weight: 700;
-    letter-spacing: 2px;
+    letter-spacing: 14px;
 }
 .mid-content .content-center {
     text-align: center;
-    margin-top: 130px;
+    margin-top: 80px;
 }
 .mid-content h5 {
     color: #bda177;
     font-size: 12px;
     font-family: "Josefin Sans";
     text-transform: uppercase;
-    font-weight: 600;
-    letter-spacing: 2px;
+    font-weight: 700;
 }
 .mid-content .blend {
     background: #000;
-    width: 350px;
+    width: 300px;
     border-radius: 30px;
     position: relative;
-    /* left: 50%; */
-    /* margin-left: -150px; */
-    /* margin-top: 25px; */
+    left: 50%;
+    margin-left: -150px;
+    margin-top: 25px;
     border: 1px solid #bda177;
-    /* margin-bottom: -12px; */
-    margin: 33px auto;
+    margin-bottom: 50px;
 }
 .mid-content p {
     font-size: 10.66px;
@@ -297,14 +261,14 @@ a {
     padding: 10px 0px 0px;
     text-transform: uppercase;
     font-weight: 700;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
 }
 .blender-bottom h5 {
     font-size: 50px;
     color: #fff;
     text-transform: uppercase;
     text-align: center;
-    font-weight: 600;
+    font-weight: 700;
     letter-spacing: 7px;
 }
 .blender-bottom h6 {
@@ -353,16 +317,15 @@ a {
     text-transform: uppercase;
     color: #fff;
     padding-bottom: 10px;
-    border-bottom: 3px solid #bda177;
+    border-bottom: 2px solid #bda177;
 }
 .section.priyanka .content-priya h6 {
     font-size: 16px;
     text-transform: uppercase;
     color: #fff;
-    border-top: 3px solid #bda177;
+    border-top: 2px solid #bda177;
     letter-spacing: 2px;
     padding-top: 20px;
-    font-weight: 600;
 }
 .play {
     padding-bottom: 15px;
@@ -376,9 +339,6 @@ a {
     left: 130px;
     letter-spacing: 5px;
 }
-.follow {
-    padding-top: 30px;
-}
 .follow .gold {
     color: #bda177;
 }
@@ -389,13 +349,9 @@ a {
     font-size: 26px;
     letter-spacing: 2px;
     font-weight: 300;
-    font-style: italic;
 }
 .follows .gold {
     color: #bda177;
-}
-.style-pos {
-margin-top: 160px;
 }
 .follows h5 {
     text-align: center;
@@ -412,7 +368,6 @@ margin-top: 160px;
     font-size: 18px;
     letter-spacing: 2px;
     font-weight: 300;
-    padding-bottom: 20px;
 }
 .top-pad {
     padding-top: 30px;
@@ -525,8 +480,7 @@ p.fa.fa-twitter .text {
     color: white;
     text-transform: uppercase;
     font-size: 32px;
-    letter-spacing: 5px;
-    font-style: italic;
+    letter-spacing: 2px;
 }
 .top-share {
     background: #bda177;
@@ -540,14 +494,6 @@ p.fa.fa-twitter .text {
     margin-bottom: 70px;
 }
 .top-share p {
-    font-size: 15px;
-    color: #000000;
-    padding: 10px 10px;
-    text-transform: uppercase;
-    font-weight: 700;
-    text-align: center;
-}
-.pro-data .top-share p {
     font-size: 15px;
     color: #000000;
     padding: 10px 10px;
@@ -679,7 +625,6 @@ p.fa.fa-twitter .text {
 }
 .footer-text a {
     padding-right: 15px;
-    color: #bda177;
 }
 .comp-text {
     color: #999;
@@ -689,16 +634,15 @@ p.fa.fa-twitter .text {
     background: black;
 }
 .intro h4 {
-    font-size: 27px;
-    letter-spacing: 7px;
-    margin: -20px;
+    font-size: 20px;
+    letter-spacing: 6px;
 }
 .space {
     background: #000;
     height: 40px;
 }
 .col1 .panel-footer a {
-    border-left: 1px solid #e6e6e6;
+    border-left: 1px solid #ccc;
     padding: 10px;
     display: inline-block;
     letter-spacing: normal;
@@ -731,6 +675,12 @@ a:focus {
     color: #ccc;
     margin-top: 25px;
     margin-right: 50px;
+}
+i.fa {
+    border: 1px solid transparent;
+}
+a:hover {
+    color: #bda177;
 }
 i.fa.fa-male {
     /* width: 0px; */
@@ -791,6 +741,7 @@ i.fa.fa-microphone:hover {
     font-weight: 700;
     font-family: "Josefin Sans";
     padding-top: 5px;
+    margin-top: 10px;
 }
 .tabs .icon-text:hover {
     color: #bda177;
@@ -818,7 +769,7 @@ i.fa.fa-microphone:hover {
     letter-spacing: 2px;
     position: absolute;
     bottom: 38px;
-    left: 80px;
+    width: 100%;
 }
 .blender-img h3 {
     text-align: center;
@@ -830,7 +781,7 @@ i.fa.fa-microphone:hover {
     letter-spacing: 2px;
     position: absolute;
     bottom: 16px;
-    left: 111px;
+    width: 100%;
 }
 .blender-bottom .blend {
     background: transparent;
@@ -907,15 +858,14 @@ i.fa.fa-microphone:hover {
 }
 .home-invite {
     background: #000000;
-    border: 1px solid #ffffff;
+    border: 1px solid transparent;
     width: 350px;
     border-radius: 30px;
     position: relative;
-    /* left: 50%; */
-    /* margin-left: -190px; */
-    /* margin-top: 20px; */
-    /* margin-bottom: 10px; */
-    margin: 0 auto;
+    left: 50%;
+    margin-left: -190px;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 .home-invite p {
     font-size: 18px;
@@ -1037,10 +987,9 @@ i.fa.fa-microphone:hover {
     background: #bda177;
     border: #bda177;
     width: 120px;
-    font-size: 15px;
+    font-size: 19px;
     color: black;
     text-transform: uppercase;
-    font-weight: 700;
 }
 .profile-edit .profile-cancel {
     margin-top: 10px;
@@ -1048,11 +997,10 @@ i.fa.fa-microphone:hover {
     background: transparent;
     border: none;
     width: 98px;
-    font-size: 15px;
+    font-size: 19px;
     color: #bda177;
     text-transform: uppercase;
     margin-bottom: 10px;
-    font-weight: 700;
 }
 .profile-image .profile-submit {
     margin-top: 10px;
@@ -1060,10 +1008,9 @@ i.fa.fa-microphone:hover {
     background: #bda177;
     border: #bda177;
     width: 120px;
-    font-size: 15px;
+    font-size: 19px;
     color: black;
     text-transform: uppercase;
-    font-weight: 700;
 }
 .profile-image .profile-cancel {
     margin-top: 10px;
@@ -1071,10 +1018,9 @@ i.fa.fa-microphone:hover {
     background: transparent;
     border: none;
     width: 98px;
-    font-size: 15px;
+    font-size: 19px;
     color: #bda177;
     text-transform: uppercase;
-    font-weight: 700;
 }
 .profile-text p {
     text-align: justify;
@@ -1121,21 +1067,21 @@ i.fa.fa-microphone:hover {
 }
 .schedule-head h5 {
     padding-top: 10px;
-    font-size: 36.62PX;
+    font-size: 45.78px;
     color: #fff;
     font-family: "Josefin Sans";
     text-transform: uppercase;
     font-weight: 700;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
 }
 .schedule-head h4 {
-    font-size: 48PX;
+    font-size: 60px;
     padding-bottom: 20px;
     color: #bda177;
     font-family: "Josefin Sans";
     text-transform: uppercase;
     font-weight: 700;
-    letter-spacing: 10px;
+    letter-spacing: 2px;
 }
 .icon-sche i.fa.fa-music {
     color: #bda177;
@@ -1159,13 +1105,12 @@ i.fa.fa-microphone:hover {
 }
 .icon-sche .name-icon {
     padding-left: 4px;
-    font-size: 11px;
+    font-size: 14px;
     color: #fff;
     font-family: "Josefin Sans";
     text-transform: uppercase;
     vertical-align: middle;
     vertical-align: middle;
-    letter-spacing: 1px;
 }
 .label-text span {
     background: #bda177;
@@ -1183,10 +1128,8 @@ i.fa.fa-microphone:hover {
 .label-text i {
     color: #fff;
     padding-left: 6px;
-    font-size: 12px;
+    font-size: 10px;
     text-transform: uppercase;
-    letter-spacing: 1px;
-    font-style: none;
 }
 .icon-head {
     padding-bottom: 20px;
@@ -1322,12 +1265,11 @@ i.fa.fa-microphone:hover {
 }
 .social-icon i {
     background: #bda177;
-    height: 39px;
-    width: 39px;
+    height: 45px;
+    width: 45px;
     border-radius: 30px;
-    font-size: 18px;
+    font-size: 26px;
     padding: 11px 0px 0px 12px;
-    margin-right: 10px;
 }
 .plus {
     background: transparent;
@@ -1356,7 +1298,6 @@ i.fa.fa-microphone:hover {
 .karsh-img {
     border-radius: 100px;
     height: 100px;
-    width: 100px;
 }
 .pro-karsh p {
     text-transform: uppercase;
@@ -1370,67 +1311,12 @@ i.fa.fa-microphone:hover {
     color: #bda177;
     letter-spacing: 2px;
 }
-.pro-data h6 {
-    font-size: 14px;
-    text-transform: none;
-    color: #bda177;
-    letter-spacing: 2px;
-    font-weight: 300;
-}
 .pro-data p {
     font-size: 14px;
     text-transform: none;
     color: #fff;
     letter-spacing: 2px;
     font-weight: 300;
-}
-.profile-sub {
-    text-transform: uppercase;
-    border-radius: 30px;
-    background: #bda177;
-    border: #bda177;
-    width: 98px;
-    font-size: 15px;
-    color: black;
-    font-weight: 700;
-    margin-top: 20px;
-    margin-bottom: 40px;
-}
-.pro-data5 h6 {
-    text-transform: uppercase;
-    font-size: 14px;
-    color: #bda177;
-    letter-spacing: 2px;
-    font-weight: 700;
-}
-.pro-data5 p {
-    font-size: 14px;
-    text-transform: none;
-    color: #fff;
-    letter-spacing: 2px;
-    font-weight: 300;
-}
-.pro-data5 {
-    border: 2px solid #ccc;
-    padding: 10px 0px 10px 27px;
-}
-.pro-data2 p {
-    font-size: 14px;
-    text-transform: none;
-    color: #fff;
-    letter-spacing: 2px;
-    font-weight: 300;
-    border: 1px solid #3d3427;
-    ;
-    background: #3d3427;
-    padding: 20px;
-}
-.pro-data3 {
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-size: 14px;
-    color: #bda177;
-    font-weight: 700;
 }
 .approve {
     padding-top: 25px;
@@ -1447,738 +1333,33 @@ i.fa.fa-microphone:hover {
     border-bottom: 1px solid #bda177;
     padding-bottom: 25px;
 }
-.pro-desc4 {
-    padding-top: 25px;
-}
-.pro-desc5 {
-    padding-top: 25px;
-    border-top: 1px solid #bda177;
-}
-.contents-content p {
-    color: white;
-    font-size: 15px;
-}
-.mid-img2 {
-    margin-left: -14px;
-}
-.mid-img3 {
-    border: 2px solid #ccc;
-    padding: 32px 0px 30px 44px;
-}
-.col-md-2.mid-img2 {} .contents-rest h3 {
-    font-size: 30px;
-    padding-bottom: 30px;
-    padding-top: 30px;
-    color: #bda177;
-    font-family: "Josefin Sans";
-    text-transform: uppercase;
-    font-weight: 700;
-    letter-spacing: 2px;
-}
-.contents-rest {
-    /* text-align: center; */
-    margin-right: 50px;
-}
-.contents-rest h5 {
-    font-size: 13.15px;
-    color: white;
-    text-transform: uppercase;
-    font-weight: 700;
-    padding-bottom: 15px;
-    letter-spacing: 2px;
-}
-.content-button {
-    padding: 15px;
-}
-.content-button button {
-    text-transform: uppercase;
-    border-radius: 30px;
-    background: #bda177;
-    border: #bda177;
-    width: 98px;
-    font-size: 15px;
-    color: black;
-    font-weight: 700;
-}
-.foot a {
-    color: #bda177;
-}
-input:focus {
-    outline-color: #D98C19;
-}
-.footer-text1 p {
-    font-size: 14px;
-    font-weight: 700;
-}
-.clr-gold {
-    COLOR: #bda177;
-}
-.pading1 {
-    padding-top: 30px;
-}
-.contents1 h3 {
-    text-transform: uppercase;
-    text-align: center;
-    color: #bda177;
-    font-size: 41.75px;
-    letter-spacing: 6px;
-}
-.content-button1 a button {
-    border-radius: 30px;
-    background: #bda177;
-    border: #bda177;
-    width: 209px;
-    font-size: 15px;
-    color: black;
-    font-weight: 700;
-    padding: 5px;
-}
-input.lockicon {
-    padding-left: 36px;
-    background: #000 url("../img/lock.jpg") 7px no-repeat;
-}
-.col-md-6-pad1 {
-    position: absolute;
-    right: -36px;
-    font-size: 16px;
-    color: white;
-    font-weight: 600;
-}
-/*sohan css*/
-
-.input-content input {
-    height: 34px;
-    width: 360px;
-    border: 1px solid #bda177;
-    background: transparent;
-    padding: 19px;
-    font-size: 12px;
-    margin: 8px;
-    /* color: white; */
-    font-weight: 700;
-    letter-spacing: 2px;
-}
-.margin1 {
-    margin-top: 52px;
-}
-.col-md-6-pad button {
-    border-radius: 30px;
-    background: #bda177;
-    border: #bda177;
-    width: 98px;
-    text-transform: uppercase;
-    font-size: 15px;
-    color: black;
-    font-weight: 700;
-}
-.color-p1 h3 {
-    margin-top: 50px;
-    margin-bottom: 50px;
-    color: #bda177;
-}
-.button-content {
-    padding-left: 90px;
-}
-.col-md-6-pad1 {
-    position: absolute;
-    right: -36px;
-    font-size: 16px;
-    color: white;
-    font-weight: 600;
-}
-.col-md-6-pad {
-    padding-left: 70px;
-}
-.row-margin {
-    margin-top: 20px;
-}
-.home-invites {
-    background: #000000;
-    border: 1px solid #ffffff;
-    width: 350px;
-    border-radius: 30px;
-    position: relative;
-    left: 50%;
-    margin-left: -190px;
-    margin-top: 20px;
-    margin-bottom: 10px;
-}
-.home-invites p {
-    font-size: 15px;
-    color: #ffffff;
-    text-transform: uppercase;
-    font-weight: 600;
-}
-.grey{
- color:#bda177;   
-}
-.home-invites p i {
-    background: white;
-    height: 30px;
-    width: 30px;
-    -moz-border-radius: 50px;
-    -webkit-border-radius: 50px;
-    border-radius: 50px;
-    padding: 7px 9px;
-    color: #000000;
-    margin-left: 29px;
-    margin-right: 42px;
-    font-size: 20px;
-    position: relative;
-    top: 4px;
-}
-.content-newacc p {
-    color: white;
-    text-align: center;
-    font-size: 16px;
-    padding-top: 40px;
-    margin-bottom: 31px;
-    font-weight: 600;
-}
-.follow1 h5 {
-    text-align: center;
-    color: #bda177;
-    text-transform: uppercase;
-    font-size: 30px;
-    letter-spacing: 2px;
-    font-weight: 700;
-}
-.head-foot p{
-  text-align: center;
-    color: #fff;
-    text-transform: uppercase;
-    font-size: 17.42px;
-    letter-spacing: 4px;
-font-weight: 300;
-    font-style: italic;
-}
-.head-foot h4{
-  text-align: center;
-    color: #bda177;
-    text-transform: uppercase;
-    font-size: 48px;
-    letter-spacing: 14px;
-font-weight: 700;
-    padding-bottom: 40px;
-    
-}
-.follow1 h4 {
-    font-size: 17px;
-    letter-spacing: 2px;
-}
-.pad1 {
-    padding: 54px;
-}
-/*css end*/
-
-.approve p {
-    font-size: 10.66px;
-    color: #fff;
-    padding: 10px 0px 0px;
-    text-transform: uppercase;
-    font-weight: 700;
-    letter-spacing: 2px;
-}
-textarea.profiles-textarea {
-    background: transparent;
-    height: 200px;
-    width: 300px;
-}
-.mid-img2 p {
-    text-transform: uppercase;
-    font-weight: 700;
-    letter-spacing: 2px;
-    font-size: 11px;
-    color: #bda177;
-}
-.mid-img3 p {
-    text-transform: uppercase;
-    font-weight: 700;
-    letter-spacing: 2px;
-    font-size: 11px;
-    color: #bda177;
-}
-.profiles-cancel{
-    font-weight: 700;
-    margin-top: 10px;
-border-radius: none;
-background: transparent;
-border: none;
-width: 98px;
-font-size: 15px;
-color: #bda177;
-text-transform: uppercase;
-margin-bottom: 10px;
-}
-.add{
-margin-bottom: 5px;
-}
-.social-icon a{
-color:#000;
-}
-.footer-text1 a
-{
-    padding-right: 15px;
-}
-
-
-.row-minheight
-{
-    min-height: 470px;
-}
-.st-contain{
-position: relative;
-    overflow-x: hidden;
-}
-.footer-text1 a
-{
-    padding-right: 15px;
-}
-
-
-.row-minheight
-{
-    min-height: 470px;
-}
-
-
-.contents1 h5
-{
-font-size: 24px;
-text-transform: uppercase;
-color: #bda177;
-font-weight: 600;
-padding: 20px;
-letter-spacing: 3px;
-}
-
-
-.contents1 h10
-{
-font-size: 14px;
-color: white;
-font-weight: 600;
-text-transform: uppercase;
-letter-spacing: 1px;
-padding-bottom: 20px;
-}
-
-
-/*.contents-rest h5 -----------------letter-spacing: 2px;---------------*/
-
-/*--------1416  .pading1 {
-padding-top: 60px;
-}---------*/
-
-
-.content-button2 a button {
-border-radius: 30px;
-background: #bda177;
-border: #bda177;
-width: 251px;
-font-size: 18px;
-color: black;
-font-weight: 700;
-padding: 8px;
-}
-
-
-.contents-reg h3
-{
-    text-transform: uppercase;
-text-align: center;
-color: #bda177;
-font-size: 41.75px;
-letter-spacing: 6px;
-padding: 20px;
-}
-
-.contents-reg h5
-{
-    color: white;
-font-size: 17px;
-font-weight: 600;
-letter-spacing: 3px;
-text-transform: uppercase;
-padding-bottom: 15px;
-}
-
-.contents-reg h4
-{
-color:#bda177 ;
-font-size: 18px;
-letter-spacing: 3px;
-text-transform: uppercase;
-}
-
-
-.reg-invite{
-background: #000000;
-border: 1px solid #ffffff;
-width: 350px;
-border-radius: 30px;
-position: relative;
-left: 50%;
-margin-left: -190px;
-margin-top: 20px;
-margin-bottom: 10px;
-}
-
-
-.reg-invite p
-{
-    font-size: 15px;
-color: #ffffff;
-text-transform: uppercase;
-font-weight: 600;
-}
-
-.reg-invite p i {
-background: white;
-height: 32px;
-width: 32px;
--moz-border-radius: 50px;
--webkit-border-radius: 50px;
-border-radius: 50px;
-padding: 7px 9px;
-color: #000000;
-margin-left: -66px;
-margin-right: 42px;
-font-size: 20px;
-position: relative;
-top: 4px;
-}
-
-
-
-.input-age
-{
-background: black;
-width: 51px;
-height: 29px;
-outline: white;
-color: white;
-text-align: center;
-font-weight: 400;
-}
-
-
-
-select.select-sex
-{
-color: white;
-background: black;
-outline: white;
-width: 90px;
-height: 30px;
-}
-
-span.contage {
-color: #bda177;
-font-size: 18px;
-position: relative;
-top: 2px;
-padding: 4px;
-}
-
-
-.input-content1 input {
-height: 34px;
-width: 360px;
-border: 1px solid #FFFFFF;
-background: 111111;
-padding: 19px;
-font-size: 17px;
-margin: 8px;
-color: white;
-}
-
-input.cityicon {
-padding-left: 51px;
-background: #000 url("../img/location.png") 15px no-repeat;
-}
-
-
-input.emailicon {
-padding-left: 51px;
-background: #000 url("../img/envolap.png") 15px no-repeat;
-}
-
-input.usericon {
-padding-left: 51px;
-background: #000 url("../img/user.png") 15px no-repeat;
-}
-
-.input-content2 input {
-height: 60px;
-width: 360px;
-border: 1px solid #FFFFFF;
-background: 111111;
-padding: 19px;
-font-size: 17px;
-margin: 8px;
-color: white;
-}
-
-input.uploadicon {
-padding-left: 100px;
-background: #000 url("../img/uploadpic.png") 15px no-repeat;
-}
-
-.gift-head1
-{
-height: 52px;
-width: 430px;
-background: #bda177;
-text-align: center;
-align-content: center;
-position: relative;
-left: 64px;
-padding-top: 15px;
-margin-bottom: 5px;
-font-size: 20px;
-}
-
-.gift-head
-{
- position: relative;
-left: 42%;
-}
-
-
-.gift-body
-{
-height: 360px;
-width: 396px;
-background: #bda177;
-text-align: center;
-align-content: center;
-position: relative;
-left: 81px; 
-}
-
-.gift-body1 p
-{
-  font-size: 17px;
-font-weight: 600;
-margin: -6px;
-}
-
-.gift-body1
-{
-padding: 10px;
-padding-top: 40px;
-}
-
-.gift-body2 p
-{
-  font-size: 17px;
-font-weight: 600;
-margin: -6px;
-}
-
-
-.gift-body2
-{
-    padding: 12px;
-padding-bottom: 35px; 
-}
-
-.gift-body3 p
-{
-  font-size: 18.61px;
-font-weight: 600;
-margin: -6px;
-}
-
-.gift-body3
-{
-    padding: 12px;
-}
-
-.reg-social i
-{
-  background: black;
-height: 50px;
-width: 50px;
--moz-border-radius: 50px;
--webkit-border-radius: 50px;
-border-radius: 50px;
-padding: 14px 8px;
-color: #FFFFFF;
-font-size: 25px;
-margin-right: 24px;
-}
-
-.gift-body4 p
-{
-  font-size: 14px;
-font-weight: 600;
-margin: -6px;
-}
-
-.gift-body4
-{
-    padding: 25px;
-}
-
-.gift-body3
-{
-    padding: 12px;
-}
-.pad-input
-{
-padding-top: 30px;
-}
-
-.reg-policy p
-{
-font-size: 14px;
-color: white;
-font-weight: 600;
-letter-spacing: 2px;
-}
-
-.reg-policy p a
-{
-    color:#bda177;
-}
-
-.acc-pad p a
-{
-    color:#504433;
-}
-
-.pad-btm
-{
-    padding: 20px;
-}
-.pad-select
-{
-    padding: 10px;
-}
-
-.pad-right
-{
-    padding-right: 14px;
-}
-
-.pad-pad
-{
-    padding: 40px
-}
-
-
-#captcha-wrap{
-    border:solid #870500 1px;
-    width:270px;
-    -webkit-border-radius: 10px;
-    float:left;
-    -moz-border-radius: 10px;
-    border-radius: 10px;
-    background:#870500;
-    text-align:left;
-    padding:3px;
-    margin-top:3px;
-    height:100px;
-    margin-left:80px;
-}
-#captcha-wrap .captcha-box{
-    -webkit-border-radius: 7px;
-    background:#fff;
-    -moz-border-radius: 7px;
-    border-radius: 7px;
-    text-align:center;
-    border:solid #fff 1px;
-}
-#captcha-wrap .text-box{
-    -webkit-border-radius: 7px;
-    background:#ffdc73;
-    -moz-border-radius: 7px;
-    width:140px;
-    height:43px;
-    float:left;
-    margin:4px;
-    border-radius: 7px;
-    text-align:center;
-    border:solid #ffdc73 1px;
-}
- 
-#captcha-wrap .text-box input{ width:120px;}
-#captcha-wrap .text-box label{
-     color:#000000;
-     font-family: helvetica,sans-serif;
-     font-size:12px;    
-     width:150px;
-     padding-top:3px; 
-     padding-bottom:3px; 
-}
-#captcha-wrap .captcha-action{
-    float:right; width:117px; 
-    background:url(logos.jpg) top right no-repeat; 
-    height:44px; margin-top:3px;
-}
-#captcha-wrap  img#captcha-refresh{
-    margin-top:9px;
-    border:solid #333333 1px;
-    margin-right:6px;
-    cursor:pointer;
-}
-
-.index {
-position: fixed;
-width: 90%;
-z-index: 100000000;
-}
-.signin a:hover {
-    color: #bda177;
-}
-.social a:hover {
-    color: #bda177;
-}
-.blenders-invite {
-background: #bda177;
-width: 429px;
-border-radius: 30px;
-position: relative;
-left: 50%;
-margin-left: -217px;
-margin-top: 50px;
-font-weight: 700;
-}
-.blenders-invite p {
-font-size: 15px;
-color: #000000;
-padding: 10px 10px;
-text-transform: uppercase;
-font-weight: 700;
-text-shadow: none;
-}
-.carousel-indicators li {
-display: inline-block;
-width: 10px;
-height: 10px;
-margin: 1px;
-text-indent: -999px;
-cursor: pointer;
-background-color: #000 ;
-background-color: rgba(0, 0, 0, 0);
-border: 1px solid #fff;
-border-radius: 10px;
+ol.carousel-indicators {
     display: none;
 }
-.contents h7 {
-font-size: 12px;
-color: #bda177;
-text-transform: uppercase;
-font-weight: 700;
-position: relative;
-top: 35px;
-letter-spacing: 2px;
+.filter:hover .icon-text {
+    color: #bda177;
 }
-.style-position{
-margin-top:30px
+.blender-img .item a {
+    position: relative;
+    display: block;
 }
-.col-md-4.label-text {
-    padding-top: 10px;
+.filter i.fa {
+    border: 1px solid transparent;
+    width: 100px;
+    padding: 10px;
+}
+.filter i.fa:hover {
+    border: 1px solid #bda177;
+    width: 100px;
+    padding: 10px;
+}
+.filter.active i.fa {
+    border: 1px solid #bda177;
+    width: 100px;
+    padding: 10px;
+    color: #bda177;
+}
+.filter.active .icon-text
+{
+    color:#bda177;
 }
