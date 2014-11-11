@@ -26,7 +26,7 @@ $(document).ready(function () {
     
     
     function changescrollsize() {
-        $(".st-effect-11.st-menu").css("margin-top",window.scrollY+"px");
+        //$(".st-effect-11.st-menu").css("margin-top",window.scrollY+"px");
         var checkheight=$(".section").height()+40;
         if(window.scrollY>checkheight)
         {
