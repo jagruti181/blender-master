@@ -2,7 +2,7 @@
     <?php if($this->session->userdata('logged_in')) { ?>
     
      <a href="<?php echo site_url('website/profilee'); ?>"><i>profile / </i></a>
-     <a href="<?php echo site_url("website/login");?>"><i>logout</i></a>
+     <a href="<?php echo site_url("website/logout");?>"><i>logout</i></a>
     <?php } else { ?>
     
     <a href="<?php echo site_url("website/login");?>"><i>signup / </i></a>

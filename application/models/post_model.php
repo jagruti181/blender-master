@@ -23,6 +23,26 @@ class Post_model extends CI_Model
 			return  1;
 	}
     
+    public function profilepost($id)
+    {
+        $query="SELECT `user`.`id`,`user`.`firstname`,`user`.`lastname`,`user`.`email`,`user`.`uniquekey`,`user`.`contact`,`user`.`facebookuserid`,`user`.`points`,`post`.`id`,`post`.`type`,`post`.`text`,`post`.`image`,`post`.`timestamp`,`post`.`designer`,`designer`.`name`,`designer`.`image` as `proimage`
+FROM `user`
+LEFT OUTER JOIN `post` ON `post`.`user`=`user`.`id`
+LEFT OUTER JOIN `designer` ON `designer`.`id`=`post`.`designer`
+WHERE `user`.`id`='$id'";
+	   
+		$query=$this->db->query($query)->result();
+		return $query;
+    }
+    
+    public function profileuser($id)
+    {
+        $query="SELECT * FROM `user` WHERE `id`='$id'";
+	   
+		$query=$this->db->query($query)->row();
+		return $query;
+    }
+    
     public function createtext($id,$text)
     {
         $data = array(

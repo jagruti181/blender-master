@@ -38,7 +38,7 @@ class Designer_model extends CI_Model
 	}
 	function viewdesigner()
 	{
-		$query="SELECT `id`, `name`, `content`, `image`, `json`,`type` FROM `designer` ";
+		$query="SELECT * FROM `designer` ";
 	   
 		$query=$this->db->query($query)->result();
 		return $query;

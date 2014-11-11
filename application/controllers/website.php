@@ -16,7 +16,10 @@ class Website extends CI_Controller
 	}
     function profilee()
 	{
-		$data['page']="profile";
+		$user=$this->user_model->authenticate();
+        $data['page']="profile";
+        $data['posts']=$this->post_model->profilepost($user['id']);
+        $data['user']=$this->post_model->profileuser($user['id']);
 		$this->load->view("webtemplate",$data);
 	}
     function invitelist()
@@ -27,8 +30,9 @@ class Website extends CI_Controller
 	}
     function profilein()
     {
-        $data['page']="profilee";
-        $data['posts']=$this->post_model->profilepost($this->input->get('id'));
+        $user=$this->user_model->authenticate();
+        $data['page']="profile";
+        $data['posts']=$this->post_model->profilepost($user->id);
 		$this->load->view("webtemplate",$data);
     }
     function blenderstyle()
@@ -126,5 +130,11 @@ class Website extends CI_Controller
             redirect(site_url("/"));
         }
         $this->load->view('json',$data);
+    }
+    public function logout()
+    {
+        $this->session->sess_destroy();
+        redirect(site_url("/"));
+        $data['json']=true;
     }
 }
