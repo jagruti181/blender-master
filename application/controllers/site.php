@@ -2092,6 +2092,7 @@ class Site extends CI_Controller
 		{
             $name=$this->input->post('name');
             $content=$this->input->post('content');
+            $type=$this->input->post('type');
             $json=$this->input->post('json');
             
 			$config['upload_path'] = './uploads/';
@@ -2099,12 +2100,12 @@ class Site extends CI_Controller
 			$this->load->library('upload', $config);
 			$filename="image";
 			$image="";
-			if (  $this->upload->do_upload($filename))
+			if ($this->upload->do_upload($filename))
 			{
 				$uplodesignerata = $this->upload->data();
 				$image=$uplodesignerata['file_name'];
 			}
-			if($this->designer_model->create($name,$content,$json,$image)==0)
+			if($this->designer_model->create($name,$content,$json,$image,$type)==0)
 			$data['alerterror']="New designer could not be created.";
 			else
 			$data['alertsuccess']="designer created Successfully.";
@@ -2145,6 +2146,7 @@ class Site extends CI_Controller
 		{
 			$id=$this->input->post('id');
             $name=$this->input->post('name');
+            $type=$this->input->post('type');
             $content=$this->input->post('content');
             $json=$this->input->post('json');
             $config['upload_path'] = './uploads/';
@@ -2164,7 +2166,7 @@ class Site extends CI_Controller
                // print_r($image);
                 $image=$image->image;
             }
-			if($this->designer_model->edit($id,$name,$content,$json,$image)==0)
+			if($this->designer_model->edit($id,$name,$content,$json,$image,$type)==0)
 			$data['alerterror']="designer Editing was unsuccesful";
 			else
 			$data['alertsuccess']="designer edited Successfully.";

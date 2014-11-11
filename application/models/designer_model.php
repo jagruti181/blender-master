@@ -4,12 +4,13 @@ if ( !defined( 'BASEPATH' ) )
 class Designer_model extends CI_Model
 {
 	
-	public function create($name,$content,$json,$image)
+	public function create($name,$content,$json,$image,$type)
 	{
 		$data  = array(
 			'name' => $name,
 			'content' => $content,
 			'json' => $json,
+            'type' => $type,
 			'image' => $image
 		);
 		$query=$this->db->insert( 'designer', $data );
@@ -21,11 +22,12 @@ class Designer_model extends CI_Model
 			return  1;
 	}
     
-	public function edit($id,$name,$content,$json,$image)
+	public function edit($id,$name,$content,$json,$image,$type)
 	{
 		$data  = array(
 			'name' => $name,
 			'content' => $content,
+            'type' => $type,
 			'json' => $json,
 			'image' => $image
 		);
@@ -36,7 +38,7 @@ class Designer_model extends CI_Model
 	}
 	function viewdesigner()
 	{
-		$query="SELECT `id`, `name`, `content`, `image`, `json` FROM `designer` ";
+		$query="SELECT `id`, `name`, `content`, `image`, `json`,`type` FROM `designer` ";
 	   
 		$query=$this->db->query($query)->result();
 		return $query;

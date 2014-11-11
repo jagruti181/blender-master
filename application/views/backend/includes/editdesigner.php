@@ -17,7 +17,7 @@
 				<div class="form-group">
 				  <label class="col-sm-2 control-label" for="normal-field">content</label>
 				  <div class="col-sm-4">
-					<input type="numeric" id="normal-field" class="form-control" name="content" value="<?php echo set_value('content',$before->content);?>">
+                      <textarea type="numeric" id="normal-field" class="form-control" name="content"><?php echo set_value('content',$before->content);?></textarea>
 				  </div>
 				</div>
 				<div class=" form-group">
@@ -39,6 +39,23 @@
 					<input type="numeric" id="normal-field" class="form-control" name="json" value="<?php echo set_value('json',$before->json);?>">
 				  </div>
 				</div>
+              <div class="form-group">
+				  <label class="col-sm-2 control-label" for="normal-field">Type</label>
+				  <div class="col-sm-4">
+				  <?php
+				  $options = array(
+                  'des'  => 'Designer',
+                  'mus'    => 'Musician',
+                  'spe'   => 'Speaker',
+                );
+
+echo form_dropdown('type', $options, set_value('type',$before->type),"class='form-control'");
+?>
+				  
+					
+				  </div>
+				</div>
+				
 				
 				
 				<div class=" form-group">
