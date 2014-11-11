@@ -25,6 +25,12 @@ class Website extends CI_Controller
         $data['posts']=$this->post_model->invitelist();
 		$this->load->view("webtemplate",$data);
 	}
+    function profilein()
+    {
+        $data['page']="profilee";
+        $data['posts']=$this->post_model->profilepost($this->input->get('id'));
+		$this->load->view("webtemplate",$data);
+    }
     function blenderstyle()
 	{
 		$data['page']="blenderstyle";
@@ -113,8 +119,12 @@ class Website extends CI_Controller
     {
         $email=$this->input->get_post('email');
         $password=$this->input->get_post('password');
-        redirect(site_url('/'));
-        $data['message']=$this->user_model->normallogin($email,$password);
+        if($this->user_model->normallogin($email,$password)==0)
+        {
+            redirect(site_url("/website/login"));
+        }else{
+            redirect(site_url("/"));
+        }
         $this->load->view('json',$data);
     }
 }

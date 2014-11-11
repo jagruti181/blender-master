@@ -52,7 +52,7 @@
 
                 <div class="content-newacc">
                     <a href="#">
-                        <p>No Account?Create New Account</p><?php echo site_url();?>
+                        <p>No Account?Create New Account</p>
                     </a>
 
                 </div>

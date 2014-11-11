@@ -138,10 +138,10 @@ class User_model extends CI_Model
 				'logged_in' => 'true',
 			);
 			$this->session->set_userdata( $newdata );
-			return true;
+			return 1;
 		} //count( $row_array ) == 1
 		else
-			return false;
+			return 0;
     }
     
     public function facebooklogin($id,$firstname,$lastname)
@@ -456,7 +456,7 @@ INNER JOIN  `accesslevel` ON  `user`.`accesslevel` =  `accesslevel`.`id` WHERE `
     }
     function authenticate() {   
         
-        $this->session->all_userdata();
+       return $this->session->all_userdata();
         
         $is_logged_in = $this->session->userdata('logged_in');
         $is_logged_int = $this->session->all_userdata('logged_in');
