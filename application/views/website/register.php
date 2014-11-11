@@ -84,28 +84,28 @@
         </div>
                                         </div>
                                         <h5 class="text-center">enter your details below</h5>
-                                        <form method="post" action="<?php echo site_url('website/register');?>" enctype= "multipart/form-data">
+                                        <form method="post" action="<?php echo site_url('website/registeruser');?>" enctype= "multipart/form-data">
                                         <div class="input-content1 text-center">
-                                        <input value="" id="password" placeholder="NAME" type="text" class="usericon">
-                                            <input value="" id="conformPassword" placeholder="EMAIL" type="text" class="emailicon">
-                                            <input value="" id="conformPassword" placeholder="CITY" type="text" class="cityicon">
+                                        <input value="" name="name" id="password" placeholder="NAME" type="text" class="usericon">
+                                            <input value="" name="email" id="conformPassword" placeholder="EMAIL" type="text" class="emailicon">
+                                            <input value="" name="city"id="conformPassword" placeholder="CITY" type="text" class="cityicon">
                                         </div>
                                         <div class=" pad-select text-center">
                                             <span class="contage">AGE</span>
                                             <span class="pad-left">
-                                        <input type="number" placeholder="DD" name="date" min="1" max="30" class="input-age">
-                                    <input type="number"  placeholder="MM" name="date" min="1" max="12" class="input-age" >
-                                        <input type="number" placeholder="YY" name="date" min="00" max="100" class="input-age">
+                                        <input type="number" placeholder="DD" name="day" min="1" max="30" class="input-age">
+                                    <input type="number"  placeholder="MM" name="month" min="1" max="12" class="input-age" >
+                                        <input type="number" placeholder="YY" name="year" min="00" max="2040" class="input-age">
                                             </span>
                                             <span class="contage">SEX</span>
-                                            <select class="select-sex">
+                                            <select class="select-sex" name="sex">
   <option value="male">MALE</option>
   <option value="female">FEMALE</option>
                                             </select>
                                             
                                         </div>
                                           <div class="input-content2 text-center pad-btm">
-                                        <input value="" id="uploadpic" placeholder="UPLOAD PROFILE PHOTO" type="text" class="uploadicon">
+                                        <input id="uploadpic" placeholder="UPLOAD PROFILE PHOTO" name="logo" type="file" class="uploadicon">
                                         </div>
                                         <div class="text-center">
                                 <div class="gift-head">                             
@@ -146,7 +146,7 @@
                                             </div>
                                             <div class="pad-input">
                                             <div class="input-content text-center">
-                                        <input value="" id="password" placeholder="PASSWORD" type="password" class="lockicon">
+                                        <input value="" id="password" name="password" placeholder="PASSWORD" type="password" class="lockicon">
                                         <div>
                                             <input value="" id="conformPassword" placeholder="CONFIRM PASSWORD" type="password" class="lockicon">
                                         </div>
@@ -182,6 +182,7 @@
                                            <div class="reg-policy pad-btm">
                                                <p>Already have an account? <a href="#">Login</a></p>
                                             </div> 
+                                            </form>
       
                                            
                                 </div>

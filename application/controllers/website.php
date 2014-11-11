@@ -93,6 +93,34 @@ class Website extends CI_Controller
 		$this->load->view("webtemplate",$data);
     }
     
+    function registeruser()
+    {
+        $name=$this->input->get_post('name');
+        $email=$this->input->get_post('email');
+        $city=$this->input->get_post('city');
+        $day=$this->input->get_post('day');
+        $month=$this->input->get_post('month');
+        $year=$this->input->get_post('year');
+        $sex=$this->input->get_post('sex');
+        $password=$this->input->get_post('password');
+        
+        $config['upload_path'] = './uploads';
+			$config['allowed_types'] = 'gif|jpg|png|jpeg';
+			$this->load->library('upload', $config);
+			$filename="logo";
+			$logo="";
+			if (  $this->upload->do_upload($filename))
+			{
+				$uploaddata = $this->upload->data();
+				$logo=$uploaddata['file_name'];
+			}
+        if($this->user_model->registeruser($name,$email,$city,$day,$month,$year,$sex,$password,$logo)==0)
+			redirect(site_url("/website/register"));
+			else
+			redirect(site_url("/"));
+        $this->load->view("webtemplate",$data);
+    }
+    
     function profilepage()
 	{
         
