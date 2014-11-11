@@ -33,6 +33,28 @@
 <!-- Add fancyBox -->
 <link rel="stylesheet" href="<?php echo base_url("webassets");?>/fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
 
+<!--facebook integration-->
+
+<script src="<?php echo base_url("webassets");?>/js/jquery.min.js"></script>
+    <script>
+        var site_url="<?php echo site_url();?>";
+        var base_url="<?php echo base_url();?>";
+        window.twttr = (function (d, s, id) {
+            var t, js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "https://platform.twitter.com/widgets.js";
+            fjs.parentNode.insertBefore(js, fjs);
+            return window.twttr || (t = {
+                _e: [],
+                ready: function (f) {
+                    t._e.push(f)
+                }
+            });
+        }(document, "script", "twitter-wjs"));
+    </script>
+
 
 </head>
 

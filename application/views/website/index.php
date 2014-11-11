@@ -273,17 +273,18 @@ the Blenders Pride Fashion Tour 2014 with <span class="gold">#BPMYSTYLE</span></
                         <?php } if($post->text!=""){ ?>
 
                         <div class="panel-body body-text">
-                            <p>
-                                <?php echo $post->text;?></p>
+                            <p class="testing"><?php echo $post->text;?>++++++</p>
                         </div>
                         <?php } ?>
 
                         <div class="panel-footer">
                             <div class="pull-right">
-                                <a href="#"><i class="fa fa-facebook"></i></a>
-                                <a href="#"><i class="fa fa-twitter"></i></a>
+                                <a href="" class="sharee"><i class="fa fa-facebook"></i></a>
+                                <a href="" class="twitterbutton"></a>
+<!--
                                 <a href="#"> <i class="fa fa-google-plus"></i>
                                 </a>
+-->
                             </div>
                             <div class="clearfix"></div>
                         </div>
@@ -330,3 +331,10 @@ the Blenders Pride Fashion Tour 2014 with <span class="gold">#BPMYSTYLE</span></
         </div>
     </div>
 </div>
+
+    <script>
+        
+        //twitter integration
+       
+        
+    </script>
