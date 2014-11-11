@@ -203,11 +203,11 @@ class User_model extends CI_Model
     public function registeruser($name,$email,$city,$day,$month,$year,$sex,$password,$logo)
     {
         $password=md5($password);
-        $dob=$year+"-"+$month+"-"+$day;
+        echo $dob=$year+"-"+$month+"-"+$day;
         $query=$this->db->query("SELECT `id` FROM `user` WHERE `email`='$email'");
         if($query->num_rows == 0)
         {
-            $this->db->query("INSERT INTO `user`(`firstname`, `lastname`, `password`, `email`, `uniquekey`, `contact`, `accesskey`, `accesslevel`, `timestamp`, `facebookuserid`, `status`, `twitter`, `instagram`, `lastlogin`, `loginby`, `points`,`logo`,`dob`,'city','gender') VALUES ('$name',NULL,'$password','$email',NULL,NULL,NULL,NULL,CURRENT_TIMESTAMP,NULL,NULL,NULL,NULL,NULL,0,5,'$logo','$dob','$city','$sex')");
+            $this->db->query("INSERT INTO `user`(`firstname`, `lastname`, `password`, `email`, `uniquekey`, `contact`, `accesskey`, `accesslevel`, `timestamp`, `facebookuserid`, `status`, `twitter`, `instagram`, `lastlogin`, `loginby`, `points`,`logo`,`dob`,`city`,`gender`) VALUES ('$name',NULL,'$password','$email',NULL,NULL,NULL,NULL,CURRENT_TIMESTAMP,NULL,NULL,NULL,NULL,NULL,0,5,'$logo','$dob','$city','$sex')");
             $user=$this->db->insert_id();
             $newdata = array(
                 'id'     => $user,
