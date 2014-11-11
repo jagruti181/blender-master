@@ -25,7 +25,6 @@ body,
 
 .st-container {
 	position: relative;
-	overflow: hidden;
 }
 
 .st-pusher {
@@ -165,6 +164,7 @@ body,
 	transition: transform 0.5s;
 	-webkit-transform: translate3d(0, 0, 0);
 	transform: translate3d(0, 0, 0);
+	position: fixed;
 }
 
 .st-effect-11.st-menu::after {

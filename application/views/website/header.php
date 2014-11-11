@@ -11,8 +11,8 @@
 
     <!-- Bootstrap core CSS -->
     <link href="<?php echo base_url("webassets");?>/css/bootstrap.css" rel="stylesheet">
-    <link href="<?php echo base_url("webassets");?>/css/style.css" rel="stylesheet">
     <link href="<?php echo base_url("webassets");?>/css/style1.css" rel="stylesheet">
+    <link href="<?php echo base_url("webassets");?>/css/style.css" rel="stylesheet">
     <link href="<?php echo base_url("webassets");?>/css/font-awesome.min.css" rel="stylesheet">
     <link href="<?php echo base_url("webassets");?>/fonts/flaticon.css" rel="stylesheet">
     <link href="<?php echo base_url("webassets");?>/css/dropzone.css" rel="stylesheet">

@@ -1,4 +1,19 @@
-<div>
+<div class="st-container" id="st-container">
+   <nav class="st-menu st-effect-11" id="menu-11">
+
+                <ul>
+                    <li><a class="" href="#">SCHEDULE</a>
+                    </li>
+                    <li><a class="" href="<?php echo site_url('website/blenderstyle'); ?>">STYLE BLENDERS</a>
+                    </li>
+                    <li><a class="" href="<?php echo site_url('website/invitelist'); ?>">INVITE LIST</a>
+                    </li>
+                    <li><a class="" href="#">ARCHIVE SITE</a>
+                    </li>
+
+                </ul>
+            </nav>
+            <div class="st-pusher">
     <div class="section intro">
         <div class="container">
             <div class="content-center">
@@ -16,31 +31,18 @@
     <div class="space">
 
     </div>
-    <div class="st-container" id="st-container">
+    
 
         <div class="section home">
 
-            <nav class="st-menu st-effect-11" id="menu-11">
-
-                <ul>
-                    <li><a class="" href="#">SCHEDULE</a>
-                    </li>
-                    <li><a class="" href="<?php echo site_url('website/blenderstyle'); ?>">STYLE BLENDERS</a>
-                    </li>
-                    <li><a class="" href="<?php echo site_url('website/invitelist'); ?>">INVITE LIST</a>
-                    </li>
-                    <li><a class="" href="#">ARCHIVE SITE</a>
-                    </li>
-
-                </ul>
-            </nav>
-            <div class="st-pusher">
+            
+            
                 <div class="st-content-inner">
                     <div class="st-content">
                         <div class="container">
 
 
-                            <div class="row">
+                            <div class="row blendertopmenu">
                                 <div class="col-md-5">
                                     <div class="menu" id="st-trigger-effects">
                                         <button data-effect="st-effect-11">
@@ -56,7 +58,7 @@
                                     <div class="navbar-header">
 
                                         <a class="navbar-brands" href="#">
-                                    <img src="<?php echo base_url("webassets");?>/img/logo.png" alt="bootstrapwizard logo">
+                                    <img src="<?php echo base_url("webassets");?>/img/logo.png" class="mainlogo" alt="bootstrapwizard logo">
                                 </a>
                                     </div>
                                 </div>
@@ -71,7 +73,9 @@
                                 </div>
 
                             </div>
-                            <div class="row">
+                            <div class="row" style="
+    margin-top: 135px;
+">
                                 <div class="col-md-3"></div>
                                 <div class="col-md-6">
                                     <div class="contents">
@@ -101,9 +105,9 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            
         </div>
-    </div>
+   
     <div class="mid-content">
         <div class="container">
 
@@ -331,6 +335,7 @@ the Blenders Pride Fashion Tour 2014 with <span class="gold">#BPMYSTYLE</span></
         </div>
     </div>
 </div>
+    </div>
 
     <script>
         

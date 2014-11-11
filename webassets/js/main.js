@@ -1,4 +1,5 @@
 $(document).ready(function () {
+   
     $(".section").css("min-height", $(window).height());
     $(window).resize(function () {
         $(".section").css("min-height", $(window).height());
@@ -21,7 +22,29 @@ $(document).ready(function () {
         }
         return false;
     });
-
+    
+    
+    
+    function changescrollsize() {
+        $(".st-effect-11.st-menu").css("margin-top",window.scrollY+"px");
+        var checkheight=$(".section").height()+40;
+        if(window.scrollY>checkheight)
+        {
+            $(".blendertopmenu").addClass("isfixed");
+            $(".blendertopmenu").width($(".container").width());
+        }
+        else
+        {
+            $(".blendertopmenu").removeClass("isfixed");
+            $(".blendertopmenu").width($(".container").width());
+        }
+        
+    }
+    $(window).scroll(function() {
+      changescrollsize();
+        
+    });
+     changescrollsize();
 
 
     $(".posts .panel .sharee").click(function () {
