@@ -86,6 +86,13 @@ class Website extends CI_Controller
         $data['before']=$this->designer_model->beforeedit($this->input->get('id'));
 		$this->load->view("webtemplate",$data);
 	}
+    
+    function register()
+    {
+        $data['page']="register";
+		$this->load->view("webtemplate",$data);
+    }
+    
     function profilepage()
 	{
         
@@ -114,6 +121,18 @@ class Website extends CI_Controller
         $data['message']=$this->user_model->twitterlogin();
 		$this->load->view("json",$data);
     }
+    function twittershare()
+    {
+        $points=$this->input->get_post('points');
+        $data['message']=$this->user_model->twittershare($points);
+		$this->load->view("json",$data);
+    }
+    function facebookpoints()
+    {
+        $points=$this->input->get_post('points');
+        $data['message']=$this->user_model->facebookpoints($points);
+		$this->load->view("json",$data);
+    }
     public function authenticate()
     {
         $data['message']=$this->user_model->authenticate();
@@ -131,6 +150,16 @@ class Website extends CI_Controller
         }
         $this->load->view('json',$data);
     }
+    
+    public function facebookshare()
+    {
+        $data["url"]=$this->input->get("url");
+        $data["title"]=$this->input->get("title");
+        $data["des"]=$this->input->get("des");
+        $data["img"]=$this->input->get("img");
+        $this->load->view("facebookshare",$data);
+    }
+    
     public function logout()
     {
         $this->session->sess_destroy();

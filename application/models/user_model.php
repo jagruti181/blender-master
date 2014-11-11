@@ -179,6 +179,27 @@ class User_model extends CI_Model
         }
          
     }
+    
+    public function twittershare($points)
+    {
+        $twtdata=$this->session->all_userdata();
+		$query=$this->db->query("UPDATE `user` SET `points`=`points`+'$points' WHERE `id`='".$twtdata['id']."'");
+		if(!$query)
+			return  0;
+		else
+			return  1;
+    }
+    
+    public function facebookpoints($points)
+    {
+        $twtdata=$this->session->all_userdata();
+		$query=$this->db->query("UPDATE `user` SET `points`=`points`+'$points' WHERE `id`='".$twtdata['id']."'");
+		if(!$query)
+			return  0;
+		else
+			return  1;
+    }
+    
     public function twitterlogin()
     {
         $twtdata=$this->session->all_userdata();

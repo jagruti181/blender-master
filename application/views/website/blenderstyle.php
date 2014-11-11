@@ -221,7 +221,7 @@ $i=0;
                 
             ?>
             <div class="col-md-3 item <?php echo $post->type?>">
-                <a href="<?php echo site_url('website/profile?id=').$post->id;?>"><img src="<?php echo base_url("webassets");?>/img/<?php echo $post->image;?>" style="width:100%;">
+                <a href="<?php echo site_url('website/profile?id=').$post->id;?>"><img src="<?php echo base_url("uploads");?>/<?php echo $post->image;?>" style="width:100%;">
                      <h2><?php echo $post->name;?></h2><br>
                      <h3>Designer</h3></a> 
             </div>

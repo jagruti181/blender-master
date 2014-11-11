@@ -1,5 +1,5 @@
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="<?php echo base_url("webassets");?>/js/jquery.min.js"></script>
+
 <!-- compiled and minified Bootstrap JavaScript -->
 <script src="<?php echo base_url("webassets");?>/js/bootstrap.min.js"></script>
 

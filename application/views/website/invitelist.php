@@ -67,10 +67,10 @@
 
                         <div class="panel-footer">
                             <div class="pull-right">
-                                <a href="#"><i class="fa fa-facebook"></i></a>
-                                <a href="#"><i class="fa fa-twitter"></i></a>
-                                <a href="#"> <i class="fa fa-google-plus"></i>
-                                </a>
+                                <a href="" class="sharee"><i class="fa fa-facebook"></i></a>
+                                <a href="" class="twitterbutton"></a>
+                                <!-- <a href="#"> <i class="fa fa-google-plus"></i>
+                                </a> -->
                             </div>
                             <div class="clearfix"></div>
                         </div>
