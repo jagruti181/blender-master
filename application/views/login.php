@@ -28,7 +28,40 @@
 
   <body class="login-body">
 
-    
+    <div class="container">
+
+      <form class="form-signin" method="post" action="<?php echo site_url('login/validate') ;?>">
+	  <?php if(isset($alerterror)) { ?>
+            <div class="alert alert-danger">
+            <?php echo $alerterror;	?>
+            </div>
+            <?php } ?>
+        <h2 class="form-signin-heading">sign in now</h2>
+        <div class="login-wrap">
+            <input type="text" class="form-control" placeholder="User ID" autofocus name="username">
+            <input type="password" class="form-control" placeholder="Password" name="password">
+            <label class="checkbox">
+                <input type="checkbox" value="remember-me"> Remember me
+                <span class="pull-right"> <a href="#"> Forgot Password?</a></span>
+            </label>
+            <button class="btn btn-lg btn-login btn-block" type="submit">Sign in</button>
+            <!--<p>or you can sign in via social network</p>
+            <div class="login-social-link">
+                <a href="index.html" class="facebook">
+                    <i class="icon-facebook"></i>
+                    Facebook
+                </a>
+                <a href="index.html" class="twitter">
+                    <i class="icon-twitter"></i>
+                    Twitter
+                </a>
+            </div>-->
+
+        </div>
+
+      </form>
+
+    </div>
 
 
   </body>
