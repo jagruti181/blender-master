@@ -67,13 +67,13 @@
                                         
                                    <div class="reg-invite text-center">
     
-                                    <a href="#">
+                                    <a href="#" class="facebooklogin">
                                         <p> <i class="fa fa-facebook"></i> SIGN IN WITH FACEBOOK</p>
                                     </a>
                                 </div>
                 <div class="reg-invite text-center">
     
-                                    <a href="#">
+                                    <a href="<?php echo site_url("twitter/auth");?>">
                                         <p> <i class="fa fa-twitter"></i> SIGN IN WITH TWITTER</p>
                                     </a>
                                 </div>
