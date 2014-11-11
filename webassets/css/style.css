@@ -770,6 +770,7 @@ i.fa.fa-microphone:hover {
     position: absolute;
     bottom: 38px;
     width: 100%;
+    left: 0px;
 }
 .blender-img h3 {
     text-align: center;
@@ -782,6 +783,7 @@ i.fa.fa-microphone:hover {
     position: absolute;
     bottom: 16px;
     width: 100%;
+    left: 0px;
 }
 .blender-bottom .blend {
     background: transparent;
@@ -1342,13 +1344,8 @@ ol.carousel-indicators {
 .blender-img .item a {
     position: relative;
     display: block;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-    height: 367px;
->>>>>>> origin/master
-=======
->>>>>>> f604b7d436dd5474b4f78a4ee2da6ef3be6cad72
+    <<<<<<< HEAD <<<<<<< HEAD=======height: 367px;
+    >>>>>>> origin/master=======>>>>>>> f604b7d436dd5474b4f78a4ee2da6ef3be6cad72
 }
 .filter i.fa {
     border: 1px solid transparent;
@@ -1381,8 +1378,18 @@ ol.carousel-indicators {
     position: absolute;
 }
 .isfixed img.mainlogo {
-    opacity:0.01;
+    opacity: 0.01;
 }
 img.mainlogo {
-    -webkit-transition:all 1s;
+    -webkit-transition: all 1s;
+}
+.col-md-3.item {
+    float: none;
+    height: 390px;
+}
+h8 {
+    color: white;
+    text-shadow: none;
+    padding: 6px;
+    display: block;
 }
