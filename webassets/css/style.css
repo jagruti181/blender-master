@@ -758,7 +758,6 @@ i.fa.fa-microphone:hover {
     margin-top: 40px;
     width: 100%;
     position: relative;
-    height: 367px;
 }
 .blender-img h2 {
     text-align: center;
@@ -1344,9 +1343,12 @@ ol.carousel-indicators {
     position: relative;
     display: block;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     height: 367px;
 >>>>>>> origin/master
+=======
+>>>>>>> f604b7d436dd5474b4f78a4ee2da6ef3be6cad72
 }
 .filter i.fa {
     border: 1px solid transparent;
@@ -1364,7 +1366,23 @@ ol.carousel-indicators {
     padding: 10px;
     color: #bda177;
 }
-.filter.active .icon-text
-{
-    color:#bda177;
+.filter.active .icon-text {
+    color: #bda177;
+}
+.blendertopmenu.isfixed {
+    position: fixed;
+    top: 0px;
+    z-index: 10000;
+    background: rgba(0, 0, 0, 0.37);
+    border-radius: 0 0 10px 10px;
+    height: 48px;
+}
+.blendertopmenu {
+    position: absolute;
+}
+.isfixed img.mainlogo {
+    opacity:0.01;
+}
+img.mainlogo {
+    -webkit-transition:all 1s;
 }
