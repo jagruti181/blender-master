@@ -837,11 +837,9 @@ i.fa.fa-microphone:hover {
     width: 300px;
     border-radius: 30px;
     position: relative;
-    left: 50%;
-    margin-left: -150px;
-    margin-top: 25px;
     border: 1px solid #bda177;
-    margin-bottom: 50px;
+    margin: 0 auto;
+    margin-top: 40px;
 }
 .blender-bottom p {
     font-size: 10.66px;

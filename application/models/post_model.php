@@ -111,7 +111,7 @@ LEFT OUTER JOIN `designer` ON `designer`.`id`=`post`.`designer`";
 	}
 	function invitelist()
 	{
-		$query="SELECT `designer`.`name`,`designer`.`content`,`designer`.`image` as `logo`,`post`.`id`,`post`.`text`,`post`.`image`,`post`.`totalshare`,`post`.`timestamp`,`post`.`designer` FROM `designer` LEFT OUTER JOIN `post` ON `post`.`designer`=`designer`.`id` ORDER BY `post`.`timestamp` DESC LIMIT 0,20";
+		$query="SELECT `designer`.`name`,`designer`.`content`,`designer`.`image` as `logo`,`post`.`id`,`post`.`text`,`post`.`image`,`post`.`totalshare`,`post`.`timestamp`,`post`.`designer` FROM `post` LEFT OUTER JOIN `designer` ON `post`.`designer`=`designer`.`id` ORDER BY `post`.`timestamp` DESC LIMIT 0,20";
 	   
 		$query=$this->db->query($query)->result();
 		return $query;

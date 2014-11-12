@@ -786,15 +786,6 @@ i.fa.fa-microphone:hover {
     left: 0px;
 }
 .blender-bottom .blend {
-    background: transparent;
-    width: 300px;
-    border-radius: 30px;
-    position: relative;
-    left: 50%;
-    margin-left: -150px;
-    margin-top: 25px;
-    border: 1px solid #bda177;
-    margin-bottom: 50px;
 }
 .blender-bottom p {
     font-size: 10.66px;
@@ -1393,4 +1384,8 @@ h8 {
 }
 .row.topleave {
     margin-top: 70px;
+}
+.blender-bottom .blend p {
+color: white;
+padding: 10px 0 0;
 }
