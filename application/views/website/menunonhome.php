@@ -20,7 +20,7 @@
             <div class="st-content-inner">
                  
                 <div class="st-content" >
-                  <div class="reset" >
+                  <div class=" <?php if(isset($nobackbackground)) { echo $nobackbackground; } else {echo "reset";} ?>" >
                         <div class="container">
 
 

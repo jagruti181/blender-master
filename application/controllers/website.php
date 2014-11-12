@@ -26,6 +26,7 @@ class Website extends CI_Controller
 	{
 		$data['page']="invitelist";
         $data['posts']=$this->post_model->invitelist();
+        $data["nobackbackground"]="style-blender";
 		$this->load->view("webtemplatenonhome",$data);
 	}
     function profilein()
@@ -39,6 +40,7 @@ class Website extends CI_Controller
 	{
 		$data['page']="blenderstyle";
         $data['posts']=$this->designer_model->viewdesigner();
+        $data["nobackbackground"]="true";
 		$this->load->view("webtemplatenonhome",$data);
 	}
     function profile()

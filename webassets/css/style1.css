@@ -33,8 +33,9 @@
     background-size: cover;
 }
 .style-blender {
-    background: #000 url(../img/bg7.jpg) no-repeat center center;
-    background-size: cover;
+    background: #000 url(../img/bg7.jpg) no-repeat top;
+    background-size: 100% auto;
+    background-position-y: 50px;
 }
 .hyderabad {
     background: #000 url(../img/hyderabad.jpg) no-repeat fixed center center;
