@@ -1,5 +1,3 @@
-
-
 $(document).ready(function () {
     
     $(".closeblender").click(function() {
@@ -125,10 +123,11 @@ $(document).ready(function () {
         }
 
     }
+    
     $(window).scroll(function () {
         changescrollsize();
-
     });
+    
     changescrollsize();
 
 
