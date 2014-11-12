@@ -1,5 +1,5 @@
 
-        <div class="section">
+<!--        <div class="section">-->
             <a class="" href="#" data-slide="">
             <img src="<?php echo base_url("webassets");?>/img/pre_button.png" class="pre-pos">
         </a>
@@ -38,4 +38,4 @@
                     </div>
               
             </div>
-        </div>
+<!--        </div>-->

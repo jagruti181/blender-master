@@ -46,7 +46,7 @@ class Website extends CI_Controller
         
 		$data['page']="profilepage";
         $data['before']=$this->designer_model->beforeedit($this->input->get('id'));
-		$this->load->view("webtemplate",$data);
+		$this->load->view("webtemplatenonhome",$data);
 	}
     function textpost()
     {
