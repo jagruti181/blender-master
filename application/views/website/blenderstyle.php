@@ -227,9 +227,44 @@ $i=0;
                 </div>
             </a>
         </div>
+        <div class="row profile-text">
+                <div class="col-md-6">  
+                        <div class="profile-edit">
+                            <h5>submit text</h5> 
+                            <form method="post" action="http://www.bpft.in/blender-master/index.php/website/textpost" enctype="multipart/form-data">
+<input type="hidden" name="id" value="5">
+<textarea name="text" value="" id="comments" class="profile-textarea">
+</textarea><br>
+<input type="submit" value="Submit" class="profile-submit"><br>
+<button type="reset" value="Reset" class="profile-cancel">cancel</button>
+</form>
+                        </div>
+                </div>
+                <div class="col-md-6">
+                                        
+                        <div class="profile-image">
+                            
+                            <span>or</span>
+                        
+                            <h5>submit photo</h5> 
+                            <form method="post" action="http://www.bpft.in/blender-master/index.php/website/imagepost" enctype="multipart/form-data" class="dropzone" id="my-awesome-dropzone">
+<input type="hidden" name="id" value="5">
+<input type="file" id="normal-field" class="form-control" name="logo" value="">
+
+<input type="submit" value="Submit" class="profile-submit"><br>
+<button type="reset" value="Reset" class="profile-cancel">cancel</button>
+
+<div class="dz-default dz-message"><span>Drop files here to upload</span></div>
+                           </form>
+                        </div>
+                        </div>
+           </div>
 
     </div>
            </div></div>
+           
+           
+           
     </div>
 </div>
 <div><div><div>

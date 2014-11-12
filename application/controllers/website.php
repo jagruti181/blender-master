@@ -87,10 +87,13 @@ class Website extends CI_Controller
     }
     function profileedit()
 	{
-        
+        if(!$this->session->userdata('logged_in'))
+        {
+            redirect(site_url("website/login"), 'refresh');
+        }
 		$data['page']="profileedit";
         $data['before']=$this->designer_model->beforeedit($this->input->get('id'));
-		$this->load->view("webtemplate",$data);
+		$this->load->view("webtemplatenonhome",$data);
 	}
     function schedule()
 	{
@@ -167,6 +170,7 @@ class Website extends CI_Controller
 		$this->load->view("webtemplatenonhome",$data);
         
 	}
+    
     function resetpswd()
 	{
 		$data['page']="resetpswd";
