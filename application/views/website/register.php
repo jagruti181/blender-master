@@ -20,7 +20,7 @@
         <div class="st-content-inner">
             <div class="st-content">
                 <div class="section reset" style="min-height: 471px;">
-                    <div class="row">
+                    <div class="row" style="zoom:0.7">
 
 
                         <!-- <div class="row index">
@@ -103,7 +103,7 @@
                                             </select>
 
                                         </div>
-                                        <div class="input-content2 text-center pad-btm" style="margin-left: 13%;">
+                                        <div class="input-content2 text-center pad-btm">
                                             <input id="uploadpic" placeholder="UPLOAD PROFILE PHOTO" name="logo" type="file" class="uploadicon" required>
                                         </div>
                                         <div class="text-center">

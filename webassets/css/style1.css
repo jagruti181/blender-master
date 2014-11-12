@@ -1813,7 +1813,7 @@ padding-top: 60px;
     background: black;
     width: 51px;
     height: 29px;
-    outline: white;
+    border: 1px solid white;
     color: white;
     text-align: center;
     font-weight: 400;
@@ -1858,10 +1858,10 @@ input.usericon {
     height: 60px;
     width: 360px;
     border: 1px solid #FFFFFF;
-    background: 111111;
+    margin: 0 auto;
     padding: 19px;
     font-size: 17px;
-    margin: 8px;
+    /* margin: 8px; */
     color: white;
 }
 input.uploadicon {
