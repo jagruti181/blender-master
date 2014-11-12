@@ -269,7 +269,7 @@ a {
     font-weight: 700;
     letter-spacing: 2px;
 }
-.blender-bottom h7 {
+.blender-bottom .h7 {
     font-weight: 700;
     font-size: 12px;
     color: #bda177;
@@ -1421,4 +1421,7 @@ text-transform: uppercase;
 }
 .hyderabad-name .name-icon {
     padding-left: 10px;
+}
+.item .img-responsive {
+width: 100%;
 }

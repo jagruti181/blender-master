@@ -22,17 +22,20 @@
 
 <header id="myCarousel" class="carousel slide">
                         <!-- Indicators -->
+<!--
                         <ol class="carousel-indicators">
                             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
                             <li data-target="#myCarousel" data-slide-to="1" class=""></li>
                             <li data-target="#myCarousel" data-slide-to="2" class=""></li>
                         </ol>
+-->
 
                         <!-- Wrapper for Slides -->
                         <div class="carousel-inner">
+                           
                             <div class="item active">
                                 <!-- Set the first background image using inline CSS below. -->
-                                <img src="<?php echo base_url("webassets")?>/img/bg3.jpg" class="fill">
+                                <img src="<?php echo base_url("webassets")?>/img/slider/Midival-Punditz.jpg" class="fill">
                                 <div class="carousel-caption">
                                     <div class="blender-bottom">
                                         <div class="music text-center">
@@ -40,8 +43,8 @@
                                                 <img src="<?php echo base_url("webassets")?>/img/music.png" alt="">
                                             </a>
                                         </div>
-                                        <h5>karsh kale</h5>
-                                        <h6>Musician </h6>
+                                        <h5>Midival Punditz</h5>
+                                        <h6>Musician</h6>
 
                                         <a href="#">
                                             <div class="style-text">
@@ -59,9 +62,10 @@
                                     </div>
                                 </div>
                             </div>
+                            
                             <div class="item">
                                 <!-- Set the second background image using inline CSS below. -->
-                                <img src="<?php echo base_url("webassets")?>/img/bg3.jpg" class="fill">
+                                <img src="<?php echo base_url("webassets")?>/img/slider/Rocky-S.jpg" class="fill">
                                 <div class="carousel-caption">
                                     <div class="blender-bottom">
                                         <div class="music text-center">
@@ -69,8 +73,8 @@
                                                 <img src="<?php echo base_url("webassets")?>/img/music.png" alt="">
                                             </a>
                                         </div>
-                                        <h5>karsh kale</h5>
-                                        <h6>Musician </h6>
+                                        <h5>Rocky Star</h5>
+                                        <h6>Designer</h6>
 
                                         <a href="#">
                                             <div class="style-text">
@@ -90,7 +94,7 @@
                             </div>
                             <div class="item">
                                 <!-- Set the third background image using inline CSS below. -->
-                                <img src="<?php echo base_url("webassets")?>/img/bg3.jpg" class="fill">
+                                <img src="<?php echo base_url("webassets")?>/img/slider/Little-Shilpa.jpg" class="fill">
                                 <div class="carousel-caption">
                                     <div class="blender-bottom">
                                         <div class="music text-center">
@@ -98,8 +102,37 @@
                                                 <img src="<?php echo base_url("webassets")?>/img/music.png" alt="">
                                             </a>
                                         </div>
-                                        <h5>karsh kale</h5>
-                                        <h6>Musician </h6>
+                                        <h5>Little Shilpa</h5>
+                                        <h6>Designer</h6>
+
+                                        <a href="#">
+                                            <div class="style-text">
+
+                                                <p>choose this style blender</p>
+
+
+                                            </div>
+                                        </a>
+                                        <a href="#">
+                                            <div class="content-center blend">
+                                                <p>VIEW ALL THE STYLE BLENDERS</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                               <div class="item">
+                                <!-- Set the third background image using inline CSS below. -->
+                                <img src="<?php echo base_url("webassets")?>/img/slider/Karsh-Kale.jpg" class="fill">
+                                <div class="carousel-caption">
+                                    <div class="blender-bottom">
+                                        <div class="music text-center">
+                                            <a href="#">
+                                                <img src="<?php echo base_url("webassets")?>/img/music.png" alt="">
+                                            </a>
+                                        </div>
+                                        <h5>Karsh Kale</h5>
+                                        <h6>Musician</h6>
 
                                         <a href="#">
                                             <div class="style-text">
