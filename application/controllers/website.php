@@ -167,6 +167,48 @@ class Website extends CI_Controller
 		$this->load->view("webtemplatenonhome",$data);
         
 	}
+    function resetpswd()
+	{
+		$data['page']="resetpswd";
+        $data['posts']=$this->designer_model->viewdesigner();
+		$this->load->view("webtemplatenonhome",$data);
+        
+	}
+    function resetlogin()
+	{
+		$data['page']="resetlogin";
+        $data['posts']=$this->designer_model->viewdesigner();
+		$this->load->view("webtemplatenonhome",$data);
+        
+	}
+    function resetemail()
+	{
+		$data['page']="resetemail";
+        $data['posts']=$this->designer_model->viewdesigner();
+		$this->load->view("webtemplatenonhome",$data);
+        
+	}
+    function resethome()
+	{
+		$data['page']="resethome";
+        $data['posts']=$this->designer_model->viewdesigner();
+		$this->load->view("webtemplatenonhome",$data);
+        
+	}
+    function thankyou()
+	{
+		$data['page']="thankyou";
+        $data['posts']=$this->designer_model->viewdesigner();
+		$this->load->view("webtemplatenonhome",$data);
+        
+	}
+    function termscondition()
+	{
+		$data['page']="termscondition";
+        $data['posts']=$this->designer_model->viewdesigner();
+		$this->load->view("webtemplatenonhome",$data);
+        
+	}
     function facebooklogin()
     {
         $id=$this->input->get_post('id');
