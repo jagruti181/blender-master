@@ -40,7 +40,7 @@
                                     <div class="navbar-header">
 
                                         <a class="navbar-brands" href="#">
-                                            <img src="<?php echo base_url("webassets");?>/img/logo.png" alt="bootstrapwizard logo" height=85>
+                                            <img src="<?php echo base_url("webassets");?>/img/logo.png" alt="bootstrapwizard logo" >
                                         </a>
                                     </div>
                                 </div>
