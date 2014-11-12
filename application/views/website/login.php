@@ -37,18 +37,19 @@
                 <div class="text-center color-p1">
                     <h3>-&nbsp;OR&nbsp;-</h3> 
                 </div>
-                <div class="home-invite">
+                <div class="reg-invite text-center">
 
-                    <a href="#" class="facebooklogin">
-                        <p> <i class="fa fa-facebook"></i> SIGN IN WITH FACEBOOK</p>
-                    </a>
-                </div>
-                <div class="home-invite">
+                                        <a href="#" class="facebooklogin">
+                                            <p> <i class="fa fa-facebook"></i> SIGN IN WITH FACEBOOK</p>
+                                        </a>
+                                    </div>
+                                    <div class="reg-invite text-center">
 
-                    <a href="<?php echo site_url(" twitter/auth ");?>">
-                        <p> <i class="fa fa-twitter"></i> SIGN IN WITH TWITTER</p>
-                    </a>
-                </div>
+                                        <a href="<?php echo site_url("twitter/auth");?>">
+                                            <p> <i class="fa fa-twitter"></i> SIGN IN WITH TWITTER</p>
+                                        </a>
+                                    </div>
+                
 
                 <div class="reg-policy pad-btm text-center">
                                                

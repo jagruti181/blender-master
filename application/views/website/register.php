@@ -72,7 +72,7 @@
                                     </div>
                                     <div class="reg-invite text-center">
 
-                                        <a href="<?php echo site_url(" twitter/auth ");?>">
+                                        <a href="<?php echo site_url("twitter/auth");?>">
                                             <p> <i class="fa fa-twitter"></i> SIGN IN WITH TWITTER</p>
                                         </a>
                                     </div>

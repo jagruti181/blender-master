@@ -199,13 +199,12 @@ a {
     background: #bda177;
     width: 300px;
     border-radius: 30px;
-    position: relative;
     /* left: 50%; */
     /* margin-left: -130px; */
     /* margin-top: 20px; */
     /* margin-bottom: 100px; */
-    margin: 70px auto;
-    bottom: 56px;
+    margin: 40px auto;
+    /* bottom: 55px; */
 }
 .contents .home-invite p {
     font-size: 15px;
