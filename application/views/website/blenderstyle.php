@@ -230,7 +230,7 @@ $i=0;
             </a>
             </div>
         </div>
-        <div class="profile-text part2" style="display:none;margin-top:0px;">
+        <div class="profile-text part2" style="display:none;margin-top:0px;margin-left:18px;">
                 <div class="col-md-6">  
                         <div class="profile-edit">
                             <h5>submit text</h5> 
@@ -271,3 +271,8 @@ $i=0;
     </div>
 </div>
 <div><div><div>
+
+
+<script>
+    var isloggedin="<?php if(isset($isloggedin)) {echo $isloggedin};?>";
+</script>
