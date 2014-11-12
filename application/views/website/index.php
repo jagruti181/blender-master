@@ -57,7 +57,7 @@
                                 <div class="col-md-3">
                                     <div class="navbar-header">
 
-                                        <a class="navbar-brands" href="#">
+                                        <a class="navbar-brands" href="<?php echo site_url(); ?>">
                                     <img src="<?php echo base_url("webassets");?>/img/logo.png" class="mainlogo" alt="bootstrapwizard logo">
                                 </a>
                                     </div>

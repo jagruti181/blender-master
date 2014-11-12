@@ -1,6 +1,6 @@
 <div class="foot">
                                         <div class="content-center footer-text">
-                                            <p> <a href="#">Terms & Conditions</a>
+                                            <p> <a href="<?php echo site_url('website/termscondition'); ?>">Terms &amp; Conditions</a>
                                                 <a href="#">Privacy Policy</a> 
                                                 <a href="#">Contact us</a> 
                                             </p>

@@ -50,12 +50,11 @@
                     </a>
                 </div>
 
-                <div class="content-newacc">
-                    <a href="<?php echo site_url("website/register"); ?>">
-                        <p>No Account? Create New Account</p>
-                    </a>
-
-                </div>
+                <div class="reg-policy pad-btm text-center">
+                                               
+                    <p>No Account?  <a href="<?php echo site_url("website/register"); ?>">Create New Account</a></p>
+                   
+                                            </div>
             </div>
             <div></div>
             <div class="col-md-3">
