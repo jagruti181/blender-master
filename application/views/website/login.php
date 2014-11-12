@@ -51,8 +51,8 @@
                 </div>
 
                 <div class="content-newacc">
-                    <a href="#">
-                        <p>No Account?Create New Account</p>
+                    <a href="<?php echo site_url("website/register"); ?>">
+                        <p>No Account? Create New Account</p>
                     </a>
 
                 </div>
