@@ -1777,12 +1777,12 @@ padding-top: 60px;
 }
 .reg-invite {
     background: #000000;
-    border: 1px solid #ffffff;
+    border: 1px solid #bda177;
     width: 350px;
     border-radius: 30px;
-    position: relative;
-    left: 50%;
-    margin-left: -190px;
+    margin: 0 auto;
+    /* left: 50%; */
+    /* margin-left: -190px; */
     margin-top: 20px;
     margin-bottom: 10px;
 }
@@ -1790,7 +1790,8 @@ padding-top: 60px;
     font-size: 15px;
     color: #ffffff;
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 700;
+    text-align: left;
 }
 .reg-invite p i {
     background: white;
@@ -1799,13 +1800,13 @@ padding-top: 60px;
     -moz-border-radius: 50px;
     -webkit-border-radius: 50px;
     border-radius: 50px;
-    padding: 7px 9px;
+    padding: 6px 5px;
     color: #000000;
-    margin-left: -66px;
-    margin-right: 42px;
+    margin-left: 6px;
+    margin-right: 45px;
     font-size: 20px;
     position: relative;
-    top: 4px;
+    top: 5px;
 }
 .input-age {
     background: black;
@@ -1872,15 +1873,15 @@ input.uploadicon {
     background: #bda177;
     text-align: center;
     align-content: center;
-    position: relative;
-    left: 64px;
+    margin: 0 auto;
+    /* left: 64px; */
     padding-top: 15px;
     margin-bottom: 5px;
     font-size: 20px;
 }
 .gift-head {
-    position: relative;
-    left: 42%;
+    /* position: relative; */
+    /* left: 42%; */
 }
 .gift-body {
     height: 360px;
@@ -1888,8 +1889,8 @@ input.uploadicon {
     background: #bda177;
     text-align: center;
     align-content: center;
-    position: relative;
-    left: 81px;
+    margin: 0 auto;
+    /* left: 81px; */
 }
 .gift-body1 p {
     font-size: 17px;

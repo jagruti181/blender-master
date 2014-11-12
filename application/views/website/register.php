@@ -108,7 +108,7 @@
                                         </div>
                                         <div class="text-center">
                                             <div class="gift-head">
-                                                <img class="img-responsive" src="<?php echo base_url(" webassets ");?>/img/gift.png">
+                                                <img class="img-responsive" src="<?php echo base_url("webassets");?>/img/gift.png" style="margin:0 auto -2px;">
                                             </div>
 
                                             <div class="gift-head1">
@@ -172,7 +172,7 @@
                                             <div class="reg-policy ">
                                                 <p>By registering, you agree to our <a href="#">Privacy Policy</a> 
                                                 </p>
-                                                <p>and <a href="#">Terms & Conditions</a>
+                                                <p>and <a href="<?php echo site_url(" website/termscondition "); ?>">Terms &amp; Conditions</a>
                                                 </p>
                                             </div>
                                             <div class="pad-pad">
@@ -183,7 +183,7 @@
                                                 </div>
                                             </div>
                                             <div class="reg-policy pad-btm">
-                                                <p>Already have an account? <a href="#">Login</a>
+                                                <p>Already have an account? <a href="<?php echo site_url(" website/login "); ?>">Login</a>
                                                 </p>
                                             </div>
                                     </form>
