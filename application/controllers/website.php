@@ -177,6 +177,7 @@ class Website extends CI_Controller
         $data['message']=$this->user_model->facebooklogin($id,$firstname,$lastname,$email,$image);
 		$this->load->view("json",$data);
     }
+   
     function twitterlogin()
     {
 //        $id=$this->input->get_post('id');

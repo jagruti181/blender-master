@@ -15,13 +15,15 @@
                     <div class="profile-details">
                         <h4><?php echo $user->firstname;?></h4>
                         <h4><?php echo $user->lastname;?></h4>
-                        <?php if($user->email!=0){?>
+                        
+                        <?php if($user->email != '0') {?>
                         <img src="<?php echo base_url("webassets");?>/img/envolap.png"><span class="id-text"><?php echo $user->email;?></span>
                         <br>
                         <?php }if($user->accesskey!=""){?>
                         <img src="<?php echo base_url("webassets");?>/img/location.png"><span class="location-text"><?php echo $user->accesskey; ?></span>
                         <?php } ?>
                     </div>
+                    
 
 <!--                    <a href="#"><span class="edit-pro">edit profile</span></a>-->
                 </div>
@@ -44,6 +46,14 @@
         </div>
     </div>
                  </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-md-2">
+                </div>
+                <div class="col-md-10">
+                
+                </div>
             </div>
 
     <div class="mid-content">
