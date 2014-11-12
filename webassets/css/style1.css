@@ -1469,25 +1469,26 @@ i.fa.fa-microphone:hover {
     margin-right: 50px;
 }
 .contents-rest h5 {
-    font-size: 13.15px;
+    font-size: 14px;
     color: white;
     text-transform: uppercase;
     font-weight: 700;
     padding-bottom: 15px;
     letter-spacing: 2px;
+    line-height: 200%;
 }
 .content-button {
     padding: 15px;
 }
 .content-button button {
-    text-transform: uppercase;
     border-radius: 30px;
-    background: #bda177;
-    border: #bda177;
-    width: 98px;
-    font-size: 15px;
-    color: black;
-    font-weight: 700;
+background: #bda177;
+border: #bda177;
+font-size: 19px;
+color: black;
+font-weight: 700;
+padding: 5px 19px 2px;
+text-transform: uppercase;
 }
 .foot a {
     color: #bda177;
@@ -1729,7 +1730,7 @@ textarea.profiles-textarea {
     padding: 20px;
     letter-spacing: 3px;
 }
-.contents1 h10 {
+.contents1 .h10 {
     font-size: 14px;
     color: white;
     font-weight: 600;
