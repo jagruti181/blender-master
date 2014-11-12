@@ -219,16 +219,18 @@ $i=0;
         <div class="profile-text">
             <h3 class="nameblender"></h3>
             <h5 class="typeblender"></h5>
+            <div class="part1">
             <p class="textblender">
                 
             </p>
-            <a href="http://www.bpft.in/blender-master/index.php/website/profileedit?id=5">
+            <a class="chooseshow" href="#">
                 <div class="style-text">
                     <p>choose this style blender</p>
                 </div>
             </a>
+            </div>
         </div>
-        <div class="profile-text">
+        <div class="profile-text part2" style="display:none;margin-top:0px;">
                 <div class="col-md-6">  
                         <div class="profile-edit">
                             <h5>submit text</h5> 

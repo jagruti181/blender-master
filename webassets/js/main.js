@@ -4,8 +4,17 @@ $(document).ready(function () {
     
     $(".closeblender").click(function() {
         $(".blenderoverlay").hide();
+        $(".profile-text.part1").show();
+        $(".profile-text.part2").hide();
         return false;
     });
+    
+    $(".chooseshow").click(function() {
+        $(".part1").hide();
+        $(".profile-text.part2").show();
+        return false;
+    });
+    
     
     $(".blenderitem a").click(function(){
         $(".blenderoverlay").show();
@@ -23,8 +32,9 @@ $(document).ready(function () {
                 favicons="flaticon-microphone58";
                 break;
         }
+        var text3=$(this).children("h5").html();
+        $(".formidis").val(text3);
         
-        $(".formidis").val();
         
         
         
