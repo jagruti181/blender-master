@@ -1,60 +1,14 @@
 
-<div class="st-container" id="st-container">
-  
-                      <nav class="st-menu st-effect-11" id="menu-11">
-                <h2 class="">menu</h2>
-                <ul>
-                    <li><a class="" href="#">SCHEDULE</a>
-                    </li>
-                    <li><a class="" href="blender-style.html">STYLE BLENDERS</a>
-                    </li>
-                    <li><a class="" href="invite-list.html">INVITE LIST</a>
-                    </li>
-                    <li><a class="" href="#">ARCHIVE SITE</a>
-                    </li>
-
-                </ul>
-            </nav>
-             <div class="st-pusher">
-                <div class="st-content-inner">
+<div class="st-content-inner">
                     <div class="st-content">
                       <div class="profile-head">
         <div class="container">
-            <div class="row">
-                <div class="col-md-5">
-                    <div class="menu" id="st-trigger-effects">
-                        <button data-effect="st-effect-11">
-                            <img src="<?php echo base_url("webassets");?>/img/menu.png"><i class="menu-text">menu</i>
-                        </button>
-                    </div>
-
-
-
-
-                </div>
-                <div class="col-md-3">
-                    <div class="navbar-header">
-
-                        <a class="navbar-brands" href="#">
-                            <img src="<?php echo base_url("webassets");?>/img/logo.png" alt="bootstrapwizard logo">
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-4 social-link">
-                    <?php $this->load->view("loginview");?>
-                    <div class="social">
-                        <a href="#"><i class="fa fa-facebook"></i></a> 
-                        <a href="#"> <i class="fa fa-twitter"></i>
-                        </a>
-                        <a href="#"><i class="fa fa-youtube"></i></a> 
-                    </div>
-                </div>
-
-            </div>
+          
             <div class="row">
                 <div class="col-md-2"></div>
                 <div class="col-md-2">
-                    <img src="<?php echo base_url("webassets");?>/img/profile_pic.png" class="profile-pic">
+                   <div  class="profile-pic"><img  src="<?php echo $user->logo;?>"></div>
+                    
 
                 </div>
                 <div class="col-md-4">
@@ -69,7 +23,7 @@
                         <?php } ?>
                     </div>
 
-                    <a href="#"><span class="edit-pro">edit profile</span></a>
+<!--                    <a href="#"><span class="edit-pro">edit profile</span></a>-->
                 </div>
                 <div class="col-md-4">
                     <div class="count-num">
@@ -91,9 +45,6 @@
     </div>
                  </div>
             </div>
-        </div>
-    </div>
-
 
     <div class="mid-content">
         <div class="container">

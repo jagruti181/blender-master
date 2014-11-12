@@ -16,11 +16,15 @@ class Website extends CI_Controller
 	}
     function profilee()
 	{
+        if(!$this->session->userdata('logged_in'))
+        {
+            redirect(site_url("website/login"), 'refresh');
+        }
 		$user=$this->user_model->authenticate();
         $data['page']="profile";
         $data['posts']=$this->post_model->profilepost($user['id']);
         $data['user']=$this->post_model->profileuser($user['id']);
-		$this->load->view("webtemplate",$data);
+		$this->load->view("webtemplatenonhome",$data);
 	}
     function invitelist()
 	{
@@ -152,16 +156,25 @@ class Website extends CI_Controller
 	}
     function login()
 	{
+        
+        if($this->session->userdata('logged_in'))
+        {
+            redirect(site_url("website/profilee"), 'refresh');
+        }
+        
 		$data['page']="login";
         $data['posts']=$this->designer_model->viewdesigner();
-		$this->load->view("webtemplate",$data);
+		$this->load->view("webtemplatenonhome",$data);
+        
 	}
     function facebooklogin()
     {
         $id=$this->input->get_post('id');
         $firstname=$this->input->get_post('firstname');
         $lastname=$this->input->get_post('lastname');
-        $data['message']=$this->user_model->facebooklogin($id,$firstname,$lastname);
+        $email=$this->input->get_post('email');
+        $image=$this->input->get_post('image');
+        $data['message']=$this->user_model->facebooklogin($id,$firstname,$lastname,$email,$image);
 		$this->load->view("json",$data);
     }
     function twitterlogin()

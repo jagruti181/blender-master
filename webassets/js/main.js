@@ -153,17 +153,20 @@ window.fbAsyncInit = function () {
         xfbml: true,
         version: 'v2.1'
     });
+    
+    
 
     $(".facebooklogin").click(function () {
         FB.getLoginStatus(function (response) {
             if (response.status === 'connected') {
-                FB.api('/me?email', function (response) {
+                FB.api('/me', function (response) {
                     console.log('Good to see you, ' + response.name + '.');
                     console.log("already loged in");
                     console.log(response);
 
                     var fid = {
                         id: response.id,
+                        email: response.email,
                         firstname: response.first_name,
                         lastname: response.last_name
                     };
@@ -172,7 +175,7 @@ window.fbAsyncInit = function () {
                     $.post(site_url + '/website/facebooklogin', fid, function (data) {
                         console.log("after success");
                         console.log(data);
-                        window.location.href = site_url;
+                         window.location.href = site_url+"/website/profilee";
                     }, 'json');
 
                     // #########################################save facebook login#################################################
@@ -187,21 +190,29 @@ window.fbAsyncInit = function () {
                             console.log(response);
                             var fid = {
                                 id: response.id,
+                                email: response.email,
                                 firstname: response.first_name,
                                 lastname: response.last_name
                             };
-                            $.post(site_url + "/website/facebooklogin", fid, function (data) {
+                            FB.api('me/picture?type=large&redirect=false',function(data) {
+                                console.log(data);
+                                fid.image=data.data.url;
+                                $.post(site_url + "/website/facebooklogin", fid, function (data) {
                                 console.log("after success");
                                 console.log(data);
-                                window.location.href = site_url;
+                                window.location.href = site_url+"website/profilee";
                             }, 'json');
+                                
+                            });
+                            //me/picture?type=large&redirect=false
+                            
 
                         });
 
                     } else {
                         console.log('User cancelled login or did not fully authorize.');
                     }
-                });
+                },{scope: 'public_profile,email'});
             }
         });
         return false;

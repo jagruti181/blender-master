@@ -144,15 +144,15 @@ class User_model extends CI_Model
 			return 0;
     }
     
-    public function facebooklogin($id,$firstname,$lastname)
+    public function facebooklogin($id,$firstname,$lastname,$email,$image)
     {
         $query=$this->db->query("SELECT `id` FROM `user` WHERE `uniquekey`='$id' ");
         if($query->num_rows == 0)
         {
-            $this->db->query("INSERT INTO `user`(`firstname`, `lastname`, `password`, `email`, `uniquekey`, `contact`, `accesskey`, `accesslevel`, `timestamp`, `facebookuserid`, `status`, `twitter`, `instagram`, `lastlogin`, `loginby`, `points`) VALUES ('$firstname','$lastname',0,0,'$id',NULL,NULL,NULL,CURRENT_TIMESTAMP,NULL,NULL,NULL,NULL,NULL,1,1)");
+            $this->db->query("INSERT INTO `user`(`firstname`, `lastname`, `password`, `email`, `uniquekey`, `contact`, `accesskey`, `accesslevel`, `timestamp`, `facebookuserid`, `status`, `twitter`, `instagram`, `lastlogin`, `loginby`, `points`,`logo`) VALUES ('$firstname','$lastname',0,'$email','$id',NULL,NULL,NULL,CURRENT_TIMESTAMP,NULL,NULL,NULL,NULL,NULL,1,1,'$image')");
             $user=$this->db->insert_id();
             $newdata = array(
-                'email'     => "",
+                'email'     => $email,
                 'password' => "",
                 'logged_in' => true,
                 'id'=> $user,

@@ -45,11 +45,7 @@
                                     </div>
                                 </div>
                                 <div class="col-md-4 social-link">
-                                    <div class="signin">
-                                        <a href="#"><i>signup /</i></a>
-                                        <a href="login.html"><i>login</i></a>
-
-                                    </div>
+                                    <?php $this->load->view("loginview");?>
                                     <div class="social">
                                         <a href="#"><i class="fa fa-facebook"></i></a> 
                                         <a href="#"> <i class="fa fa-twitter"></i>
