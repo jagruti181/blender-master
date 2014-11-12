@@ -195,7 +195,8 @@ class Website extends CI_Controller
         if($this->user_model->normallogin($email,$password)==0)
         {
             redirect(site_url("/website/login"));
-        }else{
+        }
+        else {
             redirect(site_url("/"));
         }
         $this->load->view('json',$data);
