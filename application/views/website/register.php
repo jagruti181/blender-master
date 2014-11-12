@@ -172,7 +172,7 @@
                                             <div class="reg-policy ">
                                                 <p>By registering, you agree to our <a href="#">Privacy Policy</a> 
                                                 </p>
-                                                <p>and <a href="<?php echo site_url(" website/termscondition "); ?>">Terms &amp; Conditions</a>
+                                                <p>and <a href="<?php echo site_url("website/termscondition "); ?>">Terms &amp; Conditions</a>
                                                 </p>
                                             </div>
                                             <div class="pad-pad">
@@ -183,7 +183,7 @@
                                                 </div>
                                             </div>
                                             <div class="reg-policy pad-btm">
-                                                <p>Already have an account? <a href="<?php echo site_url(" website/login "); ?>">Login</a>
+                                                <p>Already have an account? <a href="<?php echo site_url("website/login "); ?>">Login</a>
                                                 </p>
                                             </div>
                                     </form>

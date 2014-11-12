@@ -27,7 +27,7 @@
 
                         </div>
                         <div class="col-md-6 col-md-6-pad1">
-                            <a href="#">
+                            <a href="<?php echo site_url("website/resetpswd"); ?>">
                                 <p>Forget Password?</p>
                             </a>
                         </div>
