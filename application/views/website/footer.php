@@ -20,31 +20,8 @@
 
 <!-- Script to Activate the Carousel -->
 <script>
-    $('.carousel').carousel({
-        interval: 5000 //changes the speed
-    })
-    var container = document.querySelector('.section.top .container .row');
-
-    $(".posts img").load(function () {
-        var msnry = new Masonry(container, {
-            // options
-            columnWidth: 0,
-            itemSelector: '.posts'
-        });
-    });
-    var $container=0;
-    $(document).ready(function () {
-        $(".videoonly").fancybox({
-            fitToView: true
-        });
-        $container = $('.blender-img');
-        // init
-        $container.isotope({
-            // options
-            itemSelector: '.item',
-            layoutMode: 'fitRows'
-        });
-    });
+    
+    
     
 </script>
 

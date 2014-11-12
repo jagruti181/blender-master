@@ -123,42 +123,108 @@
             </div>
         </div>
     </div>
-    <div class="section blenders">
-        <div class="container">
+    
+    <header id="myCarousel" class="carousel slide">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class=""></li>
+            <li data-target="#myCarousel" data-slide-to="1" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="2" class=""></li>
+        </ol>
 
-
-            <div class="content-center">
-                <!--
-                       <h3>STYLE BLENDERS</h3>
-    <h5>The finest names in writing, design, music and fashion come together to dazzle you at the Blenders Pride Fashion Tour 2014 </h5>
-                 <div class="blend">
-                   <p>View All our blenders</p>
-                   </div>
--->
-                <div class="blender-bottom">
-                    <div class="music text-center">
-                        <a href="#">
+        <!-- Wrapper for Slides -->
+        <div class="carousel-inner">
+            <div class="item">
+                <!-- Set the first background image using inline CSS below. -->
+                <img src="<?php echo base_url("webassets");?>/img/bg3.jpg" class="fill">
+                <div class="carousel-caption">
+                    <div class="blender-bottom">
+                        <div class="music text-center">
+                            <a href="#">
                                 <img src="<?php echo base_url("webassets");?>/img/music.png" alt="">
                             </a>
-                    </div>
-                    <h5>karsh kale</h5>
-                    <h6>Musician at the Blenders Pride Fashion Tour 2014</h6>
-                    <h7>Get a live taste of style in music</h7>
-                    <a href="#">
-                        <div class="blenders-invite">
-
-                            <p>WIN AN INVITE. SHOW HOW IT’S DONE.</p>
-
-
                         </div>
-                    </a>
+                        <h5>karsh kale</h5>
+                        <h6>Musician at the Blenders Pride Fashion Tour 2014 </h6>
+                        <h7>Get a live taste of style in music</h7>
+
+                        <a href="#">
+                            <div class=" blenders-invite">
+
+                                <p>WIN AN INVITE. SHOW HOW IT’S DONE.</p>
+
+
+                            </div>
+                        </a>
+
+                    </div>
                 </div>
             </div>
+            <div class="item active">
+                <!-- Set the second background image using inline CSS below. -->
+                <img src="<?php echo base_url("webassets");?>/img/bg3.jpg" class="fill">
+                <div class="carousel-caption">
+                    <div class="blender-bottom">
+                        <div class="music text-center">
+                            <a href="#">
+                                <img src="<?php echo base_url("webassets");?>/img/music.png" alt="">
+                            </a>
+                        </div>
+                        <h5>karsh kale</h5>
+                        <h6>Musician at the Blenders Pride Fashion Tour 2014 </h6>
+                        <h7>Get a live taste of style in music</h7>
+
+                        <a href="#">
+                            <div class=" blenders-invite">
+
+                                <p>Win invites to BPFT 2014</p>
 
 
+                            </div>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <!-- Set the third background image using inline CSS below. -->
+                <img src="<?php echo base_url("webassets");?>/img/bg3.jpg" class="fill">
+                <div class="carousel-caption">
+                    <div class="blender-bottom">
+                        <div class="music text-center">
+                            <a href="#">
+                                <img src="<?php echo base_url("webassets");?>/img/music.png" alt="">
+                            </a>
+                        </div>
+                        <h5>karsh kale</h5>
+                        <h6>Musician at the Blenders Pride Fashion Tour 2014 </h6>
+                        <h7>Get a live taste of style in music</h7>
+
+                        <a href="#">
+                            <div class=" blenders-invite">
+
+                                <p>Win invites to BPFT 2014</p>
+
+
+                            </div>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
         </div>
 
-    </div>
+        <!-- Controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <img src="<?php echo base_url("webassets");?>/img/pre_button.png" class="pre-pos">
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <img src="<?php echo base_url("webassets");?>/img/next_button.png" class="next-pos">
+        </a>
+
+    </header>            
+                
+                
     <div class="space">
 
     </div>

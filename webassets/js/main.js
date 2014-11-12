@@ -1,8 +1,39 @@
+
+
 $(document).ready(function () {
-   
+    
+    $('.carousel').carousel({
+        interval: 5000 //changes the speed
+    })
+    var container = document.querySelector('.section.top .container .row');
+
+    $(".posts img").load(function () {
+        var msnry = new Masonry(container, {
+            // options
+            columnWidth: 0,
+            itemSelector: '.posts'
+        });
+    });
+    var $container=0;
+
     $(".section").css("min-height", $(window).height());
     $(window).resize(function () {
         $(".section").css("min-height", $(window).height());
+    });
+
+    $(".videoonly").fancybox({
+        fitToView: true,
+        margin: 0,
+        padding:0,
+        width:$(window).width()-80,
+        height:$(window).height(),
+    });
+    $container = $('.blender-img');
+    // init
+    $container.isotope({
+        // options
+        itemSelector: '.item',
+        layoutMode: 'fitRows'
     });
 
     $(".filter").click(function () {
@@ -22,29 +53,26 @@ $(document).ready(function () {
         }
         return false;
     });
-    
-    
-    
+
+
+
     function changescrollsize() {
         //$(".st-effect-11.st-menu").css("margin-top",window.scrollY+"px");
-        var checkheight=$(".section").height()+40;
-        if(window.scrollY>checkheight)
-        {
+        var checkheight = $(".section").height() + 40;
+        if (window.scrollY > checkheight) {
             $(".blendertopmenu").addClass("isfixed");
             $(".blendertopmenu").width($(".container").width());
-        }
-        else
-        {
+        } else {
             $(".blendertopmenu").removeClass("isfixed");
             $(".blendertopmenu").width($(".container").width());
         }
-        
+
     }
-    $(window).scroll(function() {
-      changescrollsize();
-        
+    $(window).scroll(function () {
+        changescrollsize();
+
     });
-     changescrollsize();
+    changescrollsize();
 
 
     $(".posts .panel .sharee").click(function () {
@@ -54,19 +82,19 @@ $(document).ready(function () {
             href: site_url + "/website/facebookshare?url=www.google.com&title=ChintanRocks&img=sudo&des=autodes",
             // href:"https://developers.facebook.com/docs/",
         }, function (response) {
-        
-            // add points ...twitter
-                var form_data = {
-                    points: "2"
-                };
-                //console.log(form_data);
-                $.post(site_url + "/website/facebookpoints", form_data, function (data) {
-                    console.log(data);
-                }, 'json');
 
-        
+            // add points ...twitter
+            var form_data = {
+                points: "2"
+            };
+            //console.log(form_data);
+            $.post(site_url + "/website/facebookpoints", form_data, function (data) {
+                console.log(data);
+            }, 'json');
+
+
         });
-       
+
         return false;
     });
 

@@ -172,15 +172,15 @@ a {
     text-transform: uppercase;
     font-weight: 700;
 }
-.contents .home-invite {
-    background: #bda177;
-    width: 253px;
-    border-radius: 30px;
-    position: relative;
-    left: 50%;
-    margin-left: -130px;
-    margin-top: 20px;
-    margin-bottom: 100px;
+ {
+    /* background: #bda177; */
+    /* width: 253px; */
+    /* border-radius: 30px; */
+    /* position: relative; */
+    /* left: 50%; */
+    /* margin-left: -130px; */
+    /* margin-top: 20px; */
+    /* margin-bottom: 100px; */
 }
 .contents .home-invite p {
     font-size: 15px;
@@ -798,8 +798,8 @@ i.fa.fa-microphone:hover {
 }
 .blender-bottom p {
     font-size: 10.66px;
-    color: #fff;
-    padding: 10px 0px 0px;
+    color: #000;
+    padding: 10px 0px 10px;
     text-transform: uppercase;
     font-weight: 700;
     letter-spacing: 2px;
@@ -864,10 +864,8 @@ i.fa.fa-microphone:hover {
     width: 350px;
     border-radius: 30px;
     position: relative;
-    left: 50%;
-    margin-left: -190px;
-    margin-top: 20px;
-    margin-bottom: 10px;
+    margin: 0 auto;
+    margin-top: 40px;
 }
 .home-invite p {
     font-size: 18px;
