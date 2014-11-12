@@ -166,10 +166,11 @@ $i=0;
                         //print_r($post);
                 
             ?>
-            <div class="col-md-3 item <?php echo $post->type?> blenderitem">
+            <div class="col-md-3 item <?php echo $post->type;?> blenderitem">
                
                 <a href="<?php echo site_url('website/profile?id=').$post->id;?>"><img src="<?php echo base_url("uploads");?>/<?php echo $post->image;?>" style="width:100%;">
                     <div class="hidden contentblender"><?php echo $post->content; ?></div>
+                    <h5 class="hidden"><?php echo $post->id; ?></h5>
                      <h2><?php echo $post->name;?></h2><br>
                      <?php switch($post->type)
             {
@@ -227,12 +228,12 @@ $i=0;
                 </div>
             </a>
         </div>
-        <div class="row profile-text">
+        <div class="profile-text">
                 <div class="col-md-6">  
                         <div class="profile-edit">
                             <h5>submit text</h5> 
-                            <form method="post" action="http://www.bpft.in/blender-master/index.php/website/textpost" enctype="multipart/form-data">
-<input type="hidden" name="id" value="5">
+                            <form method="post" class="blendertextform" action="http://www.bpft.in/blender-master/index.php/website/textpost" enctype="multipart/form-data">
+<input type="hidden" name="id" class="formidis" value="">
 <textarea name="text" value="" id="comments" class="profile-textarea">
 </textarea><br>
 <input type="submit" value="Submit" class="profile-submit"><br>
@@ -247,8 +248,8 @@ $i=0;
                             <span>or</span>
                         
                             <h5>submit photo</h5> 
-                            <form method="post" action="http://www.bpft.in/blender-master/index.php/website/imagepost" enctype="multipart/form-data" class="dropzone" id="my-awesome-dropzone">
-<input type="hidden" name="id" value="5">
+                            <form method="post"  action="http://www.bpft.in/blender-master/index.php/website/imagepost" enctype="multipart/form-data" class="blenderphotoform dropzone" id="my-awesome-dropzone">
+<input type="hidden" name="id" class="formidis" value="">
 <input type="file" id="normal-field" class="form-control" name="logo" value="">
 
 <input type="submit" value="Submit" class="profile-submit"><br>

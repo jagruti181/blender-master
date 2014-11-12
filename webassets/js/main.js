@@ -24,6 +24,8 @@ $(document).ready(function () {
                 break;
         }
         
+        $(".formidis").val();
+        
         
         
         $(".golden .fa").removeClass("flaticon-mannequin1");

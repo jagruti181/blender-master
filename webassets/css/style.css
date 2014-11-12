@@ -927,7 +927,8 @@ i.fa.fa-microphone:hover {
     padding: 10px;
     border: 2px solid #bda177;
     text-align: center;
-    margin-left: 48px;
+    margin-left: 13px;
+    height: 354px;
 }
 .profile-text.profile-edit h5 {
     color: #bda177;
@@ -1035,8 +1036,8 @@ i.fa.fa-microphone:hover {
     font-size: 21px;
     padding: 8px;
     position: absolute;
-    left: 38px;
-    top: 155px;
+    left: 7px;
+    top: 130px;
 }
 .icon-images img {
     padding-right: 5px;
@@ -1403,5 +1404,5 @@ p.golden {
     top: 15px;
 }
 p.golden .fa:before {
-font-size: 30px;
+    font-size: 30px;
 }
