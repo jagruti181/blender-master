@@ -43,6 +43,10 @@ class Website extends CI_Controller
     function blenderstyle()
 	{
 		$data['page']="blenderstyle";
+        if($this->session->userdata('logged_in'))
+        {
+            $data['isloggedin']="true";
+        }
         $data['posts']=$this->designer_model->viewdesigner();
         $data["nobackbackground"]="true";
 		$this->load->view("webtemplatenonhome",$data);

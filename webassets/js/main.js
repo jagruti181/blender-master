@@ -4,7 +4,7 @@ $(document).ready(function () {
     
     $(".closeblender").click(function() {
         $(".blenderoverlay").hide();
-        $(".profile-text.part1").show();
+        $(".part1").show();
         $(".profile-text.part2").hide();
         return false;
     });
