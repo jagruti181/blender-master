@@ -2,7 +2,7 @@
     <div class="" id="st-container">
 
         
-
+<!-- 
             <nav class="st-menu st-effect-11" id="menu-11">
                 <h2 class="">menu</h2>
                 <ul>
@@ -16,29 +16,29 @@
                     </li>
 
                 </ul>
-            </nav>
-            <div class="st-pusher">
+            </nav> -->
+            <div class="">
                 <div class="st-content-inner">
                     <div class="st-content">
                        <div class="section reset" style="min-height: 471px;">
-                        <div class="container">
+                        <div class="row">
 
 
-                            <div class="row index">
+                            <!-- <div class="row index">
                                 <div class="col-md-5">
                                     <div class="menu" id="st-trigger-effects">
                                         <button data-effect="st-effect-11">
                                             <img src="<?php echo base_url("webassets");?>/img/menu.png"><i class="menu-text">menu</i>
                                         </button>
                                     </div>
-
-
-
-
+                            
+                            
+                            
+                            
                                 </div>
                                 <div class="col-md-3">
                                     <div class="navbar-header">
-
+                            
                                         <a class="navbar-brands" href="#">
                                             <img src="<?php echo base_url("webassets");?>/img/logo.png" alt="bootstrapwizard logo" height=85>
                                         </a>
@@ -48,7 +48,7 @@
                                     <div class="signin">
                                         <a href="#"><i>signup /</i></a>
                                         <a href="login.html"><i>login</i></a>
-
+                            
                                     </div>
                                     <div class="social">
                                         <a href="#"><i class="fa fa-facebook"></i></a> 
@@ -57,8 +57,8 @@
                                         <a href="#"><i class="fa fa-youtube-square"></i></a> 
                                     </div>
                                 </div>
-
-                            </div>
+                            
+                            </div> -->
                             <div class="row">
                                 <div class="col-md-3"></div>
                                 <div class="col-md-6">
@@ -86,9 +86,9 @@
                                         <h5 class="text-center">enter your details below</h5>
                                         <form method="post" action="<?php echo site_url('website/registeruser');?>" enctype= "multipart/form-data">
                                         <div class="input-content1 text-center">
-                                        <input value="" name="name" id="password" placeholder="NAME" type="text" class="usericon">
-                                            <input value="" name="email" id="conformPassword" placeholder="EMAIL" type="text" class="emailicon">
-                                            <input value="" name="city"id="conformPassword" placeholder="CITY" type="text" class="cityicon">
+                                            <input value="" name="name" id="password" placeholder="NAME  * " type="text" class="usericon" required>
+                                            <input value="" name="email" id="conformPassword" placeholder="EMAIL *" type="text" class="emailicon" required>
+                                            <input value="" name="city"id="conformPassword" placeholder="CITY *" type="text" class="cityicon" required>
                                         </div>
                                         <div class=" pad-select text-center">
                                             <span class="contage">AGE</span>
@@ -98,14 +98,14 @@
                                         <input type="number" placeholder="YY" name="year" min="00" max="2040" class="input-age">
                                             </span>
                                             <span class="contage">SEX</span>
-                                            <select class="select-sex" name="sex">
+                                            <select class="select-sex" name="sex" required>
   <option value="male">MALE</option>
   <option value="female">FEMALE</option>
                                             </select>
                                             
                                         </div>
-                                          <div class="input-content2 text-center pad-btm">
-                                        <input id="uploadpic" placeholder="UPLOAD PROFILE PHOTO" name="logo" type="file" class="uploadicon">
+                                          <div class="input-content2 text-center pad-btm" style="margin-left: 13%;">
+                                        <input id="uploadpic" placeholder="UPLOAD PROFILE PHOTO" name="logo" type="file" class="uploadicon" required>
                                         </div>
                                         <div class="text-center">
                                 <div class="gift-head">                             
@@ -146,9 +146,9 @@
                                             </div>
                                             <div class="pad-input">
                                             <div class="input-content text-center">
-                                        <input value="" id="password" name="password" placeholder="PASSWORD" type="password" class="lockicon">
+                                        <input value="" id="password" name="password" placeholder="PASSWORD *" type="password" class="lockicon" required>
                                         <div>
-                                            <input value="" id="conformPassword" placeholder="CONFIRM PASSWORD" type="password" class="lockicon">
+                                            <input value="" id="conformPassword" name="confirmpassword" placeholder="CONFIRM PASSWORD *" type="password" class="lockicon">
                                         </div>
                                     </div>
                                             </div>

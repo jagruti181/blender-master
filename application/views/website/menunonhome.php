@@ -5,11 +5,11 @@
         <nav class="st-menu st-effect-11" id="menu-11">
             <h2 class="">menu</h2>
             <ul>
-                <li><a class="" href="#">SCHEDULE</a>
+                <li><a class="" href="<?php echo site_url('website/schedule'); ?>">SCHEDULE</a>
                 </li>
-                <li><a class="" href="blender-style.html">STYLE BLENDERS</a>
+                <li><a class="" href="<?php echo site_url('website/blenderstyle'); ?>">STYLE BLENDERS</a>
                 </li>
-                <li><a class="" href="invite-list.html">INVITE LIST</a>
+                <li><a class="" href="<?php echo site_url('website/invitelist'); ?>">INVITE LIST</a>
                 </li>
                 <li><a class="" href="#">ARCHIVE SITE</a>
                 </li>
@@ -60,8 +60,8 @@
 
                             </div>
                             <div class="row topleave">
-                                <div class="col-md-1"></div>
-                                <div class="col-md-10">
+                              
+                                <div class="col-md-12">
                                     
                                     
                                     

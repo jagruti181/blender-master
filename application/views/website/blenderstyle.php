@@ -1,5 +1,6 @@
 <div class="mid-content">
-    <div class="container">
+    <div class="">
+<!--
         <div class="row">
             <div class="col-md-5">
                 <div class="menu" id="st-trigger-effects">
@@ -31,6 +32,7 @@
             </div>
 
         </div>
+-->
         <div class="content-center">
             <h3>STYLE BLENDERS</h3>
             <h5>The finest and the classy names in fashion, music, design, technology and writing are here.</h5>

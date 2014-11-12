@@ -26,7 +26,7 @@ class Website extends CI_Controller
 	{
 		$data['page']="invitelist";
         $data['posts']=$this->post_model->invitelist();
-		$this->load->view("webtemplate",$data);
+		$this->load->view("webtemplatenonhome",$data);
 	}
     function profilein()
     {
@@ -39,7 +39,7 @@ class Website extends CI_Controller
 	{
 		$data['page']="blenderstyle";
         $data['posts']=$this->designer_model->viewdesigner();
-		$this->load->view("webtemplate",$data);
+		$this->load->view("webtemplatenonhome",$data);
 	}
     function profile()
 	{
@@ -97,11 +97,22 @@ class Website extends CI_Controller
     function register()
     {
         $data['page']="register";
-		$this->load->view("webtemplate",$data);
+		$this->load->view("webtemplatenonhome",$data);
     }
     
     function registeruser()
     {
+        
+        $this->form_validation->set_rules('name','Name','trim|required|max_length[3]');
+        $this->form_validation->set_rules('email','Email','trim|required|valid_email|is_unique[user.email]');
+        $this->form_validation->set_rules('city','City','trim|max_length[30]');
+        $this->form_validation->set_rules('password','Password','trim|required|min_length[6]|max_length[30]');
+        $this->form_validation->set_rules('confirmpassword','Confirm Password','trim|required|matches[password]');
+        
+        if($this->form_validation->run() == FALSE)	
+		{
+            redirect(site_url("/website/register"));
+        }else{
         $name=$this->input->get_post('name');
         $email=$this->input->get_post('email');
         $city=$this->input->get_post('city');
@@ -126,6 +137,7 @@ class Website extends CI_Controller
 			else
 			redirect(site_url("/"));
         $this->load->view("webtemplate",$data);
+        }
     }
     
     function profilepage()

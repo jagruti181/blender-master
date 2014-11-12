@@ -2,7 +2,7 @@
    <nav class="st-menu st-effect-11" id="menu-11">
 
                 <ul>
-                    <li><a class="" href="#">SCHEDULE</a>
+                    <li><a class="" href="<?php echo site_url('website/schedule'); ?>">SCHEDULE</a>
                     </li>
                     <li><a class="" href="<?php echo site_url('website/blenderstyle'); ?>">STYLE BLENDERS</a>
                     </li>

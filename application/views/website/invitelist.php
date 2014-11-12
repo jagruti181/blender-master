@@ -1,6 +1,9 @@
+<!--
 
     <div class="mid-content">
         <div class="container">
+-->
+<!--
             <div class="row">
                 <div class="col-md-5">
                     <div class="menu" id="st-trigger-effects">
@@ -28,18 +31,21 @@
                 </div>
 
             </div>
+-->
             <div class="content-center">
                 <div class="follows">
                     <h5><span class="gold">595 </span>people are going to the bpft </h5>
                     <p>read/view their style statements below.</p>
                 </div>
             </div>
+<!--
         </div>
     </div>
+-->
 
 
 
-    <div class="section top">
+    <div class="section top" style="background:none;">
         <div class="container">
 
             <div class="row">
