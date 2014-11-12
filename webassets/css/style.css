@@ -557,9 +557,7 @@ p.fa.fa-twitter .text {
     background: transparent;
     width: 253px;
     border-radius: 30px;
-    position: relative;
-    left: 50%;
-    margin-left: -130px;
+    margin: 0 auto;
     margin-top: 25px;
     border: 1px solid #bda177;
     margin-bottom: 66px;
@@ -1183,7 +1181,9 @@ i.fa.fa-microphone:hover {
     height: 150px;
     border-radius: 300px;
     float: right;
+    overflow: hidden;
 }
+.profile-pic img {width: 170px}
 .profile-details h4 {
     color: #fff;
     font-size: 39px;
