@@ -798,9 +798,8 @@ i.fa.fa-microphone:hover {
     height: 34px;
     width: 360px;
     border: 1px solid #bda177;
-    background: 111111;
-    padding: 19px;
-    font-size: 17px;
+    padding: 22px 20px 18px;
+    font-size: 18px;
     margin: 8px;
 }
 .margin1 {
@@ -810,10 +809,11 @@ i.fa.fa-microphone:hover {
     border-radius: 30px;
     background: #bda177;
     border: #bda177;
-    width: 98px;
     font-size: 19px;
     color: black;
     font-weight: 700;
+    padding: 5px 19px 2px;
+    text-transform: uppercase;
 }
 .color-p1 h3 {
     margin-top: 50px;
@@ -834,22 +834,23 @@ i.fa.fa-microphone:hover {
     padding-left: 70px;
 }
 .row-margin {
-    margin-top: 20px;
+    margin-top: 10px;
 }
 .home-invite {
     background: #000000;
-    border: 1px solid transparent;
+    border: 1px solid #bda177;
     width: 350px;
     border-radius: 30px;
-    position: relative;
     margin: 0 auto;
     margin-top: 40px;
+    padding: 5px 0px;
 }
 .home-invite p {
-    font-size: 18px;
+    font-size: 20px;
     color: #ffffff;
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 700;
+    margin: 2px 0 0;
 }
 .home-invite p i {
     background: white;
@@ -857,14 +858,14 @@ i.fa.fa-microphone:hover {
     width: 30px;
     -moz-border-radius: 50px;
     -webkit-border-radius: 50px;
-    border-radius: 50px;
-    padding: 7px 9px;
-    color: #000000;
-    margin-left: 29px;
-    margin-right: 42px;
+    border-radius: 100%;
+    padding: 4px 5px;
+    color: black;
+    margin-left: 15px;
+    margin-right: 25px;
     font-size: 20px;
-    position: relative;
-    top: 4px;
+    /* position: relative; */
+    /* top: 0px; */
 }
 .content-newacc p {
     color: white;
@@ -875,12 +876,12 @@ i.fa.fa-microphone:hover {
     font-weight: 600;
 }
 .follow1 h5 {
-    text-align: center;
-    color: white;
-    text-transform: uppercase;
-    font-size: 26px;
-    letter-spacing: 2px;
-    font-weight: 800;
+    /* text-align: center; */
+    /* color: white; */
+    /* text-transform: uppercase; */
+    /* font-size: 26px; */
+    /* letter-spacing: 2px; */
+    /* font-weight: 800; */
 }
 .follow1 h4 {
     font-size: 20px;
