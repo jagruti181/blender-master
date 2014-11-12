@@ -303,8 +303,7 @@ the Blenders Pride Fashion Tour 2014 with <span class="gold">#BPMYSTYLE</span></
   js = d.createElement(s); js.id = id;
   js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=821682894560811&version=v2.0";
   fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-                       <div class="fb-activity" data-app-id="821682894560811" data-site="developers.facebook.com" data-action="likes, recommends" data-width="360" data-height="420" data-colorscheme="light" data-header="true"></div>
+}(document, 'script', 'facebook-jssdk'));</script><div class="fb-like-box" data-href="https://www.facebook.com/blenderspridefashiontour" data-width="360" data-height="420" data-colorscheme="light" data-show-faces="false" data-header="false" data-stream="true" data-show-border="true"></div>
                         
                         </div>
 
