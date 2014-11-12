@@ -135,6 +135,7 @@
 </div>
 
 <div class="section tour">
+   
     <div class="container">
         <div class="show">
             <h3>show them how it's done.</h3>
@@ -186,6 +187,12 @@ $i=0;
             <?php
                 }
             ?>
+        </div>
+    </div>
+    <div class="blenderoverlay">
+        <div class="row">
+           
+            
         </div>
     </div>
 </div>

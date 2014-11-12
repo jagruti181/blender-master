@@ -180,8 +180,8 @@ class Website extends CI_Controller
    
     function twitterlogin()
     {
-//        $id=$this->input->get_post('id');
-//        $screenname=$this->input->get_post('screenname');
+        // $id=$this->input->get_post('id');
+        // $screenname=$this->input->get_post('screenname');
         $data['message']=$this->user_model->twitterlogin();
 		$this->load->view("json",$data);
     }
