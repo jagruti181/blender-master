@@ -13,25 +13,25 @@
                             </div></div></div>
     <div class="mid-content">
                         <div class="container">
-                            <div class="row icon-head">
-                                <div class="col-md-5">
-                                    <div class="icon-sche">
-                                        <img src="<?php echo base_url("webassets"); ?>/img/spebig.png"><span class="name-icon">style weak</span>
+                            <div class="icon-head">
+                               <div class="icon-sche">
+                                        <img src="<?php echo base_url("webassets"); ?>/img/spebig.png"><span class="name-icon">style walk</span>
                                         <img src="<?php echo base_url("webassets"); ?>/img/musbig.png"><span class="name-icon">style beat</span>
                                         <img src="<?php echo base_url("webassets"); ?>/img/micbig.png"><span class="name-icon">style speak</span>
                                         
                                         <img src="<?php echo base_url("webassets"); ?>/img/circuit.png"><span class="name-icon">style tech</span>
                                         
                                     </div>
-                                </div>
-                                <div class="col-md-4 label-text">
+                                <div class="label-text">
                                     <span>bprc</span><i>BLENDERS PRIDE RESERVE COLLECTION</i>
 
                                 </div>
-                                <div class="col-md-3 label-text">
+                                <div class="label-text">
                                     <span>bpft</span><i>blenders pride fashion tour</i>
 
                                 </div>
+                            <div class="clearfix"></div>
+
                             </div>
                         </div>
                     </div>
@@ -48,7 +48,7 @@
                                     <div class="hyderabd-text label-texts">
                                         <span>bprc</span>
                                         <p>nov
-                                            <br><i>18</i>
+                                            <br><i>15</i>
                                         </p>
                                     </div>
                                     <div class="hyderabd-text label-texts">

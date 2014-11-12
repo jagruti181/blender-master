@@ -1081,7 +1081,7 @@ i.fa.fa-microphone:hover {
     border: none;
 }
 .icon-sche .name-icon {
-    padding-right: 20px;
+    padding-right: 15px;
     padding-left: 5px;
     font-size: 11px;
     color: #fff;
@@ -1114,6 +1114,9 @@ i.fa.fa-microphone:hover {
 .icon-head {
     padding-bottom: 20px;
     padding-top: 20px;
+    margin: 0 auto;
+    display: block;
+    width: 1060px;
 }
 .city-head {
     padding-top: 60px;
@@ -1169,8 +1172,8 @@ i.fa.fa-microphone:hover {
     letter-spacing: 2px;
 }
 .hyderabad-name {
-    padding-top: 12px;
-    padding-bottom: 14px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 .label-texts {
     margin: 14px;
@@ -1415,4 +1418,7 @@ color: black;
 font-weight: 700;
 padding: 5px 19px 2px;
 text-transform: uppercase;
+}
+.hyderabad-name .name-icon {
+    padding-left: 10px;
 }
