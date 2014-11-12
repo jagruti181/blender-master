@@ -167,7 +167,21 @@ $i=0;
             <div class="col-md-3 item <?php echo $post->type?>">
                 <a href="<?php echo site_url('website/profile?id=').$post->id;?>"><img src="<?php echo base_url("uploads");?>/<?php echo $post->image;?>" style="width:100%;">
                      <h2><?php echo $post->name;?></h2><br>
-                     <h3>Designer</h3></a> 
+                     <?php switch($post->type)
+            {
+                case "des":
+                echo "<h3>Designer</h3>";
+                break;
+                case "mus":
+                echo "<h3>Musician</h3>";
+                break;
+                case "spe":
+                echo "<h3>Speaker</h3>";
+                break;
+                
+            }
+                    ?>
+                     </a> 
             </div>
             <?php
                 }

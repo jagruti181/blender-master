@@ -172,16 +172,7 @@ a {
     text-transform: uppercase;
     font-weight: 700;
 }
- {
-    /* background: #bda177; */
-    /* width: 253px; */
-    /* border-radius: 30px; */
-    /* position: relative; */
-    /* left: 50%; */
-    /* margin-left: -130px; */
-    /* margin-top: 20px; */
-    /* margin-bottom: 100px; */
-}
+ 
 .contents .home-invite p {
     font-size: 15px;
     color: #000000;
@@ -193,8 +184,8 @@ a {
     background: #bda177;
     width: 350px;
     border-radius: 30px;
-    position: relative;
-    left: 28%;
+    margin: 0 auto;
+    /* left: 28%; */
     /* margin-left: -180px; */
     margin-top: 20px;
     /* margin-bottom: 100px; */
@@ -248,9 +239,9 @@ a {
     background: #000;
     width: 300px;
     border-radius: 30px;
-    position: relative;
-    left: 50%;
-    margin-left: -150px;
+    margin: 0 auto;
+    /* left: 50%; */
+    /* margin-left: -150px; */
     margin-top: 25px;
     border: 1px solid #bda177;
     margin-bottom: 50px;
@@ -591,9 +582,7 @@ p.fa.fa-twitter .text {
     background: #bda177;
     width: 240px;
     border-radius: 30px;
-    position: relative;
-    left: 55%;
-    margin-left: -175px;
+    margin: 0 auto;
     margin-top: 35px;
     font-weight: 700;
 }
@@ -1095,26 +1084,29 @@ i.fa.fa-microphone:hover {
     border: none;
 }
 .icon-sche .name-icon {
-    padding-left: 4px;
-    font-size: 14px;
+    padding-right: 20px;
+    padding-left: 5px;
+    font-size: 11px;
     color: #fff;
     font-family: "Josefin Sans";
     text-transform: uppercase;
     vertical-align: middle;
-    vertical-align: middle;
+    font-weight: 300;
 }
 .label-text span {
     background: #bda177;
-    height: 50px;
-    width: 56px;
+    /* height: 50px; */
+    /* width: 56px; */
     color: #000;
     font-size: 12px;
-    padding: 0px 14px;
+    padding: 4px 10px 2px;
     text-transform: uppercase;
     font-weight: 700;
+    letter-spacing: 1px;
+    margin-right: 5px;
 }
 .col-md-3.label-text {
-    padding: 8px;
+    /* padding: 8px; */
 }
 .label-text i {
     color: #fff;
@@ -1151,7 +1143,7 @@ i.fa.fa-microphone:hover {
     width: 56px;
     color: #000;
     font-size: 12px;
-    padding: 2px 20px;
+    padding: 4px 20px 2px;
     text-transform: uppercase;
     font-weight: 700;
 }
@@ -1159,7 +1151,7 @@ i.fa.fa-microphone:hover {
     border: 1px solid #bda177;
     width: 71px;
     height: 88px;
-    padding: 0px 2px 0px 0px;
+    padding: 0px 0px 0px 0px;
 }
 .hyderabd-text.label-texts p {
     text-align: center;
