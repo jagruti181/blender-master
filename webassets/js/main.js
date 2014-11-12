@@ -2,6 +2,43 @@
 
 $(document).ready(function () {
     
+    $(".closeblender").click(function() {
+        $(".blenderoverlay").hide();
+        return false;
+    });
+    
+    $(".blenderitem a").click(function(){
+        $(".blenderoverlay").show();
+        var text2=$(this).children("h3").html();
+        var favicons="";
+        switch(text2)
+        {
+                case "Designer":
+                favicons="flaticon-mannequin1";
+                break;
+                case "Musician":
+                favicons="flaticon-musical";
+                break;
+                case "Speaker":
+                favicons="flaticon-microphone58";
+                break;
+        }
+        
+        
+        
+        $(".golden .fa").removeClass("flaticon-mannequin1");
+        $(".golden .fa").removeClass("flaticon-musical");
+        $(".golden .fa").removeClass("flaticon-microphone58");
+        $(".golden .fa").addClass(favicons);
+        
+        
+        $(".blenderoverlay .nameblender").html($(this).children("h2").html());
+        $(".blenderoverlay .typeblender").html($(this).children("h3").html());
+        $(".blenderoverlay .textblender").html($(this).children(".contentblender").html());
+        $(".blenderoverlay img.proimage").attr("src",$(this).children("img").attr("src"));
+        return false;
+    });
+    
     $('.carousel').carousel({
         interval: 5000 //changes the speed
     })

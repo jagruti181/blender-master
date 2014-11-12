@@ -134,7 +134,7 @@
 
 </div>
 
-<div class="section tour">
+<div class="section tour" style="position:relative">
    
     <div class="container">
         <div class="show">
@@ -158,6 +158,7 @@
             </div>
         </div>
         <div class="row blender-img">
+          
            <?php
 $i=0;
                 foreach($posts as $post)
@@ -165,8 +166,10 @@ $i=0;
                         //print_r($post);
                 
             ?>
-            <div class="col-md-3 item <?php echo $post->type?>">
+            <div class="col-md-3 item <?php echo $post->type?> blenderitem">
+               
                 <a href="<?php echo site_url('website/profile?id=').$post->id;?>"><img src="<?php echo base_url("uploads");?>/<?php echo $post->image;?>" style="width:100%;">
+                    <div class="hidden contentblender"><?php echo $post->content; ?></div>
                      <h2><?php echo $post->name;?></h2><br>
                      <?php switch($post->type)
             {
@@ -189,11 +192,44 @@ $i=0;
             ?>
         </div>
     </div>
+    
+    
+    
+    
+    
+    
     <div class="blenderoverlay">
-        <div class="row">
-           
-            
+       <div class="container" style="width:900px;margin-top:100px;" >
+              <div style="position:relative;">
+                  <a href="#" class="closeblender"><img src="<?php echo base_url("webassets/img/close.png"); ?>"></a>
+              </div>
+               <div class="row">
+
+    <div class="col-md-4">
+        <div class="profile-img">
+            <img src="http://www.bpft.in/blender-master/webassets/img/Neeta-Lulla.jpg" width="100%" class="proimage">
+            <div class="prof-mini">
+                <img src="<?php echo base_url("webassets");?>/img/diamond.png">
+                <p class="golden"><i class="fa "></i></p>
+            </div>
         </div>
+    </div>
+    <div class="col-md-8">
+        <div class="profile-text">
+            <h3 class="nameblender"></h3>
+            <h5 class="typeblender"></h5>
+            <p class="textblender">
+                
+            </p>
+            <a href="http://www.bpft.in/blender-master/index.php/website/profileedit?id=5">
+                <div class="style-text">
+                    <p>choose this style blender</p>
+                </div>
+            </a>
+        </div>
+
+    </div>
+           </div></div>
     </div>
 </div>
 <div><div><div>

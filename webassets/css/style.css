@@ -172,7 +172,6 @@ a {
     text-transform: uppercase;
     font-weight: 700;
 }
- 
 .contents .home-invite p {
     font-size: 15px;
     color: #000000;
@@ -772,9 +771,7 @@ i.fa.fa-microphone:hover {
     width: 100%;
     left: 0px;
 }
-.blender-bottom .blend {
-}
-.blender-bottom p {
+.blender-bottom .blend {} .blender-bottom p {
     font-size: 10.66px;
     color: #000;
     padding: 10px 0px 10px;
@@ -1184,7 +1181,9 @@ i.fa.fa-microphone:hover {
     float: right;
     overflow: hidden;
 }
-.profile-pic img {width: 170px}
+.profile-pic img {
+    width: 170px
+}
 .profile-details h4 {
     color: #fff;
     font-size: 39px;
@@ -1379,6 +1378,30 @@ h8 {
     margin-top: 70px;
 }
 .blender-bottom .blend p {
-color: white;
-padding: 10px 0 0;
+    color: white;
+    padding: 10px 0 0;
+}
+.blenderoverlay {
+    position: absolute;
+    top: 0px;
+    height: 1300px;
+    background: rgb(0, 0, 0);
+    z-index: 1000000;
+    width: 100%;
+    display: none;
+}
+a.closeblender {
+    position: absolute;
+    right: -17px;
+    z-index: 1000;
+}
+p.golden {
+    color: #bda177;
+    position: absolute;
+    width: 60px;
+    text-align: center;
+    top: 15px;
+}
+p.golden .fa:before {
+font-size: 30px;
 }
