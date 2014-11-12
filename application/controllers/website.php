@@ -86,6 +86,13 @@ class Website extends CI_Controller
         $data['before']=$this->designer_model->beforeedit($this->input->get('id'));
 		$this->load->view("webtemplate",$data);
 	}
+    function schedule()
+	{
+        
+		$data['page']="schedule";
+        //$data['before']=$this->designer_model->beforeedit($this->input->get('id'));
+		$this->load->view("webtemplatenonhome",$data);
+	}
     
     function register()
     {
