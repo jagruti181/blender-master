@@ -1,18 +1,283 @@
-<div class="contents1">
-                                        <h3>TERMS & CONDITIONS</h3>
-                                        <div class="play">
-
-                                        </div>
-                                        <div class="contents-content">
-                                            <p align="justify">
-                                                Robert George "Bob" Windle (born 7 November 1944) is an Australian retired freestyle swimmer of the 1960s, who won four Olympic medals, including an individual gold medal. Windle won the 1500 m freestyle and took bronze in the 4 × 100 m freestyle relay at the 1964 Summer Olympics in Tokyo, and silver and bronze in the 4 × 200 m and 4 × 100 m freestyle relays respectively at the 1968 Summer Olympics. Known for his versatility, he is the only male swimmer to represent Australia at the Olympics in all freestyle distances from 100 m to 1500 m. During his career, Windle set six world records and won six Commonwealth Games gold medals. He won 19 Australian Championships in all distances from 220 yd to 1650 yd.
-                                            </p>
-                                            <p align="justify">
-
-                                                Growing up in eastern Sydney, Windle was trained by Frank Guthrie from the age of 12. Windle's first major swimming competition was the 1960 Australian Championships. Aged 15, his second-place finish in the 1650 yd freestyle earned him a place on the team for the 1960 Summer Olympics in Rome. However, the Australian coaches only took him along to gain experience and he did not compete. He won his first national title in 1961—the 1650 yd freestyle—and claimed the 220–440–1650 yd treble in 1962. Windle made his international debut at the 1962 British Empire and Commonwealth Games in Perth, winning gold in the 4 × 220 yd freestyle and silver and bronze in the 1650 and 440 yd freestyle respectively. In 1963, he won four individual national titles, adding the 880 yd event to the successful defence of his three titles. He won three individual titles in 1964 and proceeded to the Tokyo Olympics where he was eliminated in the heats of the 400 m freestyle after attempting to save energy for the final. In response, Windle took an aggressive approach in the 1500 m and set Olympic records in the heats and final to win gold. He added a bronze in the 4 × 100 m freestyle relay.
-                                            </p>
-                                            <p align="justify">
-                                                After the Olympics, Windle enrolled at Indiana University, where he trained under Doc Counsilman. While in the United States, Windle converted to sprint swimming. He competed in the 1966 British Empire and Commonwealth Games in Kingston, Jamaica, winning the 440 yd freestyle, 4 × 110 yd and 4 × 220 yd freestyle relays, all in world-record times. He competed in his second Olympics in Mexico City in 1968, racing the 100 m and 200 m freestyle and the corresponding relays, having completed his transition to sprinting. He won a bronze and silver in the respective relays and retired after the games. In retirement, he worked for Allis-Chalmers in the United States, before being transferred to their Australian division.
-                                            </p>
-                                        </div>
+<div class="content-center style-position">
+                                <div class="icon-images">
+                                    <img src="<?php echo base_url("webassets"); ?>/img/spe-icon.png">
+                                    <img src="<?php echo base_url("webassets"); ?>/img/music_icon.png">
+                                    <img src="<?php echo base_url("webassets"); ?>/img/mic_icon.png">
+                                    <img src="<?php echo base_url("webassets"); ?>/img/cir_icon.png">
+                                </div>
+                                <div class="schedule-head ">
+                                    <h5>blenders pride fashion tour</h5>
+                                    <h4>2014 schedule</h4>
+                                </div>
+                            </div>
+                            </div></div></div>
+    <div class="mid-content">
+                        <div class="container">
+                            <div class="row icon-head">
+                                <div class="col-md-5">
+                                    <div class="icon-sche">
+                                        <img src="<?php echo base_url("webassets"); ?>/img/spebig.png"><span class="name-icon">style weak</span>
+                                        <img src="<?php echo base_url("webassets"); ?>/img/musbig.png"><span class="name-icon">style beat</span>
+                                        <img src="<?php echo base_url("webassets"); ?>/img/micbig.png"><span class="name-icon">style speak</span>
+                                        
+                                        <img src="<?php echo base_url("webassets"); ?>/img/circuit.png"><span class="name-icon">style tech</span>
+                                        
                                     </div>
+                                </div>
+                                <div class="col-md-4 label-text">
+                                    <span>bprc</span><i>BLENDERS PRIDE RESERVE COLLECTION</i>
+
+                                </div>
+                                <div class="col-md-3 label-text">
+                                    <span>bpft</span><i>blenders pride fashion tour</i>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hyderabad">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="city-head">
+                                        <h4>hyderabad</h4>
+                                        <h5>n convention</h5>
+                                    </div>
+                                </div>
+                                <div class="col-md-1">
+                                    <div class="hyderabd-text label-texts">
+                                        <span>bprc</span>
+                                        <p>nov
+                                            <br><i>18</i>
+                                        </p>
+                                    </div>
+                                    <div class="hyderabd-text label-texts">
+                                        <span>bprc</span>
+                                        <p>nov
+                                            <br><i>16</i>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="hyderabad-name">
+                                        <img src="<?php echo base_url("webassets"); ?>/img/speaker.png"><span class="name-icon">rocky s+ neeta lulla</span>
+                                        <br>
+                                        <img src="<?php echo base_url("webassets"); ?>/img/mus.png"><span class="name-icon">boom by central</span>
+                                        <br>
+                                        <img src="<?php echo base_url("webassets"); ?>/img/mic.png"><span class="name-icon">boman irani</span>
+                                        <br>
+
+                                    </div>
+                                    <div class="hyderabad-name">
+                                        <img src="<?php echo base_url("webassets"); ?>/img/speaker.png"><span class="name-icon">Pankaj &amp; Nidhi + Namrata Joshipura</span>
+                                        <br>
+                                        <img src="<?php echo base_url("webassets"); ?>/img/mus.png"><span class="name-icon">Shaa'ir + Func</span>
+                                        <br>
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gurgaon">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="city-head">
+                                        <h4>Gurgaon</h4>
+                                        <h5>Leela Ambience</h5>
+                                    </div>
+                                </div>
+                                <div class="col-md-1">
+                                    <div class="hyderabd-text label-texts">
+                                        <span>bprc</span>
+                                        <p>nov
+                                            <br><i>22</i>
+                                        </p>
+                                    </div>
+                                    <div class="hyderabd-text label-texts">
+                                        <span>bprc</span>
+                                        <p>nov
+                                            <br><i>23</i>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="hyderabad-name">
+                                        <img src="<?php echo base_url("webassets"); ?>/img/speaker.png"><span class="name-icon">rocky s+ neeta lulla</span>
+                                        <br>
+                                        <img src="<?php echo base_url("webassets"); ?>/img/mus.png"><span class="name-icon">boom by central</span>
+                                        <br>
+                                        <img src="<?php echo base_url("webassets"); ?>/img/mic.png"><span class="name-icon">boman irani</span>
+                                        <br>
+
+                                    </div>
+                                    <div class="hyderabad-name">
+                                        <img src="<?php echo base_url("webassets"); ?>/img/speaker.png"><span class="name-icon">Little Shilpa + Gaurav Gupta</span>
+                                        <br>
+                                        <img src="<?php echo base_url("webassets"); ?>/img/mus.png"><span class="name-icon">Karsh Kale featuring Grain with Ankur </span>
+                                        <br>
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mumbai">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="city-head">
+                                        <h4>mumbai</h4>
+                                        <h5>Grand Hyatt</h5>
+                                    </div>
+                                </div>
+                                <div class="col-md-1">
+                                    <div class="hyderabd-text label-texts">
+                                        <span>bprc</span>
+                                        <p>nov
+                                            <br><i>29</i>
+                                        </p>
+                                    </div>
+                                    <div class="hyderabd-text label-texts">
+                                        <span>bprc</span>
+                                        <p>nov
+                                            <br><i>30</i>
+                                        </p>
+                                    </div>
+                                </div>
+
+
+                                <div class="col-md-6">
+                                    <div class="hyderabad-name">
+                                        <img src="<?php echo base_url("webassets"); ?>/img/speaker.png"><span class="name-icon">Neeta Lulla + Suneet Varma</span>
+                                        <br>
+                                        <img src="<?php echo base_url("webassets"); ?>/img/mus.png"><span class="name-icon">Midival Punditz</span>
+                                        <br>
+                                        <img src="<?php echo base_url("webassets"); ?>/img/mic.png"><span class="name-icon">Wasim Akram</span>
+                                        <br>
+
+                                    </div>
+
+                                    <div class="hyderabad-name">
+                                        <img src="<?php echo base_url("webassets"); ?>/img/speaker.png"><span class="name-icon">Little Shilpa + Shivan &amp; Narresh</span>
+                                        <br>
+                                        <img src="<?php echo base_url("webassets"); ?>/img/mus.png"><span class="name-icon">Ashvin &amp; Ash</span>
+                                        <br>
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bangaluru">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="city-head">
+                                        <h4>bengaluru</h4>
+                                        <h5>The Leela Palace</h5>
+                                    </div>
+                                </div>
+                                <div class="col-md-1">
+                                    <div class="hyderabd-text label-texts">
+                                        <span>bprc</span>
+                                        <p>dec
+                                            <br><i>6</i>
+                                        </p>
+                                    </div>
+                                    <div class="hyderabd-text label-texts">
+                                        <span>bprc</span>
+                                        <p>dec
+                                            <br><i>7</i>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="hyderabad-name">
+                                        <img src="<?php echo base_url("webassets"); ?>/img/speaker.png"><span class="name-icon">Varun Bahl + Abraham &amp; Thakore</span>
+                                        <br>
+                                        <img src="<?php echo base_url("webassets"); ?>/img/mus.png"><span class="name-icon">Midival Punditz</span>
+                                        <br>
+                                        <img src="<?php echo base_url("webassets"); ?>/img/mic.png"><span class="name-icon">Chetan Bhagat</span>
+                                        <br>
+
+                                    </div>
+                                    <div class="hyderabad-name">
+                                        <img src="<?php echo base_url("webassets"); ?>/img/speaker.png"><span class="name-icon">Pankaj &amp; Nidhi + Namrata Joshipura</span>
+                                        <br>
+                                        <img src="<?php echo base_url("webassets"); ?>/img/mus.png"><span class="name-icon">Shaa'ir + Func</span>
+                                        <br>
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="kolkata">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="city-head">
+                                        <h4>kolkata</h4>
+                                        <h5>The Oberoi Grand</h5>
+                                    </div>
+                                </div>
+                                <div class="col-md-1">
+                                    <div class="hyderabd-text label-texts">
+                                        <span>bprc</span>
+                                        <p>dec
+                                            <br><i>12</i>
+                                        </p>
+                                    </div>
+                                    <div class="hyderabd-text label-texts">
+                                        <span>bprc</span>
+                                        <p>dec
+                                            <br><i>13</i>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="hyderabad-name">
+                                        <img src="<?php echo base_url("webassets"); ?>/img/speaker.png"><span class="name-icon">Varun Bahl + Abraham &amp; Thakore</span>
+                                        <br>
+                                        <img src="<?php echo base_url("webassets"); ?>/img/mus.png"><span class="name-icon">Midival Punditz</span>
+                                        <br>
+                                        <img src="<?php echo base_url("webassets"); ?>/img/mic.png"><span class="name-icon">Irrfan Khan</span>
+                                        <br>
+
+                                    </div>
+                                    <div class="hyderabad-name">
+                                        <img src="<?php echo base_url("webassets"); ?>/img/speaker.png"><span class="name-icon">Pankaj &amp; Nidhi + Namrata Joshipura</span>
+                                        <br>
+                                        <img src="<?php echo base_url("webassets"); ?>/img/mus.png"><span class="name-icon">Shaa'ir + Func</span>
+                                        <br>
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="space"></div>
+                    <div class="inspired">
+                        <div class="container inspired-text">
+                            <div class="content-center">
+                                <h4>MADE A NOTE OF THE DATES?</h4>
+                                <a href="#">
+                                    <div class="inspired-win">
+
+                                        <p>WIN AN INVITE</p>
+
+
+                                    </div>
+                                </a>
+                                <a href="#"><span class="back-top">back to top</span></a>
+
+                            </div>
+                        </div></div></div>     <div>   <div>                   
+                           

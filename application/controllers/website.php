@@ -93,6 +93,7 @@ class Website extends CI_Controller
         
 		$data['page']="schedule";
         //$data['before']=$this->designer_model->beforeedit($this->input->get('id'));
+        $data["nobackbackground"]="schedule";
 		$this->load->view("webtemplatenonhome",$data);
 	}
     
