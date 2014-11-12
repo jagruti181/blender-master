@@ -274,5 +274,5 @@ $i=0;
 
 
 <script>
-    var isloggedin="<?php if(isset($isloggedin)) {echo $isloggedin};?>";
+    var isloggedin="<?php if(isset($isloggedin)) {echo $isloggedin;}?>";
 </script>

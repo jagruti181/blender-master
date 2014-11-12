@@ -10,8 +10,16 @@ $(document).ready(function () {
     });
     
     $(".chooseshow").click(function() {
-        $(".part1").hide();
-        $(".profile-text.part2").show();
+        if(isloggedin=="")
+        {
+            window.location.href=site_url+"/website/login";
+        }
+        else
+        {
+            $(".part1").hide();
+            $(".profile-text.part2").show();
+           
+        }
         return false;
     });
     
