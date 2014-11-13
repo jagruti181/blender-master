@@ -353,7 +353,7 @@ the Blenders Pride Fashion Tour 2014 with <span class="gold">#BPMYSTYLE</span></
                     </div>
                 </a>
             </div>
-            <div class="row">
+            <div class="row" style="height:565px">
                 <?php foreach($posts as $post) { // print_r($post); ?>
                 <div class="col-md-3 col1 posts">
                     <div class="panel">
