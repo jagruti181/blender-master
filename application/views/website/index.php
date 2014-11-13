@@ -358,14 +358,14 @@ the Blenders Pride Fashion Tour 2014 with <span class="gold">#BPMYSTYLE</span></
                 <div class="col-md-3 col1 posts">
                     <div class="panel">
                         <div class="panel-heading">
-                            <img class="circular" src="<?php echo base_url("webassets");?>/img/<?php echo $post->logo;?>"><span class="top-text"><?php echo $post->name;?></span>
+                            <img class="circular" src="<?php echo $post->userlogo;?>"><span class="top-text"><?php echo $post->firstname." ".$post->lastname;?></span>
                             <img src="<?php echo base_url("webassets");?>/img/rect.png" class="rect">
 
                         </div>
                         <?php if($post->image!="") { ?>
                         <div class="panel-body">
                             <a href="#">
-                                    <img src="<?php echo base_url("webassets");?>/img/<?php echo $post->image;?>" width="100%">
+                                    <img src="<?php echo base_url("uploads");?>/<?php echo $post->image;?>" width="100%">
                                 </a>
                         </div>
                         <?php } if($post->text!=""){ ?>
