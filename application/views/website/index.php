@@ -211,7 +211,7 @@
                                                    <i class="fa flaticon-musical"></i>
                                                </div>
                         </div>
-                        <h5>Grain featuring Karsh Kale</h5>
+                        <h5>Grain featuring <br> Karsh Kale</h5>
                         <h6>Musician for Blenders Pride Fashion Tour, 2014</h6>
                         <p class="h7">Get a live taste of style in music</p>
 

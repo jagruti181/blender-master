@@ -132,7 +132,7 @@
                                                    <i class="fa flaticon-musical"></i>
                                                </div>
                                         </div>
-                                        <h5>Grain featuring Karsh Kale</h5>
+                                        <h5>Grain featuring <br> Karsh Kale</h5>
                                         <h6>Musician</h6>
 
                                         <a href="#">
@@ -173,7 +173,7 @@
     <div class="container">
         <div class="show">
             <h3>show them how it's done.</h3>
-            <p>select a stylebleneder below and submit your style statement.</p>
+            <p>select a style blender below and submit your style statement.</p>
 
         </div>
 

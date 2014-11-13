@@ -21,43 +21,6 @@
             <div class="st-content">
                 <div class="section reset" style="min-height: 471px;">
                     <div class="row" style="zoom:0.7">
-
-
-                        <!-- <div class="row index">
-                                <div class="col-md-5">
-                                    <div class="menu" id="st-trigger-effects">
-                                        <button data-effect="st-effect-11">
-                                            <img src="<?php echo base_url("webassets");?>/img/menu.png"><i class="menu-text">menu</i>
-                                        </button>
-                                    </div>
-                            
-                            
-                            
-                            
-                                </div>
-                                <div class="col-md-3">
-                                    <div class="navbar-header">
-                            
-                                        <a class="navbar-brands" href="#">
-                                            <img src="<?php echo base_url("webassets");?>/img/logo.png" alt="bootstrapwizard logo" height=85>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 social-link">
-                                    <div class="signin">
-                                        <a href="#"><i>signup /</i></a>
-                                        <a href="login.html"><i>login</i></a>
-                            
-                                    </div>
-                                    <div class="social">
-                                        <a href="#"><i class="fa fa-facebook"></i></a> 
-                                        <a href="#"> <i class="fa fa-twitter"></i>
-                                        </a>
-                                        <a href="#"><i class="fa fa-youtube-square"></i></a> 
-                                    </div>
-                                </div>
-                            
-                            </div> -->
                         <div class="row">
                             <div class="col-md-3"></div>
                             <div class="col-md-6">
@@ -94,7 +57,7 @@
                                             <span class="pad-left">
                                         <input type="number" placeholder="DD" name="day" min="1" max="30" class="input-age">
                                     <input type="number"  placeholder="MM" name="month" min="1" max="12" class="input-age" >
-                                        <input type="number" placeholder="YY" name="year" min="00" max="2040" class="input-age">
+                                        <input type="number" placeholder="YY" name="year" min="1901" max="2040" class="input-age">
                                             </span>
                                             <span class="contage">SEX</span>
                                             <select class="select-sex" name="sex" required>
