@@ -143,9 +143,9 @@
                 <div class="carousel-caption">
                     <div class="blender-bottom">
                         <div class="music text-center">
-                            <a>
-                               <img src="<?php echo base_url("webassets");?>/img/music.png" alt="">
-                            </a>
+                            <div class="style-icon">
+                                                   <i class="fa flaticon-musical"></i>
+                                               </div>
                         </div>
                         <h5>Midival Punditz</h5>
                         <h6>Musicians for Blenders Pride Fashion Tour, 2014</h6>
@@ -169,9 +169,9 @@
                 <div class="carousel-caption">
                     <div class="blender-bottom">
                         <div class="music text-center">
-                            <a>
-                            <img src="<?php echo base_url("webassets");?>/img/music.png" alt="">
-                            </a>
+                           <div class="style-icon">
+                                                   <i class="fa flaticon-mannequin1"></i>
+                                               </div>
                         </div>
                         <h5>Rocky Star</h5>
                         <h6>Designer for Blenders Pride Fashion Tour, 2014 </h6>
@@ -195,16 +195,16 @@
                 <div class="carousel-caption">
                     <div class="blender-bottom">
                         <div class="music text-center">
-                            <a>
-                             <img src="<?php echo base_url("webassets");?>/img/music.png" alt="">
-                            </a>
+                            <div class="style-icon">
+                                                   <i class="fa flaticon-mannequin1"></i>
+                                               </div>
                         </div>
                         <h5>Little Shilpa</h5>
                         <h6>Designer for Blenders Pride Fashion Tour, 2014</h6>
                         <p class="h7">Get a live taste of style in design</p>
 
                         <a>
-                            <div class=" blenders-invite">
+                            <div class="blenders-invite">
 
                                 <p>Win invites to BPFT 2014</p>
 
@@ -221,9 +221,9 @@
                 <div class="carousel-caption">
                     <div class="blender-bottom">
                         <div class="music text-center">
-                            <a>
-                             <img src="<?php echo base_url("webassets");?>/img/music.png" alt="">
-                            </a>
+                            <div class="style-icon">
+                                                   <i class="fa flaticon-musical"></i>
+                                               </div>
                         </div>
                         <h5>Karsh Kale </h5>
                         <h6>Musician for Blenders Pride Fashion Tour, 2014</h6>

@@ -1429,3 +1429,23 @@ text-transform: uppercase;
 .item .img-responsive {
 width: 100%;
 }
+.style-icon {
+    width: 45px;
+    margin: 0 auto 25px;
+    padding: 9px 0 7px;
+    border: 2px solid #bda177;
+    -webkit-transform: rotate(45deg);     
+    -moz-transform: rotate(45deg);     
+    -o-transform: rotate(45deg);     
+    -ms-transform: rotate(45deg);     
+    transform: rotate(45deg);
+    color: #bda177;
+}
+
+.style-icon .fa {
+    -webkit-transform: rotate(-45deg);     
+    -moz-transform: rotate(-45deg);     
+    -o-transform: rotate(-45deg);     
+    -ms-transform: rotate(-45deg);     
+    transform: rotate(-45deg);
+}
