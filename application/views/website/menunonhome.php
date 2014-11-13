@@ -3,15 +3,14 @@
     
 
         <nav class="st-menu st-effect-11" id="menu-11">
-            <h2 class="">menu</h2>
             <ul>
-                <li><a class="" href="<?php echo site_url('website/schedule'); ?>">SCHEDULE</a>
+                <li><a class="" href="<?php echo site_url('website/schedule'); ?>">EVENT SCHEDULE</a>
                 </li>
                 <li><a class="" href="<?php echo site_url('website/blenderstyle'); ?>">STYLE BLENDERS</a>
                 </li>
                 <li><a class="" href="<?php echo site_url('website/invitelist'); ?>">INVITE LIST</a>
                 </li>
-                <li><a class="" href="#">ARCHIVE SITE</a>
+                <li><a class="" href="#">BPFT 2013</a>
                 </li>
 
             </ul>
@@ -25,7 +24,7 @@
 
 
                             <div class="row">
-                                <div class="col-md-5">
+                                <div class="col-md-3">
                                     <div class="menu" id="st-trigger-effects">
                                         <button data-effect="st-effect-11">
                                             <img src="<?php echo base_url("webassets");?>/img/menu.png"><i class="menu-text">menu</i>
@@ -36,7 +35,7 @@
 
 
                                 </div>
-                                <div class="col-md-3">
+                                <div class="col-md-6">
                                     <div class="navbar-header">
 
                                         <a class="navbar-brands" href="<?php echo site_url(); ?>">
@@ -44,7 +43,7 @@
                                         </a>
                                     </div>
                                 </div>
-                                <div class="col-md-4 social-link">
+                                <div class="col-md-3 social-link">
                                     <?php $this->load->view("loginview");?>
                                     <div class="social">
                                         <a href="#"><i class="fa fa-facebook"></i></a> 

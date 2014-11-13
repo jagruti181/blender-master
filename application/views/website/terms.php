@@ -1,5 +1,5 @@
 <div class="contents1">
-                                        <h3>TERMS & CONDITIONS</h3>
+                                        <h3>TERMS &amp; CONDITIONS</h3>
                                         <div class="play">
 
                                         </div>

@@ -217,7 +217,7 @@ a {
 }
 .social-link {
     position: relative;
-    right: -88px;
+    right: -65px;
 }
 .mid-content h3 {
     color: #fff;
@@ -279,7 +279,7 @@ a {
     color: #bda177;
     text-transform: uppercase;
     position: relative;
-    top: 35px;
+    top: 10px;
     letter-spacing: 2px;
 }
 .blenders .blenders-invite {
@@ -1383,7 +1383,7 @@ h8 {
     display: block;
 }
 .row.topleave {
-    margin-top: 30px;
+    margin-top: 110px;
 }
 .blender-bottom .blend p {
     color: white;
@@ -1428,4 +1428,24 @@ text-transform: uppercase;
 }
 .item .img-responsive {
 width: 100%;
+}
+.style-icon {
+    width: 45px;
+    margin: 0 auto 25px;
+    padding: 9px 0 7px;
+    border: 2px solid #bda177;
+    -webkit-transform: rotate(45deg);     
+    -moz-transform: rotate(45deg);     
+    -o-transform: rotate(45deg);     
+    -ms-transform: rotate(45deg);     
+    transform: rotate(45deg);
+    color: #bda177;
+}
+
+.style-icon .fa {
+    -webkit-transform: rotate(-45deg);     
+    -moz-transform: rotate(-45deg);     
+    -o-transform: rotate(-45deg);     
+    -ms-transform: rotate(-45deg);     
+    transform: rotate(-45deg);
 }

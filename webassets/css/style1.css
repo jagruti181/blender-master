@@ -827,7 +827,7 @@ i.fa.fa-microphone:hover {
     /* position: relative; */
     border: 1px solid #bda177;
     margin: 0 auto;
-    margin-top: 40px;
+    margin-top: 25px;
 }
 .blender-bottom p {
     font-size: 10.66px;
@@ -2041,7 +2041,7 @@ input.uploadicon {
     border-radius: 30px;
     position: relative;
     font-weight: 700;
-    margin: 40px auto 0;
+    margin: 0px auto 0;
     width: 300px;
 }
 .blenders-invite p {

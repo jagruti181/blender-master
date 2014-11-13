@@ -62,7 +62,7 @@
                                     <div class="hyderabad-name">
                                         <img src="<?php echo base_url("webassets"); ?>/img/speaker.png"><span class="name-icon">rocky s+ neeta lulla</span>
                                         <br>
-                                        <img src="<?php echo base_url("webassets"); ?>/img/mus.png"><span class="name-icon">boom by central</span>
+                                        <img src="<?php echo base_url("webassets"); ?>/img/mus.png"><span class="name-icon">boom bay central</span>
                                         <br>
                                         <img src="<?php echo base_url("webassets"); ?>/img/mic.png"><span class="name-icon">boman irani</span>
                                         <br>
