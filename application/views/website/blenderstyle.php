@@ -44,7 +44,7 @@
                                             </a>
                                         </div>
                                         <h5>Midival Punditz</h5>
-                                        <h6>Musician</h6>
+                                        <h6>Musicians</h6>
 
                                         <a href="#">
                                             <div class="style-text">
