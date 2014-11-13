@@ -2,13 +2,13 @@
    <nav class="st-menu st-effect-11" id="menu-11">
 
                 <ul>
-                    <li><a class="" href="<?php echo site_url('website/schedule'); ?>">SCHEDULE</a>
+                    <li><a class="" href="<?php echo site_url('website/schedule'); ?>">EVENT SCHEDULE</a>
                     </li>
                     <li><a class="" href="<?php echo site_url('website/blenderstyle'); ?>">STYLE BLENDERS</a>
                     </li>
                     <li><a class="" href="<?php echo site_url('website/invitelist'); ?>">INVITE LIST</a>
                     </li>
-                    <li><a class="" href="#">ARCHIVE SITE</a>
+                    <li><a class="" href="#">BPFT 2013</a>
                     </li>
 
                 </ul>
@@ -21,7 +21,7 @@
                 <h4>Can grab attention without asking for it</h4>
             </div>
             <div class="scroll text-center">
-                <a href="#">
+                <a href="#scrolldown">
                         <img src="<?php echo base_url("webassets");?>/img/scroll.png" alt="">
                     </a>
             </div>
@@ -48,35 +48,35 @@
                         <div class="container">
 
 
-                            <div class="row blendertopmenu">
-                                <div class="col-md-5">
-                                    <div class="menu" id="st-trigger-effects">
-                                        <button data-effect="st-effect-11">
-                                            <img src="<?php echo base_url("webassets");?>/img/menu.png"><i class="menu-text">menu</i>
-                                        </button>
+                           <a name="scrolldown"> 
+                                   <div class="row blendertopmenu">
+                                    <div class="col-md-3">
+                                        <div class="menu" id="st-trigger-effects">
+                                            <button data-effect="st-effect-11">
+                                                    <img src="<?php echo base_url("webassets");?>/img/menu.png"><i class="menu-text">menu</i>
+                                                </button>
+                                        </div>
+                                
+                                
+                                
+                                
                                     </div>
-
-
-
-
-                                </div>
-                                <div class="col-md-3">
-                                    
-                                </div>
-                                <div class="col-md-4 social-link">
-                                   <?php $this->load->view("loginview");?>
-                                    <div class="social">
-                                        <a href="#"><i class="fa fa-facebook"></i></a> 
-                                        <a href="#"> <i class="fa fa-twitter"></i>
-                                        </a>
-                                        <a href="#"><i class="fa fa-youtube"></i></a> 
+                                    <div class="col-md-6">
+                                        
                                     </div>
+                                    <div class="col-md-3 social-link">
+                                       <?php $this->load->view("loginview");?>
+                                        <div class="social">
+                                            <a><i class="fa fa-facebook"></i></a> 
+                                            <a> <i class="fa fa-twitter"></i>
+                                            </a>
+                                            <a><i class="fa fa-youtube"></i></a> 
+                                        </div>
+                                    </div>
+                                
                                 </div>
-
-                            </div>
-                            <div class="row" style="
-    margin-top: 135px;
-">
+                                </a>
+                            <div class="row" style="margin-top: 135px;">
                                 <div class="col-md-3"></div>
                                 <div class="col-md-6">
                                     <div class="contents">
@@ -91,7 +91,7 @@
                                         <p>Get a live taste of the power of style</p>
                                         <div class="home-invite">
 
-                                            <a href="#">
+                                            <a>
                                                 <p>Win invites to BPFT 2014</p>
                                             </a>
                                         </div>
@@ -143,15 +143,15 @@
                 <div class="carousel-caption">
                     <div class="blender-bottom">
                         <div class="music text-center">
-                            <a href="#">
-                               <img src="<?php echo base_url("webassets");?>/img/music.png" alt="">
-                            </a>
+                            <div class="style-icon">
+                                                   <i class="fa flaticon-musical"></i>
+                                               </div>
                         </div>
                         <h5>Midival Punditz</h5>
                         <h6>Musicians for Blenders Pride Fashion Tour, 2014</h6>
                         <p class="h7">Get a live taste of style in music</p>
 
-                        <a href="#">
+                        <a>
                             <div class="blenders-invite">
 
                                 <p>WIN AN INVITE. SHOW HOW IT’S DONE.</p>
@@ -169,15 +169,15 @@
                 <div class="carousel-caption">
                     <div class="blender-bottom">
                         <div class="music text-center">
-                            <a href="#">
-                            <img src="<?php echo base_url("webassets");?>/img/music.png" alt="">
-                            </a>
+                           <div class="style-icon">
+                                                   <i class="fa flaticon-mannequin1"></i>
+                                               </div>
                         </div>
                         <h5>Rocky Star</h5>
                         <h6>Designer for Blenders Pride Fashion Tour, 2014 </h6>
                         <p class="h7">Get a live taste of style in design</p>
 
-                        <a href="#">
+                        <a>
                             <div class=" blenders-invite">
 
                                 <p>Win invites to BPFT 2014</p>
@@ -195,16 +195,16 @@
                 <div class="carousel-caption">
                     <div class="blender-bottom">
                         <div class="music text-center">
-                            <a href="#">
-                             <img src="<?php echo base_url("webassets");?>/img/music.png" alt="">
-                            </a>
+                            <div class="style-icon">
+                                                   <i class="fa flaticon-mannequin1"></i>
+                                               </div>
                         </div>
                         <h5>Little Shilpa</h5>
                         <h6>Designer for Blenders Pride Fashion Tour, 2014</h6>
                         <p class="h7">Get a live taste of style in design</p>
 
-                        <a href="#">
-                            <div class=" blenders-invite">
+                        <a>
+                            <div class="blenders-invite">
 
                                 <p>Win invites to BPFT 2014</p>
 
@@ -221,15 +221,15 @@
                 <div class="carousel-caption">
                     <div class="blender-bottom">
                         <div class="music text-center">
-                            <a href="#">
-                             <img src="<?php echo base_url("webassets");?>/img/music.png" alt="">
-                            </a>
+                            <div class="style-icon">
+                                                   <i class="fa flaticon-musical"></i>
+                                               </div>
                         </div>
                         <h5>Karsh Kale </h5>
                         <h6>Musician for Blenders Pride Fashion Tour, 2014</h6>
                         <p class="h7">Get a live taste of style in music</p>
 
-                        <a href="#">
+                        <a>
                             <div class=" blenders-invite">
 
                                 <p>Win invites to BPFT 2014</p>
@@ -268,7 +268,7 @@
                         <div class="content-priya">
                             <h4>Get a taste of style with Priyanka Chopra</h4>
                             <div class="play">
-                                <a href="#">
+                                <a>
                                         <img src="<?php echo base_url("webassets");?>/img/playbutton.png" alt="">
                                     </a>
                             </div>
@@ -353,7 +353,7 @@ the Blenders Pride Fashion Tour 2014 with <span class="gold">#BPMYSTYLE</span></
                     </div>
                 </a>
             </div>
-            <div class="row">
+            <div class="row" style="height:565px">
                 <?php foreach($posts as $post) { // print_r($post); ?>
                 <div class="col-md-3 col1 posts">
                     <div class="panel">
@@ -364,8 +364,13 @@ the Blenders Pride Fashion Tour 2014 with <span class="gold">#BPMYSTYLE</span></
                         </div>
                         <?php if($post->image!="") { ?>
                         <div class="panel-body">
+<<<<<<< HEAD
                             <a href="#">
                                     <img src="<?php echo base_url("uploads");?>/<?php echo $post->image;?>" width="100%">
+=======
+                            <a>
+                                    <img src="<?php echo base_url("webassets");?>/img/<?php echo $post->image;?>" width="100%">
+>>>>>>> origin/master
                                 </a>
                         </div>
                         <?php } if($post->text!=""){ ?>
@@ -380,7 +385,7 @@ the Blenders Pride Fashion Tour 2014 with <span class="gold">#BPMYSTYLE</span></
                                 <a href="" class="sharee"><i class="fa fa-facebook"></i></a>
                                 <a href="" class="twitterbutton"></a>
 <!--
-                                <a href="#"> <i class="fa fa-google-plus"></i>
+                                <a> <i class="fa fa-google-plus"></i>
                                 </a>
 -->
                             </div>
@@ -390,6 +395,7 @@ the Blenders Pride Fashion Tour 2014 with <span class="gold">#BPMYSTYLE</span></
                 </div>
                 <?php } ?>
             </div>
+            <div class="clearfix"></div>
             <a href="<?php echo site_url('website/invitelist'); ?>">
                 <div class="foot-text">
                     <p>
@@ -403,7 +409,7 @@ the Blenders Pride Fashion Tour 2014 with <span class="gold">#BPMYSTYLE</span></
         <div class="container inspired-text">
             <div class="content-center">
                 <h4>ARE YOU INSPIRED?</h4>
-                <a href="#">
+                <a>
                     <div class="inspired-win">
 
                         <p>WIN AN INVITE</p>
@@ -420,9 +426,9 @@ the Blenders Pride Fashion Tour 2014 with <span class="gold">#BPMYSTYLE</span></
     <div class="footer">
         <div class="container">
             <div class="content-center footer-text">
-                <p> <a href="#">Terms & Conditions</a>
-                    <a href="#">Privacy Policy</a> 
-                    <a href="#">Contact us</a> 
+                <p> <a href="<?php echo site_url('website/termscondition');?>">Terms &amp; Conditions</a>
+                    <a>Privacy Policy</a> 
+                    <a>Contact us</a> 
                 </p>
                 <p class="comp-text">© 2014 Blender’s Pride Limited. All rights reserved</p>
             </div>
