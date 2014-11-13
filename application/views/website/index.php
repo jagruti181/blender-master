@@ -297,7 +297,8 @@ the Blenders Pride Fashion Tour 2014 with <span class="gold">#BPMYSTYLE</span></
                             </p>
                         </div>
                         <div class="panel-body">
-                            <img src="<?php echo base_url("webassets");?>/img/panel.png">
+<!--                            <img src="<?php echo base_url("webassets");?>/img/panel.png">-->
+                       <iframe src="<?php echo site_url("website/instagramimages");?>" frameborder="0" width="360px" height="420px"></iframe>
                         </div>
                     </div>
 

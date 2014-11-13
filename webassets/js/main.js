@@ -70,6 +70,17 @@ $(document).ready(function () {
         });
     });
     var $container=0;
+    
+    var container2 = document.querySelector('.container555');
+
+    $(".posts img").load(function () {
+        var msnry = new Masonry(container2, {
+            // options
+            columnWidth: 0,
+            itemSelector: '.posts'
+        });
+    });
+    
 
     $(".section").css("min-height", $(window).height());
     $(window).resize(function () {

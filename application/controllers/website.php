@@ -281,4 +281,10 @@ class Website extends CI_Controller
         redirect(site_url("/"));
         $data['json']=true;
     }
+    public function instagramimages()
+    {
+        $data['page']="instagramimages";
+        $data['instagrams']=$this->post_model->getinstagram();
+		$this->load->view("webtemplate",$data);
+    }
 }

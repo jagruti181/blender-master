@@ -28,7 +28,7 @@ if (1) {
 //echo "https://api.instagram.com/v1/tags/GoodDeedMarathon/media/recent/?access_token=$access_token$maxid";
 
 header('Content-Type: application/json');
-$data = getCurldata("https://api.instagram.com/v1/tags/GoodDeedMarathon/media/recent/?access_token=$access_token$maxid");
+$data = getCurldata("https://api.instagram.com/v1/tags/BPFT/media/recent/?access_token=$access_token$maxid");
 
 // instagram data storing 
 
