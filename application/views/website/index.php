@@ -401,7 +401,7 @@ the Blenders Pride Fashion Tour 2014 with <span class="gold">#BPMYSTYLE</span></
 
                     </div>
                 </a>
-                <a href="#"><span class="back-top">back to top</span></a>
+                <a href="#top"><span class="back-top">back to top</span></a>
 
             </div>
 
