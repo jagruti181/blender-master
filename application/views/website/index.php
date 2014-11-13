@@ -364,14 +364,11 @@ the Blenders Pride Fashion Tour 2014 with <span class="gold">#BPMYSTYLE</span></
                         </div>
                         <?php if($post->image!="") { ?>
                         <div class="panel-body">
-<<<<<<< HEAD
+
                             <a href="#">
                                     <img src="<?php echo base_url("uploads");?>/<?php echo $post->image;?>" width="100%">
-=======
-                            <a>
-                                    <img src="<?php echo base_url("webassets");?>/img/<?php echo $post->image;?>" width="100%">
->>>>>>> origin/master
-                                </a>
+
+                                 </a>
                         </div>
                         <?php } if($post->text!=""){ ?>
 

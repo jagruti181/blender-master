@@ -47,6 +47,9 @@
                   'des'  => 'Designer',
                   'mus'    => 'Musician',
                   'spe'   => 'Speaker',
+                    'dess'  => 'Designers',
+                  'muss'    => 'Musicians',
+                  'spes'   => 'Speakers',
                 );
 
 echo form_dropdown('type', $options, set_value('type',$before->type),"class='form-control'");

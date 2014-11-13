@@ -39,7 +39,7 @@
                                     <div class="navbar-header">
 
                                         <a class="navbar-brands" href="<?php echo site_url(); ?>">
-                                            <img src="<?php echo base_url("webassets");?>/img/logo.png" alt="bootstrapwizard logo" >
+                                            <img src="<?php echo base_url("webassets");?>/img/logo<?php if($page=="blenderstyle") echo 2;?>.png" alt="bootstrapwizard logo" >
                                         </a>
                                     </div>
                                 </div>

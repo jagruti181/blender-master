@@ -42,11 +42,18 @@
 				<div class="form-group">
 				  <label class="col-sm-2 control-label" for="normal-field">Type</label>
 				  <div class="col-sm-4">
-					<select  id="normal-field" class="form-control" name="type" value="<?php echo set_value('type');?>">
-                     <option value="des">Designer</option>
-                     <option value="mus">Musician</option>
-                     <option value="spe">Speaker</option>
-                      </select>
+					<?php
+				  $options = array(
+                  'des'  => 'Designer',
+                  'mus'    => 'Musician',
+                  'spe'   => 'Speaker',
+                    'dess'  => 'Designers',
+                  'muss'    => 'Musicians',
+                  'spes'   => 'Speakers',
+                );
+
+echo form_dropdown('type', $options, set_value('type'),"class='form-control'");
+?>
 				  </div>
 				</div>
 				

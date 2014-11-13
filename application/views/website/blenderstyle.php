@@ -200,7 +200,7 @@ $i=0;
                         //print_r($post);
                 
             ?>
-            <div class="col-md-3 item <?php echo $post->type;?> blenderitem">
+            <div class="col-md-3 item <?php echo substr($post->type,0,3);?> blenderitem">
                
                 <a href="<?php echo site_url('website/profile?id=').$post->id;?>"><img src="<?php echo base_url("uploads");?>/<?php echo $post->image;?>" style="width:100%;">
                     <div class="hidden contentblender"><?php echo $post->content; ?></div>
@@ -216,6 +216,15 @@ $i=0;
                 break;
                 case "spe":
                 echo "<h3>Speaker</h3>";
+                break;
+                case "dess":
+                echo "<h3>Designers</h3>";
+                break;
+                case "muss":
+                echo "<h3>Musicians</h3>";
+                break;
+                case "spes":
+                echo "<h3>Speakers</h3>";
                 break;
                 
             }
