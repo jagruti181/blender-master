@@ -1442,7 +1442,7 @@ i.fa.fa-microphone:hover {
     padding-top: 25px;
     border-top: 1px solid #bda177;
 }
-.contents-content p {
+.contents-content p, .contents-content ul>li {
     color: white;
     font-size: 15px;
 }

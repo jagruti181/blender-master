@@ -1449,3 +1449,18 @@ width: 100%;
     -ms-transform: rotate(-45deg);     
     transform: rotate(-45deg);
 }
+.copy p {
+    color: #666666;
+    font-weight: 300;
+}
+
+span.goldy {
+    color: #bda177;
+    font-weight: 700;
+}
+
+.copy {
+    padding: 10px 15px;
+    position: fixed;
+    bottom: 0px;
+}

@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="shortcut icon" href="">
-    <title>Blenders Pride</title>
+    <title>Blenders Pride Fashion Tour 2014. Taste Life In Style.</title>
 
     <!-- Bootstrap core CSS -->
     <link href="<?php echo base_url("webassets");?>/css/bootstrap.css" rel="stylesheet">
@@ -16,6 +16,7 @@
     <link href="<?php echo base_url("webassets");?>/css/font-awesome.min.css" rel="stylesheet">
     <link href="<?php echo base_url("webassets");?>/fonts/flaticon.css" rel="stylesheet">
     <link href="<?php echo base_url("webassets");?>/css/dropzone.css" rel="stylesheet">
+    <link rel="shortcut icon" href="<?php echo base_url("webassets");?>/img/logo.png" type="image/x-icon">
 
 <!-- For image drop down upload -->
 <script src="<?php echo base_url("webassets");?>/js/dropzone.js"></script>

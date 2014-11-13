@@ -132,7 +132,7 @@
                                                    <i class="fa flaticon-musical"></i>
                                                </div>
                                         </div>
-                                        <h5>Karsh Kale</h5>
+                                        <h5>Grain featuring Karsh Kale</h5>
                                         <h6>Musician</h6>
 
                                         <a href="#">
