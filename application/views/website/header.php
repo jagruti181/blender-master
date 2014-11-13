@@ -19,6 +19,9 @@
     <link rel="shortcut icon" href="<?php echo base_url("webassets");?>/img/logo.png" type="image/x-icon">
 
 <!-- For image drop down upload -->
+<script src="<?php echo base_url("webassets");?>/js/jquery.min.js"></script>
+<script src="<?php echo base_url("webassets");?>/js/smooth-scroll.min.js"></script>
+
 <script src="<?php echo base_url("webassets");?>/js/dropzone.js"></script>
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -37,7 +40,7 @@
 
 <!--facebook integration-->
 
-<script src="<?php echo base_url("webassets");?>/js/jquery.min.js"></script>
+
     <script>
         var site_url="<?php echo site_url();?>";
         var base_url="<?php echo base_url();?>";

@@ -8,7 +8,7 @@
                 <h4>Can grab attention without asking for it</h4>
             </div>
             <div class="scroll text-center">
-                <a href="#scrolldown">
+                <a data-scroll href="#scrolldown">
                         <img src="<?php echo base_url("webassets");?>/img/scroll.png" alt="">
                     </a>
             </div>
@@ -401,7 +401,7 @@ the Blenders Pride Fashion Tour 2014 with <span class="gold">#BPMYSTYLE</span></
 
                     </div>
                 </a>
-                <a href="#top"><span class="back-top">back to top</span></a>
+                <a data-scroll href="#top"><span class="back-top">back to top</span></a>
 
             </div>
 
