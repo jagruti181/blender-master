@@ -279,7 +279,7 @@ a {
     color: #bda177;
     text-transform: uppercase;
     position: relative;
-    top: 35px;
+    top: 10px;
     letter-spacing: 2px;
 }
 .blenders .blenders-invite {
@@ -1383,7 +1383,7 @@ h8 {
     display: block;
 }
 .row.topleave {
-    margin-top: 30px;
+    margin-top: 110px;
 }
 .blender-bottom .blend p {
     color: white;
