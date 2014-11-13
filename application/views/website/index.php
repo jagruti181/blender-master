@@ -8,9 +8,9 @@
                 <h4>Can grab attention without asking for it</h4>
             </div>
             <div class="scroll text-center">
-                <a href="#scrolldown">
+                <span id="scrollerdown">
                         <img src="<?php echo base_url("webassets");?>/img/scroll.png" alt="">
-                    </a>
+                    </span>
             </div>
         </div>
     </div>
@@ -35,8 +35,8 @@
                         <div class="container">
 
 
-                           <a name="scrolldown"> 
-                                   <div class="row blendertopmenu">
+                            
+                                   <div class="row blendertopmenu" id="scrolldown">
                                     <div class="col-md-3">
                                         <div class="menu" id="st-trigger-effects">
                                             <button data-effect="st-effect-11">
@@ -62,7 +62,6 @@
                                     </div>
                                 
                                 </div>
-                                </a>
                             <div class="row" style="margin-top: 135px;">
                                 <div class="col-md-3"></div>
                                 <div class="col-md-6">
@@ -417,6 +416,5 @@ the Blenders Pride Fashion Tour 2014 with <span class="gold">#BPMYSTYLE</span></
     <script>
         
         //twitter integration
-       
         
     </script>
