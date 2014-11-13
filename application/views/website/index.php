@@ -1,18 +1,5 @@
 <div class="st-container" id="st-container">
-   <nav class="st-menu st-effect-11" id="menu-11">
-
-                <ul>
-                    <li><a class="" href="<?php echo site_url('website/schedule'); ?>">EVENT SCHEDULE</a>
-                    </li>
-                    <li><a class="" href="<?php echo site_url('website/blenderstyle'); ?>">STYLE BLENDERS</a>
-                    </li>
-                    <li><a class="" href="<?php echo site_url('website/invitelist'); ?>">INVITE LIST</a>
-                    </li>
-                    <li><a class="" href="#">BPFT 2013</a>
-                    </li>
-
-                </ul>
-            </nav>
+   <?php $this->load->view("website/sidemenu");?>
             <div class="st-pusher">
     <div class="section intro">
         <div class="container">
@@ -421,17 +408,9 @@ the Blenders Pride Fashion Tour 2014 with <span class="gold">#BPMYSTYLE</span></
 
         </div>
     </div>
-    <div class="footer">
-        <div class="container">
-            <div class="content-center footer-text">
-                <p> <a href="<?php echo site_url('website/termscondition');?>">Terms &amp; Conditions</a>
-                    <a>Privacy Policy</a> 
-                    <a>Contact us</a> 
-                </p>
-                <p class="comp-text">© 2014 Blender’s Pride Limited. All rights reserved</p>
-            </div>
-        </div>
-    </div>
+    
+    <?php $this->load->view("website/contentfooter");?>
+    
 </div>
     </div>
 

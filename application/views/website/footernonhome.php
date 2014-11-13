@@ -1,12 +1,4 @@
-<div class="foot">
-                                        <div class="content-center footer-text">
-                                            <p> <a href="<?php echo site_url('website/termscondition'); ?>">Terms &amp; Conditions</a>
-                                                <a href="#">Privacy Policy</a> 
-                                                <a href="#">Contact us</a> 
-                                            </p>
-                                            <p class="comp-text">© 2014 Blender’s Pride Limited. All rights reserved</p>
-                                        </div>
-                                    </div>
+ <?php $this->load->view("website/contentfooter");?>
                                 </div>
                                 
                                 <!-- /.navbar-collapse -->
