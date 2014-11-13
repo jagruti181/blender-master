@@ -74,10 +74,9 @@
                                         </div>
                                     </div>
                                 
-                                </div></a>
-                            <div class="row" style="
-    margin-top: 135px;
-">
+                                </div>
+                                </a>
+                            <div class="row" style="margin-top: 135px;">
                                 <div class="col-md-3"></div>
                                 <div class="col-md-6">
                                     <div class="contents">
