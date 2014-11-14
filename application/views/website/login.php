@@ -1,4 +1,4 @@
-<div class="container" style="zoom:0.8">
+<div class="container profiler">
     <div class="row">
         <div class="col-md-3"></div>
         <div class="col-md-6">

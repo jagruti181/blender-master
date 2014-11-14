@@ -3,7 +3,7 @@
         <div class="st-content-inner">
             <div class="st-content">
                 <div class="section reset" style="min-height: 471px;">
-                    <div class="row" style="zoom:0.8">
+                    <div class="row profiler">
                         <div class="row">
                             <div class="col-md-3"></div>
                             <div class="col-md-6">
