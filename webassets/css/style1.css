@@ -1809,7 +1809,7 @@ padding-top: 60px;
 }
 .input-age {
     background: black;
-    width: 51px;
+    width: 60px;
     height: 29px;
     border: 1px solid white;
     color: white;
@@ -1820,7 +1820,7 @@ select.select-sex {
     color: white;
     background: black;
     outline: white;
-    width: 90px;
+    width: auto;
     height: 30px;
 }
 span.contage {
@@ -1845,8 +1845,12 @@ input.cityicon {
     background: #000 url("../img/location.png") 15px no-repeat;
 }
 input.emailicon {
-    padding-left: 51px;
     background: #000 url("../img/envolap.png") 15px no-repeat;
+    border: 1px solid white;
+    margin: 10px 0 20px;
+    padding: 12px  0px 10px 40px;
+    font-size: 18px;
+    color: white;
 }
 input.usericon {
     padding-left: 51px;
@@ -1883,13 +1887,12 @@ input.uploadicon {
     /* left: 42%; */
 }
 .gift-body {
-    height: 360px;
+    height: auto;
     width: 396px;
     background: #bda177;
     text-align: center;
     align-content: center;
     margin: 0 auto;
-    /* left: 81px; */
 }
 .gift-body1 p {
     font-size: 17px;
@@ -1928,6 +1931,7 @@ input.uploadicon {
     color: #FFFFFF;
     font-size: 25px;
     margin-right: 24px;
+    vertical-align: middle;
 }
 .gift-body4 p {
     font-size: 14px;
