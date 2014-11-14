@@ -74,12 +74,12 @@ echo base_url("uploads").$user->logo;
 <div class="mid-content">
     <div class="container">
         <div class="margin1">
-            <div class="input-content text-center profiler">
+            <div class="input-content text-center">
                 <form method="post" action="<?php echo site_url('website/submitprofile');?>" enctype="multipart/form-data">
                     <input value="<?php echo set_value('twitter',$user->twitter);?>" name="twitter" id="username-email" placeholder="Twitter UserID" type="text" class="" />
                     <input value="<?php echo set_value('id',$user->id);?>" name="id" id="username-email" placeholder="Twitter UserID" type="hidden" class="" />
                     <input name="instagram" value="<?php echo set_value('instagram',$user->instagram);?>" id="password" placeholder="Instagram UserID" type="text" class="" />
-                    <button type="submit" class="bpft-btn">Submit</button>
+                    <button type="submit" class="">Submit</button>
                 </form>
                 <!--
                             <div class="col-md-6-pad">
@@ -91,7 +91,7 @@ echo base_url("uploads").$user->logo;
 
 
         <div class="text-center pro-head">
-            <h6>We have received your style statement and our moderators are reviewing it.</h6>
+<!--            <h6>We have received your style statement and our moderators are reviewing it.</h6>-->
             <a href="#"><h4>Your Style Statements</h4></a>
         </div>
         <?php foreach($posts as $post) { if($post->id!=null) { ?>
