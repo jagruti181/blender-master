@@ -39,7 +39,7 @@
 						
 						
 						<td>
-						<a href="<?php echo site_url("site/changepost?id=$row->id&change=");
+						<a href="<?php echo site_url("site/changepostapprove?id=$row->id&change=");
                            if($row->approve=='1')
                            {
                                echo 0;
@@ -48,7 +48,16 @@
                            {
                                echo 1;
                            }
-                            ?>"></a>
+                    ?>"  class="btn <?php
+                                if($row->approve=='1')
+                                {
+                                    echo "btn-success";
+                                }
+                                              else
+                                              {
+                                                  echo "btn-danger";
+                                              }
+                                ?>">Approval</a>
 							<a href="<?php echo site_url('site/editpost?id=').$row->id;?>" class="btn btn-primary btn-xs">
 								<i class="icon-pencil"></i>
 							</a>

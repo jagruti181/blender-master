@@ -2347,13 +2347,13 @@ class Site extends CI_Controller
 		$data['title']='View post';
 		$this->load->view('template',$data);
 	}
-    function deletepost()
+    function changepostapprove()
 	{
 		$access = array("1");
 		$this->checkaccess($access);
         $id=$this->input->get('id');
         $change=$this->input->get('change');
-		$this->post_model->changeapprove($id,$change);
+		$this->post_model->changepostapprove($id,$change);
 		$data['table']=$this->post_model->viewpost();
 		$data['alertsuccess']="post Deleted Successfully";
 		$data['page']='viewpost';

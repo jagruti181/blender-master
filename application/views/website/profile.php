@@ -79,7 +79,14 @@ echo base_url("uploads").$user->logo;
                     <input value="<?php echo set_value('twitter',$user->twitter);?>" name="twitter" id="username-email" placeholder="Twitter UserID" type="text" class="" />
                     <input value="<?php echo set_value('id',$user->id);?>" name="id" id="username-email" placeholder="Twitter UserID" type="hidden" class="" />
                     <input name="instagram" value="<?php echo set_value('instagram',$user->instagram);?>" id="password" placeholder="Instagram UserID" type="text" class="" />
-                    <button type="submit" class="">Submit</button>
+                    <button type="submit" class="" style="
+    background: #bda177;
+    border: 0px;
+    height: 35px;
+    margin-top: -101px;
+    color: black;
+    font-weight: 700;
+">Submit</button>
                 </form>
                 <!--
                             <div class="col-md-6-pad">
