@@ -151,6 +151,383 @@
                                     </div>
                                 </div>
                             </div>
+                               <div class="item">
+                                <!-- Set the third background image using inline CSS below. -->
+                                <img src="<?php echo base_url("webassets")?>/img/slider/Ashwin-Ash.jpg" class="fill">
+                                <div class="carousel-caption">
+                                    <div class="blender-bottom">
+                                        <div class="music text-center">
+                                            <div class="style-icon">
+                                                   <i class="fa flaticon-musical"></i>
+                                               </div>
+                                        </div>
+                                        <h5>Ashwin and Ash</h5>
+                                        <h6>Musicians</h6>
+
+                                        <a href="#" data-id="3" class="openstyleblender">
+                                            <div class="style-text">
+
+                                                <p>choose this style blender</p>
+
+
+                                            </div>
+                                        </a>
+                                        <a data-scroll href="#viewallstyle">
+                                            <div class="content-center blend">
+                                                <p>VIEW ALL THE STYLE BLENDERS</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                               <div class="item">
+                                <!-- Set the third background image using inline CSS below. -->
+                                <img src="<?php echo base_url("webassets")?>/img/slider/Boman-Irani.jpg" class="fill">
+                                <div class="carousel-caption">
+                                    <div class="blender-bottom">
+                                        <div class="music text-center">
+                                            <div class="style-icon">
+                                                   <i class="fa flaticon-microphone58"></i>
+                                               </div>
+                                        </div>
+                                        <h5>Boman Irani</h5>
+                                        <h6>Speaker</h6>
+
+                                        <a href="#" data-id="3" class="openstyleblender">
+                                            <div class="style-text">
+
+                                                <p>choose this style blender</p>
+
+
+                                            </div>
+                                        </a>
+                                        <a data-scroll href="#viewallstyle">
+                                            <div class="content-center blend">
+                                                <p>VIEW ALL THE STYLE BLENDERS</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                               <div class="item">
+                                <!-- Set the third background image using inline CSS below. -->
+                                <img src="<?php echo base_url("webassets")?>/img/slider/Bomb-bay-Tarun-Shahani.jpg" class="fill">
+                                <div class="carousel-caption">
+                                    <div class="blender-bottom">
+                                        <div class="music text-center">
+                                            <div class="style-icon">
+                                                   <i class="fa flaticon-musical"></i>
+                                               </div>
+                                        </div>
+                                        <h5>Boom bay Central</h5>
+                                        <h6>Musician</h6>
+
+                                        <a href="#" data-id="3" class="openstyleblender">
+                                            <div class="style-text">
+
+                                                <p>choose this style blender</p>
+
+
+                                            </div>
+                                        </a>
+                                        <a data-scroll href="#viewallstyle">
+                                            <div class="content-center blend">
+                                                <p>VIEW ALL THE STYLE BLENDERS</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                               <div class="item">
+                                <!-- Set the third background image using inline CSS below. -->
+                                <img src="<?php echo base_url("webassets")?>/img/slider/Chetan-Bhagat.jpg" class="fill">
+                                <div class="carousel-caption">
+                                    <div class="blender-bottom">
+                                        <div class="music text-center">
+                                            <div class="style-icon">
+                                                   <i class="fa flaticon-microphone58"></i>
+                                               </div>
+                                        </div>
+                                        <h5>Chetan Bhagat</h5>
+                                        <h6>Speaker</h6>
+
+                                        <a href="#" data-id="3" class="openstyleblender">
+                                            <div class="style-text">
+
+                                                <p>choose this style blender</p>
+
+
+                                            </div>
+                                        </a>
+                                        <a data-scroll href="#viewallstyle">
+                                            <div class="content-center blend">
+                                                <p>VIEW ALL THE STYLE BLENDERS</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                               <div class="item">
+                                <!-- Set the third background image using inline CSS below. -->
+                                <img src="<?php echo base_url("webassets")?>/img/slider/Gaurav-Gupta.jpg" class="fill">
+                                <div class="carousel-caption">
+                                    <div class="blender-bottom">
+                                        <div class="music text-center">
+                                            <div class="style-icon">
+                                                   <i class="fa flaticon-mannequin1"></i>
+                                               </div>
+                                        </div>
+                                        <h5>Gaurav Gupta</h5>
+                                        <h6>Designer</h6>
+
+                                        <a href="#" data-id="3" class="openstyleblender">
+                                            <div class="style-text">
+
+                                                <p>choose this style blender</p>
+
+
+                                            </div>
+                                        </a>
+                                        <a data-scroll href="#viewallstyle">
+                                            <div class="content-center blend">
+                                                <p>VIEW ALL THE STYLE BLENDERS</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                               <div class="item">
+                                <!-- Set the third background image using inline CSS below. -->
+                                <img src="<?php echo base_url("webassets")?>/img/slider/Namrata-Joshipura.jpg" class="fill">
+                                <div class="carousel-caption">
+                                    <div class="blender-bottom">
+                                        <div class="music text-center">
+                                            <div class="style-icon">
+                                                   <i class="fa flaticon-mannequin1"></i>
+                                               </div>
+                                        </div>
+                                        <h5>Namrata Joshipura</h5>
+                                        <h6>Designer</h6>
+
+                                        <a href="#" data-id="3" class="openstyleblender">
+                                            <div class="style-text">
+
+                                                <p>choose this style blender</p>
+
+
+                                            </div>
+                                        </a>
+                                        <a data-scroll href="#viewallstyle">
+                                            <div class="content-center blend">
+                                                <p>VIEW ALL THE STYLE BLENDERS</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                               <div class="item">
+                                <!-- Set the third background image using inline CSS below. -->
+                                <img src="<?php echo base_url("webassets")?>/img/slider/Neeta-Lulla.jpg" class="fill">
+                                <div class="carousel-caption">
+                                    <div class="blender-bottom">
+                                        <div class="music text-center">
+                                            <div class="style-icon">
+                                                   <i class="fa flaticon-mannequin1"></i>
+                                               </div>
+                                        </div>
+                                        <h5>Neeta Lulla</h5>
+                                        <h6>Designer</h6>
+
+                                        <a href="#" data-id="3" class="openstyleblender">
+                                            <div class="style-text">
+
+                                                <p>choose this style blender</p>
+
+
+                                            </div>
+                                        </a>
+                                        <a data-scroll href="#viewallstyle">
+                                            <div class="content-center blend">
+                                                <p>VIEW ALL THE STYLE BLENDERS</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                               <div class="item">
+                                <!-- Set the third background image using inline CSS below. -->
+                                <img src="<?php echo base_url("webassets")?>/img/slider/Pankaj-and-Nidhi.jpg" class="fill">
+                                <div class="carousel-caption">
+                                    <div class="blender-bottom">
+                                        <div class="music text-center">
+                                            <div class="style-icon">
+                                                   <i class="fa flaticon-mannequin1"></i>
+                                               </div>
+                                        </div>
+                                        <h5>Pankaj and Nidhi</h5>
+                                        <h6>Designers</h6>
+
+                                        <a href="#" data-id="3" class="openstyleblender">
+                                            <div class="style-text">
+
+                                                <p>choose this style blender</p>
+
+
+                                            </div>
+                                        </a>
+                                        <a data-scroll href="#viewallstyle">
+                                            <div class="content-center blend">
+                                                <p>VIEW ALL THE STYLE BLENDERS</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                               <div class="item">
+                                <!-- Set the third background image using inline CSS below. -->
+                                <img src="<?php echo base_url("webassets")?>/img/slider/Shaair-Func.jpg" class="fill">
+                                <div class="carousel-caption">
+                                    <div class="blender-bottom">
+                                        <div class="music text-center">
+                                            <div class="style-icon">
+                                                   <i class="fa flaticon-musical"></i>
+                                               </div>
+                                        </div>
+                                        <h5>Shaa'ir and func</h5>
+                                        <h6>Musicians</h6>
+
+                                        <a href="#" data-id="3" class="openstyleblender">
+                                            <div class="style-text">
+
+                                                <p>choose this style blender</p>
+
+
+                                            </div>
+                                        </a>
+                                        <a data-scroll href="#viewallstyle">
+                                            <div class="content-center blend">
+                                                <p>VIEW ALL THE STYLE BLENDERS</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                               <div class="item">
+                                <!-- Set the third background image using inline CSS below. -->
+                                <img src="<?php echo base_url("webassets")?>/img/slider/Shivan-and-naresh.jpg" class="fill">
+                                <div class="carousel-caption">
+                                    <div class="blender-bottom">
+                                        <div class="music text-center">
+                                            <div class="style-icon">
+                                                   <i class="fa flaticon-mannequin1"></i>
+                                               </div>
+                                        </div>
+                                        <h5>Shivan and Naresh</h5>
+                                        <h6>Designers</h6>
+
+                                        <a href="#" data-id="3" class="openstyleblender">
+                                            <div class="style-text">
+
+                                                <p>choose this style blender</p>
+
+
+                                            </div>
+                                        </a>
+                                        <a data-scroll href="#viewallstyle">
+                                            <div class="content-center blend">
+                                                <p>VIEW ALL THE STYLE BLENDERS</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                               <div class="item">
+                                <!-- Set the third background image using inline CSS below. -->
+                                <img src="<?php echo base_url("webassets")?>/img/slider/Sunnet-Varma.jpg" class="fill">
+                                <div class="carousel-caption">
+                                    <div class="blender-bottom">
+                                        <div class="music text-center">
+                                            <div class="style-icon">
+                                                   <i class="fa flaticon-mannequin1"></i>
+                                               </div>
+                                        </div>
+                                        <h5>Sunnet Varma</h5>
+                                        <h6>Designer</h6>
+
+                                        <a href="#" data-id="3" class="openstyleblender">
+                                            <div class="style-text">
+
+                                                <p>choose this style blender</p>
+
+
+                                            </div>
+                                        </a>
+                                        <a data-scroll href="#viewallstyle">
+                                            <div class="content-center blend">
+                                                <p>VIEW ALL THE STYLE BLENDERS</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                               <div class="item">
+                                <!-- Set the third background image using inline CSS below. -->
+                                <img src="<?php echo base_url("webassets")?>/img/slider/Varun-Bahl.jpg" class="fill">
+                                <div class="carousel-caption">
+                                    <div class="blender-bottom">
+                                        <div class="music text-center">
+                                            <div class="style-icon">
+                                                   <i class="fa flaticon-mannequin1"></i>
+                                               </div>
+                                        </div>
+                                        <h5>Varun Bahl</h5>
+                                        <h6>Designer</h6>
+
+                                        <a href="#" data-id="3" class="openstyleblender">
+                                            <div class="style-text">
+
+                                                <p>choose this style blender</p>
+
+
+                                            </div>
+                                        </a>
+                                        <a data-scroll href="#viewallstyle">
+                                            <div class="content-center blend">
+                                                <p>VIEW ALL THE STYLE BLENDERS</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                               <div class="item">
+                                <!-- Set the third background image using inline CSS below. -->
+                                <img src="<?php echo base_url("webassets")?>/img/slider/Wasim-Akram.jpg" class="fill">
+                                <div class="carousel-caption">
+                                    <div class="blender-bottom">
+                                        <div class="music text-center">
+                                            <div class="style-icon">
+                                                   <i class="fa flaticon-microphone58"></i>
+                                               </div>
+                                        </div>
+                                        <h5>Wasim Akram</h5>
+                                        <h6>Speaker</h6>
+
+                                        <a href="#" data-id="3" class="openstyleblender">
+                                            <div class="style-text">
+
+                                                <p>choose this style blender</p>
+
+
+                                            </div>
+                                        </a>
+                                        <a data-scroll href="#viewallstyle">
+                                            <div class="content-center blend">
+                                                <p>VIEW ALL THE STYLE BLENDERS</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
 
                         <!-- Controls -->
