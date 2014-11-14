@@ -22,13 +22,13 @@
                     <div class="row row-margin">
                         <div class="col-md-6 col-md-6-pad">
                             <a href="#">
-                                <button type="submit" class="">Sumbit</button>
+                                <button type="submit" class="">Submit</button>
                             </a>
 
                         </div>
                         <div class="col-md-6 col-md-6-pad1">
                             <a href="<?php echo site_url("website/resetpswd"); ?>">
-                                <p>Forget Password?</p>
+                                <p>Forgot Password?</p>
                             </a>
                         </div>
                     </div>
