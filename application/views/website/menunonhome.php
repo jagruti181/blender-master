@@ -34,10 +34,10 @@
                                 <div class="col-md-3 social-link">
                                     <?php $this->load->view("loginview");?>
                                     <div class="social">
-                                        <a href="#"><i class="fa fa-facebook"></i></a> 
-                                        <a href="#"> <i class="fa fa-twitter"></i>
+                                        <a href="https://www.facebook.com/blenderspridefashiontour" target="_blank"><i class="fa fa-facebook"></i></a> 
+                                        <a href="https://twitter.com/bpft2014" target="_blank"> <i class="fa fa-twitter"></i>
                                         </a>
-                                        <a href="#"><i class="fa fa-youtube"></i></a> 
+                                        <a href="https://www.youtube.com/user/SeagramsBPFT" target="_blank"><i class="fa fa-youtube"></i></a> 
                                     </div>
                                 </div>
 
