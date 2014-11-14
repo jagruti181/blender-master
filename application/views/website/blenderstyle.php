@@ -657,8 +657,7 @@ $i=0;
                             <h5>submit text</h5> 
                             <form method="post" class="blendertextform" action="<?php echo site_url();?>/website/textpost" enctype="multipart/form-data">
 <input type="hidden" name="id" class="formidis" value="">
-<textarea name="text" value="" id="comments" class="profile-textarea">
-</textarea><br>
+<textarea name="text" value="" id="comments" class="profile-textarea"></textarea><br>
 <input type="submit" value="Submit" class="profile-submit"><br>
 <button type="reset" value="Reset" class="profile-cancel">cancel</button>
 </form>

@@ -57,7 +57,19 @@
                                               {
                                                   echo "btn-danger";
                                               }
-                                ?>">Approval</a>
+                                ?>">
+                                <?php
+                                if($row->approve=='1')
+                                {
+                                    echo "Approved";
+                                }
+                                              else
+                                              {
+                                                  echo "Need Approval";
+                                              }
+                                ?>
+                                
+                                </a>
 							<a href="<?php echo site_url('site/editpost?id=').$row->id;?>" class="btn btn-primary btn-xs">
 								<i class="icon-pencil"></i>
 							</a>

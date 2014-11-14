@@ -102,7 +102,7 @@ echo base_url("uploads").$user->logo;
 
                 <div class="col-md-2">
                     <div class="pro-karsh">
-                        <img src="<?php echo base_url(" webassets ");?>/img/<?php echo $post->proimage;?>" style="width:100%;" class="karsh-img">
+                        <img src="<?php echo base_url("uploads");?>/<?php echo $post->proimage;?>" class="karsh-img">
                         <p>
                             <?php echo $post->name;?></p>
                     </div>
@@ -119,9 +119,9 @@ echo base_url("uploads").$user->logo;
                 <?php if($post->image!="") { ?>
                 <div class="col-md-2">
 
-                    <img src="<?php echo base_url(" webassets ");?>/img/<?php echo $post->image;?>" style="width:100%;">
+                    <img src="<?php echo base_url("uploads");?>/<?php echo $post->image;?>" >
                 </div>
-                <?php } if($post->type==1) { ?>
+                <?php } if($post->approve==1) { ?>
                 <div class="col-md-2 approve">
                     <a href="#"><img src="<?php echo base_url("webassets");?>/img/shape.png"></a>
                     <p>Approved</p>
