@@ -7,15 +7,17 @@
                 <h5>Welcome back<br/>
                                 Please Enter Your New Password Below.</h5>
             </div>
-            <div class="input-content text-center">
-                <input value="" id="password" placeholder="PASSWORD" type="password" class="lockicon">
-                <div>
-                    <input value="" id="conformPassword" placeholder="CONFIRM PASSWORD" type="password" class="lockicon">
+            <form method="post" action="<?php echo site_url('website/submitresetpswd');?>" enctype="multipart/form-data">
+                <div class="input-content text-center">
+                    <input value="" name="password" id="password" placeholder="PASSWORD" type="password" class="lockicon">
+                    <div>
+                        <input value="" name="confirmpassword" id="conformPassword" placeholder="CONFIRM PASSWORD" type="password" class="lockicon">
+                    </div>
                 </div>
-            </div>
-            <div class="content-button">
-                <button type="submit" class="">Sumbit</button>
-            </div>
+                <div class="content-button">
+                    <button type="submit" class="">Sumbit</button>
+                </div>
+            </form>
         </div>
         <div class="col-md-3">
         </div>

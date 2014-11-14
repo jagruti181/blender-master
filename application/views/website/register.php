@@ -95,8 +95,11 @@
                                                 </div>
                                                 <div class="reg-social">
                                                     <i class="fa fa-facebook"></i>
+                                                    <input value="" name="facebookid" placeholder="Facebook Email" type="text" class="emailicon"><br>
                                                     <i class="fa fa-instagram"></i>
+                                                    <input value="" name="instagram" placeholder="Instagram Email" type="text" class="emailicon"><br>
                                                     <i class="fa fa-twitter"></i>
+                                                    <input value="" name="twitter" placeholder="Twitter Email" type="text" class="emailicon">
 
 
                                                 </div>

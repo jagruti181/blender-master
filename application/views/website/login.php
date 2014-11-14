@@ -13,10 +13,11 @@
                 <form method="post" action="<?php echo site_url('website/normallogin');?>" enctype="multipart/form-data">
                     <div class="margin1">
                         <div class="input-content text-center">
-                            <input value='' name="email" id="username-email" placeholder="USERNAME" type="text" class="" />
+                            <input value='' name="email" id="username-email" placeholder="EMAIL *" type="text" class="" />
                             <div>
-                                <input value='' name="password" id="password" placeholder="PASSWORD" type="password" class="" />
+                                <input value='' name="password" id="password" placeholder="PASSWORD *" type="password" class="" />
                             </div>
+                           
                         </div>
                     </div>
                     <div class="row row-margin">
@@ -27,7 +28,7 @@
 
                         </div>
                         <div class="col-md-6 col-md-6-pad1">
-                            <a href="<?php echo site_url("website/resetpswd"); ?>">
+                            <a href="<?php echo site_url("website/resetemail"); ?>">
                                 <p>Forgot Password?</p>
                             </a>
                         </div>

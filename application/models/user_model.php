@@ -120,6 +120,48 @@ class User_model extends CI_Model
 		$query=$this->db->query("DELETE FROM `user` WHERE `id`='$id'");
 	}
     
+    public function resetpswd($id,$password)
+    {
+        $user = $this->db->query("SELECT * FROM `user` WHERE `id`='$id' AND `password`='$password'");
+        if($user->num_rows() == 0)
+        {
+            return 0;
+        }else{
+            return 1;
+        }
+    }
+    public function submitresetpswd($password,$id)
+    {
+        $password=md5($password);
+        $query=$this->db->query("UPDATE `user` SET `password`='$password' WHERE `id`='$id'");
+		if(!$query)
+			return  0;
+		else
+			return  1;
+    }
+    public function submitresetemail($email)
+    {
+        $user = $this->db->query("SELECT * FROM `user` WHERE `email`='$email'");
+        if($user->num_rows() > 0)
+        {
+            $user=$user->row();
+            $this->load->library('email');
+            $this->email->from('Blenders@blender.com', 'Blender');
+            $this->email->to($user->email);
+
+            $this->email->subject('Reset Password');
+            $this->email->message("Click on Below Link To Reset Password<br><a href='http://localhost/blender-master/index.php/website/resetpswd?id=".$user->id."&psd=".$user->password."'>Reset Password</a>");
+
+            $this->email->send();
+            return 1;
+            
+        }else{
+            
+            return 0;
+            
+        }
+    }
+    
     public function normallogin($email,$password)
     {
         
@@ -200,14 +242,16 @@ class User_model extends CI_Model
 			return  1;
     }
     
-    public function registeruser($name,$email,$city,$day,$month,$year,$sex,$password,$logo)
+    public function registeruser($name,$email,$city,$day,$month,$year,$sex,$password,$logo,$facebookid,$twitter,$instagram)
     {
         $password=md5($password);
-        echo $dob=$year+"-"+$month+"-"+$day;
+        echo $dob=$year."-".$month."-".$day;
         $query=$this->db->query("SELECT `id` FROM `user` WHERE `email`='$email'");
         if($query->num_rows == 0)
         {
-            $this->db->query("INSERT INTO `user`(`firstname`, `lastname`, `password`, `email`, `uniquekey`, `contact`, `accesskey`, `accesslevel`, `timestamp`, `facebookuserid`, `status`, `twitter`, `instagram`, `lastlogin`, `loginby`, `points`,`logo`,`dob`,`city`,`gender`) VALUES ('$name',NULL,'$password','$email',NULL,NULL,NULL,NULL,CURRENT_TIMESTAMP,NULL,NULL,NULL,NULL,NULL,0,5,'$logo','$dob','$city','$sex')");
+            //$query="INSERT INTO `user`(`firstname`, `lastname`, `password`, `email`, `uniquekey`, `contact`, `accesskey`, `accesslevel`, `timestamp`, `facebookuserid`, `status`, `twitter`, `instagram`, `lastlogin`, `loginby`, `points`,`logo`,`dob`,`city`,`gender`) VALUES ('$name',NULL,'$password','$email',NULL,NULL,NULL,NULL,CURRENT_TIMESTAMP,'$facebookid',NULL,'$twitter','$instagram',NULL,0,5,'$logo','$dob','$city','$sex')";
+            
+            $this->db->query("INSERT INTO `user`(`firstname`, `lastname`, `password`, `email`, `uniquekey`, `contact`, `accesskey`, `accesslevel`, `timestamp`, `facebookuserid`, `status`, `twitter`, `instagram`, `lastlogin`, `loginby`, `points`,`logo`,`dob`,`city`,`gender`) VALUES ('$name',NULL,'$password','$email',NULL,NULL,NULL,NULL,CURRENT_TIMESTAMP,'$facebookid',NULL,'$twitter','$instagram',NULL,0,5,'$logo','$dob','$city','$sex')");
             $user=$this->db->insert_id();
             $newdata = array(
                 'id'     => $user,

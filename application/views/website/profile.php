@@ -7,7 +7,7 @@
             <div class="row">
                 <div class="col-md-2"></div>
                 <div class="col-md-2">
-                   <div  class="profile-pic"><img  src="<?php echo $user->logo;?>"></div>
+                   <div  class="profile-pic"><img  src="<?php echo base_url("uploads");?>/<?php echo $user->logo;?>"></div>
                     
 
                 </div>

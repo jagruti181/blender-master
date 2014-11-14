@@ -117,8 +117,8 @@ class Website extends CI_Controller
     function registeruser()
     {
         
-        $this->form_validation->set_rules('name','Name','trim|required|max_length[3]');
-        $this->form_validation->set_rules('email','Email','trim|required|valid_email|is_unique[user.email]');
+        $this->form_validation->set_rules('name','Name','trim|required|max_length[30]');
+        $this->form_validation->set_rules('email','Email','trim|required|valid_email');
         $this->form_validation->set_rules('city','City','trim|max_length[30]');
         $this->form_validation->set_rules('password','Password','trim|required|min_length[6]|max_length[30]');
         $this->form_validation->set_rules('confirmpassword','Confirm Password','trim|required|matches[password]');
@@ -135,18 +135,21 @@ class Website extends CI_Controller
         $year=$this->input->get_post('year');
         $sex=$this->input->get_post('sex');
         $password=$this->input->get_post('password');
+        $facebookid=$this->input->get_post('facebookid');
+        $twitter=$this->input->get_post('twitter');
+        $instagram=$this->input->get_post('instagram');
         
         $config['upload_path'] = './uploads';
 			$config['allowed_types'] = 'gif|jpg|png|jpeg';
 			$this->load->library('upload', $config);
 			$filename="logo";
 			$logo="";
-			if (  $this->upload->do_upload($filename))
+			if($this->upload->do_upload($filename))
 			{
 				$uploaddata = $this->upload->data();
 				$logo=$uploaddata['file_name'];
 			}
-        if($this->user_model->registeruser($name,$email,$city,$day,$month,$year,$sex,$password,$logo)==0)
+        if($this->user_model->registeruser($name,$email,$city,$day,$month,$year,$sex,$password,$logo,$facebookid,$twitter,$instagram)==0)
 			redirect(site_url("/website/register"));
 			else
 			redirect(site_url("/"));
@@ -177,8 +180,12 @@ class Website extends CI_Controller
     
     function resetpswd()
 	{
+        
+        $id=$this->input->get_post('id');
+        $password=$this->input->get_post('psd');
 		$data['page']="resetpswd";
-        $data['posts']=$this->designer_model->viewdesigner();
+        if($this->user_model->resetpswd($id,$password)==0)
+            redirect(site_url("/website/login"));
 		$this->load->view("webtemplatenonhome",$data);
         
 	}
@@ -192,10 +199,59 @@ class Website extends CI_Controller
     function resetemail()
 	{
 		$data['page']="resetemail";
+        $data['msg']="";
         $data['posts']=$this->designer_model->viewdesigner();
 		$this->load->view("webtemplatenonhome",$data);
         
 	}
+    
+    function submitresetpswd()
+    {
+        $this->form_validation->set_rules('password','Password','trim|required|min_length[6]|max_length[30]');
+        $this->form_validation->set_rules('confirmpassword','Confirm Password','trim|required|matches[password]');
+        if($this->form_validation->run() == FALSE)	
+		{
+            redirect(site_url("/website/login"));
+        }else
+        {
+            
+            $password=$this->input->get_post('password');
+            $id=$this->input->get_post('id');
+            
+            if($this->user_model->submitresetpswd($password,$id)==0)
+            {
+                redirect(site_url("/website/login"));
+            }else{
+                redirect(site_url("/website/resethome"));
+            }
+        $this->load->view("webtemplate",$data);
+        
+        }
+    }
+    
+    function submitresetemail()
+    {
+        $this->form_validation->set_rules('email','Email','trim|required|valid_email');
+        
+        if($this->form_validation->run() == FALSE)	
+		{
+            redirect(site_url("/website/resetemail"));
+        }else{
+            
+            $email=$this->input->get_post('email');
+            
+            if($this->user_model->submitresetemail($email)==0)
+            {
+                $data['msg']="Please check Your Inbox.";
+                redirect(site_url("/website/resetemail"));
+            }else{
+                $data['msg']="Invalid Email.";
+                redirect(site_url("/website/resetemail"));
+            }
+        $this->load->view("webtemplate",$data);
+        
+        }
+    }
     function resethome()
 	{
 		$data['page']="resethome";
@@ -254,16 +310,25 @@ class Website extends CI_Controller
     }
     public function normallogin()
     {
-        $email=$this->input->get_post('email');
-        $password=$this->input->get_post('password');
-        if($this->user_model->normallogin($email,$password)==0)
-        {
+        $this->form_validation->set_rules('name','Name','trim|required|max_length[30]');
+        $this->form_validation->set_rules('email','Email','trim|required|valid_email');
+        
+        if($this->form_validation->run() == FALSE)	
+		{
             redirect(site_url("/website/login"));
+        }else{
+        
+            $email=$this->input->get_post('email');
+            $password=$this->input->get_post('password');
+            if($this->user_model->normallogin($email,$password)==0)
+            {
+                redirect(site_url("/website/login"));
+            }
+            else {
+                redirect(site_url("/"));
+            }
+            $this->load->view('json',$data);
         }
-        else {
-            redirect(site_url("/"));
-        }
-        $this->load->view('json',$data);
     }
     
     public function facebookshare()
@@ -287,4 +352,24 @@ class Website extends CI_Controller
         $data['instagrams']=$this->post_model->getinstagram();
 		$this->load->view("webtemplate",$data);
     }
+    
+    public function forgotpassemail()
+    {
+        
+//        $email=$this->input->get('email');
+        $this->load->library('email');
+        //$email='patiljagruti181@gmail.com,jagruti@wohlig.com';
+        $this->email->from('Blenders@blenders.com', 'Blenders');
+        $this->email->to('jagruti@wohlig.com');
+//        $this->email->cc('another@another-example.com');
+//        $this->email->bcc('them@their-example.com');
+
+        $this->email->subject('Email Test');
+        $this->email->message('Testing the email class.');
+
+        $this->email->send();
+
+        echo $this->email->print_debugger();
+    }
+    
 }
