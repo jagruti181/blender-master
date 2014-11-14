@@ -37,7 +37,8 @@ $len=sizeOf($instadata->data);
 print_r($instadata);
 
 //start storing instagram data in database
-if($instadata->pagination->next_max_id != "")
+//if($instadata->pagination->next_max_id != "")
+if(true)
 {
 for($i=0 ; $i<$len ; $i++)
     {
