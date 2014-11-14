@@ -1396,6 +1396,7 @@ h8 {
     background: rgb(0, 0, 0);
     z-index: 1000000;
     width: 100%;
+    position: fixed;
     display: none;
 }
 a.closeblender {
@@ -1415,52 +1416,54 @@ p.golden .fa:before {
 }
 button.bpft-btn {
     border-radius: 30px;
-background: #bda177;
-border: #bda177;
-font-size: 19px;
-color: black;
-font-weight: 700;
-padding: 5px 19px 2px;
-text-transform: uppercase;
+    background: #bda177;
+    border: #bda177;
+    font-size: 19px;
+    color: black;
+    font-weight: 700;
+    padding: 5px 19px 2px;
+    text-transform: uppercase;
 }
 .hyderabad-name .name-icon {
     padding-left: 10px;
 }
 .item .img-responsive {
-width: 100%;
+    width: 100%;
 }
 .style-icon {
     width: 45px;
     margin: 0 auto 25px;
     padding: 9px 0 7px;
     border: 2px solid #bda177;
-    -webkit-transform: rotate(45deg);     
-    -moz-transform: rotate(45deg);     
-    -o-transform: rotate(45deg);     
-    -ms-transform: rotate(45deg);     
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
     transform: rotate(45deg);
     color: #bda177;
 }
-
 .style-icon .fa {
-    -webkit-transform: rotate(-45deg);     
-    -moz-transform: rotate(-45deg);     
-    -o-transform: rotate(-45deg);     
-    -ms-transform: rotate(-45deg);     
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
     transform: rotate(-45deg);
 }
 .copy p {
     color: #666666;
     font-weight: 300;
 }
-
 span.goldy {
     color: #bda177;
     font-weight: 700;
 }
-
 .copy {
     padding: 10px 15px;
     position: fixed;
     bottom: 0px;
+}
+.profile-text p.textblender {
+    height: 253px;
+    overflow-y: scroll;
+    padding: 0 10px 0 0;
 }
