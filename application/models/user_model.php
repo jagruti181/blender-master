@@ -270,14 +270,14 @@ class User_model extends CI_Model
     
     }
     
-    public function twitterlogin()
+    public function twitterlogin($image,$name)
     {
         $twtdata=$this->session->all_userdata();
        // print_r($twtdata);
         $query=$this->db->query("SELECT `id` FROM `user` WHERE `uniquekey`='".$twtdata['twitter_user_id']."'");
         if($query->num_rows == 0)
         {
-            $this->db->query("INSERT INTO `user`(`firstname`, `lastname`, `password`, `email`, `uniquekey`, `contact`, `accesskey`, `accesslevel`, `timestamp`, `facebookuserid`, `status`, `twitter`, `instagram`, `lastlogin`, `loginby`, `points`) VALUES ('".$twtdata['twitter_screen_name']."',NULL,0,0,'".$twtdata['twitter_user_id']."',NULL,NULL,NULL,CURRENT_TIMESTAMP,NULL,NULL,NULL,NULL,NULL,2,2)");
+            $this->db->query("INSERT INTO `user`(`firstname`, `lastname`, `password`, `email`, `uniquekey`, `contact`, `accesskey`, `accesslevel`, `timestamp`, `facebookuserid`, `status`, `twitter`, `instagram`, `lastlogin`, `loginby`, `points`,`logo`) VALUES ('$name',NULL,0,0,'".$twtdata['twitter_user_id']."',NULL,NULL,NULL,CURRENT_TIMESTAMP,NULL,NULL,'".$twtdata['twitter_screen_name']."',NULL,NULL,2,2,'$image')");
             $user=$this->db->insert_id();
             $newdata = array(
                 'id'     => $user

@@ -123,7 +123,7 @@ class Twitter extends CI_Controller
                 
                 //print_r(json_encode($content->profile_image_url));
                 
-                $this->user_model->twitterlogin($content->profile_image_url);
+                $this->user_model->twitterlogin($content->profile_image_url,$content->name);
                 redirect(site_url('/website/profilee'));
                 
                 
@@ -172,7 +172,7 @@ class Twitter extends CI_Controller
 //					else
 //					{
 //						// Error, message hasn't been published
-//						//redirect(site_url('/'));
+//						  redirect(site_url('/'));
 //                        print_r($result);
 //					}
                     
