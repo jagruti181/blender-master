@@ -39,6 +39,16 @@
 						
 						
 						<td>
+						<a href="<?php echo site_url("site/changepost?id=$row->id&change=");
+                           if($row->approve=='1')
+                           {
+                               echo 0;
+                           }
+                           else
+                           {
+                               echo 1;
+                           }
+                            ?>"></a>
 							<a href="<?php echo site_url('site/editpost?id=').$row->id;?>" class="btn btn-primary btn-xs">
 								<i class="icon-pencil"></i>
 							</a>

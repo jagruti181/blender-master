@@ -107,13 +107,18 @@ WHERE `user`.`id`='$id'";
 	}
 	function viewpost()
 	{
-		$query="SELECT `post`.`id`, `post`.`user`, `post`.`type`, `post`.`text`, `post`.`image`, `post`.`totalshare`, `post`.`timestamp`, `post`.`designer`,`designer`.`name` AS `designername`,`user`.`firstname`,`user`.`lastname` 
+		$query="SELECT `post`.`id`, `post`.`user`, `post`.`type`, `post`.`text`, `post`.`image`, `post`.`totalshare`, `post`.`timestamp`, `post`.`designer`,`designer`.`name` AS `designername`,`user`.`firstname`,`user`.`lastname`,`post`.`approve` 
 FROM `post` 
 LEFT OUTER JOIN `user` ON `user`.`id`=`post`.`user`
 LEFT OUTER JOIN `designer` ON `designer`.`id`=`post`.`designer`";
 	   
 		$query=$this->db->query($query)->result();
 		return $query;
+	}
+    function changepostapprove($id,$change)
+	{
+		
+        $query$this->db->query("UPDATE `post` SET `approve`='$change' WHERE `id`='$id'");
 	}
 	function homepost()
 	{

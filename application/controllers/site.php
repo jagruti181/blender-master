@@ -2203,6 +2203,7 @@ class Site extends CI_Controller
 		$this->load->view('template',$data);
 	}
     
+    
 	public function createpost()
 	{
 		$access = array("1");
@@ -2340,6 +2341,19 @@ class Site extends CI_Controller
 		$access = array("1");
 		$this->checkaccess($access);
 		$this->post_model->deletepost($this->input->get('id'));
+		$data['table']=$this->post_model->viewpost();
+		$data['alertsuccess']="post Deleted Successfully";
+		$data['page']='viewpost';
+		$data['title']='View post';
+		$this->load->view('template',$data);
+	}
+    function deletepost()
+	{
+		$access = array("1");
+		$this->checkaccess($access);
+        $id=$this->input->get('id');
+        $change=$this->input->get('change');
+		$this->post_model->changeapprove($id,$change);
 		$data['table']=$this->post_model->viewpost();
 		$data['alertsuccess']="post Deleted Successfully";
 		$data['page']='viewpost';
