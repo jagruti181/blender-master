@@ -1,6 +1,6 @@
 <div class="st-content-inner">
     <div class="st-content">
-        <div class="profile-head">
+        <div class="profile-head1">
             <div class="container">
 
                 <div class="row">
