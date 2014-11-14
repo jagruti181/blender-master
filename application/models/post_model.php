@@ -121,14 +121,14 @@ LEFT OUTER JOIN `designer` ON `designer`.`id`=`post`.`designer`";
 	}
 	function homepost()
 	{
-		$query="SELECT `designer`.`name`,`designer`.`content`,`designer`.`image` as `logo`,`post`.`id`,`post`.`text`,`post`.`image`,`post`.`totalshare`,`post`.`timestamp`,`post`.`designer`,`user`.`id` as `userid`,`user`.`firstname`,`user`.`lastname`,`user`.`logo` as `userlogo` FROM `post` LEFT OUTER JOIN `designer` ON `post`.`designer`=`designer`.`id` INNER JOIN `user` ON `user`.`id`=`post`.`user` WHERE `post`.`approve`=='1' ORDER BY `post`.`timestamp` DESC LIMIT 0,10";
+		$query="SELECT `designer`.`name`,`designer`.`content`,`designer`.`image` as `logo`,`post`.`id`,`post`.`text`,`post`.`image`,`post`.`totalshare`,`post`.`timestamp`,`post`.`designer`,`user`.`id` as `userid`,`user`.`firstname`,`user`.`lastname`,`user`.`logo` as `userlogo` FROM `post` LEFT OUTER JOIN `designer` ON `post`.`designer`=`designer`.`id` INNER JOIN `user` ON `user`.`id`=`post`.`user` WHERE `post`.`approve`='1' ORDER BY `post`.`timestamp` DESC LIMIT 0,10";
 	   
 		$query=$this->db->query($query)->result();
 		return $query;
 	}
 	function invitelist()
 	{
-		$query="SELECT `designer`.`name`,`designer`.`content`,`designer`.`image` as `logo`,`post`.`id`,`post`.`text`,`post`.`image`,`post`.`totalshare`,`post`.`timestamp`,`post`.`designer`,`user`.`id` as `userid`,`user`.`firstname`,`user`.`lastname`,`user`.`logo` as `userlogo` FROM `post` LEFT OUTER JOIN `designer` ON `post`.`designer`=`designer`.`id` INNER JOIN `user` ON `user`.`id`=`post`.`user` WHERE `post`.`approve`=='1' ORDER BY `post`.`timestamp` DESC LIMIT 0,20";
+		$query="SELECT `designer`.`name`,`designer`.`content`,`designer`.`image` as `logo`,`post`.`id`,`post`.`text`,`post`.`image`,`post`.`totalshare`,`post`.`timestamp`,`post`.`designer`,`user`.`id` as `userid`,`user`.`firstname`,`user`.`lastname`,`user`.`logo` as `userlogo` FROM `post` LEFT OUTER JOIN `designer` ON `post`.`designer`=`designer`.`id` INNER JOIN `user` ON `user`.`id`=`post`.`user` WHERE `post`.`approve`='1' ORDER BY `post`.`timestamp` DESC LIMIT 0,20";
 	   
 		$query=$this->db->query($query)->result();
 		return $query;
