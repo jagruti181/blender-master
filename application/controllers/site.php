@@ -22,8 +22,8 @@ class Site extends CI_Controller
 	}
 	public function index()
 	{
-		$access = array("1","2");
-		$this->checkaccess($access);
+		//$access = array("1","2");
+		//$this->checkaccess($access);
 		$data[ 'page' ] = 'dashboard';
 		$data[ 'title' ] = 'Welcome';
 		$this->load->view( 'template', $data );	

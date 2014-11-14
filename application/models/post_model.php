@@ -45,8 +45,9 @@ WHERE `user`.`id`='$id'";
     
     public function createtext($id,$text)
     {
+        $user=$this->session->userdata("id");
         $data = array(
-            'user' => '0',
+            'user' => $user,
             'type' => '1',
             'text' => $text,
             'designer' => $id
@@ -62,8 +63,9 @@ WHERE `user`.`id`='$id'";
     
     public function createimage($id,$logo)
     {
+        $user=$this->session->userdata("id");
         $data = array(
-            'user' => '0',
+            'user' => $user,
             'type' => '1',
             'image' => $logo,
             'designer' => $id

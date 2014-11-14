@@ -628,7 +628,7 @@ $i=0;
 
     <div class="col-md-4">
         <div class="profile-img">
-            <img src="http://www.bpft.in/blender-master/webassets/img/Neeta-Lulla.jpg" width="100%" class="proimage">
+            <img src="" width="100%" class="proimage">
             <div class="prof-mini">
                 <img src="<?php echo base_url("webassets");?>/img/diamond.png">
                 <p class="golden"><i class="fa "></i></p>
@@ -654,7 +654,7 @@ $i=0;
                 <div class="col-md-6">  
                         <div class="profile-edit">
                             <h5>submit text</h5> 
-                            <form method="post" class="blendertextform" action="http://www.bpft.in/blender-master/index.php/website/textpost" enctype="multipart/form-data">
+                            <form method="post" class="blendertextform" action="<?php echo site_url();?>/website/textpost" enctype="multipart/form-data">
 <input type="hidden" name="id" class="formidis" value="">
 <textarea name="text" value="" id="comments" class="profile-textarea">
 </textarea><br>
@@ -670,7 +670,7 @@ $i=0;
                             <span>or</span>
                         
                             <h5>submit photo</h5> 
-                            <form method="post"  action="http://www.bpft.in/blender-master/index.php/website/imagepost" enctype="multipart/form-data" class="blenderphotoform dropzone" id="my-awesome-dropzone">
+                            <form method="post"  action="<?php echo site_url();?>/website/imagepost" enctype="multipart/form-data" class="blenderphotoform dropzone" id="my-awesome-dropzone">
 <input type="hidden" name="id" class="formidis" value="">
 <input type="file" id="normal-field" class="form-control" name="logo" value="">
 

@@ -76,9 +76,9 @@ class Website extends CI_Controller
         $id=$this->input->post('id');
         $text=$this->input->post('text');
         if($this->post_model->createtext($id,$text)==0)
-			redirect(site_url("/website/profileedit?id=".$id));
+			redirect(site_url("/website/invitelist"));
 			else
-			redirect(site_url("/website/profileedit?id=".$id));
+			redirect(site_url("/website/invitelist"));
         $this->load->view("webtemplate",$data);
     }
     function imagepost()
@@ -96,9 +96,9 @@ class Website extends CI_Controller
 				$logo=$uploaddata['file_name'];
 			}
         if($this->post_model->createimage($id,$logo)==0)
-			redirect(site_url("/website/profileedit?id=".$id));
+			redirect(site_url("/website/invitelist"));
 			else
-			redirect(site_url("/website/profileedit?id=".$id));
+			redirect(site_url("/website/invitelist"));
         $this->load->view("webtemplate",$data);
     }
     function profileedit()
