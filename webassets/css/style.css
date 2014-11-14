@@ -1006,9 +1006,9 @@ i.fa.fa-microphone:hover {
 .profile-text p {
     text-align: justify;
     font-size: 12px;
-    line-height: 20px;
+    line-height: 16px;
     padding: 0px 0px 14px 32px;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     color: #bda177;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -1464,6 +1464,4 @@ span.goldy {
 }
 .profile-text p.textblender {
     height: 253px;
-    overflow-y: scroll;
-    padding: 0 10px 0 0;
 }

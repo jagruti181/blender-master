@@ -5,7 +5,7 @@
             <h3>STYLE BLENDERS</h3>
             <h5>The finest and the classy names in fashion, music, design, technology and writing are here.</h5>
             <h5>Grab a seat as they take centre stage to style up the Blenders Pride Fashion Tour 2014.</h5>
-            <a href="#">
+            <a data-scroll href="#viewallstyle">
                 <div class="blend">
                     <p>VIEW ALL THE STYLE BLENDERS</p>
                 </div>
@@ -47,7 +47,7 @@
                                         <h5>Midival Punditz</h5>
                                         <h6>Musicians</h6>
 
-                                        <a href="#">
+                                        <a href="#" data-id="13" class="openstyleblender">
                                             <div class="style-text">
 
                                                 <p>choose this style blender</p>
@@ -55,7 +55,7 @@
 
                                             </div>
                                         </a>
-                                        <a href="#">
+                                        <a data-scroll href="#viewallstyle">
                                             <div class="content-center blend">
                                                 <p>VIEW ALL THE STYLE BLENDERS</p>
                                             </div>
@@ -77,7 +77,7 @@
                                         <h5>Rocky Star</h5>
                                         <h6>Designer</h6>
 
-                                        <a href="#">
+                                        <a href="#" data-id="6" class="openstyleblender">
                                             <div class="style-text">
 
                                                 <p>choose this style blender</p>
@@ -85,7 +85,7 @@
 
                                             </div>
                                         </a>
-                                        <a href="#">
+                                        <a data-scroll href="#viewallstyle">
                                             <div class="content-center blend">
                                                 <p>VIEW ALL THE STYLE BLENDERS</p>
                                             </div>
@@ -106,7 +106,7 @@
                                         <h5>Little Shilpa</h5>
                                         <h6>Designer</h6>
 
-                                        <a href="#">
+                                        <a href="#" data-id="9" class="openstyleblender">
                                             <div class="style-text">
 
                                                 <p>choose this style blender</p>
@@ -114,7 +114,7 @@
 
                                             </div>
                                         </a>
-                                        <a href="#">
+                                        <a data-scroll href="#viewallstyle">
                                             <div class="content-center blend">
                                                 <p>VIEW ALL THE STYLE BLENDERS</p>
                                             </div>
@@ -135,7 +135,7 @@
                                         <h5>Grain featuring <br> Karsh Kale</h5>
                                         <h6>Musician</h6>
 
-                                        <a href="#">
+                                        <a href="#" data-id="3" class="openstyleblender">
                                             <div class="style-text">
 
                                                 <p>choose this style blender</p>
@@ -143,7 +143,7 @@
 
                                             </div>
                                         </a>
-                                        <a href="#">
+                                        <a data-scroll href="#viewallstyle">
                                             <div class="content-center blend">
                                                 <p>VIEW ALL THE STYLE BLENDERS</p>
                                             </div>
@@ -171,7 +171,7 @@
 <div class="section tour" style="position:relative">
    
     <div class="container">
-        <div class="show">
+        <div class="show" id="viewallstyle">
             <h3>show them how it's done.</h3>
             <p>select a style blender below and submit your style statement.</p>
 

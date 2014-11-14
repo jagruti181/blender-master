@@ -1,65 +1,76 @@
 $(document).ready(function () {
-    
-   smoothScroll.init();
-  
-    
-    $(".closeblender").click(function() {
+
+    smoothScroll.init();
+
+    $(".openstyleblender").click(function() {
+        id=$(this).attr("data-id");
+        var totalblenders = $(".blenderitem a");
+        for (var i = 0; i < totalblenders.length; i++) {
+            var styleid = $(totalblenders).eq(i).children("h5").html();
+            console.log(styleid);
+            if (styleid == id) {
+                console.log($(".blenderitem a h2").eq(i));
+                $(".blenderitem a").eq(i).trigger("click");
+            }
+            
+        }
+        return false
+
+    });
+
+    $(".closeblender").click(function () {
         $(".blenderoverlay").hide();
         $(".part1").show();
         $(".profile-text.part2").hide();
         return false;
     });
-    
-    $(".chooseshow").click(function() {
-        if(isloggedin=="")
-        {
-            window.location.href=site_url+"/website/login";
-        }
-        else
-        {
+
+    $(".chooseshow").click(function () {
+        if (isloggedin == "") {
+            window.location.href = site_url + "/website/login";
+        } else {
             $(".part1").hide();
             $(".profile-text.part2").show();
-           
+
         }
         return false;
     });
-    
-    
-    $(".blenderitem a").click(function(){
+
+
+    $(".blenderitem a").click(function () {
         $(".blenderoverlay").show();
-        var text2=$(this).children("h3").html();
-        var favicons="";
-        switch(text2)
-        {
-                case "Designer":
-                favicons="flaticon-mannequin1";
-                break;
-                case "Musician":
-                favicons="flaticon-musical";
-                break;
-                case "Speaker":
-                favicons="flaticon-microphone58";
-                break;
+        var text2 = $(this).children("h3").html();
+        var favicons = "";
+        switch (text2) {
+        case "Designer":
+            favicons = "flaticon-mannequin1";
+            break;
+        case "Musician":
+            favicons = "flaticon-musical";
+            break;
+        case "Speaker":
+            favicons = "flaticon-microphone58";
+            break;
         }
-        var text3=$(this).children("h5").html();
+        var text3 = $(this).children("h5").html();
         $(".formidis").val(text3);
-        
-        
-        
-        
+
+
+
+
         $(".golden .fa").removeClass("flaticon-mannequin1");
         $(".golden .fa").removeClass("flaticon-musical");
         $(".golden .fa").removeClass("flaticon-microphone58");
         $(".golden .fa").addClass(favicons);
-        
-        
+
+
         $(".blenderoverlay .nameblender").html($(this).children("h2").html());
         $(".blenderoverlay .typeblender").html($(this).children("h3").html());
         $(".blenderoverlay .textblender").html($(this).children(".contentblender").html());
-        $(".blenderoverlay img.proimage").attr("src",$(this).children("img").attr("src"));
+        $(".blenderoverlay img.proimage").attr("src", $(this).children("img").attr("src"));
         return false;
     });
-    
+
     $('.carousel').carousel({
         interval: 5000 //changes the speed
     })
@@ -72,8 +83,8 @@ $(document).ready(function () {
             itemSelector: '.posts'
         });
     });
-    var $container=0;
-    
+    var $container = 0;
+
     var container2 = document.querySelector('.container555');
 
     $(".posts img").load(function () {
@@ -83,7 +94,7 @@ $(document).ready(function () {
             itemSelector: '.posts'
         });
     });
-    
+
 
     $(".section").css("min-height", $(window).height());
     $(window).resize(function () {
@@ -93,9 +104,9 @@ $(document).ready(function () {
     $(".videoonly").fancybox({
         fitToView: true,
         margin: 0,
-        padding:0,
-        width:$(window).width()-80,
-        height:$(window).height(),
+        padding: 0,
+        width: $(window).width() - 80,
+        height: $(window).height(),
     });
     $container = $('.blender-img');
     // init
@@ -137,11 +148,11 @@ $(document).ready(function () {
         }
 
     }
-    
+
     $(window).scroll(function () {
         changescrollsize();
     });
-    
+
     changescrollsize();
 
 
@@ -223,8 +234,8 @@ window.fbAsyncInit = function () {
         xfbml: true,
         version: 'v2.1'
     });
-    
-    
+
+
 
     $(".facebooklogin").click(function () {
         FB.getLoginStatus(function (response) {
@@ -245,7 +256,7 @@ window.fbAsyncInit = function () {
                     $.post(site_url + '/website/facebooklogin', fid, function (data) {
                         console.log("after success");
                         console.log(data);
-                         window.location.href = site_url+"/website/profilee";
+                        window.location.href = site_url + "/website/profilee";
                     }, 'json');
 
                     // #########################################save facebook login#################################################
@@ -264,25 +275,27 @@ window.fbAsyncInit = function () {
                                 firstname: response.first_name,
                                 lastname: response.last_name
                             };
-                            FB.api('me/picture?type=large&redirect=false',function(data) {
+                            FB.api('me/picture?type=large&redirect=false', function (data) {
                                 console.log(data);
-                                fid.image=data.data.url;
+                                fid.image = data.data.url;
                                 $.post(site_url + "/website/facebooklogin", fid, function (data) {
-                                console.log("after success");
-                                console.log(data);
-                                window.location.href = site_url+"website/profilee";
-                            }, 'json');
-                                
+                                    console.log("after success");
+                                    console.log(data);
+                                    window.location.href = site_url + "/website/profilee";
+                                }, 'json');
+
                             });
                             //me/picture?type=large&redirect=false
-                            
+
 
                         });
 
                     } else {
                         console.log('User cancelled login or did not fully authorize.');
                     }
-                },{scope: 'public_profile,email'});
+                }, {
+                    scope: 'public_profile,email'
+                });
             }
         });
         return false;
@@ -302,4 +315,3 @@ window.fbAsyncInit = function () {
     js.src = "//connect.facebook.net/en_US/sdk.js";
     fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));
-

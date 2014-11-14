@@ -77,7 +77,7 @@
                                         <p>Get a live taste of the power of style</p>
                                         <div class="home-invite">
 
-                                            <a>
+                                            <a href="<?php echo site_url("website/blenderstyle");?>">
                                                 <p>Win invites to BPFT 2014</p>
                                             </a>
                                         </div>
@@ -137,7 +137,7 @@
                         <h6>Musicians for Blenders Pride Fashion Tour, 2014</h6>
                         <p class="h7">Get a live taste of style in music</p>
 
-                        <a>
+                        <a href="<?php echo site_url("website/blenderstyle");?>">
                             <div class="blenders-invite">
 
                                 <p>WIN AN INVITE. SHOW HOW IT’S DONE.</p>
@@ -163,7 +163,7 @@
                         <h6>Designer for Blenders Pride Fashion Tour, 2014 </h6>
                         <p class="h7">Get a live taste of style in design</p>
 
-                        <a>
+                        <a href="<?php echo site_url("website/blenderstyle");?>">
                             <div class=" blenders-invite">
 
                                 <p>Win invites to BPFT 2014</p>
@@ -189,7 +189,7 @@
                         <h6>Designer for Blenders Pride Fashion Tour, 2014</h6>
                         <p class="h7">Get a live taste of style in design</p>
 
-                        <a>
+                        <a href="<?php echo site_url("website/blenderstyle");?>">
                             <div class="blenders-invite">
 
                                 <p>Win invites to BPFT 2014</p>
@@ -215,7 +215,7 @@
                         <h6>Musician for Blenders Pride Fashion Tour, 2014</h6>
                         <p class="h7">Get a live taste of style in music</p>
 
-                        <a>
+                        <a href="<?php echo site_url("website/blenderstyle");?>">
                             <div class=" blenders-invite">
 
                                 <p>Win invites to BPFT 2014</p>
@@ -393,7 +393,7 @@ the Blenders Pride Fashion Tour 2014 with <span class="gold">#BPMYSTYLE</span></
         <div class="container inspired-text">
             <div class="content-center">
                 <h4>ARE YOU INSPIRED?</h4>
-                <a>
+                <a href="<?php echo site_url("website/blenderstyle");?>">
                     <div class="inspired-win">
 
                         <p>WIN AN INVITE</p>
