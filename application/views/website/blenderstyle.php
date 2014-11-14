@@ -499,8 +499,8 @@
                                     </div>
                                 </div>
                             </div>
+<!--
                                <div class="item">
-                                <!-- Set the third background image using inline CSS below. -->
                                 <img src="<?php echo base_url("webassets")?>/img/slider/Wasim-Akram.jpg" class="fill">
                                 <div class="carousel-caption">
                                     <div class="blender-bottom">
@@ -528,6 +528,7 @@
                                     </div>
                                 </div>
                             </div>
+-->
                         </div>
 
                         <!-- Controls -->
