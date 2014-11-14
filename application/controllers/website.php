@@ -14,6 +14,18 @@ class Website extends CI_Controller
 		$data['page']="video";
 		$this->load->view("webtemplate",$data);
 	}
+    function submitprofile()
+    {
+        $data['page']="profile";
+        $twitter=$this->input->get_post('twitter');
+        $instagram=$this->input->get_post('instagram');
+        $id=$this->input->get_post('id');
+        if($this->post_model->submitprofile($twitter,$instagram,$id)==0)
+			redirect(site_url("/website/profilee"));
+        else
+			redirect(site_url("/website/profilee"));
+        $this->load->view("webtemplatenonhome",$data);
+    }
     function profilee()
 	{
         if(!$this->session->userdata('logged_in'))

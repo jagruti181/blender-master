@@ -8,7 +8,8 @@
                                 Please Enter Your New Password Below.</h5>
             </div>
             <form method="post" action="<?php echo site_url('website/submitresetpswd');?>" enctype="multipart/form-data">
-                <div class="input-content text-center">
+                <input value="<?php echo $this->input->get("id");?>" name="id" id="id" placeholder="" type="hidden" class="">
+                   <div class="input-content text-center">
                     <input value="" name="password" id="password" placeholder="PASSWORD" type="password" class="lockicon">
                     <div>
                         <input value="" name="confirmpassword" id="conformPassword" placeholder="CONFIRM PASSWORD" type="password" class="lockicon">

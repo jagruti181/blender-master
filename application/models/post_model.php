@@ -77,6 +77,17 @@ WHERE `user`.`id`='$id'";
 			return  1;
     }
     
+    public function submitprofile($twitter,$instagram,$id)
+    {
+        $data = array(
+            'twitter' => $twitter,
+            'instagram' => $instagram
+        );
+        $this->db->where('id',$id);
+        $query=$this->db->update('user',$data);
+        return 1;
+    }
+    
 	public function edit($id,$user,$type,$text,$totalshare,$designer,$image)
 	{
 		$data  = array(

@@ -133,11 +133,17 @@ class User_model extends CI_Model
     public function submitresetpswd($password,$id)
     {
         $password=md5($password);
-        $query=$this->db->query("UPDATE `user` SET `password`='$password' WHERE `id`='$id'");
-		if(!$query)
-			return  0;
-		else
-			return  1;
+        $data = array(
+            'password' => $password
+        );
+        $this->db->where('id',$id);
+        $query=$this->db->update( 'user', $data );
+		if($query)
+		{
+			return 1;
+		}else{
+            return 0;
+        }
     }
     public function submitresetemail($email)
     {
