@@ -465,7 +465,7 @@
                             </div>
                                <div class="item">
                                 <!-- Set the third background image using inline CSS below. -->
-                                <img src="<?php echo base_url("webassets")?>/img/slider/Shivan-and-naresh.jpg" class="fill">
+                                <img src="<?php echo base_url("webassets")?>/img/slider/Shivan-and-Naresh.jpg" class="fill">
                                 <div class="carousel-caption">
                                     <div class="blender-bottom">
                                         <div class="music text-center">
