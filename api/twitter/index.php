@@ -3,8 +3,8 @@ date_default_timezone_set("Asia/Kolkata");
 require 'scripts/tmhOAuth.php';
 require 'scripts/tmhUtilities.php';
 
-$conn=mysql_connect('localhost','mafiawar_blender','chintan123');
-mysql_select_db('mafiawar_blenders',$conn);
+$conn=mysql_connect('localhost','bpft_site','chintan123');
+mysql_select_db('bpft_site',$conn);
 
 //Get last since id
 
@@ -28,7 +28,7 @@ $tmhOAuth = new tmhOAuth(array(
        ));
        
        $code = $tmhOAuth->request('GET', $tmhOAuth->url('1.1/search/tweets.json'), array(
-   'q' => '#angularjs',
+   'q' => '#bpft2014',
    "count" => "10",
    "lang" => "en",
    "result_type" => "all",

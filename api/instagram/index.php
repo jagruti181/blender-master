@@ -1,7 +1,7 @@
 <?php
 
-$conn=mysql_connect('localhost','mafiawar_blender','chintan123');
-mysql_select_db('mafiawar_blenders',$conn);
+$conn=mysql_connect('localhost','bpft_site','chintan123');
+mysql_select_db('bpft_site',$conn);
 
 // start Get last since id
 
@@ -28,7 +28,7 @@ if (1) {
 //echo "https://api.instagram.com/v1/tags/GoodDeedMarathon/media/recent/?access_token=$access_token$maxid";
 
 header('Content-Type: application/json');
-$data = getCurldata("https://api.instagram.com/v1/tags/BPFT/media/recent/?access_token=$access_token$maxid");
+$data = getCurldata("https://api.instagram.com/v1/tags/bpft2014/media/recent/?access_token=$access_token$maxid");
 
 // instagram data storing 
 
