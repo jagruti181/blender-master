@@ -1184,13 +1184,17 @@ i.fa.fa-microphone:hover {
 }
 .profile-pic {
     width: 170px;
-    height: 150px;
-    border-radius: 300px;
+    height: 170px;
+    border-radius: 100%;
     float: right;
     overflow: hidden;
+    background: white;
 }
 .profile-pic img {
-    width: 170px
+    height: 170px;
+    margin: 0 auto;
+    width: auto;
+    display: block;
 }
 .profile-details h4 {
     color: #fff;
@@ -1236,7 +1240,8 @@ i.fa.fa-microphone:hover {
 }
 .count-num h4 {
     color: #fff;
-    font-size: 49.69px;
+    font-size: 49px;
+    text-align: center;
 }
 .social-pro p {
     font-size: 16px;
@@ -1260,7 +1265,8 @@ i.fa.fa-microphone:hover {
     width: 45px;
     border-radius: 30px;
     font-size: 26px;
-    padding: 11px 0px 0px 12px;
+    padding: 9px 0px 0px 10px;
+    color: black;
 }
 .plus {
     background: transparent;
