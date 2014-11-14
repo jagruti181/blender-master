@@ -227,6 +227,346 @@
                     </div>
                 </div>
             </div>
+            <div class="item">
+                                <!-- Set the third background image using inline CSS below. -->
+                                <img src="<?php echo base_url("webassets")?>/img/slider/Ashvin-and-Ash.jpg" class="fill">
+                                <div class="carousel-caption">
+                                    <div class="blender-bottom">
+                                        <div class="music text-center">
+                                            <div class="style-icon">
+                                                   <i class="fa flaticon-musical"></i>
+                                               </div>
+                                        </div>
+                                        <h5>Ashvin and Ash</h5>
+                                        <h6>Musicians for Blenders Pride Fashion Tour, 2014</h6>
+                                        <p class="h7">Get a live taste of style in music</p>
+
+                        <a href="<?php echo site_url("website/blenderstyle");?>">
+                            <div class=" blenders-invite">
+
+                                <p>Win invites to BPFT 2014</p>
+
+
+                            </div>
+                        </a>
+
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                               <div class="item">
+                                <!-- Set the third background image using inline CSS below. -->
+                                <img src="<?php echo base_url("webassets")?>/img/slider/Boman-Irani.jpg" class="fill">
+                                <div class="carousel-caption">
+                                    <div class="blender-bottom">
+                                        <div class="music text-center">
+                                            <div class="style-icon">
+                                                   <i class="fa flaticon-microphone58"></i>
+                                               </div>
+                                        </div>
+                                        <h5>Boman Irani</h5>
+                                        <h6>Speaker for Blenders Pride Fashion Tour, 2014</h6>
+                                        <p class="h7">Get a live taste of style</p>
+
+                        <a href="<?php echo site_url("website/blenderstyle");?>">
+                            <div class=" blenders-invite">
+
+                                <p>Win invites to BPFT 2014</p>
+
+
+                            </div>
+                        </a>
+
+                                       
+                                    </div>
+                                </div>
+                            </div>
+                               <div class="item">
+                                <!-- Set the third background image using inline CSS below. -->
+                                <img src="<?php echo base_url("webassets")?>/img/slider/Bomb-bay-Tarun-Shahani.jpg" class="fill">
+                                <div class="carousel-caption">
+                                    <div class="blender-bottom">
+                                        <div class="music text-center">
+                                            <div class="style-icon">
+                                                   <i class="fa flaticon-musical"></i>
+                                               </div>
+                                        </div>
+                                        <h5>Boom bay Central</h5>
+                                        <h6>Musician for Blenders Pride Fashion Tour, 2014</h6>
+<p class="h7">Get a live taste of style in music</p>
+
+                        <a href="<?php echo site_url("website/blenderstyle");?>">
+                            <div class=" blenders-invite">
+
+                                <p>Win invites to BPFT 2014</p>
+
+
+                            </div>
+                        </a>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                               <div class="item">
+                                <!-- Set the third background image using inline CSS below. -->
+                                <img src="<?php echo base_url("webassets")?>/img/slider/Chetan-Bhagat.jpg" class="fill">
+                                <div class="carousel-caption">
+                                    <div class="blender-bottom">
+                                        <div class="music text-center">
+                                            <div class="style-icon">
+                                                   <i class="fa flaticon-microphone58"></i>
+                                               </div>
+                                        </div>
+                                        <h5>Chetan Bhagat</h5>
+                                        <h6>Speaker for Blenders Pride Fashion Tour, 2014</h6>
+<p class="h7">Get a live taste of style</p>
+
+                        <a href="<?php echo site_url("website/blenderstyle");?>">
+                            <div class=" blenders-invite">
+
+                                <p>Win invites to BPFT 2014</p>
+
+
+                            </div>
+                        </a>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                               <div class="item">
+                                <!-- Set the third background image using inline CSS below. -->
+                                <img src="<?php echo base_url("webassets")?>/img/slider/Gaurav-Gupta.jpg" class="fill">
+                                <div class="carousel-caption">
+                                    <div class="blender-bottom">
+                                        <div class="music text-center">
+                                            <div class="style-icon">
+                                                   <i class="fa flaticon-mannequin1"></i>
+                                               </div>
+                                        </div>
+                                        <h5>Gaurav Gupta</h5>
+                                        <h6>Designer for Blenders Pride Fashion Tour, 2014</h6>
+<p class="h7">Get a live taste of style in design</p>
+
+                        <a href="<?php echo site_url("website/blenderstyle");?>">
+                            <div class=" blenders-invite">
+
+                                <p>Win invites to BPFT 2014</p>
+
+
+                            </div>
+                        </a>
+                                      
+                                    </div>
+                                </div>
+                            </div>
+                               <div class="item">
+                                <!-- Set the third background image using inline CSS below. -->
+                                <img src="<?php echo base_url("webassets")?>/img/slider/Namrata-Joshipura.jpg" class="fill">
+                                <div class="carousel-caption">
+                                    <div class="blender-bottom">
+                                        <div class="music text-center">
+                                            <div class="style-icon">
+                                                   <i class="fa flaticon-mannequin1"></i>
+                                               </div>
+                                        </div>
+                                        <h5>Namrata Joshipura</h5>
+                                        <h6>Designer for Blenders Pride Fashion Tour, 2014</h6>
+<p class="h7">Get a live taste of style in design</p>
+
+                        <a href="<?php echo site_url("website/blenderstyle");?>">
+                            <div class=" blenders-invite">
+
+                                <p>Win invites to BPFT 2014</p>
+
+
+                            </div>
+                        </a>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                               <div class="item">
+                                <!-- Set the third background image using inline CSS below. -->
+                                <img src="<?php echo base_url("webassets")?>/img/slider/Neeta-Lulla.jpg" class="fill">
+                                <div class="carousel-caption">
+                                    <div class="blender-bottom">
+                                        <div class="music text-center">
+                                            <div class="style-icon">
+                                                   <i class="fa flaticon-mannequin1"></i>
+                                               </div>
+                                        </div>
+                                        <h5>Neeta Lulla</h5>
+                                        <h6>Designer for Blenders Pride Fashion Tour, 2014</h6>
+<p class="h7">Get a live taste of style in design</p>
+
+                        <a href="<?php echo site_url("website/blenderstyle");?>">
+                            <div class=" blenders-invite">
+
+                                <p>Win invites to BPFT 2014</p>
+
+
+                            </div>
+                        </a>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                               <div class="item">
+                                <!-- Set the third background image using inline CSS below. -->
+                                <img src="<?php echo base_url("webassets")?>/img/slider/Pankaj-and-Nidhi.jpg" class="fill">
+                                <div class="carousel-caption">
+                                    <div class="blender-bottom">
+                                        <div class="music text-center">
+                                            <div class="style-icon">
+                                                   <i class="fa flaticon-mannequin1"></i>
+                                               </div>
+                                        </div>
+                                        <h5>Pankaj and Nidhi</h5>
+                                        <h6>Designers for Blenders Pride Fashion Tour, 2014</h6>
+<p class="h7">Get a live taste of style in design</p>
+
+                        <a href="<?php echo site_url("website/blenderstyle");?>">
+                            <div class=" blenders-invite">
+
+                                <p>Win invites to BPFT 2014</p>
+
+
+                            </div>
+                        </a>
+                                       
+                                    </div>
+                                </div>
+                            </div>
+                               <div class="item">
+                                <!-- Set the third background image using inline CSS below. -->
+                                <img src="<?php echo base_url("webassets")?>/img/slider/Shaair-Func.jpg" class="fill">
+                                <div class="carousel-caption">
+                                    <div class="blender-bottom">
+                                        <div class="music text-center">
+                                            <div class="style-icon">
+                                                   <i class="fa flaticon-musical"></i>
+                                               </div>
+                                        </div>
+                                        <h5>Shaa'ir and func</h5>
+                                        <h6>Musicians for Blenders Pride Fashion Tour, 2014</h6>
+
+                                        <p class="h7">Get a live taste of style in music</p>
+
+                        <a href="<?php echo site_url("website/blenderstyle");?>">
+                            <div class=" blenders-invite">
+
+                                <p>Win invites to BPFT 2014</p>
+
+
+                            </div>
+                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                               <div class="item">
+                                <!-- Set the third background image using inline CSS below. -->
+                                <img src="<?php echo base_url("webassets")?>/img/slider/Shivan-and-naresh.jpg" class="fill">
+                                <div class="carousel-caption">
+                                    <div class="blender-bottom">
+                                        <div class="music text-center">
+                                            <div class="style-icon">
+                                                   <i class="fa flaticon-mannequin1"></i>
+                                               </div>
+                                        </div>
+                                        <h5>Shivan and Naresh</h5>
+                                        <h6>Designers for Blenders Pride Fashion Tour, 2014</h6>
+<p class="h7">Get a live taste of style in design</p>
+
+                        <a href="<?php echo site_url("website/blenderstyle");?>">
+                            <div class=" blenders-invite">
+
+                                <p>Win invites to BPFT 2014</p>
+
+
+                            </div>
+                        </a>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                               <div class="item">
+                                <!-- Set the third background image using inline CSS below. -->
+                                <img src="<?php echo base_url("webassets")?>/img/slider/Suneet-Varma.jpg" class="fill">
+                                <div class="carousel-caption">
+                                    <div class="blender-bottom">
+                                        <div class="music text-center">
+                                            <div class="style-icon">
+                                                   <i class="fa flaticon-mannequin1"></i>
+                                               </div>
+                                        </div>
+                                        <h5>Suneet Varma</h5>
+                                        <h6>Designer for Blenders Pride Fashion Tour, 2014</h6>
+
+<p class="h7">Get a live taste of style in design</p>
+
+                        <a href="<?php echo site_url("website/blenderstyle");?>">
+                            <div class=" blenders-invite">
+
+                                <p>Win invites to BPFT 2014</p>
+
+
+                            </div>
+                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                               <div class="item">
+                                <!-- Set the third background image using inline CSS below. -->
+                                <img src="<?php echo base_url("webassets")?>/img/slider/Varun-Bahl.jpg" class="fill">
+                                <div class="carousel-caption">
+                                    <div class="blender-bottom">
+                                        <div class="music text-center">
+                                            <div class="style-icon">
+                                                   <i class="fa flaticon-mannequin1"></i>
+                                               </div>
+                                        </div>
+                                        <h5>Varun Bahl</h5>
+                                        <h6>Designer for Blenders Pride Fashion Tour, 2014</h6>
+<p class="h7">Get a live taste of style in design</p>
+
+                        <a href="<?php echo site_url("website/blenderstyle");?>">
+                            <div class=" blenders-invite">
+
+                                <p>Win invites to BPFT 2014</p>
+
+
+                            </div>
+                        </a>
+                                      
+                                    </div>
+                                </div>
+                            </div>
+                               <div class="item">
+                                <!-- Set the third background image using inline CSS below. -->
+                                <img src="<?php echo base_url("webassets")?>/img/slider/Wasim-Akram.jpg" class="fill">
+                                <div class="carousel-caption">
+                                    <div class="blender-bottom">
+                                        <div class="music text-center">
+                                            <div class="style-icon">
+                                                   <i class="fa flaticon-microphone58"></i>
+                                               </div>
+                                        </div>
+                                        <h5>Wasim Akram</h5>
+                                        <h6>Speaker for Blenders Pride Fashion Tour, 2014</h6>
+<p class="h7">Get a live taste of style</p>
+
+                        <a href="<?php echo site_url("website/blenderstyle");?>">
+                            <div class=" blenders-invite">
+
+                                <p>Win invites to BPFT 2014</p>
+
+
+                            </div>
+                        </a>
+                                       
+                                    </div>
+                                </div>
+                            </div>
         </div>
 
         <!-- Controls -->
