@@ -153,7 +153,7 @@
                             </div>
                                <div class="item">
                                 <!-- Set the third background image using inline CSS below. -->
-                                <img src="<?php echo base_url("webassets")?>/img/slider/Ashwin-Ash.jpg" class="fill">
+                                <img src="<?php echo base_url("webassets")?>/img/slider/Ashvin-and-Ash.jpg" class="fill">
                                 <div class="carousel-caption">
                                     <div class="blender-bottom">
                                         <div class="music text-center">
@@ -161,10 +161,10 @@
                                                    <i class="fa flaticon-musical"></i>
                                                </div>
                                         </div>
-                                        <h5>Ashwin and Ash</h5>
+                                        <h5>Ashvin and Ash</h5>
                                         <h6>Musicians</h6>
 
-                                        <a href="#" data-id="3" class="openstyleblender">
+                                        <a href="#" data-id="21" class="openstyleblender">
                                             <div class="style-text">
 
                                                 <p>choose this style blender</p>
@@ -193,7 +193,7 @@
                                         <h5>Boman Irani</h5>
                                         <h6>Speaker</h6>
 
-                                        <a href="#" data-id="3" class="openstyleblender">
+                                        <a href="#" data-id="7" class="openstyleblender">
                                             <div class="style-text">
 
                                                 <p>choose this style blender</p>
@@ -222,7 +222,7 @@
                                         <h5>Boom bay Central</h5>
                                         <h6>Musician</h6>
 
-                                        <a href="#" data-id="3" class="openstyleblender">
+                                        <a href="#" data-id="16" class="openstyleblender">
                                             <div class="style-text">
 
                                                 <p>choose this style blender</p>
@@ -251,7 +251,7 @@
                                         <h5>Chetan Bhagat</h5>
                                         <h6>Speaker</h6>
 
-                                        <a href="#" data-id="3" class="openstyleblender">
+                                        <a href="#" data-id="17" class="openstyleblender">
                                             <div class="style-text">
 
                                                 <p>choose this style blender</p>
@@ -280,7 +280,7 @@
                                         <h5>Gaurav Gupta</h5>
                                         <h6>Designer</h6>
 
-                                        <a href="#" data-id="3" class="openstyleblender">
+                                        <a href="#" data-id="8" class="openstyleblender">
                                             <div class="style-text">
 
                                                 <p>choose this style blender</p>
@@ -309,7 +309,7 @@
                                         <h5>Namrata Joshipura</h5>
                                         <h6>Designer</h6>
 
-                                        <a href="#" data-id="3" class="openstyleblender">
+                                        <a href="#" data-id="18" class="openstyleblender">
                                             <div class="style-text">
 
                                                 <p>choose this style blender</p>
@@ -338,7 +338,7 @@
                                         <h5>Neeta Lulla</h5>
                                         <h6>Designer</h6>
 
-                                        <a href="#" data-id="3" class="openstyleblender">
+                                        <a href="#" data-id="5" class="openstyleblender">
                                             <div class="style-text">
 
                                                 <p>choose this style blender</p>
@@ -367,7 +367,7 @@
                                         <h5>Pankaj and Nidhi</h5>
                                         <h6>Designers</h6>
 
-                                        <a href="#" data-id="3" class="openstyleblender">
+                                        <a href="#" data-id="19" class="openstyleblender">
                                             <div class="style-text">
 
                                                 <p>choose this style blender</p>
@@ -396,7 +396,7 @@
                                         <h5>Shaa'ir and func</h5>
                                         <h6>Musicians</h6>
 
-                                        <a href="#" data-id="3" class="openstyleblender">
+                                        <a href="#" data-id="20" class="openstyleblender">
                                             <div class="style-text">
 
                                                 <p>choose this style blender</p>
@@ -425,7 +425,7 @@
                                         <h5>Shivan and Naresh</h5>
                                         <h6>Designers</h6>
 
-                                        <a href="#" data-id="3" class="openstyleblender">
+                                        <a href="#" data-id="11" class="openstyleblender">
                                             <div class="style-text">
 
                                                 <p>choose this style blender</p>
@@ -443,7 +443,7 @@
                             </div>
                                <div class="item">
                                 <!-- Set the third background image using inline CSS below. -->
-                                <img src="<?php echo base_url("webassets")?>/img/slider/Sunnet-Varma.jpg" class="fill">
+                                <img src="<?php echo base_url("webassets")?>/img/slider/Suneet-Varma.jpg" class="fill">
                                 <div class="carousel-caption">
                                     <div class="blender-bottom">
                                         <div class="music text-center">
@@ -451,10 +451,10 @@
                                                    <i class="fa flaticon-mannequin1"></i>
                                                </div>
                                         </div>
-                                        <h5>Sunnet Varma</h5>
+                                        <h5>Suneet Varma</h5>
                                         <h6>Designer</h6>
 
-                                        <a href="#" data-id="3" class="openstyleblender">
+                                        <a href="#" data-id="14" class="openstyleblender">
                                             <div class="style-text">
 
                                                 <p>choose this style blender</p>
@@ -483,7 +483,7 @@
                                         <h5>Varun Bahl</h5>
                                         <h6>Designer</h6>
 
-                                        <a href="#" data-id="3" class="openstyleblender">
+                                        <a href="#" data-id="10" class="openstyleblender">
                                             <div class="style-text">
 
                                                 <p>choose this style blender</p>
@@ -512,7 +512,7 @@
                                         <h5>Wasim Akram</h5>
                                         <h6>Speaker</h6>
 
-                                        <a href="#" data-id="3" class="openstyleblender">
+                                        <a href="#" data-id="12" class="openstyleblender">
                                             <div class="style-text">
 
                                                 <p>choose this style blender</p>
