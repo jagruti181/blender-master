@@ -53,7 +53,7 @@ class Twitter extends CI_Controller
 		{
 			// User is already authenticated. Add your user notification code here.
 			//print_r($this->session->all_userdata());
-			redirect(site_url('/'));
+			redirect(site_url('/website/profilee'));
 		}
 		else
 		{
@@ -71,7 +71,7 @@ class Twitter extends CI_Controller
 			else
 			{
 				// An error occured. Make sure to put your error notification code here.
-				redirect(site_url('/'));
+				redirect(site_url('/website/profilee'));
 			}
 		}
 	}
@@ -106,26 +106,39 @@ class Twitter extends CI_Controller
 				$this->session->set_userdata('twitter_screen_name', $access_token['screen_name']);
 				$this->session->set_userdata('logged_in', 'true');
                 
-                $this->user_model->twitterlogin();
                 
-                //redirect(site_url("/website/twitterlogin"));
+                
+                
                 
 				$this->session->unset_userdata('request_token');
 				$this->session->unset_userdata('request_token_secret');
 				
-				redirect(site_url('/'));
+                $content = $this->connection->get("account/verify_credentials");
+                
+                
+                
+                
+				
+                
+                
+                //print_r(json_encode($content->profile_image_url));
+                
+                $this->user_model->twitterlogin($content->profile_image_url);
+                redirect(site_url('/website/profilee'));
+                
+                
 			}
 			else
 			{
 				// An error occured. Add your notification code here.
-				redirect(site_url('/'));
+				redirect(site_url('/website/login'));
 			}
 		}
 	}
 	
-	public function post($in_reply_to)
+	public function post()
 	{
-		$message = $this->input->post('message');
+		$message = $this->input->get_post('message');
 		if(!$message || mb_strlen($message) > 140 || mb_strlen($message) < 1)
 		{
 			// Restrictions error. Notification here.
@@ -135,31 +148,36 @@ class Twitter extends CI_Controller
 		{
 			if($this->session->userdata('access_token') && $this->session->userdata('access_token_secret'))
 			{
-				$content = $this->connection->get('account/verify_credentials');
+                $user=$this->session->userdata('twitter_screen_name');
+				$content = $this->connection->get("account/verify_credentials");
 				if(isset($content->errors))
 				{
 					// Most probably, authentication problems. Begin authentication process again.
-					$this->reset_session();
-					redirect(site_url('/twitter/auth'));
+					print_r($content);
 				}
 				else
 				{
-					$data = array(
-						'status' => $message,
-						'in_reply_to_status_id' => $in_reply_to
-					);
-					$result = $this->connection->post('statuses/update', $data);
-
-					if(!isset($result->errors))
-					{
-						// Everything is OK
-						redirect(site_url('/'));
-					}
-					else
-					{
-						// Error, message hasn't been published
-						redirect(site_url('/'));
-					}
+//					$data = array(
+//						'status' => $message,
+//						'in_reply_to_status_id' => $in_reply_to
+//					);
+//					$result = $this->connection->post('statuses/update', $data);
+//
+//					if(!isset($result->errors))
+//					{
+//						// Everything is OK
+//                        print_r($result);
+//						//redirect(site_url('/'));
+//					}
+//					else
+//					{
+//						// Error, message hasn't been published
+//						//redirect(site_url('/'));
+//                        print_r($result);
+//					}
+                    
+                    print_r($content);
+                    
 				}
 			}
 			else
