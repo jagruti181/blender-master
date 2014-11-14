@@ -9,13 +9,13 @@
                         <div class="profile-pic">
                             <img src="<?php 
 $usersub=substr($user->logo,0,4);
-if($usersub==" http ")
+if($usersub=="http")
 {
     echo $user->logo;
 }
 else
 {
-echo base_url("uploads ").$user->logo;
+echo base_url("uploads").$user->logo;
 }
                        
                        
