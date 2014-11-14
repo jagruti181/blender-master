@@ -1,26 +1,9 @@
 <div class="" id="st-container">
-
-
-    <!-- 
-            <nav class="st-menu st-effect-11" id="menu-11">
-                <h2 class="">menu</h2>
-                <ul>
-                    <li><a class="" href="#">SCHEDULE</a>
-                    </li>
-                    <li><a class="" href="blender-style.html">STYLE BLENDERS</a>
-                    </li>
-                    <li><a class="" href="invite-list.html">INVITE LIST</a>
-                    </li>
-                    <li><a class="" href="#">ARCHIVE SITE</a>
-                    </li>
-
-                </ul>
-            </nav> -->
     <div class="">
         <div class="st-content-inner">
             <div class="st-content">
                 <div class="section reset" style="min-height: 471px;">
-                    <div class="row" style="zoom:0.7">
+                    <div class="row" style="zoom:0.8">
                         <div class="row">
                             <div class="col-md-3"></div>
                             <div class="col-md-6">
