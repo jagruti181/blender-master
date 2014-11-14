@@ -267,13 +267,22 @@ class User_model extends CI_Model
             );
 
             $this->session->set_userdata($newdata);
+            
+            $this->load->library('email');
+            $this->email->from('Blenders@blender.com','Blender');
+            $this->email->to($email);
+
+            $this->email->subject('Thank You For Registering To Blenders Pride');
+            $this->email->message("Thank You For Registering To Blenders Pride");
+
+            $this->email->send();
            return 1;
+            
         }
         else
         {
             return 0;
         }
-    
     }
     
     public function twitterlogin($image,$name)

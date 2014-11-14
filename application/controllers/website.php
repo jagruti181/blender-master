@@ -164,7 +164,7 @@ class Website extends CI_Controller
         if($this->user_model->registeruser($name,$email,$city,$day,$month,$year,$sex,$password,$logo,$facebookid,$twitter,$instagram)==0)
 			redirect(site_url("/website/register"));
 			else
-			redirect(site_url("/"));
+			redirect(site_url());
         $this->load->view("webtemplate",$data);
         }
     }
@@ -337,7 +337,7 @@ class Website extends CI_Controller
                 redirect(site_url("/website/login"));
             }
             else {
-                redirect(site_url("/"));
+                redirect(site_url());
             }
             $this->load->view('json',$data);
         }
