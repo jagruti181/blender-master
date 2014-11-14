@@ -1236,7 +1236,7 @@ i.fa.fa-microphone:hover {
     background: transparent;
     border: 3px solid #ccc;
     padding: 5px 11px 0px;
-    margin-left: 50px;
+    margin-left: 70px;
 }
 .count-num h4 {
     color: #fff;
@@ -1470,7 +1470,4 @@ span.goldy {
 }
 .profile-text p.textblender {
     height: 253px;
-}
-.profiler {
-zoom: 0.8;
 }
