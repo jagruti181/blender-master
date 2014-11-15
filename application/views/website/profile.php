@@ -4,7 +4,6 @@
             <div class="container">
 
                 <div class="row">
-                    <div class="col-md-2"></div>
                     <div class="col-md-2">
                         <div class="profile-pic">
                             <img src="<?php 
@@ -24,7 +23,7 @@ echo base_url("uploads")."/".$user->logo;
 
 
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-5">
                         <div class="profile-details">
                             <h4><?php echo $user->firstname;?></h4>
                             <h4><?php echo $user->lastname;?></h4>
@@ -40,21 +39,31 @@ echo base_url("uploads")."/".$user->logo;
 
                         <!--                    <a href="#"><span class="edit-pro">edit profile</span></a>-->
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-5">
                         <div class="count-num">
                             <h4><?php echo $user->points;?></h4>
                             <h6>points</h6>
                         </div>
-                        <div class="social-pro">
+                        <div class="social-pro text-center">
                             <p>social media accounts</p>
                         </div>
                         <div class="social-icon">
-                            <a href="#"> <i class="fa fa-facebook"></i>
-                            </a>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
-                            <a href="#"> <i class="fa fa-instagram"></i>
-                            </a>
-                            <a href="#"> <img src="<?php echo base_url("webassets");?>/img/add.png" class="add"> </a> 
+                          <form method="post" action="<?php echo site_url('website/submitprofile');?>" enctype="multipart/form-data">
+                          <input value="<?php echo set_value('id',$user->id);?>" name="id" id="username-email" placeholder="Twitter UserID" type="hidden" class="" />
+                           <div class="input-holder">
+                                <i class="fa fa-twitter"></i>
+                                <input value="<?php echo set_value('twitter',$user->twitter);?>" name="twitter" id="username-email" placeholder="Twitter UserID" type="text" class="" />
+                           </div>
+                            
+                            <div class="input-holder">
+                                <i class="fa fa-instagram"></i>
+                                <input name="instagram" value="<?php echo set_value('instagram',$user->instagram);?>" id="password" placeholder="Instagram UserID" type="text" class="" />
+                            </div>
+                            
+                            
+                            <button type="submit" class="bpft-btn" >Submit</button>
+                            
+                            </form>
                         </div>
                     </div>
                 </div>
@@ -63,32 +72,8 @@ echo base_url("uploads")."/".$user->logo;
     </div>
 </div>
 
-<div class="row">
-    <div class="col-md-2">
-    </div>
-    <div class="col-md-10">
-
-    </div>
-</div>
-
 <div class="mid-content">
     <div class="container">
-        <div class="margin1">
-            <div class="input-content text-center profiler">
-                <form method="post" action="<?php echo site_url('website/submitprofile');?>" enctype="multipart/form-data">
-                    <input value="<?php echo set_value('twitter',$user->twitter);?>" name="twitter" id="username-email" placeholder="Twitter UserID" type="text" class="" />
-                    <input value="<?php echo set_value('id',$user->id);?>" name="id" id="username-email" placeholder="Twitter UserID" type="hidden" class="" />
-                    <input name="instagram" value="<?php echo set_value('instagram',$user->instagram);?>" id="password" placeholder="Instagram UserID" type="text" class="" />
-                    <button type="submit" class="bpft-btn" >Submit</button>
-                </form>
-                <!--
-                            <div class="col-md-6-pad">
-                                <a> <button type="submit" class="">Submit</button></a>
-                            </div>
--->
-            </div>
-        </div>
-
 
         <div class="text-center pro-head">
 <!--            <h6>We have received your style statement and our moderators are reviewing it.</h6>-->

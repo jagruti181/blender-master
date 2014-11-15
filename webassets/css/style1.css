@@ -650,13 +650,13 @@ p.fa.fa-twitter .text {
     padding: 14% 0;
 }
 .back-top {
-    font-size: 10.66px;
-    letter-spacing: 5px;
-    color: #fff;
-    text-transform: uppercase;
-    position: absolute;
-    padding-top: 42px;
-    left: 46%;
+    /* font-size: 10.66px; */
+    /* letter-spacing: 5px; */
+    /* color: #fff; */
+    /* text-transform: uppercase; */
+    /* position: absolute; */
+    /* padding-top: 42px; */
+    /* left: 46%; */
 }
 .footer-text {
     padding: 30px;
@@ -1278,14 +1278,13 @@ i.fa.fa-microphone:hover {
     padding: 2px 173px 0px 0px;
 }
 .count-num {
-    border-radius: 1px solid;
-    border-radius: 62px;
-    width: 100px;
-    height: 100px;
-    background: transparent;
-    border: 3px solid #ccc;
-    padding: 5px 11px 0px;
-    margin-left: 50px;
+    /* border-radius: 62px; */
+    /* width: 100px; */
+    /* height: 100px; */
+    /* background: transparent; */
+    /* border: 3px solid #ccc; */
+    /* padding: 5px 11px 0px; */
+    /* margin-left: 50px; */
 }
 .count-num h4 {
     color: #fff;
@@ -1441,7 +1440,8 @@ i.fa.fa-microphone:hover {
     padding-top: 25px;
     border-top: 1px solid #bda177;
 }
-.contents-content p, .contents-content ul>li {
+.contents-content p,
+.contents-content ul>li {
     color: white;
     font-size: 15px;
 }
@@ -1480,13 +1480,13 @@ i.fa.fa-microphone:hover {
 }
 .content-button button {
     border-radius: 30px;
-background: #bda177;
-border: #bda177;
-font-size: 19px;
-color: black;
-font-weight: 700;
-padding: 5px 19px 2px;
-text-transform: uppercase;
+    background: #bda177;
+    border: #bda177;
+    font-size: 19px;
+    color: black;
+    font-weight: 700;
+    padding: 5px 19px 2px;
+    text-transform: uppercase;
 }
 .foot a {
     color: #bda177;
@@ -1848,7 +1848,7 @@ input.emailicon {
     background: #000 url("../img/envolap.png") 15px no-repeat;
     border: 1px solid white;
     margin: 10px 0 20px;
-    padding: 12px  0px 10px 40px;
+    padding: 12px 0px 10px 40px;
     font-size: 18px;
     color: white;
 }
@@ -1969,7 +1969,8 @@ input.uploadicon {
     padding-right: 14px;
 }
 .pad-pad {
-    padding: 15px 0;}
+    padding: 15px 0;
+}
 #captcha-wrap {
     border: solid #870500 1px;
     width: 270px;
@@ -2114,9 +2115,12 @@ img.mainlogo {
     opacity: 1;
 }
 .input-content1 input {
-display: block;
-margin: 15px auto 0;
+    display: block;
+    margin: 15px auto 0;
 }
 .icon-sche {
     float: left;
+}
+a.sharee {
+    padding-top: 16px !important;
 }

@@ -602,9 +602,10 @@ p.fa.fa-twitter .text {
     letter-spacing: 5px;
     color: #fff;
     text-transform: uppercase;
-    position: absolute;
+    /* position: absolute; */
+    display: block;
     padding-top: 42px;
-    left: 46%;
+    /* left: 46%; */
 }
 .footer-text {
     padding: 30px;
@@ -1229,14 +1230,13 @@ i.fa.fa-microphone:hover {
     padding: 2px 173px 0px 0px;
 }
 .count-num {
-    border-radius: 1px solid;
-    border-radius: 62px;
-    width: 100px;
+    border-radius: 10px;
+    width: 200px;
     height: 100px;
     background: transparent;
-    border: 3px solid #ccc;
+    border: 2px solid #333;
     padding: 5px 11px 0px;
-    margin-left: 70px;
+    margin: 0 auto;
 }
 .count-num h4 {
     color: #fff;
@@ -1470,4 +1470,29 @@ span.goldy {
 }
 .profile-text p.textblender {
     height: 253px;
+}
+.input-holder input {
+    background: transparent;
+    border: 2px solid #333;
+    color: white;
+    padding: 7px 10px;
+    width: 225px;
+}
+
+.input-holder i {
+    vertical-align: middle;
+}
+
+.input-holder+.input-holder {
+    margin-top: 10px;
+}
+
+.input-holder {
+    width: 325px;
+    margin: 0 auto;
+}
+
+.input-holder+button {
+    margin: 15px auto 0;
+    display: block;
 }
