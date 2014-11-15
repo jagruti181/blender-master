@@ -700,7 +700,7 @@ the Blenders Pride Fashion Tour 2014 with <span class="gold">#BPMYSTYLE</span></
                         <?php } if($post->text!=""){ ?>
 
                         <div class="panel-body body-text">
-                            <p class="testing"><?php echo $post->text;?>++++++</p>
+                            <p class="testing"><?php echo $post->text;?></p>
                         </div>
                         <?php } ?>
 
