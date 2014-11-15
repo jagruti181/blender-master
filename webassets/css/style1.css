@@ -341,7 +341,7 @@ a {
     font-weight: 700;
 }
 .blender-bottom {
-    padding-top: 300px;
+    margin-top: 300px;
 }
 .content-priya {
     position: relative;
@@ -586,13 +586,13 @@ p.fa.fa-twitter .text {
     border-left: 1px solid #000;
 }
 .circular {
-    width: 40px;
-    height: 40px;
-    border-radius: 150px;
-    -webkit-border-radius: 50px;
+    /* width: 40px; */
+    /* height: 40px; */
+    /* border-radius: 150px; */
+    /* -webkit-border-radius: 50px; */
     -moz-border-radius: 150px;
-    margin-left: 10px;
-    margin-top: 4px;
+    /* margin-left: 10px; */
+    /* margin-top: 4px; */
 }
 .top-text {
     padding-left: 10px;

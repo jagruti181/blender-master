@@ -7,6 +7,10 @@
                     <div class="col-md-2">
                         <div class="profile-pic">
                             <img src="<?php 
+if($user->logo=="")
+    {
+        $user->logo="nouserimg.png";
+    }
 $usersub=substr($user->logo,0,4);
 if($usersub=="http")
 {

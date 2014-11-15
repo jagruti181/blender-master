@@ -285,6 +285,13 @@ class Website extends CI_Controller
 		$this->load->view("webtemplatenonhome",$data);
         
 	}
+    function privacy()
+	{
+		$data['page']="privacy";
+        $data['posts']=$this->designer_model->viewdesigner();
+		$this->load->view("webtemplatenonhome",$data);
+        
+	}
     function facebooklogin()
     {
         $id=$this->input->get_post('id');

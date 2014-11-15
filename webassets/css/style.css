@@ -120,7 +120,7 @@ a {
     text-transform: uppercase;
     font-weight: 700;
     position: absolute;
-    right: 0px;
+    right: 5px;
 }
 .signin a {
     color: #ffffff;
@@ -266,6 +266,7 @@ a {
     text-align: center;
     font-weight: 700;
     letter-spacing: 7px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
 .blender-bottom h6 {
     font-size: 16px;
@@ -274,6 +275,7 @@ a {
     text-align: center;
     font-weight: 700;
     letter-spacing: 2px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
 .blender-bottom .h7 {
     font-weight: 700;
@@ -302,7 +304,7 @@ a {
     font-weight: 700;
 }
 .blender-bottom {
-    padding-top: 300px;
+    margin-top: 300px;
 }
 .content-priya {
     position: relative;
@@ -538,11 +540,16 @@ p.fa.fa-twitter .text {
     -moz-border-radius: 150px;
     margin-left: 10px;
     margin-top: 4px;
+    float: left;
+    overflow: hidden;
 }
 .top-text {
     padding-left: 10px;
     font-size: 12.65px;
     font-weight: 700;
+    padding: 15px 0px 0px 10px;
+    display: block;
+    float: left;
 }
 .rect {
     position: absolute;
@@ -1398,6 +1405,7 @@ h8 {
 .blender-bottom .blend p {
     color: white;
     padding: 10px 0 0;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
 }
 .blenderoverlay {
     position: absolute;
@@ -1501,4 +1509,7 @@ span.goldy {
 }
 .profiler {
     zoom: 0.9;
+}
+.circular img {
+    height: 100%;
 }
