@@ -1389,7 +1389,7 @@ ol.carousel-indicators {
 img.mainlogo {
     -webkit-transition: all 1s;
 }
-.col-md-3.item {
+.col-xs-3.item {
     float: none;
     height: 390px;
 }

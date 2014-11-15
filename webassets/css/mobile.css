@@ -15,4 +15,30 @@
         margin: 0 auto;
         float: none;
     }
+    .inoverlay {
+        width: 100% important;
+    }
+    img.proimage {
+        width: 100%;
+    }
+    .profile-text h3 {
+        font-size: 18px;
+    }
+    .prof-mini {
+        left: 25%;
+    }
+    .blenderoverlay {
+        overflow: scroll;
+    }
+    .col-xs-3.item {
+        height: 190px;
+    }
+    .blender-img h2 {
+        font-size: 12px;
+        margin-top: -60px;
+    }
+    .carousel-caption {
+        position: absolute;
+        bottom: 0px;
+    }
 }

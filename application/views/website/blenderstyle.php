@@ -578,7 +578,7 @@ $i=0;
                         //print_r($post);
                 
             ?>
-            <div class="col-md-3 item <?php echo substr($post->type,0,3);?> blenderitem">
+            <div class="col-xs-3 item <?php echo substr($post->type,0,3);?> blenderitem">
                
                 <a href="<?php echo site_url('website/profile?id=').$post->id;?>"><img src="<?php echo base_url("uploads");?>/<?php echo $post->image;?>" style="width:100%;">
                     <div class="hidden contentblender"><?php echo $post->content; ?></div>
@@ -621,13 +621,13 @@ $i=0;
     
     
     <div class="blenderoverlay">
-       <div class="container" style="width:900px;margin-top:100px;" >
+       <div class="container inoverlay" style="width:900px;margin-top:100px;" >
               <div style="position:relative;">
                   <a href="#" class="closeblender"><img src="<?php echo base_url("webassets/img/close.png"); ?>"></a>
               </div>
                <div class="row">
 
-    <div class="col-md-4">
+    <div class="col-xs-4">
         <div class="profile-img">
             <img src="" width="100%" class="proimage">
             <div class="prof-mini">
@@ -636,7 +636,7 @@ $i=0;
             </div>
         </div>
     </div>
-    <div class="col-md-8">
+    <div class="col-xs-8">
         <div class="profile-text">
             <h3 class="nameblender"></h3>
             <h5 class="typeblender"></h5>
