@@ -652,6 +652,7 @@ $i=0;
             </div>
         </div>
         <div class="profile-text part2" style="display:none;margin-top:0px;margin-left:18px;">
+               <p>We accept the statement with or without photo</p>
                 <div class="col-md-6">  
                         <div class="profile-edit">
                             <h5>submit text</h5> 
@@ -666,8 +667,6 @@ $i=0;
                 <div class="col-md-6">
                                         
                         <div class="profile-image">
-                            
-                            <span>or</span>
                         
                             <h5>submit photo</h5> 
                             <form method="post"  action="<?php echo site_url();?>/website/imagepost" enctype="multipart/form-data" class="blenderphotoform dropzone" id="my-awesome-dropzone">
