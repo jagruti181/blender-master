@@ -264,7 +264,6 @@ class User_model extends CI_Model
             $points=$points+2;
         }
         $password=md5($password);
-        echo $dob=$year."-".$month."-".$day;
         $query=$this->db->query("SELECT `id` FROM `user` WHERE `email`='$email'");
         if($query->num_rows == 0)
         {
