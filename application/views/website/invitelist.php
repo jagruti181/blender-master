@@ -17,7 +17,19 @@
                 <div class="col-md-3 col1 posts">
                     <div class="panel">
                         <div class="panel-heading">
-                            <img class="circular" src="<?php echo $post->userlogo;?>"><span class="top-text"><?php echo $post->firstname." ".$post->lastname;?></span>
+                            <img class="circular" src="<?php
+                                                       $usersub=substr($post->userlogo,0,4);
+if($usersub=="http")
+{
+    echo $post->userlogo;
+}
+else
+{
+echo base_url("uploads")."/".$post->userlogo;
+}
+       
+                                                       
+                                                       ?>"><span class="top-text"><?php echo $post->firstname." ".$post->lastname;?></span>
                             <img src="<?php echo base_url("webassets");?>/img/rect.png" class="rect">
 
                         </div>
