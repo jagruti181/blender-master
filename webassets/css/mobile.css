@@ -8,4 +8,11 @@
     .mid-content h3 {
         font-size: 46px;
     }
+    .profile-details h4 {
+        text-align: center;
+    }
+    .profile-pic {
+        margin: 0 auto;
+        float: none;
+    }
 }

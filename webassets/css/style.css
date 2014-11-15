@@ -1304,8 +1304,7 @@ i.fa.fa-microphone:hover {
     font-weight: 300;
 }
 .karsh-img {
-    border-radius: 100px;
-    height: 100px;
+    height: auto;
 }
 .pro-karsh p {
     text-transform: uppercase;
@@ -1329,6 +1328,7 @@ i.fa.fa-microphone:hover {
 .approve {
     padding-top: 25px;
     float: right;
+    display: none;
 }
 .pro-desc {
     padding-top: 25px;

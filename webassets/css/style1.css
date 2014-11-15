@@ -1340,8 +1340,8 @@ i.fa.fa-microphone:hover {
     font-weight: 300;
 }
 .karsh-img {
-    border-radius: 100px;
-    height: 100px;
+    /* border-radius: 100px; */
+    /* height: 100px; */
     width: 100px;
 }
 .pro-karsh p {
