@@ -15,7 +15,7 @@ if($usersub=="http")
 }
 else
 {
-echo base_url("uploads").$user->logo;
+echo base_url("uploads")."/".$user->logo;
 }
                        
                        
@@ -30,10 +30,10 @@ echo base_url("uploads").$user->logo;
                             <h4><?php echo $user->lastname;?></h4>
 
                             <?php if($user->email != '0') {?>
-                            <img src="<?php echo base_url(" webassets ");?>/img/envolap.png"><span class="id-text"><?php echo $user->email;?></span>
+                            <img src="<?php echo base_url("webassets");?>/img/envolap.png"><span class="id-text"><?php echo $user->email;?></span>
                             <br>
                             <?php }if($user->accesskey!=""){?>
-                            <img src="<?php echo base_url(" webassets ");?>/img/location.png"><span class="location-text"><?php echo $user->accesskey; ?></span>
+                            <img src="<?php echo base_url("webassets");?>/img/location.png"><span class="location-text"><?php echo $user->accesskey; ?></span>
                             <?php } ?>
                         </div>
 
