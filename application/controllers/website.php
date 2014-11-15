@@ -147,9 +147,9 @@ class Website extends CI_Controller
         $year=$this->input->get_post('year');
         $sex=$this->input->get_post('sex');
         $password=$this->input->get_post('password');
-        $facebookid=$this->input->get_post('facebookid');
-        $twitter=$this->input->get_post('twitter');
-        $instagram=$this->input->get_post('instagram');
+        echo $facebookid=$this->input->get_post('facebookid');
+        echo $twitter=$this->input->get_post('twitter');
+        echo $instagram=$this->input->get_post('instagram');
         
         $config['upload_path'] = './uploads';
 			$config['allowed_types'] = 'gif|jpg|png|jpeg';
@@ -164,7 +164,7 @@ class Website extends CI_Controller
         if($this->user_model->registeruser($name,$email,$city,$day,$month,$year,$sex,$password,$logo,$facebookid,$twitter,$instagram)==0)
 			redirect(site_url("/website/register"));
 			else
-			redirect(site_url());
+			redirect(site_url("/website/profilee"));
         $this->load->view("webtemplate",$data);
         }
     }
@@ -329,7 +329,6 @@ class Website extends CI_Controller
     }
     public function normallogin()
     {
-        $this->form_validation->set_rules('name','Name','trim|required|max_length[30]');
         $this->form_validation->set_rules('email','Email','trim|required|valid_email');
         
         if($this->form_validation->run() == FALSE)	
@@ -344,7 +343,7 @@ class Website extends CI_Controller
                 redirect(site_url("/website/login"));
             }
             else {
-                redirect(site_url());
+                redirect(site_url("/website/blenderstyle"));
             }
             $this->load->view('json',$data);
         }

@@ -250,14 +250,26 @@ class User_model extends CI_Model
     
     public function registeruser($name,$email,$city,$day,$month,$year,$sex,$password,$logo,$facebookid,$twitter,$instagram)
     {
+        $points=5;
+        if($facebookid!="")
+        {
+            $points=$points+2;
+        }
+        if($twitter!="")
+        {
+            $points=$points+2;
+        }
+        if($instagram!="")
+        {
+            $points=$points+2;
+        }
         $password=md5($password);
         echo $dob=$year."-".$month."-".$day;
         $query=$this->db->query("SELECT `id` FROM `user` WHERE `email`='$email'");
         if($query->num_rows == 0)
         {
-            //$query="INSERT INTO `user`(`firstname`, `lastname`, `password`, `email`, `uniquekey`, `contact`, `accesskey`, `accesslevel`, `timestamp`, `facebookuserid`, `status`, `twitter`, `instagram`, `lastlogin`, `loginby`, `points`,`logo`,`dob`,`city`,`gender`) VALUES ('$name',NULL,'$password','$email',NULL,NULL,NULL,NULL,CURRENT_TIMESTAMP,'$facebookid',NULL,'$twitter','$instagram',NULL,0,5,'$logo','$dob','$city','$sex')";
             
-            $this->db->query("INSERT INTO `user`(`firstname`, `lastname`, `password`, `email`, `uniquekey`, `contact`, `accesskey`, `accesslevel`, `timestamp`, `facebookuserid`, `status`, `twitter`, `instagram`, `lastlogin`, `loginby`, `points`,`logo`,`dob`,`city`,`gender`) VALUES ('$name',NULL,'$password','$email',NULL,NULL,NULL,NULL,CURRENT_TIMESTAMP,'$facebookid',NULL,'$twitter','$instagram',NULL,0,5,'$logo','$dob','$city','$sex')");
+            $this->db->query("INSERT INTO `user`(`firstname`, `lastname`, `password`, `email`, `uniquekey`, `contact`, `accesskey`, `accesslevel`, `timestamp`, `facebookuserid`, `status`, `twitter`, `instagram`, `lastlogin`, `loginby`, `points`,`logo`,`dob`,`city`,`gender`) VALUES ('$name',NULL,'$password','$email',NULL,NULL,NULL,NULL,CURRENT_TIMESTAMP,'$facebookid',NULL,'$twitter','$instagram',NULL,0,'$points','$logo','$dob','$city','$sex')");
             $user=$this->db->insert_id();
             $newdata = array(
                 'id'     => $user,

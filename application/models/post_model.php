@@ -81,9 +81,20 @@ WHERE `user`.`id`='$id'";
     
     public function submitprofile($twitter,$instagram,$id)
     {
+        $seepoints=$this->db->query("SELECT `id`,`twitter`,`instagram`,`points` FROM `user` WHERE `id`='$id'")->row();
+        $points=$seepoints->points;
+        if($seepoints->twitter=="" && $twitter!="")
+        {
+            $points=$points+2;
+        }
+        if($seepoints->instagram=="" && $instagram!="")
+        {
+            $points=$points+2;
+        }
         $data = array(
             'twitter' => $twitter,
-            'instagram' => $instagram
+            'instagram' => $instagram,
+            'points' => $points
         );
         $this->db->where('id',$id);
         $query=$this->db->update('user',$data);
