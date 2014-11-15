@@ -37,7 +37,7 @@
 
                             
                                    <div class="row blendertopmenu" id="scrolldown">
-                                    <div class="col-md-3">
+                                    <div class="col-xs-3">
                                         <div class="menu" id="st-trigger-effects">
                                             <button data-effect="st-effect-11">
                                                     <img src="<?php echo base_url("webassets");?>/img/menu.png"><i class="menu-text">menu</i>
@@ -48,17 +48,12 @@
                                 
                                 
                                     </div>
-                                    <div class="col-md-6">
+                                    <div class="col-xs-6">
                                         
                                     </div>
-                                    <div class="col-md-3 social-link">
+                                    <div class="col-xs-3">
                                        <?php $this->load->view("loginview");?>
-                                        <div class="social">
-                                        <a href="https://www.facebook.com/blenderspridefashiontour" target="_blank"><i class="fa fa-facebook"></i></a> 
-                                        <a href="https://twitter.com/bpft2014" target="_blank"> <i class="fa fa-twitter"></i>
-                                        </a>
-                                        <a href="https://www.youtube.com/user/SeagramsBPFT" target="_blank"><i class="fa fa-youtube"></i></a> 
-                                    </div>
+                                       
                                     </div>
                                 
                                 </div>

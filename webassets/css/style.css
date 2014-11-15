@@ -119,6 +119,8 @@ a {
     font-family: "Josefin Sans";
     text-transform: uppercase;
     font-weight: 700;
+    position: absolute;
+    right: 0px;
 }
 .signin a {
     color: #ffffff;
@@ -216,8 +218,8 @@ a {
     margin-top: 3px;
 }
 .social-link {
-    position: relative;
-    right: -65px;
+    /* position: relative; */
+    /* right: -65px; */
 }
 .mid-content h3 {
     color: #fff;
@@ -328,10 +330,12 @@ a {
 .social {
     color: #fff;
     font-size: 16px;
-    position: absolute;
-    top: 10px;
-    left: 130px;
+    /* position: absolute; */
+    /* top: 10px; */
+    /* left: 130px; */
     letter-spacing: 5px;
+    margin-left: 15px;
+    vertical-align: middle;
 }
 .follow .gold {
     color: #bda177;
@@ -758,8 +762,8 @@ i.fa.fa-microphone:hover {
     font-weight: 700;
     font-family: "Josefin Sans";
     letter-spacing: 2px;
-    position: absolute;
-    bottom: 38px;
+    margin-top: -70px;
+    /* bottom: 38px; */
     width: 100%;
     left: 0px;
 }
@@ -771,10 +775,10 @@ i.fa.fa-microphone:hover {
     font-weight: 700;
     font-family: "Josefin Sans";
     letter-spacing: 2px;
-    position: absolute;
-    bottom: 16px;
+    margin-top: -25px;
+    /* bottom: 16px; */
     width: 100%;
-    left: 0px;
+    /* left: 0px; */
 }
 .blender-bottom .blend {} .blender-bottom p {
     font-size: 10.66px;
@@ -1013,7 +1017,7 @@ i.fa.fa-microphone:hover {
     color: #bda177;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    font-weight: 300;
+    font-weight: 700;
 }
 .profile-text .style-text p {
     font-size: 15px;
@@ -1121,7 +1125,7 @@ i.fa.fa-microphone:hover {
     padding-top: 20px;
     margin: 0 auto;
     display: block;
-    width: 1060px;
+    width: 92%;
 }
 .city-head {
     padding-top: 60px;
@@ -1491,8 +1495,10 @@ span.goldy {
     width: 325px;
     margin: 0 auto;
 }
-
 .input-holder+button {
     margin: 15px auto 0;
     display: block;
+}
+.profiler {
+    zoom: 0.9;
 }

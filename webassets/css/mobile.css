@@ -1,0 +1,11 @@
+@media screen and (max-width: 767px) {
+    .style-text {
+        width: 295px;
+    }
+    .blender-bottom h5 {
+        font-size: 14px;
+    }
+    .mid-content h3 {
+        font-size: 46px;
+    }
+}

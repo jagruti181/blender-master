@@ -51,6 +51,15 @@ $(document).ready(function () {
         case "Speaker":
             favicons = "flaticon-microphone58";
             break;
+        case "Designers":
+            favicons = "flaticon-mannequin1";
+            break;
+        case "Musicians":
+            favicons = "flaticon-musical";
+            break;
+        case "Speakers":
+            favicons = "flaticon-microphone58";
+            break;        
         }
         var text3 = $(this).children("h5").html();
         $(".formidis").val(text3);
