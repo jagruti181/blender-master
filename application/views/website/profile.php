@@ -29,7 +29,7 @@ echo base_url("uploads")."/".$user->logo;
                     </div>
                     <div class="col-md-5">
                         <div class="profile-details">
-                            <h4><?php echo $user->firstname;?></h4><?php// echo current_url();?>
+                            <h4><?php echo $user->firstname;?></h4>
                             <h4><?php echo $user->lastname;?></h4>
 
                             <?php if($user->email != '0') {?>
