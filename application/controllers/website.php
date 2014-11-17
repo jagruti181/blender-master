@@ -95,7 +95,8 @@ class Website extends CI_Controller
 				$uploaddata = $this->upload->data();
 				$logo=$uploaddata['file_name'];
 			}
-        if($this->post_model->createimage($id,$logo)==0)
+        $text=$this->input->get_post("text");
+        if($this->post_model->createimage($id,$logo,$text)==0)
 			redirect(site_url("/website/invitelist"));
 			else
 			redirect(site_url("/website/invitelist"));

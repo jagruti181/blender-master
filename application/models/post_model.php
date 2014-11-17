@@ -61,13 +61,14 @@ WHERE `user`.`id`='$id'";
 			return  1;
     }
     
-    public function createimage($id,$logo)
+    public function createimage($id,$logo,$text)
     {
         $user=$this->session->userdata("id");
         $data = array(
             'user' => $user,
             'type' => '1',
             'image' => $logo,
+            'text' => $text,
             'designer' => $id
         );
         $query=$this->db->insert( 'post', $data );

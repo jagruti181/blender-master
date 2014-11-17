@@ -656,14 +656,15 @@ $i=0;
                 <div class="col-md-6">  
                         <div class="profile-edit">
                             <h5>submit text</h5> 
-                            <form method="post" class="blendertextform" action="<?php echo site_url();?>/website/textpost" enctype="multipart/form-data">
+                            <form method="post" class="blendertextform" action="<?php echo site_url();?>/website/imagepost" enctype="multipart/form-data">
 <input type="hidden" name="id" class="formidis" value="">
 <textarea name="text" value="" id="comments" class="profile-textarea"></textarea><br>
-<input type="submit" value="Submit" class="profile-submit"><br>
-<button type="reset" value="Reset" class="profile-cancel">cancel</button>
+<input type="file" id="normal-field" class="form-control" name="logo" value="">
+<input type="submit" value="Submit" class="profile-submit">
 </form>
                         </div>
                 </div>
+<!--
                 <div class="col-md-6">
                                         
                         <div class="profile-image">
@@ -680,6 +681,7 @@ $i=0;
                            </form>
                         </div>
                         </div>
+-->
            </div>
 
     </div>
