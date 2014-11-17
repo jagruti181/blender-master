@@ -1,7 +1,7 @@
 
             <div class="content-center">
                 <div class="follows">
-                    <h5><span class="gold"><?php echo sizeOf($posts)+595;?> </span>people are going to the bpft </h5>
+                    <h5><span class="gold"><?php echo sizeOf($posts);?> </span>people are going to Blenders Pride Fashion Tour </h5>
                     <p>read/view their style statements below.</p>
                 </div>
             </div>

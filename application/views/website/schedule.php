@@ -116,7 +116,7 @@
                                     <div class="hyderabad-name">
                                         <img src="<?php echo base_url("webassets"); ?>/img/speaker.png"><span class="name-icon">Little Shilpa + Gaurav Gupta</span>
                                         <br>
-                                        <img src="<?php echo base_url("webassets"); ?>/img/mus.png"><span class="name-icon">Karsh Kale featuring Grain with Ankur </span>
+                                        <img src="<?php echo base_url("webassets"); ?>/img/mus.png"><span class="name-icon">Grain Karsh featuring Kale with Ankur </span>
                                         <br>
 
 
