@@ -746,7 +746,7 @@ the Blenders Pride Fashion Tour 2014 with <span class="gold">#BPMYSTYLE</span></
         <div class="container inspired-text">
             <div class="content-center">
                 <h4>ARE YOU INSPIRED?</h4>
-                <a href="<?php echo site_url("website/blenderstyle");?>">
+                <a href="<?php echo site_url("website/schedule");?>">
                     <div class="inspired-win">
 
                         <p>WIN AN INVITE</p>
