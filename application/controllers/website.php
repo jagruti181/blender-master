@@ -85,7 +85,7 @@ class Website extends CI_Controller
     {
         $data['page']="profileedit";
         $id=$this->input->post('id');
-        $config['upload_path'] = './webassets/img';
+        $config['upload_path'] = './uploads';
 			$config['allowed_types'] = 'gif|jpg|png|jpeg';
 			$this->load->library('upload', $config);
 			$filename="logo";
