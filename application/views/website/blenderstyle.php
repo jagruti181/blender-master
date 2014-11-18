@@ -651,19 +651,17 @@ $i=0;
             </a>
             </div>
         </div>
-        <div class="profile-text part2" style="display:none;margin-top:0px;margin-left:18px;">
-               <p>We accept the statement with or without photo</p>
-                <div class="col-md-6">  
+        <div class="profile-text part2" style="display:none;margin-top:0px;">
+               <p>To win an invite, just share your style statement in words.You have the option of uploading your photo along with your statement.</p> 
                         <div class="profile-edit">
                             <h5>submit text</h5> 
                             <form method="post" class="blendertextform" action="<?php echo site_url();?>/website/imagepost" enctype="multipart/form-data">
 <input type="hidden" name="id" class="formidis" value="">
 <textarea name="text" value="" id="comments" class="profile-textarea"></textarea><br>
-<input type="file" id="normal-field" class="form-control" name="logo" value="">
+<input type="file" id="normal-field" class="form-control image-upload" name="logo" value="">
 <input type="submit" value="Submit" class="profile-submit">
 </form>
                         </div>
-                </div>
 <!--
                 <div class="col-md-6">
                                         

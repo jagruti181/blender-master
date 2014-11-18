@@ -936,6 +936,7 @@ i.fa.fa-microphone:hover {
     padding: 10px;
     border: 2px solid #bda177;
     text-align: center;
+    margin: 0 auto;
 }
 .profile-text .profile-image {
     background: transparent;
@@ -1511,15 +1512,15 @@ span.goldy {
 .circular img {
     height: 100%;
 }
-input[type="file"]::-webkit-file-upload-button {
+.image-upload::-webkit-file-upload-button {
     visibility: hidden;
 }
-input[type="file"] {
+.image-upload {
     background: transparent;
     color: black;
     border: none;
 }
-input[type="file"]::before {
+.image-upload::before {
     content: 'Select Image';
     display: inline-block;
     background: white;
@@ -1534,11 +1535,11 @@ input[type="file"]::before {
     font-weight: 600;
     font-size: 14px;
 }
-input[type="file"]:hover::before {
+.image-upload:hover::before {
     border-color: black;
 }
-input[type="file"]:active::before {
-    background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+.image-upload:active::before {
+    background: white;
 }
 input:focus {
     outline: 0px !important;
