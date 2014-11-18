@@ -156,7 +156,7 @@ class User_model extends CI_Model
             $this->email->to($user->email);
 
             $this->email->subject('Reset Password');
-            $this->email->message("Click on Below Link To Reset Password<br><a href='http://localhost/blender-master/index.php/website/resetpswd?id=".$user->id."&psd=".$user->password."'>Reset Password</a>");
+            $this->email->message("Click on Below Link To Reset Password<br><a href='http://bpft.in/index.php/website/resetpswd?id=".$user->id."&psd=".$user->password."'>Reset Password</a>");
 
             $this->email->send();
             return 1;
