@@ -183,7 +183,7 @@ a {
 }
 .style-text {
     background: #bda177;
-    width: 350px;
+    width: 615px;
     border-radius: 30px;
     margin: 0 auto;
     /* left: 28%; */
@@ -1032,10 +1032,11 @@ i.fa.fa-microphone:hover {
     padding: 12px 65px 11px;
     text-transform: uppercase;
     font-weight: 700;
+    text-align: center;
 }
 .profile-text .style-text {
     background: #bda177;
-    width: 350px;
+    width: 450px;
     border-radius: 30px;
     margin: 0 auto;
     /* left: 5%; */
@@ -1481,7 +1482,7 @@ span.goldy {
     bottom: 0px;
 }
 .profile-text p.textblender {
-    height: 253px;
+    height: auto;
 }
 .input-holder input {
     background: transparent;
@@ -1490,15 +1491,12 @@ span.goldy {
     padding: 7px 10px;
     width: 225px;
 }
-
 .input-holder i {
     vertical-align: middle;
 }
-
 .input-holder+.input-holder {
     margin-top: 10px;
 }
-
 .input-holder {
     width: 325px;
     margin: 0 auto;
@@ -1512,4 +1510,39 @@ span.goldy {
 }
 .circular img {
     height: 100%;
+}
+input[type="file"]::-webkit-file-upload-button {
+    visibility: hidden;
+}
+input[type="file"] {
+    background: transparent;
+    color: black;
+    border: none;
+}
+input[type="file"]::before {
+    content: 'Select Image';
+    display: inline-block;
+    background: white;
+    /* border: 1px solid #999; */
+    border-radius: 3px;
+    padding: 5px 10px;
+    outline: none;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    cursor: pointer;
+    /* text-shadow: 1px 1px #fff; */
+    font-weight: 600;
+    font-size: 14px;
+}
+input[type="file"]:hover::before {
+    border-color: black;
+}
+input[type="file"]:active::before {
+    background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+}
+input:focus {
+    outline: 0px !important;
+}
+textarea:focus {
+    outline: 0px;
 }

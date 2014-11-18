@@ -46,11 +46,11 @@
                                         </div>
                                         <h5>Midival Punditz</h5>
                                         <h6>Musicians</h6>
-<p class="h7">CHOOSE THIS STYLE BLENDER AND WIN AN INVITE TO BPFT 2014</p>
+
                                         <a href="#" data-id="13" class="openstyleblender">
                                             <div class="style-text">
 
-                                                <p>choose this style blender</p>
+                                                <p>choose this style blender and WIN AN INVITE TO BPFT 2014</p>
 
 
                                             </div>
@@ -76,11 +76,11 @@
                                         </div>
                                         <h5>Rocky Star</h5>
                                         <h6>Designer</h6>
-                                        <p class="h7">CHOOSE THIS STYLE BLENDER AND WIN AN INVITE TO BPFT 2014</p>
+                                        
                                         <a href="#" data-id="6" class="openstyleblender">
                                             <div class="style-text">
 
-                                                <p>choose this style blender</p>
+                                                <p>choose this style blender and WIN AN INVITE TO BPFT 2014</p>
 
 
                                             </div>
@@ -105,11 +105,11 @@
                                         </div>
                                         <h5>Little Shilpa</h5>
                                         <h6>Designer</h6>
-<p class="h7">CHOOSE THIS STYLE BLENDER AND WIN AN INVITE TO BPFT 2014</p>
+
                                         <a href="#" data-id="9" class="openstyleblender">
                                             <div class="style-text">
 
-                                                <p>choose this style blender</p>
+                                                <p>choose this style blender and WIN AN INVITE TO BPFT 2014</p>
 
 
                                             </div>
@@ -134,11 +134,11 @@
                                         </div>
                                         <h5>Grain featuring <br> Karsh Kale</h5>
                                         <h6>Musician</h6>
-<p class="h7">CHOOSE THIS STYLE BLENDER AND WIN AN INVITE TO BPFT 2014</p>
+
                                         <a href="#" data-id="3" class="openstyleblender">
                                             <div class="style-text">
 
-                                                <p>choose this style blender</p>
+                                                <p>choose this style blender and WIN AN INVITE TO BPFT 2014</p>
 
 
                                             </div>
@@ -163,11 +163,11 @@
                                         </div>
                                         <h5>Ashvin and Ash</h5>
                                         <h6>Musicians</h6>
-<p class="h7">CHOOSE THIS STYLE BLENDER AND WIN AN INVITE TO BPFT 2014</p>
+
                                         <a href="#" data-id="21" class="openstyleblender">
                                             <div class="style-text">
 
-                                                <p>choose this style blender</p>
+                                                <p>choose this style blender and WIN AN INVITE TO BPFT 2014</p>
 
 
                                             </div>
@@ -192,11 +192,11 @@
                                         </div>
                                         <h5>Boman Irani</h5>
                                         <h6>Speaker</h6>
-<p class="h7">CHOOSE THIS STYLE BLENDER AND WIN AN INVITE TO BPFT 2014</p>
+
                                         <a href="#" data-id="7" class="openstyleblender">
                                             <div class="style-text">
 
-                                                <p>choose this style blender</p>
+                                                <p>choose this style blender and WIN AN INVITE TO BPFT 2014</p>
 
 
                                             </div>
@@ -221,11 +221,11 @@
                                         </div>
                                         <h5>Boom bay Central</h5>
                                         <h6>Musician</h6>
-<p class="h7">CHOOSE THIS STYLE BLENDER AND WIN AN INVITE TO BPFT 2014</p>
+
                                         <a href="#" data-id="16" class="openstyleblender">
                                             <div class="style-text">
 
-                                                <p>choose this style blender</p>
+                                                <p>choose this style blender and WIN AN INVITE TO BPFT 2014</p>
 
 
                                             </div>
@@ -250,11 +250,11 @@
                                         </div>
                                         <h5>Chetan Bhagat</h5>
                                         <h6>Speaker</h6>
-<p class="h7">CHOOSE THIS STYLE BLENDER AND WIN AN INVITE TO BPFT 2014</p>
+
                                         <a href="#" data-id="17" class="openstyleblender">
                                             <div class="style-text">
 
-                                                <p>choose this style blender</p>
+                                                <p>choose this style blender and WIN AN INVITE TO BPFT 2014</p>
 
 
                                             </div>
@@ -279,11 +279,11 @@
                                         </div>
                                         <h5>Gaurav Gupta</h5>
                                         <h6>Designer</h6>
-<p class="h7">CHOOSE THIS STYLE BLENDER AND WIN AN INVITE TO BPFT 2014</p>
+
                                         <a href="#" data-id="8" class="openstyleblender">
                                             <div class="style-text">
 
-                                                <p>choose this style blender</p>
+                                                <p>choose this style blender and WIN AN INVITE TO BPFT 2014</p>
 
 
                                             </div>
@@ -308,11 +308,11 @@
                                         </div>
                                         <h5>Namrata Joshipura</h5>
                                         <h6>Designer</h6>
-<p class="h7">CHOOSE THIS STYLE BLENDER AND WIN AN INVITE TO BPFT 2014</p>
+
                                         <a href="#" data-id="18" class="openstyleblender">
                                             <div class="style-text">
 
-                                                <p>choose this style blender</p>
+                                                <p>choose this style blender and WIN AN INVITE TO BPFT 2014</p>
 
 
                                             </div>
@@ -337,11 +337,11 @@
                                         </div>
                                         <h5>Neeta Lulla</h5>
                                         <h6>Designer</h6>
-<p class="h7">CHOOSE THIS STYLE BLENDER AND WIN AN INVITE TO BPFT 2014</p>
+
                                         <a href="#" data-id="5" class="openstyleblender">
                                             <div class="style-text">
 
-                                                <p>choose this style blender</p>
+                                                <p>choose this style blender and WIN AN INVITE TO BPFT 2014</p>
 
 
                                             </div>
@@ -366,11 +366,11 @@
                                         </div>
                                         <h5>Pankaj and Nidhi</h5>
                                         <h6>Designers</h6>
-<p class="h7">CHOOSE THIS STYLE BLENDER AND WIN AN INVITE TO BPFT 2014</p>
+
                                         <a href="#" data-id="19" class="openstyleblender">
                                             <div class="style-text">
 
-                                                <p>choose this style blender</p>
+                                                <p>choose this style blender and WIN AN INVITE TO BPFT 2014</p>
 
 
                                             </div>
@@ -395,11 +395,11 @@
                                         </div>
                                         <h5>Shaa'ir and func</h5>
                                         <h6>Musicians</h6>
-<p class="h7">CHOOSE THIS STYLE BLENDER AND WIN AN INVITE TO BPFT 2014</p>
+
                                         <a href="#" data-id="20" class="openstyleblender">
                                             <div class="style-text">
 
-                                                <p>choose this style blender</p>
+                                                <p>choose this style blender and WIN AN INVITE TO BPFT 2014</p>
 
 
                                             </div>
@@ -424,11 +424,11 @@
                                         </div>
                                         <h5>Shivan and Naresh</h5>
                                         <h6>Designers</h6>
-<p class="h7">CHOOSE THIS STYLE BLENDER AND WIN AN INVITE TO BPFT 2014</p>
+
                                         <a href="#" data-id="11" class="openstyleblender">
                                             <div class="style-text">
 
-                                                <p>choose this style blender</p>
+                                                <p>choose this style blender and WIN AN INVITE TO BPFT 2014</p>
 
 
                                             </div>
@@ -453,11 +453,11 @@
                                         </div>
                                         <h5>Suneet Varma</h5>
                                         <h6>Designer</h6>
-<p class="h7">CHOOSE THIS STYLE BLENDER AND WIN AN INVITE TO BPFT 2014</p>
+
                                         <a href="#" data-id="14" class="openstyleblender">
                                             <div class="style-text">
 
-                                                <p>choose this style blender</p>
+                                                <p>choose this style blender and WIN AN INVITE TO BPFT 2014</p>
 
 
                                             </div>
@@ -482,11 +482,11 @@
                                         </div>
                                         <h5>Varun Bahl</h5>
                                         <h6>Designer</h6>
-<p class="h7">CHOOSE THIS STYLE BLENDER AND WIN AN INVITE TO BPFT 2014</p>
+
                                         <a href="#" data-id="10" class="openstyleblender">
                                             <div class="style-text">
 
-                                                <p>choose this style blender</p>
+                                                <p>choose this style blender and WIN AN INVITE TO BPFT 2014</p>
 
 
                                             </div>
@@ -511,11 +511,11 @@
                                         </div>
                                         <h5>Wasim Akram</h5>
                                         <h6>Speaker</h6>
-<p class="h7">CHOOSE THIS STYLE BLENDER AND WIN AN INVITE TO BPFT 2014</p>
+
                                         <a href="#" data-id="12" class="openstyleblender">
                                             <div class="style-text">
 
-                                                <p>choose this style blender</p>
+                                                <p>choose this style blender and WIN AN INVITE TO BPFT 2014</p>
 
 
                                             </div>
@@ -621,7 +621,7 @@ $i=0;
     
     
     <div class="blenderoverlay">
-       <div class="container inoverlay" style="width:900px;margin-top:100px;" >
+       <div class="container inoverlay" style="width:900px; margin-top:60px;" >
               <div style="position:relative;">
                   <a href="#" class="closeblender"><img src="<?php echo base_url("webassets/img/close.png"); ?>"></a>
               </div>
@@ -646,7 +646,7 @@ $i=0;
             </p>
             <a class="chooseshow" href="#">
                 <div class="style-text">
-                    <p>choose this style blender</p>
+                    <p>choose this style blender and WIN AN INVITE TO BPFT 2014</p>
                 </div>
             </a>
             </div>
