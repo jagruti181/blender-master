@@ -53,9 +53,9 @@ $myserver=$_SERVER['SERVER_NAME'];
 if($myserver=="www.bpft.in" || $myserver=="bpft.in")
 {
     $db['default']['hostname'] = 'localhost';
-$db['default']['username'] = 'bpft_site';
+$db['default']['username'] = 'bpftiiy1_site';
 $db['default']['password'] = 'chintan123';
-$db['default']['database'] = 'bpft_site';
+$db['default']['database'] = 'bpftiiy1_site';
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = '';
 $db['default']['pconnect'] = TRUE;
