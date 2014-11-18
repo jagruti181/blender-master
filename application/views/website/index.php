@@ -630,8 +630,8 @@ the Blenders Pride Fashion Tour 2014 with <span class="gold">#BPMYSTYLE</span></
                 <div class="col-md-4 twitter">
                     <div class="panel">
                         <div class="panel-heading">
-                            <p class="fa fa-twitter"><span class="text">Twitter</span>
-                            </p>
+                            <a href="https://twitter.com/bpft2014" target="_blank"><p class="fa fa-twitter"><span class="text">Twitter</span>
+                            </p></a>
 
                         </div>
 
@@ -643,8 +643,8 @@ the Blenders Pride Fashion Tour 2014 with <span class="gold">#BPMYSTYLE</span></
                 <div class="col-md-4 twitter">
                     <div class="panel">
                         <div class="panel-heading">
-                            <p class="fa fa-facebook"><span class="text">Facebook</span>
-                            </p>
+                            <a href="https://www.facebook.com/blenderspridefashiontour" target="_blank"><p class="fa fa-facebook"><span class="text">Facebook</span>
+                                </p></a>
 
                         </div>
                         <div id="fb-root"></div>
