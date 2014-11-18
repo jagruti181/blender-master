@@ -614,8 +614,8 @@ the Blenders Pride Fashion Tour 2014 with <span class="gold">#BPMYSTYLE</span></
                 <div class="col-md-4 instagram">
                     <div class="panel">
                         <div class="panel-heading">
-                            <p class="fa fa-instagram"><span class="text">instagram</span>
-                            </p>
+                            <a href="http://instagram.com/bpft2014" target="_blank"><p class="fa fa-instagram"><span class="text">instagram</span>
+                                </p></a>
                         </div>
                         <div class="panel-body">
 <!--                            <img src="<?php echo base_url("webassets");?>/img/panel.png">-->
