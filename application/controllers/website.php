@@ -148,9 +148,9 @@ class Website extends CI_Controller
         $year=$this->input->get_post('year');
         $sex=$this->input->get_post('sex');
         $password=$this->input->get_post('password');
-        echo $facebookid=$this->input->get_post('facebookid');
-        echo $twitter=$this->input->get_post('twitter');
-        echo $instagram=$this->input->get_post('instagram');
+        $facebookid=$this->input->get_post('facebookid');
+        $twitter=$this->input->get_post('twitter');
+        $instagram=$this->input->get_post('instagram');
         
         $config['upload_path'] = './uploads';
 			$config['allowed_types'] = 'gif|jpg|png|jpeg';
