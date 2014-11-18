@@ -152,7 +152,7 @@ class User_model extends CI_Model
         {
             $user=$user->row();
             $this->load->library('email');
-            $this->email->from('Blenders@blender.com', 'Blender');
+            $this->email->from('noreply@bpft.in', 'Blender');
             $this->email->to($user->email);
 
             $this->email->subject('Reset Password');
@@ -281,7 +281,7 @@ class User_model extends CI_Model
             $this->session->set_userdata($newdata);
             
             $this->load->library('email');
-            $this->email->from('Blenders@blender.com','Blender');
+            $this->email->from('noreply@bpft.in','Blender');
             $this->email->to($email);
 
             $this->email->subject('Thank You For Registering To Blenders Pride');
