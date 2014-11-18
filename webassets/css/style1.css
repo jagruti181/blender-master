@@ -1841,19 +1841,19 @@ span.contage {
     color: white;
 }
 input.cityicon {
-    padding-left: 51px;
+    padding-left: 50px;
     background: #000 url("../img/location.png") 15px no-repeat;
 }
 input.emailicon {
     background: #000 url("../img/envolap.png") 15px no-repeat;
     border: 1px solid white;
     margin: 10px 0 20px;
-    padding: 12px 0px 10px 40px;
+    padding: 12px 0px 10px 50px;
     font-size: 18px;
     color: white;
 }
 input.usericon {
-    padding-left: 51px;
+    padding-left: 50px;
     background: #000 url("../img/user.png") 15px no-repeat;
 }
 .input-content2 input {
