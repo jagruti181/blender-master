@@ -21,10 +21,14 @@ class Website extends CI_Controller
         $instagram=$this->input->get_post('instagram');
         $id=$this->input->get_post('id');
         if($this->post_model->submitprofile($twitter,$instagram,$id)==0)
-			redirect(site_url("/website/profilee"));
-        else
-			redirect(site_url("/website/profilee"));
-        $this->load->view("webtemplatenonhome",$data);
+        {
+            $data['alert']="Sorry, Error In Updating profile";
+			$data['redirect']="website/profilee";
+        }else{
+            $data['alert']="Profile is updated successfully";
+			$data['redirect']="website/profilee";
+        }
+        $this->load->view("redirect",$data);
     }
     function profilee()
 	{
@@ -123,6 +127,7 @@ class Website extends CI_Controller
     
     function register()
     {
+        
         $data['page']="register";
 		$this->load->view("webtemplatenonhome",$data);
     }
@@ -131,14 +136,15 @@ class Website extends CI_Controller
     {
         
         $this->form_validation->set_rules('name','Name','trim|required|max_length[30]');
-        $this->form_validation->set_rules('email','Email','trim|required|valid_email');
+        $this->form_validation->set_rules('email','Email','trim|required|valid_email|is_unique[user.email]');
         $this->form_validation->set_rules('city','City','trim|max_length[30]');
         $this->form_validation->set_rules('password','Password','trim|required|min_length[6]|max_length[30]');
         $this->form_validation->set_rules('confirmpassword','Confirm Password','trim|required|matches[password]');
         
         if($this->form_validation->run() == FALSE)	
 		{
-            redirect(site_url("/website/register"));
+            $data['alert']=validation_errors();
+			$data['redirect']="website/register";
         }else{
         $name=$this->input->get_post('name');
         $email=$this->input->get_post('email');
@@ -163,11 +169,15 @@ class Website extends CI_Controller
 				$logo=$uploaddata['file_name'];
 			}
         if($this->user_model->registeruser($name,$email,$city,$day,$month,$year,$sex,$password,$logo,$facebookid,$twitter,$instagram)==0)
-			redirect(site_url("/website/register"));
-			else
-			redirect(site_url("/website/profilee"));
-        $this->load->view("webtemplate",$data);
+        {
+            $data['alert']="Email alredy exist";
+			$data['redirect']="website/register";
         }
+			else
+			$data['redirect']="website/blenderstyle";
+        }
+        
+        $this->load->view("redirect",$data);
     }
     
     function profilepage()
@@ -179,6 +189,7 @@ class Website extends CI_Controller
 	}
     function login()
 	{
+        $msg="";
         
         if($this->session->userdata('logged_in'))
         {
@@ -330,24 +341,29 @@ class Website extends CI_Controller
     }
     public function normallogin()
     {
+        $msg = "";
         $this->form_validation->set_rules('email','Email','trim|required|valid_email');
         
         if($this->form_validation->run() == FALSE)	
 		{
-            redirect(site_url("/website/login"));
+            $data['alert']=validation_errors();
+			$data['redirect']="website/login";
+//            $msg = validation_errors();
+//            redirect(site_url("/website/login?msg=".$msg));
         }else{
         
             $email=$this->input->get_post('email');
             $password=$this->input->get_post('password');
             if($this->user_model->normallogin($email,$password)==0)
             {
-                redirect(site_url("/website/login"));
+                $data['redirect']="website/login";
             }
             else {
-                redirect(site_url("/website/blenderstyle"));
+                $data['redirect']="website/blenderstyle";
             }
-            $this->load->view('json',$data);
+            
         }
+        $this->load->view('redirect',$data);
     }
     
     public function facebookshare()

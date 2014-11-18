@@ -51,7 +51,15 @@ echo base_url("uploads")."/".$user->logo;
                         <div class="social-pro text-center">
                             <p>social media accounts</p>
                         </div>
+                        <h5 class="text-center" style="color:green;"><?php 
+$msg=$this->input->get('alert');
+if(isset($msg))
+{
+    echo $msg;
+}
+                    ?></h5>
                         <div class="social-icon">
+                            
                           <form method="post" action="<?php echo site_url('website/submitprofile');?>" enctype="multipart/form-data">
                           <input value="<?php echo set_value('id',$user->id);?>" name="id" id="username-email" placeholder="Twitter UserID" type="hidden" class="" />
                            <div class="input-holder">

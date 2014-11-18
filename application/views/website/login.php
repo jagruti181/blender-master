@@ -9,6 +9,16 @@
                 <div class="follow1 text-center">
                     <h5>SIGN IN</h5>
                     <h4>YOU MUST LOG IN TO PARTICIPATE.</h4>
+                    <h6 style="color:red;">
+                    
+                    <?php 
+$msg=$this->input->get('alert');
+if(isset($msg))
+{
+    echo $msg;
+}
+                    ?>
+                    </h6>
                 </div>
                 <form method="post" action="<?php echo site_url('website/normallogin');?>" enctype="multipart/form-data">
                     <div class="margin1">

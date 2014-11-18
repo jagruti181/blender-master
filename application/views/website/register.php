@@ -29,6 +29,15 @@
                                         </div>
                                     </div>
                                     <h5 class="text-center">enter your details below</h5>
+                                    <h6 class="text-center" style="color:red;">
+                                    <?php 
+$msg=$this->input->get('alert');
+if(isset($msg))
+{
+    echo $msg;
+}
+                    ?>
+                                    </h6>
                                     <form method="post" action="<?php echo site_url('website/registeruser');?>" enctype="multipart/form-data">
                                         <div class="input-content1 text-center">
                                             <input value="" name="name" id="password" placeholder="NAME  * " type="text" class="usericon" required>
