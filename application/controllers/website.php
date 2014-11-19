@@ -46,6 +46,7 @@ class Website extends CI_Controller
 	{
 		$data['page']="invitelist";
         $data['posts']=$this->post_model->invitelist();
+        $data['user']=$this->db->query("SELECT count(*) as `total` FROM `user`")->row();
         $data["nobackbackground"]="style-blender";
 		$this->load->view("webtemplatenonhome",$data);
 	}
