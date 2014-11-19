@@ -101,10 +101,14 @@ class Website extends CI_Controller
 				$logo=$uploaddata['file_name'];
 			}
         $text=$this->input->get_post("text");
+        
+        $msg="THANK YOU FOR SUBMITTING YOUR STYLE STATEMENT. WE WILL BE IN TOUCH IN CASE IT GETS CHOSEN AS THE WINNING ENTRY. KEEP PARTICIPATING WITH BLENDERS PRIDE FASHION TOUR USING #BPFT2014, #BPFTMYSTYLE TO EARN MORE POINTS";
+        $msg=urlencode($msg);
+        
         if($this->post_model->createimage($id,$logo,$text)==0)
-			redirect(site_url("/website/invitelist"));
+			redirect(site_url("/website/thankyourd?msg=$msg&rd=".site_url("website/blenderstyle")));
 			else
-			redirect(site_url("/website/invitelist"));
+			redirect(site_url("/website/thankyourd?msg=$msg&rd=".site_url("website/blenderstyle")));
         $this->load->view("webtemplate",$data);
     }
     function profileedit()
@@ -175,6 +179,13 @@ class Website extends CI_Controller
 			$data['redirect']="website/register";
         }
 			else
+            $msg="THANK YOU FOR REGISTERING";
+            $msg=urlencode($msg);
+        
+            
+			redirect(site_url("/website/thankyourd?msg=$msg&rd=".site_url("website/blenderstyle")));
+                
+               
 			$data['redirect']="website/blenderstyle";
         }
         
@@ -245,7 +256,9 @@ class Website extends CI_Controller
             
             if($this->user_model->submitresetpswd($password,$id)==0)
             {
-                redirect(site_url("/website/login"));
+                $msg="THANK YOU. YOUR PASSWORD HAS BEEN CHANGED.";
+                $msg=urlencode($msg);
+			    redirect(site_url("/website/thankyourd?msg=$msg&rd=".site_url("website/login")));
             }else{
                 redirect(site_url("/website/resethome"));
             }
@@ -267,8 +280,11 @@ class Website extends CI_Controller
             
             if($this->user_model->submitresetemail($email)==0)
             {
-                $data['msg']="Please check Your Inbox.";
-                redirect(site_url("/website/resetemail"));
+                
+                $msg="PLEASE CHECK YOUR MAIL TO ACCESS DETAILS FOR RESETTING YOUR PASSWORD";
+                $msg=urlencode($msg);
+			    redirect(site_url("/website/thankyourd?msg=$msg&rd=".site_url("website/blenderstyle")));
+        
             }else{
                 $data['msg']="Invalid Email.";
                 redirect(site_url("/website/resetemail"));
@@ -294,9 +310,7 @@ class Website extends CI_Controller
     function thankyourd()
 	{
 		$data['page']="thankyourd";
-        $data['posts']=$this->designer_model->viewdesigner();
 		$this->load->view("webtemplatenonhome",$data);
-        
 	}
     function termscondition()
 	{

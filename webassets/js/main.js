@@ -63,10 +63,8 @@ $(document).ready(function () {
         }
         var text3 = $(this).children("h5").html();
         $(".formidis").val(text3);
-
-
-
-
+        
+        
         $(".golden .fa").removeClass("flaticon-mannequin1");
         $(".golden .fa").removeClass("flaticon-musical");
         $(".golden .fa").removeClass("flaticon-microphone58");
@@ -118,6 +116,9 @@ $(document).ready(function () {
         height: $(window).height(),
     });
     $container = $('.blender-img');
+    $(".videoonly").click(function() {
+       
+    });
     // init
     $container.isotope({
         // options

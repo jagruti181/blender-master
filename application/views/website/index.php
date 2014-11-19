@@ -590,7 +590,7 @@
                         <div class="content-priya">
                             <h4>Get a taste of style with Priyanka Chopra</h4>
                             <div class="play">
-                                <a>
+                                <a class="videoonly fancybox.iframe" href="http://www.youtube.com/embed/my0loANrEkc?rel=0&amp;controls=0&amp;showinfo=0&autoplay=1">
                                         <img src="<?php echo base_url("webassets");?>/img/playbutton.png" alt="">
                                     </a>
                             </div>

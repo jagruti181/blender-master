@@ -3,7 +3,7 @@
         <div class="col-md-3"></div>
         <div class="col-md-6  text-center">
             <div class="contents1">
-                <h5>Thank you.</h5>
+<!--                <h5>Thank you.</h5>-->
 
                 <p class="h10">
                     <?php echo $this->input->get("msg");?>
