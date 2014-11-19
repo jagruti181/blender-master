@@ -21,6 +21,7 @@
 
 
 <header id="myCarousel" class="carousel slide">
+                       <div class="bottom-gradient"></div>
                         <!-- Indicators -->
 <!--
                         <ol class="carousel-indicators">
