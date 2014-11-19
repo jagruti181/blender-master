@@ -267,9 +267,9 @@ if(isset($msg))
                                             </div>
                                             <div class="pad-input">
                                                 <div class="input-content text-center">
-                                                    <input value="" id="password" name="password" placeholder="PASSWORD *" type="password" class="lockicon" required>
+                                                    <input value="" id="password" name="password" placeholder="PASSWORD *" type="password" class="lockicon" required pattern=".{6,}">
                                                     <div>
-                                                        <input value="" id="conformPassword" name="confirmpassword" placeholder="CONFIRM PASSWORD *" type="password" class="lockicon">
+                                                        <input value="" id="conformPassword" name="confirmpassword" placeholder="CONFIRM PASSWORD *" type="password" class="lockicon" pattern=".{6,}">
                                                     </div>
                                                 </div>
                                             </div>
