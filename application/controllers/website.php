@@ -290,6 +290,13 @@ class Website extends CI_Controller
         $data['posts']=$this->designer_model->viewdesigner();
 		$this->load->view("webtemplatenonhome",$data);
         
+    }
+    function thankyourd()
+	{
+		$data['page']="thankyourd";
+        $data['posts']=$this->designer_model->viewdesigner();
+		$this->load->view("webtemplatenonhome",$data);
+        
 	}
     function termscondition()
 	{
