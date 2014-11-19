@@ -1563,3 +1563,6 @@ textarea:focus {
     background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.75));
     z-index: 2;
 }
+.inputer {
+    padding: 12px 0px 10px 50px;
+}

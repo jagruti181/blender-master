@@ -5,9 +5,9 @@
             <div class="contents1">
 <!--                <h5>Thank you.</h5>-->
 
-                <p class="h10">
+                <h5 class="">
                     <?php echo $this->input->get("msg");?>
-                </p>
+                <h5>
 
             </div>
         </div>

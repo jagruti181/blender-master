@@ -40,9 +40,9 @@ if(isset($msg))
                                     </h6>
                                     <form method="post" action="<?php echo site_url('website/registeruser');?>" enctype="multipart/form-data">
                                         <div class="input-content1 text-center">
-                                            <input value="" name="name" id="password" placeholder="NAME  * " type="text" class="usericon" required>
-                                            <input value="" name="email" id="conformPassword" placeholder="EMAIL *" type="text" class="emailicon" required>
-                                            <input value="" name="city" id="conformPassword" placeholder="CITY *" type="text" class="cityicon" required>
+                                            <input value="" name="name" id="password" placeholder="NAME  * " type="text" class="usericon inputer" required>
+                                            <input value="" name="email" id="conformPassword" placeholder="EMAIL *" type="text" class="emailicon inputer" required>
+                                            <input value="" name="city" id="conformPassword" placeholder="CITY *" type="text" class="cityicon inputer" required>
                                         </div>
                                         <div class=" pad-select text-center">
                                             <span class="contage">AGE</span>
