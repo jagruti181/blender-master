@@ -265,10 +265,13 @@ if(isset($msg))
 
                                                 </div>
                                             </div>
-                                            <div class="pad-input">
-                                                <div class="input-content text-center">
+                                            
+                                                <div class="input-content text-center pad-input">
+                                                   <p style="margin: 0px;color: #A9A9A9;">Password must have a minimum of 6 characters</p>
                                                     <input value="" id="password" name="password" placeholder="PASSWORD *" type="password" class="lockicon" required pattern=".{6,}" title="Minimum 6 characters">
                                                     <div>
+                                                       <div>
+                                                
                                                         <input value="" id="conformPassword" name="confirmpassword" placeholder="CONFIRM PASSWORD *" type="password" class="lockicon" pattern=".{6,}"  title="Password doesnt match">
                                                     </div>
                                                 </div>
@@ -291,7 +294,7 @@ if(isset($msg))
 -->
 
 
-                                            <div class="reg-policy ">
+                                            <div class="reg-policy" style="padding-top:10px">
                                                 <p>By registering, you agree to our <a href="#">Privacy Policy</a> 
                                                 </p>
                                                 <p>and <a href="<?php echo site_url("website/termscondition "); ?>">Terms &amp; Conditions</a>
