@@ -7,7 +7,7 @@
                 <h5>Thank you for your details.</h5>
 
                 <p class="h10">A link to confirm your registration has been sent your email
-                    <br>address <span class="clr-gold">VIRAJCIRACAR @GMAIL.COM</span>
+                    <br>address <span class="clr-gold"><?php echo $email;?></span>
                 </p>
                 <div class="content-button1 pading1">
                     <a>

@@ -287,14 +287,9 @@ class Website extends CI_Controller
             
             if($this->user_model->submitresetemail($email)==0)
             {
-                
-                $msg="PLEASE CHECK YOUR MAIL TO ACCESS DETAILS FOR RESETTING YOUR PASSWORD";
-                $msg=urlencode($msg);
-			    redirect(site_url("/website/thankyourd?msg=$msg&rd=".site_url("website/blenderstyle")));
-        
+			     redirect(site_url("/website/thankyou?email=$email"));
             }else{
-                $data['msg']="Invalid Email.";
-                redirect(site_url("/website/resetemail"));
+			     redirect(site_url("/website/thankyou?email=$email"));
             }
         $this->load->view("webtemplate",$data);
         
@@ -310,6 +305,7 @@ class Website extends CI_Controller
     function thankyou()
 	{
 		$data['page']="thankyou";
+        $data['email']=$this->input->get("email");
         $data['posts']=$this->designer_model->viewdesigner();
 		$this->load->view("webtemplatenonhome",$data);
         
