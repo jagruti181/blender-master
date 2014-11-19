@@ -19,7 +19,8 @@
 					<th>Access Level</th>
 					<td>Email</td>
 					<td>Contact No</td>
-					<td><i class=" icon-edit"></i>Status</td>
+					<td>Points</td>
+<!--					<td><i class=" icon-edit"></i>Status</td>-->
 					<th> Actions </th>
 				</tr>
 			</thead>
@@ -31,12 +32,15 @@
 						<td><?php echo $row->accesslevel;?></td>
 						<td><?php echo $row->email;?></td>
 						<td><?php echo $row->contact;?></td>
+						<td><?php echo $row->points;?></td>
+<!--
 						<td><?php if($row->status==1) { ?>
 							<a href="<?php echo site_url('site/changeuserstatus?id=').$row->id; ?>" class="label label-success label-mini">Enable</a>
 						<?php } else { ?>
 							<a href="<?php echo site_url('site/changeuserstatus?id=').$row->id; ?>" class="label label-danger label-mini">Disable</a>
 						<?php } ?>
 						</td>
+-->
 						<td>
 							<a href="<?php echo site_url('site/edituser?id=').$row->id;?>" class="btn btn-primary btn-xs">
 								<i class="icon-pencil"></i>

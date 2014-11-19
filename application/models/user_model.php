@@ -63,20 +63,12 @@ class User_model extends CI_Model
 	}
 	function viewusers()
 	{
-		$user = $this->session->userdata('accesslevel');
-		$query="SELECT DISTINCT `user`.`id` as `id`,`user`.`firstname` as `firstname`,`user`.`lastname` as `lastname`,`accesslevel`.`name` as `accesslevel`	,`user`.`email` as `email`,`user`.`contact` as `contact`,`user`.`status` as `status`,`user`.`accesslevel` as `access`
+		//$user = $this->session->userdata('accesslevel');
+		$query="SELECT  `user`.`id` as `id`,`user`.`firstname` as `firstname`,`user`.`lastname` as `lastname`,`accesslevel`.`name` as `accesslevel`	,`user`.`email` as `email`,`user`.`contact` as `contact`,`user`.`status` as `status`,`user`.`accesslevel` as `access`,`user`.`points` as `points`
 		FROM `user`
-	   INNER JOIN `accesslevel` ON `user`.`accesslevel`=`accesslevel`.`id`  ";
-	   $accesslevel=$this->session->userdata('accesslevel');
-	   if($accesslevel==1)
-		{
-			$query .= " ";
-		}
-		else if($accesslevel==2)
-		{
-			$query .= " WHERE `user`.`accesslevel`> '$accesslevel' ";
-		}
-		
+	   LEFT OUTER JOIN `accesslevel` ON `user`.`accesslevel`=`accesslevel`.`id`  ";
+	   //$accesslevel=$this->session->userdata('accesslevel');
+	   
 	   $query.=" ORDER BY `user`.`id` ASC";
 		$query=$this->db->query($query)->result();
 		return $query;

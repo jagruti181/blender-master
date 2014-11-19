@@ -140,10 +140,16 @@ LEFT OUTER JOIN `designer` ON `designer`.`id`=`post`.`designer`";
 	}
 	function invitelist()
 	{
-		$query="SELECT `designer`.`name`,`designer`.`content`,`designer`.`image` as `logo`,`post`.`id`,`post`.`text`,`post`.`image`,`post`.`totalshare`,`post`.`timestamp`,`post`.`designer`,`user`.`id` as `userid`,`user`.`firstname`,`user`.`lastname`,`user`.`logo` as `userlogo` FROM `post` LEFT OUTER JOIN `designer` ON `post`.`designer`=`designer`.`id` INNER JOIN `user` ON `user`.`id`=`post`.`user` WHERE `post`.`approve`='1' ORDER BY `post`.`timestamp` DESC LIMIT 0,20";
+        $maxpage=$this->config->item("per_page");
+        $startfrom=$this->uri->segment(3,0);
+        
+		$query="SELECT `designer`.`name`,`designer`.`content`,`designer`.`image` as `logo`,`post`.`id`,`post`.`text`,`post`.`image`,`post`.`totalshare`,`post`.`timestamp`,`post`.`designer`,`user`.`id` as `userid`,`user`.`firstname`,`user`.`lastname`,`user`.`logo` as `userlogo` FROM `post` LEFT OUTER JOIN `designer` ON `post`.`designer`=`designer`.`id` INNER JOIN `user` ON `user`.`id`=`post`.`user` WHERE `post`.`approve`='1' ORDER BY `post`.`timestamp` DESC LIMIT $startfrom,$maxpage";
 	   
-		$query=$this->db->query($query)->result();
-		return $query;
+        $result=new stdClass();
+        $result->query=$this->db->query($query)->result();
+		$result->totalcount=$this->db->query("SELECT count(*) as `totalcount` FROM `post` LEFT OUTER JOIN `designer` ON `post`.`designer`=`designer`.`id` INNER JOIN `user` ON `user`.`id`=`post`.`user` WHERE `post`.`approve`='1'")->row();
+        $result->totalcount=$result->totalcount->totalcount;
+		return $result;
 	}
     function viewsomepost()
 	{

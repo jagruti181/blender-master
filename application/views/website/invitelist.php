@@ -34,7 +34,7 @@
                                        
                                                            
                                                            ?>"></div><span class="top-text"><?php echo $post->firstname." ".$post->lastname;?></span>
-                            <img src="<?php echo base_url("webassets");?>/img/rect.png" class="rect">
+<!--                            <img src="<?php echo base_url("webassets");?>/img/rect.png" class="rect">-->
 
                         </div>
                         <?php if($post->image!="") { ?>
@@ -64,12 +64,10 @@
                 </div>
                 <?php } ?>
             </div>
-            <a href="#">
-                <div class="foot-text">
-                    <p>
-                        View All Entries
-                    </p>
+           
+                <div class="foot-text2">
+                    <?php echo $this->pagination->create_links();?>
                 </div>
-            </a>
+            
         </div>
     </div>

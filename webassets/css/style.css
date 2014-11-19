@@ -5,7 +5,7 @@
     /*    border-bottom: 1px solid #aaa;*/
 }
 @import url(http://fonts.googleapis.com/css?family=PT+Sans);
-.section.intro {
+ .section.intro {
     background: #000 url(../img/bg1.jpg) no-repeat center center;
     background-size: cover;
 }
@@ -1565,4 +1565,7 @@ textarea:focus {
 }
 .inputer {
     padding: 12px 0px 10px 50px;
+}
+.foot-text2 {
+    text-align: center;
 }

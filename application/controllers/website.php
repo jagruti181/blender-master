@@ -45,7 +45,14 @@ class Website extends CI_Controller
     function invitelist()
 	{
 		$data['page']="invitelist";
-        $data['posts']=$this->post_model->invitelist();
+        $bothval=$this->post_model->invitelist();
+        $data['posts']=$bothval->query;
+        
+        $this->load->library('pagination');
+        $config['base_url'] = site_url("website/invitelist");
+        $config['total_rows']=$bothval->totalcount;
+        $this->pagination->initialize($config); 
+        
         $data['user']=$this->db->query("SELECT count(*) as `total` FROM `user`")->row();
         $data["nobackbackground"]="style-blender";
 		$this->load->view("webtemplatenonhome",$data);
