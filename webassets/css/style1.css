@@ -1504,6 +1504,9 @@ input:focus {
 .pading1 {
     padding-top: 30px;
 }
+.contents1 {
+    min-height: 300px;
+}
 .contents1 h3 {
     text-transform: uppercase;
     text-align: center;
