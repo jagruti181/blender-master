@@ -569,7 +569,7 @@ p.fa.fa-twitter .text {
     font-weight: 400;
     padding-left: 10px;
     padding: 10px 20px 34px;
-    font-family: 'PT Sans';
+    font-family: 'PT Sans', sans-serif;
 }
 .foot-text {
     background: transparent;

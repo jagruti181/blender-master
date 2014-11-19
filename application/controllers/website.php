@@ -186,7 +186,7 @@ class Website extends CI_Controller
 			$data['redirect']="website/register";
         }
 			else
-            $msg="THANK YOU FOR REGISTERING";
+            $msg="Thank you for registering with Blenders Pride Fashion Tour. Continue to share your style statements on www.bpft.in and you might win an invite to a show in your city";
             $msg=urlencode($msg);
         
             
