@@ -144,10 +144,10 @@ class User_model extends CI_Model
         {
             $user=$user->row();
             $this->load->library('email');
-            $this->email->from('noreply@bpft.in', 'Blender');
+            $this->email->from('noreply@bpft.in', 'Blenders Pride');
             $this->email->to($user->email);
 
-            $this->email->subject('Reset Password');
+            $this->email->subject('Blenders Pride: Reset Password');
             $this->email->message("Click on Below Link To Reset Password<br><a href='http://bpft.in/index.php/website/resetpswd?id=".$user->id."&psd=".$user->password."'>Reset Password</a>");
 
             $this->email->send();
@@ -273,10 +273,10 @@ class User_model extends CI_Model
             $this->session->set_userdata($newdata);
             
             $this->load->library('email');
-            $this->email->from('noreply@bpft.in','Blender');
+            $this->email->from('noreply@bpft.in','Blenders Pride');
             $this->email->to($email);
 
-            $this->email->subject('Thank You For Registering To Blenders Pride');
+            $this->email->subject('Blenders Pride: Thank You For Registering To Blenders Pride');
             $this->email->message("Thank You For Registering To Blenders Pride");
 
             $this->email->send();
