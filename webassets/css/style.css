@@ -917,7 +917,7 @@ i.fa.fa-microphone:hover {
     background-color: #000;
 }
 .profile-img {
-    margin-top: 100px;
+    margin-top: 85px;
 }
 .profile-img .prof-mini {
     position: relative;
@@ -925,7 +925,7 @@ i.fa.fa-microphone:hover {
     bottom: 74px;
 }
 .profile-text {
-    margin-top: 100px;
+    margin-top: 85px;
 }
 .profile-text h3 {
     font-size: 36px;
@@ -1022,7 +1022,7 @@ i.fa.fa-microphone:hover {
 }
 .profile-text p {
     text-align: justify;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 16px;
     padding: 0px 0px 14px 32px;
     /* text-transform: uppercase; */
@@ -1034,20 +1034,21 @@ i.fa.fa-microphone:hover {
 .profile-text .style-text p {
     font-size: 15px;
     color: #000000;
-    padding: 12px 65px 11px;
+    padding: 5px 20px 0px !important;
     text-transform: uppercase;
     font-weight: 700;
     text-align: center;
 }
 .profile-text .style-text {
     background: #bda177;
-    width: 450px;
+    width: 90%;
     border-radius: 30px;
     margin: 0 auto;
     /* left: 5%; */
     /* margin-left: -180px; */
-    margin-top: 20px;
+    margin-top: 15px;
     /* margin-bottom: 100px; */
+    padding: 10px 0 1px;
 }
 .profile-image span {
     background: #bda177;

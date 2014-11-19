@@ -622,7 +622,7 @@ $i=0;
     
     
     <div class="blenderoverlay">
-       <div class="container inoverlay" style="width:900px; margin-top:60px;" >
+       <div class="container inoverlay" style="width:900px; margin-top:40px;" >
               <div style="position:relative;">
                   <a href="#" class="closeblender"><img src="<?php echo base_url("webassets/img/close.png"); ?>"></a>
               </div>
