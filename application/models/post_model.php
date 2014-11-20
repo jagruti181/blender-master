@@ -248,7 +248,7 @@ LEFT OUTER JOIN `designer` ON `designer`.`id`=`post`.`designer` LIMIT 0,12";
 	}
     function getinstagram()
     {
-        $query=$this->db->query("SELECT * FROM `activity` WHERE `type`='1' ORDER BY `createdtime` DESC  LIMIT 0,30");
+        $query=$this->db->query("SELECT * FROM `activity` WHERE `type`='1' ORDER BY `createdtime` DESC  LIMIT 0,10");
         return $query->result();
     }
     
