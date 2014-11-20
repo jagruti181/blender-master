@@ -106,6 +106,32 @@ class Website extends CI_Controller
 			{
 				$uploaddata = $this->upload->data();
 				$logo=$uploaddata['file_name'];
+                
+                //$this->load->library('image_lib'); 
+                $config_r['source_image']   = './uploads/' . $uploaddata['file_name'];
+                $config_r['maintain_ratio'] = TRUE;
+                $config_t['create_thumb'] = FALSE;///add this
+                $config_r['width']   = 800;
+                $config_r['height'] = 800;
+                $config_r['quality']    = 100;
+                //end of configs
+
+                $this->load->library('image_lib', $config_r); 
+                $this->image_lib->initialize($config_r);
+                if(!$this->image_lib->resize())
+                {
+                    echo "Failed." . $this->image_lib->display_errors();
+                    //return false;
+                }  
+                else
+                {
+                    //print_r($this->image_lib->dest_image);
+                    //dest_image
+                    $logo=$this->image_lib->dest_image;
+                    //return false;
+                }
+                
+                
 			}
         $text=$this->input->get_post("text");
         
