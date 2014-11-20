@@ -3,8 +3,8 @@ date_default_timezone_set("Asia/Kolkata");
 require 'scripts/tmhOAuth.php';
 require 'scripts/tmhUtilities.php';
 
-$conn=mysql_connect('localhost','bpft_site','chintan123');
-mysql_select_db('bpft_site',$conn);
+$conn=mysql_connect('localhost','bpftiiy1_site','chintan123');
+mysql_select_db('bpftiiy1_site',$conn);
 
 //Get last since id
 
