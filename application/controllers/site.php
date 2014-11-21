@@ -35,6 +35,7 @@ class Site extends CI_Controller
 		$data['accesslevel']=$this->user_model->getaccesslevels();
 		$data[ 'status' ] =$this->user_model->getstatusdropdown();
 		$data[ 'loginby' ] =$this->user_model->getloginbydropdown();
+        $data[ 'gender' ] = ['Male','Female'];
 		$data[ 'page' ] = 'createuser';
 		$data[ 'title' ] = 'Create User';
 		$this->load->view( 'template', $data );	
@@ -88,8 +89,22 @@ class Site extends CI_Controller
 			$status=$this->input->post('status');
 			$loginby=$this->input->post('loginby');
 			$accesslevel=$this->input->post('accesslevel');
+            $dob=$this->input->post('dob');
+            $gender=$this->input->post('gender');
+            $city=$this->input->post('city');
             
-            if($this->user_model->create($firstname,$lastname,$email,$password,$contact,$facebookuserid,$twitter,$instagram,$accesskey,$uniquekey,$points,$status,$loginby,$accesslevel)==0)
+        $config['upload_path'] = './uploads';
+			$config['allowed_types'] = 'gif|jpg|png|jpeg';
+			$this->load->library('upload', $config);
+			$filename="logo";
+			$logo="";
+			if($this->upload->do_upload($filename))
+			{
+				$uploaddata = $this->upload->data();
+				$logo=$uploaddata['file_name'];
+			}
+            
+            if($this->user_model->create($firstname,$lastname,$email,$password,$contact,$facebookuserid,$twitter,$instagram,$accesskey,$uniquekey,$points,$status,$loginby,$accesslevel,$dob,$gender,$city,$logo)==0)
 			$data['alerterror']="New user could not be created.";
 			else
 			$data['alertsuccess']="User created Successfully.";
@@ -117,6 +132,7 @@ class Site extends CI_Controller
 		$data[ 'status' ] =$this->user_model->getstatusdropdown();
 		$data['accesslevel']=$this->user_model->getaccesslevels();
 		$data[ 'loginby' ] =$this->user_model->getloginbydropdown();
+        $data[ 'gender' ] =['Male','Female'];
 		$data['before']=$this->user_model->beforeedit($this->input->get('id'));
 		$data['page']='edituser';
 		$data['page2']='block/userblock';
@@ -176,8 +192,28 @@ class Site extends CI_Controller
 			$status=$this->input->post('status');
 			$loginby=$this->input->post('loginby');
 			$accesslevel=$this->input->post('accesslevel');
+            $dob=$this->input->post('dob');
+            $gender=$this->input->post('gender');
+            $city=$this->input->post('city');
             
-			if($this->user_model->edit($id,$firstname,$lastname,$email,$password,$contact,$facebookuserid,$twitter,$instagram,$accesskey,$uniquekey,$points,$status,$loginby,$accesslevel)==0)
+            $config['upload_path'] = './uploads';
+			$config['allowed_types'] = 'gif|jpg|png|jpeg';
+			$this->load->library('upload', $config);
+			$filename="logo";
+			$logo="";
+			if($this->upload->do_upload($filename))
+			{
+				$uploaddata = $this->upload->data();
+				$logo=$uploaddata['file_name'];
+			}
+            
+            if($logo=="")
+            {
+            $logo=$this->user_model->getuserlogobyid($id);
+               // print_r($image);
+                $logo=$logo->logo;
+            }
+			if($this->user_model->edit($id,$firstname,$lastname,$email,$password,$contact,$facebookuserid,$twitter,$instagram,$accesskey,$uniquekey,$points,$status,$loginby,$accesslevel,$dob,$gender,$city,$logo)==0)
 			$data['alerterror']="User Editing was unsuccesful";
 			else
 			$data['alertsuccess']="User edited Successfully.";

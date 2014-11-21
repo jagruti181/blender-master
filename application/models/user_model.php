@@ -32,7 +32,7 @@ class User_model extends CI_Model
 	}
 	
 	
-	public function create($firstname,$lastname,$email,$password,$contact,$facebookuserid,$twitter,$instagram,$accesskey,$uniquekey,$points,$status,$loginby,$accesslevel)
+	public function create($firstname,$lastname,$email,$password,$contact,$facebookuserid,$twitter,$instagram,$accesskey,$uniquekey,$points,$status,$loginby,$accesslevel,$dob,$gender,$city,$logo)
 	{
 		$data  = array(
 			'firstname' => $firstname,
@@ -48,7 +48,11 @@ class User_model extends CI_Model
             'points'=>$points,
 			'status' => $status,
 			'loginby' => $loginby,
-			'facebookuserid' => $facebookuserid
+			'facebookuserid' => $facebookuserid,
+            'dob' => $dob,
+            'gender' => $gender,
+            'city' => $city,
+            'logo' => $logo
 		);
 		$query=$this->db->insert( 'user', $data );
 		$id=$this->db->insert_id();
@@ -80,7 +84,12 @@ class User_model extends CI_Model
 		return $query;
 	}
 	
-	public function edit($id,$firstname,$lastname,$email,$password,$contact,$facebookuserid,$twitter,$instagram,$accesskey,$uniquekey,$points,$status,$loginby,$accesslevel)
+	public function getuserlogobyid($id)
+	{
+		$query=$this->db->query("SELECT `logo` FROM `user` WHERE `id`='$id'")->row();
+		return $query;
+	}
+	public function edit($id,$firstname,$lastname,$email,$password,$contact,$facebookuserid,$twitter,$instagram,$accesskey,$uniquekey,$points,$status,$loginby,$accesslevel,$dob,$gender,$city,$logo)
 	{
 		$data  = array(
 			'firstname' => $firstname,
@@ -95,7 +104,11 @@ class User_model extends CI_Model
             'points'=>$points,
 			'status' => $status,
 			'loginby' => $loginby,
-			'facebookuserid' => $facebookuserid
+			'facebookuserid' => $facebookuserid,
+            'dob' => $dob,
+            'gender' => $gender,
+            'city' => $city,
+            'logo' => $logo
 		);
 		if($password != "")
 			$data['password'] =md5($password);

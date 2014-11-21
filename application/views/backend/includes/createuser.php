@@ -50,7 +50,34 @@
 					<input type="number" id="normal-field" class="form-control" name="contact" value="<?php echo set_value('contact');?>">
 				  </div>
 				</div>
+				<div class=" form-group">
+				  <label class="col-sm-2 control-label" for="normal-field">Logo</label>
+				  <div class="col-sm-4">
+					<input type="file" id="normal-field" class="form-control" name="logo" value="<?php echo set_value('logo');?>">
+				  </div>
+				</div>
+				<div class=" form-group">
+				  <label class="col-sm-2 control-label" for="normal-field">Date Of Birth</label>
+				  <div class="col-sm-4">
+					<input type="date" id="normal-field" class="form-control" name="dob" value="<?php echo set_value('dob');?>">
+				  </div>
+				</div>
 				
+				<div class=" form-group">
+				  <label class="col-sm-2 control-label">city</label>
+				  <div class="col-sm-4">
+					<input type="text" id="" name="city" class="form-control" value="<?php echo set_value('city'); ?>">
+				  </div>
+				</div>
+				<div class=" form-group">
+				  <label class="col-sm-2 control-label">Gender</label>
+				  <div class="col-sm-4">
+					<?php
+						
+						echo form_dropdown('gender',$gender,set_value('gender'),'class="chzn-select form-control" 	data-placeholder="Choose Gender..."');
+					?>
+				  </div>
+				</div>
 				<div class="form-group">
 					<label class="col-sm-2 control-label"> Facebook Userid</label>
 					<div class="col-sm-4">
