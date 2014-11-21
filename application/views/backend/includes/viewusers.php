@@ -20,6 +20,7 @@
 					<td>Email</td>
 					<td>Contact No</td>
 					<td>Points</td>
+					<td>City</td>
 <!--					<td><i class=" icon-edit"></i>Status</td>-->
 					<th> Actions </th>
 				</tr>
@@ -33,6 +34,7 @@
 						<td><?php echo $row->email;?></td>
 						<td><?php echo $row->contact;?></td>
 						<td><?php echo $row->points;?></td>
+						<td><?php echo $row->city;?></td>
 <!--
 						<td><?php if($row->status==1) { ?>
 							<a href="<?php echo site_url('site/changeuserstatus?id=').$row->id; ?>" class="label label-success label-mini">Enable</a>
