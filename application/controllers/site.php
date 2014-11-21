@@ -93,7 +93,7 @@ class Site extends CI_Controller
             $gender=$this->input->post('gender');
             $city=$this->input->post('city');
             
-        $config['upload_path'] = './uploads';
+        $config['upload_path'] = './uploads/';
 			$config['allowed_types'] = 'gif|jpg|png|jpeg';
 			$this->load->library('upload', $config);
 			$filename="logo";
@@ -196,7 +196,7 @@ class Site extends CI_Controller
             $gender=$this->input->post('gender');
             $city=$this->input->post('city');
             
-            $config['upload_path'] = './uploads';
+            $config['upload_path'] = './uploads/';
 			$config['allowed_types'] = 'gif|jpg|png|jpeg';
 			$this->load->library('upload', $config);
 			$filename="logo";
