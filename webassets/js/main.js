@@ -266,7 +266,7 @@ window.fbAsyncInit = function () {
                     $.post(site_url + '/website/facebooklogin', fid, function (data) {
                         console.log("after success");
                         console.log(data);
-                        window.location.href = site_url + "/website/profilee";
+                        window.location.href = site_url + "/website/blenderstyle";
                     }, 'json');
 
                     // #########################################save facebook login#################################################
@@ -291,7 +291,7 @@ window.fbAsyncInit = function () {
                                 $.post(site_url + "/website/facebooklogin", fid, function (data) {
                                     console.log("after success");
                                     console.log(data);
-                                    window.location.href = site_url + "/website/profilee";
+                                    window.location.href = site_url + "/website/blenderstyle";
                                 }, 'json');
 
                             });

@@ -53,7 +53,7 @@ class Twitter extends CI_Controller
 		{
 			// User is already authenticated. Add your user notification code here.
 			//print_r($this->session->all_userdata());
-			redirect(site_url('/website/profilee'));
+			redirect(site_url('/website/blenderstyle'));
 		}
 		else
 		{
@@ -71,7 +71,7 @@ class Twitter extends CI_Controller
 			else
 			{
 				// An error occured. Make sure to put your error notification code here.
-				redirect(site_url('/website/profilee'));
+				redirect(site_url('/website/blenderstyle'));
 			}
 		}
 	}
@@ -124,7 +124,7 @@ class Twitter extends CI_Controller
                 //print_r(json_encode($content->profile_image_url));
                 
                 $this->user_model->twitterlogin($content->profile_image_url,$content->name);
-                redirect(site_url('/website/profilee'));
+                redirect(site_url('/website/blenderstyle'));
                 
                 
 			}
