@@ -35,10 +35,35 @@
     }
     .blender-img h2 {
         font-size: 12px;
-        margin-top: -60px;
+        margin-top: 10px;
     }
     .carousel-caption {
         position: absolute;
-        bottom: 0px;
+        bottom: 7%;
+    }
+    .blendertopmenu {
+        width: 100% !important;
+        border-radius: 0px !important;
+    }
+    .content-priya {
+        margin: 35px 0px;
+    }
+    .topleave {
+        margin-top: 60px !important;
+    }
+    .section.reset {
+        background: none;
+    }
+    .item {
+        height: 520px;
+    }
+    .gift-head1 {
+        width: 100%;
+    }
+    h4 {
+        font-size: 30px !important;
+    }
+    .profile-details {
+        text-align: center;
     }
 }

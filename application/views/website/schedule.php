@@ -38,27 +38,20 @@
                     <div class="hyderabad">
                         <div class="container">
                             <div class="row">
+                               
                                 <div class="col-md-4">
                                     <div class="city-head">
                                         <h4>hyderabad</h4>
                                         <h5>n convention</h5>
                                     </div>
                                 </div>
-                                <div class="col-md-1">
+                                <div class="col-md-8">
                                     <div class="hyderabd-text label-texts">
                                         <span>bprc</span>
                                         <p>nov
                                             <br><i>15</i>
                                         </p>
                                     </div>
-                                    <div class="hyderabd-text label-texts">
-                                        <span>bprc</span>
-                                        <p>nov
-                                            <br><i>16</i>
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
                                     <div class="hyderabad-name">
                                         <img src="<?php echo base_url("webassets"); ?>/img/speaker.png"><span class="name-icon">rocky s + neeta lulla</span>
                                         <br>
@@ -68,6 +61,14 @@
                                         <br>
 
                                     </div>
+                                    <div class="clearfix"></div>
+                                    <div class="hyderabd-text label-texts">
+                                        <span>bprc</span>
+                                        <p>nov
+                                            <br><i>16</i>
+                                        </p>
+                                    </div>
+                                    
                                     <div class="hyderabad-name">
                                         <img src="<?php echo base_url("webassets"); ?>/img/speaker.png"><span class="name-icon">Pankaj &amp; Nidhi + Namrata Joshipura</span>
                                         <br>
@@ -89,21 +90,13 @@
                                         <h5>Leela Ambience</h5>
                                     </div>
                                 </div>
-                                <div class="col-md-1">
+                                <div class="col-md-8">
                                     <div class="hyderabd-text label-texts">
                                         <span>bprc</span>
                                         <p>nov
                                             <br><i>22</i>
                                         </p>
                                     </div>
-                                    <div class="hyderabd-text label-texts">
-                                        <span>bprc</span>
-                                        <p>nov
-                                            <br><i>23</i>
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
                                     <div class="hyderabad-name">
                                         <img src="<?php echo base_url("webassets"); ?>/img/speaker.png"><span class="name-icon">rocky s + neeta lulla</span>
                                         <br>
@@ -113,6 +106,14 @@
                                         <br>
 
                                     </div>
+                                    <div class="clearfix"></div>
+                                    <div class="hyderabd-text label-texts">
+                                        <span>bprc</span>
+                                        <p>nov
+                                            <br><i>23</i>
+                                        </p>
+                                    </div>
+                                    
                                     <div class="hyderabad-name">
                                         <img src="<?php echo base_url("webassets"); ?>/img/speaker.png"><span class="name-icon">Little Shilpa + Gaurav Gupta</span>
                                         <br>
@@ -134,23 +135,13 @@
                                         <h5>Grand Hyatt</h5>
                                     </div>
                                 </div>
-                                <div class="col-md-1">
+                                <div class="col-md-8">
                                     <div class="hyderabd-text label-texts">
                                         <span>bprc</span>
                                         <p>nov
                                             <br><i>29</i>
                                         </p>
                                     </div>
-                                    <div class="hyderabd-text label-texts">
-                                        <span>bprc</span>
-                                        <p>nov
-                                            <br><i>30</i>
-                                        </p>
-                                    </div>
-                                </div>
-
-
-                                <div class="col-md-6">
                                     <div class="hyderabad-name">
                                         <img src="<?php echo base_url("webassets"); ?>/img/speaker.png"><span class="name-icon">Neeta Lulla + Suneet Varma</span>
                                         <br>
@@ -160,6 +151,14 @@
                                         <br>
 
                                     </div>
+                                    <div class="clearfix"></div>
+                                    <div class="hyderabd-text label-texts">
+                                        <span>bprc</span>
+                                        <p>nov
+                                            <br><i>30</i>
+                                        </p>
+                                    </div>
+                                    
 
                                     <div class="hyderabad-name">
                                         <img src="<?php echo base_url("webassets"); ?>/img/speaker.png"><span class="name-icon">Little Shilpa + Shivan &amp; Narresh</span>
@@ -182,21 +181,14 @@
                                         <h5>The Leela Palace</h5>
                                     </div>
                                 </div>
-                                <div class="col-md-1">
+                                <div class="col-md-8">
                                     <div class="hyderabd-text label-texts">
                                         <span>bprc</span>
                                         <p>dec
                                             <br><i>6</i>
                                         </p>
                                     </div>
-                                    <div class="hyderabd-text label-texts">
-                                        <span>bprc</span>
-                                        <p>dec
-                                            <br><i>7</i>
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
+                                    
                                     <div class="hyderabad-name">
                                         <img src="<?php echo base_url("webassets"); ?>/img/speaker.png"><span class="name-icon">Varun Bahl + Abraham &amp; Thakore</span>
                                         <br>
@@ -206,6 +198,14 @@
                                         <br>
 
                                     </div>
+                                    <div class="clearfix"></div>
+                                    <div class="hyderabd-text label-texts">
+                                        <span>bprc</span>
+                                        <p>dec
+                                            <br><i>7</i>
+                                        </p>
+                                    </div>
+                                    
                                     <div class="hyderabad-name">
                                         <img src="<?php echo base_url("webassets"); ?>/img/speaker.png"><span class="name-icon">Pankaj &amp; Nidhi + Namrata Joshipura</span>
                                         <br>
@@ -227,21 +227,14 @@
                                         <h5>The Oberoi Grand</h5>
                                     </div>
                                 </div>
-                                <div class="col-md-1">
+                                <div class="col-md-8">
                                     <div class="hyderabd-text label-texts">
                                         <span>bprc</span>
                                         <p>dec
                                             <br><i>12</i>
                                         </p>
                                     </div>
-                                    <div class="hyderabd-text label-texts">
-                                        <span>bprc</span>
-                                        <p>dec
-                                            <br><i>13</i>
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
+                                    
                                     <div class="hyderabad-name">
                                         <img src="<?php echo base_url("webassets"); ?>/img/speaker.png"><span class="name-icon">Varun Bahl + Abraham &amp; Thakore</span>
                                         <br>
@@ -251,6 +244,15 @@
                                         <br>
 
                                     </div>
+                                    
+                                    <div class="clearfix"></div>
+                                    <div class="hyderabd-text label-texts">
+                                        <span>bprc</span>
+                                        <p>dec
+                                            <br><i>13</i>
+                                        </p>
+                                    </div>
+                                    
                                     <div class="hyderabad-name">
                                         <img src="<?php echo base_url("webassets"); ?>/img/speaker.png"><span class="name-icon">Pankaj &amp; Nidhi + Namrata Joshipura</span>
                                         <br>

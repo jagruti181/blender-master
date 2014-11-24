@@ -1175,6 +1175,7 @@ i.fa.fa-microphone:hover {
     width: 71px;
     height: 88px;
     padding: 0px 0px 0px 0px;
+    float: left;
 }
 .hyderabd-text.label-texts p {
     text-align: center;
