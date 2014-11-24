@@ -46,7 +46,7 @@
         border-radius: 0px !important;
     }
     .content-priya {
-        margin: 35px 0px;
+        margin: 50% 0px;
     }
     .topleave {
         margin-top: 60px !important;
@@ -65,5 +65,17 @@
     }
     .profile-details {
         text-align: center;
+    }
+    .row.social-like {
+        display: none;
+    }
+    .follow {
+        margin: 50% 0;
+    }
+    .signin {
+        width: 108%;
+    }
+    .col-md-3.col1.posts {
+        width: 100%;
     }
 }
