@@ -63,7 +63,7 @@
                                     </div>
                                     <div class="clearfix"></div>
                                     <div class="hyderabd-text label-texts">
-                                        <span>bprc</span>
+                                        <span>BPFT</span>
                                         <p>nov
                                             <br><i>16</i>
                                         </p>
@@ -108,7 +108,7 @@
                                     </div>
                                     <div class="clearfix"></div>
                                     <div class="hyderabd-text label-texts">
-                                        <span>bprc</span>
+                                        <span>BPFT</span>
                                         <p>nov
                                             <br><i>23</i>
                                         </p>
@@ -117,7 +117,7 @@
                                     <div class="hyderabad-name">
                                         <img src="<?php echo base_url("webassets"); ?>/img/speaker.png"><span class="name-icon">Little Shilpa + Gaurav Gupta</span>
                                         <br>
-                                        <img src="<?php echo base_url("webassets"); ?>/img/mus.png"><span class="name-icon">Grain Karsh featuring Kale with Ankur </span>
+                                        <img src="<?php echo base_url("webassets"); ?>/img/mus.png"><span class="name-icon">Karsh Kale featuring Grain with Ankur Tiwari</span>
                                         <br>
 
 
@@ -153,7 +153,7 @@
                                     </div>
                                     <div class="clearfix"></div>
                                     <div class="hyderabd-text label-texts">
-                                        <span>bprc</span>
+                                        <span>BPFT</span>
                                         <p>nov
                                             <br><i>30</i>
                                         </p>
@@ -200,16 +200,16 @@
                                     </div>
                                     <div class="clearfix"></div>
                                     <div class="hyderabd-text label-texts">
-                                        <span>bprc</span>
+                                        <span>BPFT</span>
                                         <p>dec
                                             <br><i>7</i>
                                         </p>
                                     </div>
                                     
                                     <div class="hyderabad-name">
-                                        <img src="<?php echo base_url("webassets"); ?>/img/speaker.png"><span class="name-icon">Pankaj &amp; Nidhi + Namrata Joshipura</span>
+                                        <img src="<?php echo base_url("webassets"); ?>/img/speaker.png"><span class="name-icon">LITTLE SHILPA + GAURAV GUPTA</span>
                                         <br>
-                                        <img src="<?php echo base_url("webassets"); ?>/img/mus.png"><span class="name-icon">Shaa'ir + Func</span>
+                                        <img src="<?php echo base_url("webassets"); ?>/img/mus.png"><span class="name-icon">Karsh Kale featuring Grain with Ankur Tiwari</span>
                                         <br>
 
 
@@ -247,7 +247,7 @@
                                     
                                     <div class="clearfix"></div>
                                     <div class="hyderabd-text label-texts">
-                                        <span>bprc</span>
+                                        <span>BPFT</span>
                                         <p>dec
                                             <br><i>13</i>
                                         </p>

@@ -1162,11 +1162,12 @@ i.fa.fa-microphone:hover {
 }
 .label-texts span {
     background: #bda177;
-    height: 50px;
-    width: 56px;
+    height: auto;
+    width: 100%;
+    display: block;
     color: #000;
     font-size: 12px;
-    padding: 4px 20px 2px;
+    padding: 4px 20px 0px;
     text-transform: uppercase;
     font-weight: 700;
 }
