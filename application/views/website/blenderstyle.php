@@ -3,8 +3,8 @@
 
         <div class="content-center">
             <h3>STYLE BLENDERS</h3>
-            <h5>The finest and the classy names in fashion, music, design, technology and writing are here.</h5>
-            <h5>Grab a seat as they take centre stage to style up the Blenders Pride Fashion Tour 2014.</h5>
+             <h5>Watch the finest names in fashion, music, design and technology</h5>
+		<h5>who took centre stage to style up Blenders Pride Fashion Tour 2014</h5>
             <a data-scroll href="#viewallstyle">
                 <div class="blend">
                     <p>VIEW ALL THE STYLE BLENDERS</p>
