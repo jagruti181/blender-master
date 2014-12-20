@@ -184,12 +184,12 @@ a {
 }
 .style-text {
     background: #bda177;
-    width: 615px;
+    width: 710px;
     border-radius: 30px;
     margin: 0 auto;
     /* left: 28%; */
     /* margin-left: -180px; */
-    margin-top: 20px;
+    /*margin-top: 20px;*/
     /* margin-bottom: 100px; */
 }
 .blender-bottom .style-text p {
@@ -1141,6 +1141,26 @@ i.fa.fa-microphone:hover {
     display: block;
     width: 100%;
 }
+.inspired-watch {
+background: #000;
+width: 183px;
+border: 1px solid #bda177;
+border-radius: 30px;
+margin: 0 auto;
+margin-top: 20px;
+font-weight: 700;
+}
+.inspired-watch p{
+font-size: 10.66px;
+color: #fff;
+padding: 11px 23px 0;
+text-transform: uppercase;
+font-weight: 700;
+letter-spacing: 5px;
+}
+
+
+
 .city-head {
     padding-top: 60px;
 }

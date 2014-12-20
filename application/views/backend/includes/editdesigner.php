@@ -58,6 +58,12 @@ echo form_dropdown('type', $options, set_value('type',$before->type),"class='for
 					
 				  </div>
 				</div>
+				<div class="form-group">
+				  <label class="col-sm-2 control-label" for="normal-field">video</label>
+				  <div class="col-sm-4">
+					<input type="numeric" id="normal-field" class="form-control" name="video" value="<?php echo set_value('video',$before->video);?>">
+				  </div>
+				</div>
 				
 				
 				

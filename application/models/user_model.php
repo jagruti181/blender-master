@@ -68,7 +68,7 @@ class User_model extends CI_Model
 	function viewusers()
 	{
 		//$user = $this->session->userdata('accesslevel');
-		$query="SELECT  `user`.`id` as `id`,`user`.`firstname` as `firstname`,`user`.`lastname` as `lastname`,`accesslevel`.`name` as `accesslevel`	,`user`.`email` as `email`,`user`.`contact` as `contact`,`user`.`status` as `status`,`user`.`accesslevel` as `access`,`user`.`points` as `points`,`user`.`city`
+		$query="SELECT  `user`.`id` as `id`,`user`.`firstname` as `firstname`,`user`.`lastname` as `lastname`,`accesslevel`.`name` as `accesslevel`	,`user`.`email` as `email`,`user`.`contact` as `contact`,`user`.`loginby` as `loginby`,`user`.`status` as `status`,`user`.`accesslevel` as `access`,`user`.`points` as `points`,`user`.`city`
 		FROM `user`
 	   LEFT OUTER JOIN `accesslevel` ON `user`.`accesslevel`=`accesslevel`.`id`  ";
 	   //$accesslevel=$this->session->userdata('accesslevel');

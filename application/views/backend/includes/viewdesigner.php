@@ -19,6 +19,7 @@
 					<th>Content</th>
 					<th>JSON</th>
 					<th>Image</th>
+					<th>Video</th>
 					<th> Actions </th>
 				</tr>
 			</thead>
@@ -30,6 +31,7 @@
 						<td><?php echo $row->content;?></td>
 						<td><?php echo $row->json;?></td>
 						<td><img src="<?php echo base_url('uploads')."/".$row->image; ?>" width="70px" height="auto"></td>
+						<td><?php echo $row->video;?></td>
 						
 						
 						<td>

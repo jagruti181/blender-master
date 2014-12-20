@@ -19,8 +19,19 @@
 <!--    <link href="<?php echo base_url("webassets");?>/css/dropzone.css" rel="stylesheet">-->
     <link rel="shortcut icon" href="<?php echo base_url("webassets");?>/img/logo.png" type="image/x-icon">
 
+
+
+
 <!-- For image drop down upload -->
 <script src="<?php echo base_url("webassets");?>/js/jquery.min.js"></script>
+
+<?php if($page=='index') { ?>
+<link href="<?php echo base_url("webassets");?>/css/style-tejas.css" rel="stylesheet">
+<script src="<?php echo base_url("webassets");?>/js/pace.js"></script>
+<script src="<?php echo base_url("webassets");?>/js/init.js"></script>
+<?php } ?>
+
+
 <script src="<?php echo base_url("webassets");?>/js/smooth-scroll.min.js"></script>
 
 <!--<script src="<?php echo base_url("webassets");?>/js/dropzone.js"></script>-->

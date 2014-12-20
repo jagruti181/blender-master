@@ -21,6 +21,7 @@
 					<td>Contact No</td>
 					<td>Points</td>
 					<td>City</td>
+					<td>Login By</td>
 <!--					<td><i class=" icon-edit"></i>Status</td>-->
 					<th> Actions </th>
 				</tr>
@@ -35,6 +36,13 @@
 						<td><?php echo $row->contact;?></td>
 						<td><?php echo $row->points;?></td>
 						<td><?php echo $row->city;?></td>
+<td><?php if($row->loginby==1)
+                            echo "Facebook";
+                                              else if($row->loginby==2)
+                                                  echo "Twitter";
+                                                  else
+                                                  echo "";
+                            ?></td>
 <!--
 						<td><?php if($row->status==1) { ?>
 							<a href="<?php echo site_url('site/changeuserstatus?id=').$row->id; ?>" class="label label-success label-mini">Enable</a>

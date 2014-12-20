@@ -2117,6 +2117,7 @@ class Site extends CI_Controller
 		$this->form_validation->set_rules('name','Name','trim|required');
 		$this->form_validation->set_rules('content','content','trim');
 		$this->form_validation->set_rules('json','json','trim');
+		$this->form_validation->set_rules('video','video','trim');
 		if($this->form_validation->run() == FALSE)	
 		{
 			$data['alerterror'] = validation_errors();
@@ -2130,6 +2131,7 @@ class Site extends CI_Controller
             $content=$this->input->post('content');
             $type=$this->input->post('type');
             $json=$this->input->post('json');
+            $video=$this->input->post('video');
             
 			$config['upload_path'] = './uploads/';
 			$config['allowed_types'] = 'gif|jpg|png|jpeg';
@@ -2141,7 +2143,7 @@ class Site extends CI_Controller
 				$uplodesignerata = $this->upload->data();
 				$image=$uplodesignerata['file_name'];
 			}
-			if($this->designer_model->create($name,$content,$json,$image,$type)==0)
+			if($this->designer_model->create($name,$content,$json,$image,$type,$video)==0)
 			$data['alerterror']="New designer could not be created.";
 			else
 			$data['alertsuccess']="designer created Successfully.";
@@ -2169,6 +2171,7 @@ class Site extends CI_Controller
 		$this->form_validation->set_rules('name','Name','trim|required');
 		$this->form_validation->set_rules('content','content','trim');
 		$this->form_validation->set_rules('json','json','trim');
+		$this->form_validation->set_rules('video','video','trim');
         
 		if($this->form_validation->run() == FALSE)	
 		{
@@ -2185,6 +2188,7 @@ class Site extends CI_Controller
             $type=$this->input->post('type');
             $content=$this->input->post('content');
             $json=$this->input->post('json');
+            $video=$this->input->post('video');
             $config['upload_path'] = './uploads/';
 			$config['allowed_types'] = 'gif|jpg|png|jpeg';
 			$this->load->library('upload', $config);
@@ -2202,7 +2206,7 @@ class Site extends CI_Controller
                // print_r($image);
                 $image=$image->image;
             }
-			if($this->designer_model->edit($id,$name,$content,$json,$image,$type)==0)
+			if($this->designer_model->edit($id,$name,$content,$json,$image,$type,$video)==0)
 			$data['alerterror']="designer Editing was unsuccesful";
 			else
 			$data['alertsuccess']="designer edited Successfully.";

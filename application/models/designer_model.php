@@ -4,13 +4,14 @@ if ( !defined( 'BASEPATH' ) )
 class Designer_model extends CI_Model
 {
 	
-	public function create($name,$content,$json,$image,$type)
+	public function create($name,$content,$json,$image,$type,$video)
 	{
 		$data  = array(
 			'name' => $name,
 			'content' => $content,
 			'json' => $json,
             'type' => $type,
+            'video' => $video,
 			'image' => $image
 		);
 		$query=$this->db->insert( 'designer', $data );
@@ -22,13 +23,14 @@ class Designer_model extends CI_Model
 			return  1;
 	}
     
-	public function edit($id,$name,$content,$json,$image,$type)
+	public function edit($id,$name,$content,$json,$image,$type,$video)
 	{
 		$data  = array(
 			'name' => $name,
 			'content' => $content,
             'type' => $type,
 			'json' => $json,
+			'video' => $video,
 			'image' => $image
 		);
 		

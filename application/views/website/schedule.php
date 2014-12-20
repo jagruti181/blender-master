@@ -273,7 +273,7 @@
                                 <a href="<?php echo site_url('website/blenderstyle'); ?>">
                                     <div class="inspired-win">
 
-                                        <p>WIN AN INVITE</p>
+                                         <p>WIN AN INVITE</p>
 
 
                                     </div>

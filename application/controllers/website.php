@@ -7,6 +7,7 @@ class Website extends CI_Controller
 	{
 		$data['page']="index";
         $data['posts']=$this->post_model->homepost();
+        
 		$this->load->view("webtemplate",$data);
 	}
 	function video()

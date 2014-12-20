@@ -1,7 +1,7 @@
 <div class="st-container" id="st-container">
    <?php $this->load->view("website/sidemenu");?>
             <div class="st-pusher">
-    <div class="section intro">
+    <?php /*<div class="section intro">
         <div class="container">
             <div class="content-center">
                 <h1>Style</h1>
@@ -18,11 +18,16 @@
     <div class="space">
 
     </div>
-    
+    */ ?>
 
         <div class="section home">
 
-            
+            <div class="video-content">
+                <video style="width: 100%; height: auto; position: absolute; top: 0; left: 0;" loop autoplay>
+                    <source src="<?php echo base_url("webassets");?>/video/bpft-vid.mp4" type="video/mp4">
+                    <source src="<?php echo base_url("webassets");?>/video/bpft-vid.ogv" type="video/ogg">
+                </video>
+            </div>
             
                 <div class="st-content-inner">
                     <div class="st-content">
@@ -62,18 +67,18 @@
                                 <div class="col-md-6">
                                     <div class="contents">
                                         <h3>Blenders Pride Fashion Tour 2014</h3>
-                                        <h5>Taste Life in Style</h5>
+                                        <h5></h5>
                                         <div class="play">
                                             <a class="videoonly fancybox.iframe" href="http://www.youtube.com/embed/CUxJONigQhc?rel=0&amp;controls=0&amp;showinfo=0&autoplay=1">
                                         <img src="<?php echo base_url("webassets");?>/img/playbutton.png" alt="">
                                     </a>
                                         </div>
-                                        <h6>Watch this stylish video to get a preview of Blenders Pride Fashion Tour 2014</h6>
-                                        <p>Get a live taste of the power of style</p>
+                                        <h6>Watch this stylish video and taste life in style</h6>
+                                        <p></p>
                                         <div class="home-invite">
 
                                             <a href="<?php echo site_url("website/blenderstyle");?>">
-                                                <p>Win invites to BPFT 2014</p>
+                                                <p>Win invites to BPFT Style Nights</p>
                                             </a>
                                         </div>
 
@@ -95,8 +100,8 @@
 
             <div class="content-center">
                 <h3>STYLE BLENDERS</h3>
-                <h5>The finest and the classy names in fashion, music, design, technology and writing are here.</h5>
-                <h5>Grab a seat as they take centre stage to style up the Blenders Pride Fashion Tour 2014.</h5>
+                <h5>Watch the finest names in fashion, music, design and technology</h5>
+		<h5>who took centre stage to style up Blenders Pride Fashion Tour 2014</h5>
                 <a href="<?php echo site_url('website/blenderstyle'); ?>">
                     <div class="blend">
                         <p>VIEW ALL THE STYLE BLENDERS</p>
@@ -131,16 +136,22 @@
                         </div>
                         <h5>Midival Punditz</h5>
                         <h6>Musicians for Blenders Pride Fashion Tour, 2014</h6>
-                        <p class="h7">Get a live taste of style in music</p>
+<!--                        <p class="h7">Get a live taste of style in music</p>-->
 
                         <a href="<?php echo site_url("website/blenderstyle");?>">
                             <div class="blenders-invite">
 
-                                <p>WIN AN INVITE. SHOW HOW IT’S DONE.</p>
+                                <p>Win invites to BPFT Style Nights</p>
 
 
                             </div>
                         </a>
+                      <div class="inspired-watch">
+                    <a class="videoonly fancybox.iframe" href="http://www.youtube.com/embed/CUxJONigQhc?rel=0&amp;controls=0&amp;showinfo=0&autoplay=1"> <p>
+                        Watch Video
+                    </p></a>
+                </div>
+                        
 
                     </div>
                 </div>
@@ -157,16 +168,22 @@
                         </div>
                         <h5>Rocky Star</h5>
                         <h6>Designer for Blenders Pride Fashion Tour, 2014 </h6>
-                        <p class="h7">Get a live taste of style in design</p>
+<!--                        <p class="h7">Get a live taste of style in design</p>-->
 
                         <a href="<?php echo site_url("website/blenderstyle");?>">
                             <div class=" blenders-invite">
 
-                                <p>Win invites to BPFT 2014</p>
+                              <p>Win invites to BPFT Style Nights</p>
 
 
                             </div>
                         </a>
+
+     <div class="inspired-watch">
+                    <a class="videoonly fancybox.iframe" href="http://www.youtube.com/embed/CUxJONigQhc?rel=0&amp;controls=0&amp;showinfo=0&autoplay=1"> <p>
+                        Watch Video
+                    </p></a>
+                </div>
 
                     </div>
                 </div>
@@ -183,17 +200,21 @@
                         </div>
                         <h5>Little Shilpa</h5>
                         <h6>Designer for Blenders Pride Fashion Tour, 2014</h6>
-                        <p class="h7">Get a live taste of style in design</p>
+<!--                        <p class="h7">Get a live taste of style in design</p>-->
 
                         <a href="<?php echo site_url("website/blenderstyle");?>">
                             <div class="blenders-invite">
 
-                                <p>Win invites to BPFT 2014</p>
+                                 <p>Win invites to BPFT Style Nights</p>
 
 
                             </div>
                         </a>
-
+                <div class="inspired-watch">
+                    <a class="videoonly fancybox.iframe" href="http://www.youtube.com/embed/CUxJONigQhc?rel=0&amp;controls=0&amp;showinfo=0&autoplay=1"> <p>
+                        Watch Video
+                    </p></a>
+                </div>
                     </div>
                 </div>
             </div>
@@ -209,17 +230,21 @@
                         </div>
                         <h5>Grain featuring <br> Karsh Kale</h5>
                         <h6>Musician for Blenders Pride Fashion Tour, 2014</h6>
-                        <p class="h7">Get a live taste of style in music</p>
+<!--                        <p class="h7">Get a live taste of style in music</p>-->
 
                         <a href="<?php echo site_url("website/blenderstyle");?>">
                             <div class=" blenders-invite">
 
-                                <p>Win invites to BPFT 2014</p>
+                                 <p>Win invites to BPFT Style Nights</p>
 
 
                             </div>
                         </a>
-
+   <div class="inspired-watch">
+                    <a class="videoonly fancybox.iframe" href="http://www.youtube.com/embed/CUxJONigQhc?rel=0&amp;controls=0&amp;showinfo=0&autoplay=1"> <p>
+                        Watch Video
+                    </p></a>
+                </div>
                     </div>
                 </div>
             </div>
@@ -235,17 +260,21 @@
                                         </div>
                                         <h5>Ashvin and Ash</h5>
                                         <h6>Musicians for Blenders Pride Fashion Tour, 2014</h6>
-                                        <p class="h7">Get a live taste of style in music</p>
+<!--                                        <p class="h7">Get a live taste of style in music</p>-->
 
                         <a href="<?php echo site_url("website/blenderstyle");?>">
                             <div class=" blenders-invite">
 
-                                <p>Win invites to BPFT 2014</p>
+                                <p>Win invites to BPFT Style Nights</p>
 
 
                             </div>
                         </a>
-
+   <div class="inspired-watch">
+                    <a class="videoonly fancybox.iframe" href="http://www.youtube.com/embed/CUxJONigQhc?rel=0&amp;controls=0&amp;showinfo=0&autoplay=1"> <p>
+                        Watch Video
+                    </p></a>
+                </div>
                                         
                                     </div>
                                 </div>
@@ -262,17 +291,21 @@
                                         </div>
                                         <h5>Boman Irani</h5>
                                         <h6>Speaker for Blenders Pride Fashion Tour, 2014</h6>
-                                        <p class="h7">Get a live taste of style</p>
+<!--                                        <p class="h7">Get a live taste of style</p>-->
 
                         <a href="<?php echo site_url("website/blenderstyle");?>">
                             <div class=" blenders-invite">
 
-                                <p>Win invites to BPFT 2014</p>
+                               <p>Win invites to BPFT Style Nights</p>
 
 
                             </div>
                         </a>
-
+   <div class="inspired-watch">
+                    <a class="videoonly fancybox.iframe" href="http://www.youtube.com/embed/CUxJONigQhc?rel=0&amp;controls=0&amp;showinfo=0&autoplay=1"> <p>
+                        Watch Video
+                    </p></a>
+                </div>
                                        
                                     </div>
                                 </div>
@@ -289,17 +322,21 @@
                                         </div>
                                         <h5>Boom bay Central</h5>
                                         <h6>Musician for Blenders Pride Fashion Tour, 2014</h6>
-<p class="h7">Get a live taste of style in music</p>
+<!--<p class="h7">Get a live taste of style in music</p>-->
 
                         <a href="<?php echo site_url("website/blenderstyle");?>">
                             <div class=" blenders-invite">
 
-                                <p>Win invites to BPFT 2014</p>
+                                 <p>Win invites to BPFT Style Nights</p>
 
 
                             </div>
                         </a>
-                                        
+                                     <div class="inspired-watch">
+                    <a class="videoonly fancybox.iframe" href="http://www.youtube.com/embed/CUxJONigQhc?rel=0&amp;controls=0&amp;showinfo=0&autoplay=1"> <p>
+                        Watch Video
+                    </p></a>
+                </div>      
                                     </div>
                                 </div>
                             </div>
@@ -315,17 +352,21 @@
                                         </div>
                                         <h5>Chetan Bhagat</h5>
                                         <h6>Speaker for Blenders Pride Fashion Tour, 2014</h6>
-<p class="h7">Get a live taste of style</p>
+<!--<p class="h7">Get a live taste of style</p>-->
 
                         <a href="<?php echo site_url("website/blenderstyle");?>">
                             <div class=" blenders-invite">
 
-                                <p>Win invites to BPFT 2014</p>
+                                 <p>Win invites to BPFT Style Nights</p>
 
 
                             </div>
                         </a>
-                                        
+                                      <div class="inspired-watch">
+                    <a class="videoonly fancybox.iframe" href="http://www.youtube.com/embed/CUxJONigQhc?rel=0&amp;controls=0&amp;showinfo=0&autoplay=1"> <p>
+                        Watch Video
+                    </p></a>
+                </div>     
                                     </div>
                                 </div>
                             </div>
@@ -341,17 +382,21 @@
                                         </div>
                                         <h5>Gaurav Gupta</h5>
                                         <h6>Designer for Blenders Pride Fashion Tour, 2014</h6>
-<p class="h7">Get a live taste of style in design</p>
+<!--<p class="h7">Get a live taste of style in design</p>-->
 
                         <a href="<?php echo site_url("website/blenderstyle");?>">
                             <div class=" blenders-invite">
 
-                                <p>Win invites to BPFT 2014</p>
+                                <p>Win invites to BPFT Style Nights</p>
 
 
                             </div>
                         </a>
-                                      
+                                  <div class="inspired-watch">
+                    <a class="videoonly fancybox.iframe" href="http://www.youtube.com/embed/CUxJONigQhc?rel=0&amp;controls=0&amp;showinfo=0&autoplay=1"> <p>
+                        Watch Video
+                    </p></a>
+                </div>       
                                     </div>
                                 </div>
                             </div>
@@ -367,17 +412,21 @@
                                         </div>
                                         <h5>Namrata Joshipura</h5>
                                         <h6>Designer for Blenders Pride Fashion Tour, 2014</h6>
-<p class="h7">Get a live taste of style in design</p>
+<!--<p class="h7">Get a live taste of style in design</p>-->
 
                         <a href="<?php echo site_url("website/blenderstyle");?>">
                             <div class=" blenders-invite">
 
-                                <p>Win invites to BPFT 2014</p>
+                                 <p>Win invites to BPFT Style Nights</p>
 
 
                             </div>
                         </a>
-                                        
+                                       <div class="inspired-watch">
+                    <a class="videoonly fancybox.iframe" href="http://www.youtube.com/embed/CUxJONigQhc?rel=0&amp;controls=0&amp;showinfo=0&autoplay=1"> <p>
+                        Watch Video
+                    </p></a>
+                </div>    
                                     </div>
                                 </div>
                             </div>
@@ -393,17 +442,21 @@
                                         </div>
                                         <h5>Neeta Lulla</h5>
                                         <h6>Designer for Blenders Pride Fashion Tour, 2014</h6>
-<p class="h7">Get a live taste of style in design</p>
+<!--<p class="h7">Get a live taste of style in design</p>-->
 
                         <a href="<?php echo site_url("website/blenderstyle");?>">
                             <div class=" blenders-invite">
 
-                                <p>Win invites to BPFT 2014</p>
+                                <p>Win invites to BPFT Style Nights</p>
 
 
                             </div>
                         </a>
-                                        
+                                     <div class="inspired-watch">
+                    <a class="videoonly fancybox.iframe" href="http://www.youtube.com/embed/CUxJONigQhc?rel=0&amp;controls=0&amp;showinfo=0&autoplay=1"> <p>
+                        Watch Video
+                    </p></a>
+                </div>      
                                     </div>
                                 </div>
                             </div>
@@ -419,17 +472,21 @@
                                         </div>
                                         <h5>Pankaj and Nidhi</h5>
                                         <h6>Designers for Blenders Pride Fashion Tour, 2014</h6>
-<p class="h7">Get a live taste of style in design</p>
+<!--<p class="h7">Get a live taste of style in design</p>-->
 
                         <a href="<?php echo site_url("website/blenderstyle");?>">
                             <div class=" blenders-invite">
 
-                                <p>Win invites to BPFT 2014</p>
+                                <p>Win invites to BPFT Style Nights</p>
 
 
                             </div>
                         </a>
-                                       
+                                   <div class="inspired-watch">
+                    <a class="videoonly fancybox.iframe" href="http://www.youtube.com/embed/CUxJONigQhc?rel=0&amp;controls=0&amp;showinfo=0&autoplay=1"> <p>
+                        Watch Video
+                    </p></a>
+                </div>       
                                     </div>
                                 </div>
                             </div>
@@ -446,16 +503,21 @@
                                         <h5>Shaa'ir and func</h5>
                                         <h6>Musicians for Blenders Pride Fashion Tour, 2014</h6>
 
-                                        <p class="h7">Get a live taste of style in music</p>
+<!--                                        <p class="h7">Get a live taste of style in music</p>-->
 
                         <a href="<?php echo site_url("website/blenderstyle");?>">
                             <div class=" blenders-invite">
 
-                                <p>Win invites to BPFT 2014</p>
+                                 <p>Win invites to BPFT Style Nights</p>
 
 
                             </div>
                         </a>
+   <div class="inspired-watch">
+                    <a class="videoonly fancybox.iframe" href="http://www.youtube.com/embed/CUxJONigQhc?rel=0&amp;controls=0&amp;showinfo=0&autoplay=1"> <p>
+                        Watch Video
+                    </p></a>
+                </div>
                                     </div>
                                 </div>
                             </div>
@@ -471,17 +533,21 @@
                                         </div>
                                         <h5>Shivan and Naresh</h5>
                                         <h6>Designers for Blenders Pride Fashion Tour, 2014</h6>
-<p class="h7">Get a live taste of style in design</p>
+<!--<p class="h7">Get a live taste of style in design</p>-->
 
                         <a href="<?php echo site_url("website/blenderstyle");?>">
                             <div class=" blenders-invite">
 
-                                <p>Win invites to BPFT 2014</p>
+                                <p>Win invites to BPFT Style Nights</p>
 
 
                             </div>
                         </a>
-                                        
+                                  <div class="inspired-watch">
+                    <a class="videoonly fancybox.iframe" href="http://www.youtube.com/embed/CUxJONigQhc?rel=0&amp;controls=0&amp;showinfo=0&autoplay=1"> <p>
+                        Watch Video
+                    </p></a>
+                </div>         
                                     </div>
                                 </div>
                             </div>
@@ -498,16 +564,21 @@
                                         <h5>Suneet Varma</h5>
                                         <h6>Designer for Blenders Pride Fashion Tour, 2014</h6>
 
-<p class="h7">Get a live taste of style in design</p>
+<!--<p class="h7">Get a live taste of style in design</p>-->
 
                         <a href="<?php echo site_url("website/blenderstyle");?>">
                             <div class=" blenders-invite">
 
-                                <p>Win invites to BPFT 2014</p>
+                                <p>Win invites to BPFT Style Nights</p>
 
 
                             </div>
                         </a>
+   <div class="inspired-watch">
+                    <a class="videoonly fancybox.iframe" href="http://www.youtube.com/embed/CUxJONigQhc?rel=0&amp;controls=0&amp;showinfo=0&autoplay=1"> <p>
+                        Watch Video
+                    </p></a>
+                </div>
                                     </div>
                                 </div>
                             </div>
@@ -523,17 +594,21 @@
                                         </div>
                                         <h5>Varun Bahl</h5>
                                         <h6>Designer for Blenders Pride Fashion Tour, 2014</h6>
-<p class="h7">Get a live taste of style in design</p>
+<!--<p class="h7">Get a live taste of style in design</p>-->
 
                         <a href="<?php echo site_url("website/blenderstyle");?>">
                             <div class=" blenders-invite">
 
-                                <p>Win invites to BPFT 2014</p>
+                               <p>Win invites to BPFT Style Nights</p>
 
 
                             </div>
                         </a>
-                                      
+                                    <div class="inspired-watch">
+                    <a class="videoonly fancybox.iframe" href="http://www.youtube.com/embed/CUxJONigQhc?rel=0&amp;controls=0&amp;showinfo=0&autoplay=1"> <p>
+                        Watch Video
+                    </p></a>
+                </div>     
                                     </div>
                                 </div>
                             </div>
@@ -549,17 +624,21 @@
                                         </div>
                                         <h5>Wasim Akram</h5>
                                         <h6>Speaker for Blenders Pride Fashion Tour, 2014</h6>
-<p class="h7">Get a live taste of style</p>
+<!--<p class="h7">Get a live taste of style</p>-->
 
                         <a href="<?php echo site_url("website/blenderstyle");?>">
                             <div class=" blenders-invite">
 
-                                <p>Win invites to BPFT 2014</p>
+                                <p>Win invites to BPFT Style Nights</p>
 
 
                             </div>
                         </a>
-                                       
+                                     <div class="inspired-watch">
+                    <a class="videoonly fancybox.iframe" href="http://www.youtube.com/embed/CUxJONigQhc?rel=0&amp;controls=0&amp;showinfo=0&autoplay=1"> <p>
+                        Watch Video
+                    </p></a>
+                </div>     
                                     </div>
                                 </div>
                             </div>
@@ -588,13 +667,13 @@
 
                     <div class="content-center">
                         <div class="content-priya">
-                            <h4>Get a taste of style with Priyanka Chopra</h4>
+                            <h4>TASTE LIFE IN STYLE WITH PRIYANKA CHOPRA</h4>
                             <div class="play">
                                 <a class="videoonly fancybox.iframe" href="http://www.youtube.com/embed/my0loANrEkc?rel=0&amp;controls=0&amp;showinfo=0&autoplay=1">
                                         <img src="<?php echo base_url("webassets");?>/img/playbutton.png" alt="">
                                     </a>
                             </div>
-                            <h6>Watch the new Blenders Pride fashion tour film and see how Priyanka Chopra dazzles the world with the power of her style</h6>
+                            <h6>WATCH THE NEW BLENDERS PRIDE FASHION TOUR FILM</h6>
                         </div>
                     </div>
 
@@ -607,9 +686,11 @@
     <div class="section tour">
         <div class="container">
             <div class="follow">
-                <h5>Follow ramp-by-ramp coverage of </h5>
+                <h5>FOLLOW ALL STYLE COVERAGE WITH <span class="gold">#BPMYSTYLE</span> </h5>
+<!--
                 <h5>
 the Blenders Pride Fashion Tour 2014 with <span class="gold">#BPMYSTYLE</span></h5>
+-->
             </div>
             <div class="row social-like">
                 <div class="col-md-4 instagram">
@@ -750,7 +831,7 @@ the Blenders Pride Fashion Tour 2014 with <span class="gold">#BPMYSTYLE</span></
                 <a href="<?php echo site_url("website/schedule");?>">
                     <div class="inspired-win">
 
-                        <p>WIN AN INVITE</p>
+                       <p>WIN AN INVITE</p>
 
 
                     </div>

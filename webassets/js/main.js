@@ -40,6 +40,7 @@ $(document).ready(function () {
     $(".blenderitem a").click(function () {
         $(".blenderoverlay").show();
         var text2 = $(this).children("h3").html();
+        var video=$(this).children(".videourl").text();
         var favicons = "";
         switch (text2) {
         case "Designer":
@@ -73,6 +74,7 @@ $(document).ready(function () {
 
         $(".blenderoverlay .nameblender").html($(this).children("h2").html());
         $(".blenderoverlay .typeblender").html($(this).children("h3").html());
+        $(".blenderoverlay .videourlonly").attr('href',"http://www.youtube.com/embed/"+video+"?rel=0&amp;controls=0&amp;showinfo=0&autoplay=1");
         $(".blenderoverlay .textblender").html($(this).children(".contentblender").html());
         $(".blenderoverlay img.proimage").attr("src", $(this).children("img").attr("src"));
         return false;
@@ -151,10 +153,8 @@ $(document).ready(function () {
         var checkheight = $(".section").height() + 40;
         if (window.scrollY > checkheight) {
             $(".blendertopmenu").addClass("isfixed");
-            $(".blendertopmenu").width($(".container").width());
         } else {
             $(".blendertopmenu").removeClass("isfixed");
-            $(".blendertopmenu").width($(".container").width());
         }
 
     }

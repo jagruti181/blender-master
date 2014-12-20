@@ -51,11 +51,17 @@
                                         <a href="#" data-id="13" class="openstyleblender">
                                             <div class="style-text">
 
-                                                <p>choose this style blender and WIN AN INVITE TO BPFT 2014</p>
+                                                <p>choose this style blender and WIN AN INVITE TO BPFT Style Nights</p>
 
 
                                             </div>
                                         </a>
+     <div class="inspired-watch">
+                    <a class="videoonly fancybox.iframe" href="http://www.youtube.com/embed/CUxJONigQhc?rel=0&amp;controls=0&amp;showinfo=0&autoplay=1"> <p>
+                        Watch Video
+                    </p></a>
+                </div>
+                        
                                         <a data-scroll href="#viewallstyle">
                                             <div class="content-center blend">
                                                 <p>VIEW ALL THE STYLE BLENDERS</p>
@@ -81,11 +87,16 @@
                                         <a href="#" data-id="6" class="openstyleblender">
                                             <div class="style-text">
 
-                                                <p>choose this style blender and WIN AN INVITE TO BPFT 2014</p>
+                                                <p>choose this style blender and WIN AN INVITE TO BPFT Style Nights</p>
 
 
                                             </div>
                                         </a>
+    <div class="inspired-watch">
+                    <a class="videoonly fancybox.iframe" href="http://www.youtube.com/embed/CUxJONigQhc?rel=0&amp;controls=0&amp;showinfo=0&autoplay=1"> <p>
+                        Watch Video
+                    </p></a>
+                </div>
                                         <a data-scroll href="#viewallstyle">
                                             <div class="content-center blend">
                                                 <p>VIEW ALL THE STYLE BLENDERS</p>
@@ -110,11 +121,16 @@
                                         <a href="#" data-id="9" class="openstyleblender">
                                             <div class="style-text">
 
-                                                <p>choose this style blender and WIN AN INVITE TO BPFT 2014</p>
+                                                <p>choose this style blender and WIN AN INVITE TO BPFT Style Nights</p>
 
 
                                             </div>
                                         </a>
+    <div class="inspired-watch">
+                    <a class="videoonly fancybox.iframe" href="http://www.youtube.com/embed/CUxJONigQhc?rel=0&amp;controls=0&amp;showinfo=0&autoplay=1"> <p>
+                        Watch Video
+                    </p></a>
+                </div>
                                         <a data-scroll href="#viewallstyle">
                                             <div class="content-center blend">
                                                 <p>VIEW ALL THE STYLE BLENDERS</p>
@@ -139,11 +155,16 @@
                                         <a href="#" data-id="3" class="openstyleblender">
                                             <div class="style-text">
 
-                                                <p>choose this style blender and WIN AN INVITE TO BPFT 2014</p>
+                                                <p>choose this style blender and WIN AN INVITE TO BPFT Style Nights</p>
 
 
                                             </div>
                                         </a>
+    <div class="inspired-watch">
+                    <a class="videoonly fancybox.iframe" href="http://www.youtube.com/embed/CUxJONigQhc?rel=0&amp;controls=0&amp;showinfo=0&autoplay=1"> <p>
+                        Watch Video
+                    </p></a>
+                </div>
                                         <a data-scroll href="#viewallstyle">
                                             <div class="content-center blend">
                                                 <p>VIEW ALL THE STYLE BLENDERS</p>
@@ -168,11 +189,16 @@
                                         <a href="#" data-id="21" class="openstyleblender">
                                             <div class="style-text">
 
-                                                <p>choose this style blender and WIN AN INVITE TO BPFT 2014</p>
+                                                <p>choose this style blender and WIN AN INVITE TO BPFT Style Nights</p>
 
 
                                             </div>
                                         </a>
+    <div class="inspired-watch">
+                    <a class="videoonly fancybox.iframe" href="http://www.youtube.com/embed/CUxJONigQhc?rel=0&amp;controls=0&amp;showinfo=0&autoplay=1"> <p>
+                        Watch Video
+                    </p></a>
+                </div>
                                         <a data-scroll href="#viewallstyle">
                                             <div class="content-center blend">
                                                 <p>VIEW ALL THE STYLE BLENDERS</p>
@@ -197,11 +223,16 @@
                                         <a href="#" data-id="7" class="openstyleblender">
                                             <div class="style-text">
 
-                                                <p>choose this style blender and WIN AN INVITE TO BPFT 2014</p>
+                                                <p>choose this style blender and WIN AN INVITE TO BPFT Style Nights</p>
 
 
                                             </div>
                                         </a>
+    <div class="inspired-watch">
+                    <a class="videoonly fancybox.iframe" href="http://www.youtube.com/embed/CUxJONigQhc?rel=0&amp;controls=0&amp;showinfo=0&autoplay=1"> <p>
+                        Watch Video
+                    </p></a>
+                </div>
                                         <a data-scroll href="#viewallstyle">
                                             <div class="content-center blend">
                                                 <p>VIEW ALL THE STYLE BLENDERS</p>
@@ -226,11 +257,16 @@
                                         <a href="#" data-id="16" class="openstyleblender">
                                             <div class="style-text">
 
-                                                <p>choose this style blender and WIN AN INVITE TO BPFT 2014</p>
+                                                <p>choose this style blender and WIN AN INVITE TO BPFT Style Nights</p>
 
 
                                             </div>
                                         </a>
+    <div class="inspired-watch">
+                    <a class="videoonly fancybox.iframe" href="http://www.youtube.com/embed/CUxJONigQhc?rel=0&amp;controls=0&amp;showinfo=0&autoplay=1"> <p>
+                        Watch Video
+                    </p></a>
+                </div>
                                         <a data-scroll href="#viewallstyle">
                                             <div class="content-center blend">
                                                 <p>VIEW ALL THE STYLE BLENDERS</p>
@@ -255,11 +291,16 @@
                                         <a href="#" data-id="17" class="openstyleblender">
                                             <div class="style-text">
 
-                                                <p>choose this style blender and WIN AN INVITE TO BPFT 2014</p>
+                                                <p>choose this style blender and WIN AN INVITE TO BPFT Style Nights</p>
 
 
                                             </div>
                                         </a>
+    <div class="inspired-watch">
+                    <a class="videoonly fancybox.iframe" href="http://www.youtube.com/embed/CUxJONigQhc?rel=0&amp;controls=0&amp;showinfo=0&autoplay=1"> <p>
+                        Watch Video
+                    </p></a>
+                </div>
                                         <a data-scroll href="#viewallstyle">
                                             <div class="content-center blend">
                                                 <p>VIEW ALL THE STYLE BLENDERS</p>
@@ -284,11 +325,16 @@
                                         <a href="#" data-id="8" class="openstyleblender">
                                             <div class="style-text">
 
-                                                <p>choose this style blender and WIN AN INVITE TO BPFT 2014</p>
+                                                <p>choose this style blender and WIN AN INVITE TO BPFT Style Nights</p>
 
 
                                             </div>
                                         </a>
+    <div class="inspired-watch">
+                    <a class="videoonly fancybox.iframe" href="http://www.youtube.com/embed/CUxJONigQhc?rel=0&amp;controls=0&amp;showinfo=0&autoplay=1"> <p>
+                        Watch Video
+                    </p></a>
+                </div>
                                         <a data-scroll href="#viewallstyle">
                                             <div class="content-center blend">
                                                 <p>VIEW ALL THE STYLE BLENDERS</p>
@@ -313,11 +359,16 @@
                                         <a href="#" data-id="18" class="openstyleblender">
                                             <div class="style-text">
 
-                                                <p>choose this style blender and WIN AN INVITE TO BPFT 2014</p>
+                                                <p>choose this style blender and WIN AN INVITE TO BPFT Style Nights</p>
 
 
                                             </div>
                                         </a>
+    <div class="inspired-watch">
+                    <a class="videoonly fancybox.iframe" href="http://www.youtube.com/embed/CUxJONigQhc?rel=0&amp;controls=0&amp;showinfo=0&autoplay=1"> <p>
+                        Watch Video
+                    </p></a>
+                </div>
                                         <a data-scroll href="#viewallstyle">
                                             <div class="content-center blend">
                                                 <p>VIEW ALL THE STYLE BLENDERS</p>
@@ -342,11 +393,16 @@
                                         <a href="#" data-id="5" class="openstyleblender">
                                             <div class="style-text">
 
-                                                <p>choose this style blender and WIN AN INVITE TO BPFT 2014</p>
+                                                <p>choose this style blender and WIN AN INVITE TO BPFT Style Nights</p>
 
 
                                             </div>
                                         </a>
+    <div class="inspired-watch">
+                    <a class="videoonly fancybox.iframe" href="http://www.youtube.com/embed/CUxJONigQhc?rel=0&amp;controls=0&amp;showinfo=0&autoplay=1"> <p>
+                        Watch Video
+                    </p></a>
+                </div>
                                         <a data-scroll href="#viewallstyle">
                                             <div class="content-center blend">
                                                 <p>VIEW ALL THE STYLE BLENDERS</p>
@@ -371,11 +427,16 @@
                                         <a href="#" data-id="19" class="openstyleblender">
                                             <div class="style-text">
 
-                                                <p>choose this style blender and WIN AN INVITE TO BPFT 2014</p>
+                                                <p>choose this style blender and WIN AN INVITE TO BPFT Style Nights</p>
 
 
                                             </div>
                                         </a>
+    <div class="inspired-watch">
+                    <a class="videoonly fancybox.iframe" href="http://www.youtube.com/embed/CUxJONigQhc?rel=0&amp;controls=0&amp;showinfo=0&autoplay=1"> <p>
+                        Watch Video
+                    </p></a>
+                </div>
                                         <a data-scroll href="#viewallstyle">
                                             <div class="content-center blend">
                                                 <p>VIEW ALL THE STYLE BLENDERS</p>
@@ -400,11 +461,16 @@
                                         <a href="#" data-id="20" class="openstyleblender">
                                             <div class="style-text">
 
-                                                <p>choose this style blender and WIN AN INVITE TO BPFT 2014</p>
+                                                <p>choose this style blender and WIN AN INVITE TO BPFT Style Nights</p>
 
 
                                             </div>
                                         </a>
+    <div class="inspired-watch">
+                    <a class="videoonly fancybox.iframe" href="http://www.youtube.com/embed/CUxJONigQhc?rel=0&amp;controls=0&amp;showinfo=0&autoplay=1"> <p>
+                        Watch Video
+                    </p></a>
+                </div>
                                         <a data-scroll href="#viewallstyle">
                                             <div class="content-center blend">
                                                 <p>VIEW ALL THE STYLE BLENDERS</p>
@@ -429,11 +495,16 @@
                                         <a href="#" data-id="11" class="openstyleblender">
                                             <div class="style-text">
 
-                                                <p>choose this style blender and WIN AN INVITE TO BPFT 2014</p>
+                                                <p>choose this style blender and WIN AN INVITE TO BPFT Style Nights</p>
 
 
                                             </div>
                                         </a>
+    <div class="inspired-watch">
+                    <a class="videoonly fancybox.iframe" href="http://www.youtube.com/embed/CUxJONigQhc?rel=0&amp;controls=0&amp;showinfo=0&autoplay=1"> <p>
+                        Watch Video
+                    </p></a>
+                </div>
                                         <a data-scroll href="#viewallstyle">
                                             <div class="content-center blend">
                                                 <p>VIEW ALL THE STYLE BLENDERS</p>
@@ -458,11 +529,16 @@
                                         <a href="#" data-id="14" class="openstyleblender">
                                             <div class="style-text">
 
-                                                <p>choose this style blender and WIN AN INVITE TO BPFT 2014</p>
+                                                <p>choose this style blender and WIN AN INVITE TO BPFT Style Nights</p>
 
 
                                             </div>
                                         </a>
+    <div class="inspired-watch">
+                    <a class="videoonly fancybox.iframe" href="http://www.youtube.com/embed/CUxJONigQhc?rel=0&amp;controls=0&amp;showinfo=0&autoplay=1"> <p>
+                        Watch Video
+                    </p></a>
+                </div>
                                         <a data-scroll href="#viewallstyle">
                                             <div class="content-center blend">
                                                 <p>VIEW ALL THE STYLE BLENDERS</p>
@@ -487,11 +563,16 @@
                                         <a href="#" data-id="10" class="openstyleblender">
                                             <div class="style-text">
 
-                                                <p>choose this style blender and WIN AN INVITE TO BPFT 2014</p>
+                                                <p>choose this style blender and WIN AN INVITE TO BPFT Style Nights</p>
 
 
                                             </div>
                                         </a>
+    <div class="inspired-watch">
+                    <a class="videoonly fancybox.iframe" href="http://www.youtube.com/embed/CUxJONigQhc?rel=0&amp;controls=0&amp;showinfo=0&autoplay=1"> <p>
+                        Watch Video
+                    </p></a>
+                </div>
                                         <a data-scroll href="#viewallstyle">
                                             <div class="content-center blend">
                                                 <p>VIEW ALL THE STYLE BLENDERS</p>
@@ -516,11 +597,16 @@
                                         <a href="#" data-id="12" class="openstyleblender">
                                             <div class="style-text">
 
-                                                <p>choose this style blender and WIN AN INVITE TO BPFT 2014</p>
+                                                <p>choose this style blender and WIN AN INVITE TO BPFT Style Nights</p>
 
 
                                             </div>
                                         </a>
+    <div class="inspired-watch">
+                    <a class="videoonly fancybox.iframe" href="http://www.youtube.com/embed/CUxJONigQhc?rel=0&amp;controls=0&amp;showinfo=0&autoplay=1"> <p>
+                        Watch Video
+                    </p></a>
+                </div>
                                         <a data-scroll href="#viewallstyle">
                                             <div class="content-center blend">
                                                 <p>VIEW ALL THE STYLE BLENDERS</p>
@@ -583,7 +669,9 @@ $i=0;
                
                 <a href="<?php echo site_url('website/profile?id=').$post->id;?>"><img src="<?php echo base_url("uploads");?>/<?php echo $post->image;?>" style="width:100%;">
                     <div class="hidden contentblender"><?php echo $post->content; ?></div>
+                    <div class="hidden videourl"><?php echo $post->video;?></div>
                     <h5 class="hidden"><?php echo $post->id; ?></h5>
+                    
                      <h2><?php echo $post->name;?></h2><br>
                      <?php switch($post->type)
             {
@@ -647,9 +735,14 @@ $i=0;
             </p>
             <a class="chooseshow" href="#">
                 <div class="style-text">
-                    <p>choose this style blender and WIN AN INVITE TO BPFT 2014</p>
+                    <p style="font-size: 13px;">choose this style blender and WIN AN INVITE TO BPFT STYLE NIGHTS</p>
                 </div>
             </a>
+    <div class="inspired-watch">
+                    <a class="videoonly videourlonly fancybox.iframe" href=""> <p>
+                        Watch Video
+                    </p></a>
+                </div>
             </div>
         </div>
         <div class="profile-text part2" style="display:none;margin-top:0px;">
